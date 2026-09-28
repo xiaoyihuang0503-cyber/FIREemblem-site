@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="fe-interface-version" content="search-home-catalog-20260927" />
+  <meta name="fe-interface-version" content="library-sidebar-20260928" />
   <meta name="description" content="搜索万缕千丝人物、职业、技能与物品资料，查看四条路线攻略，安排角色成长路径。" />
   <title>万缕千丝｜搜索与人物规划</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111'/%3E%3Cpath d='M12 46 27 18l10 17 5-10 10 21H12Z' fill='none' stroke='%23f3f0e8' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='27' cy='18' r='4' fill='%23c43c30'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css?v=ee12046c5aee" />
   <link rel="stylesheet" href="adventure.css?v=6c4479693544" />
-  <link rel="stylesheet" href="workbench.css?v=fe7f89202cae" />
+  <link rel="stylesheet" href="workbench.css?v=310695c0aed5" />
   <link rel="stylesheet" href="character-pages.css?v=04ce4b6ce715" />
   <link rel="stylesheet" href="home.css?v=80a3672bf84f" />
 </head>
@@ -215,11 +215,15 @@
 
       </div>
       <div id="libraryQueryPanel" class="library-panel">
-        <nav id="libraryCatalogCards" class="catalog-grid" aria-label="资料分类"></nav>
-        <div class="knowledge-intro"><h2 id="knowledgeHeading">礼物图鉴</h2><p>选择条目查看详情；尚未收录的条件标为待补。</p></div>
-        <form id="knowledgeForm" class="knowledge-form"><label>查什么<select id="knowledgeCollection" class="select-input"></select></label><label>关键词<input id="knowledgeSearch" class="search-input" type="search" placeholder="人物、技能或地点" /></label><label id="knowledgeCategoryLabel" hidden>材料分类<select id="knowledgeCategory" class="select-input"><option value="">全部材料</option><option value="fish">鱼类</option><option value="ore">矿石</option><option value="ingredient">食材</option></select></label><button type="submit" class="primary-btn">查询 →</button></form>
-        <p id="knowledgeStatus" class="knowledge-status" role="status">准备查询资料。</p>
-        <div class="knowledge-layout"><div><div id="knowledgeResults" class="knowledge-results"></div><div class="knowledge-pagination"><button id="knowledgePrev" type="button" class="secondary-btn">上一页</button><button id="knowledgeNext" type="button" class="secondary-btn">下一页</button></div></div><article id="knowledgeDetail" class="knowledge-detail" aria-live="polite" tabindex="-1"><p>选择一条资料查看内容。</p></article></div>
+        <div class="library-query-shell">
+          <nav id="libraryCatalogCards" class="catalog-grid" aria-label="资料分类"></nav>
+          <div class="knowledge-content">
+            <div class="knowledge-intro"><h2 id="knowledgeHeading">礼物图鉴</h2><p>选择条目查看详情；尚未收录的条件标为待补。</p></div>
+            <form id="knowledgeForm" class="knowledge-form"><label>查什么<select id="knowledgeCollection" class="select-input"></select></label><label>关键词<input id="knowledgeSearch" class="search-input" type="search" placeholder="人物、技能或地点" /></label><label id="knowledgeCategoryLabel" hidden>材料分类<select id="knowledgeCategory" class="select-input"><option value="">全部材料</option><option value="fish">鱼类</option><option value="ore">矿石</option><option value="ingredient">食材</option></select></label><button type="submit" class="primary-btn">查询 →</button></form>
+            <p id="knowledgeStatus" class="knowledge-status" role="status">准备查询资料。</p>
+            <div class="knowledge-layout"><div><div id="knowledgeResults" class="knowledge-results"></div><div class="knowledge-pagination"><button id="knowledgePrev" type="button" class="secondary-btn">上一页</button><button id="knowledgeNext" type="button" class="secondary-btn">下一页</button></div></div><article id="knowledgeDetail" class="knowledge-detail" aria-live="polite" tabindex="-1"><p>选择一条资料查看内容。</p></article></div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="character" class="view"><div id="personPage" class="person-page" aria-live="polite"><p>正在载入人物资料…</p></div></section>
