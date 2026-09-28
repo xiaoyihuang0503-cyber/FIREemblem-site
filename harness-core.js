@@ -61,6 +61,7 @@ export class KnowledgeStore {
     add('sources','来源记录',Object.entries(d.sources).map(([id,r])=>({id,...r})),r=>r.id,r=>r.title,r=>r.status,'audit_only');
     const guides=d.guide_facts??{};
     const extra=(key,label,source,title,summary)=>{const rows=guides[source]??[];if(rows.length)add(key,label,rows,r=>r.id,title,summary,'reference_partial');};
+    extra('strategy_guides','玩法攻略','strategy_guides',r=>r.title_zh,r=>r.summary_zh);
     extra('character_reference_profiles','人物资料补充','character_profiles',r=>r.name_zh||r.name_en,r=>r.personal_ability_name||'');
     extra('recruitment_conditions','路线招募条件','recruitment_conditions',r=>`${r.name_zh||r.character} · ${d.adventure.routes[r.route]}`,r=>r.availability==='not_recruitable'?'该路线不可招募':r.chapter==null?'章节待补':`第 ${r.chapter} 章`);
     extra('level_abilities','等级习得技能','level_abilities',r=>r.ability,r=>`${d.characters.find(c=>c.id===r.character_id)?.name_zh||r.character} · Lv.${r.level}`);
@@ -91,7 +92,7 @@ export class KnowledgeStore {
       const en=resolved?.name_en,zh=resolved?.name_zh;
       if(Array.isArray(r.character_relations)&&r.character_relations.some(h=>h.character_identity_status!=='unresolved'&&(resolved?.id?h.character_id===resolved.id:h.supplemental_character_name===en)))return true;
       if(Array.isArray(r.holders)&&r.holders.some(h=>h.character_identity_status!=='unresolved'&&(resolved?.id?h.character_id===resolved.id:h.supplemental_character_name===en)))return true;
-      return [r.name,r.name_en,r.name_zh,r.character,r.partner].some(v=>v&&(v===en||v===zh)) || !!resolved?.id&&(r.id===resolved.id||r.character_id===resolved.id);
+      return [r.name,r.name_en,r.name_zh,r.character,r.partner].some(v=>v&&(v===en||v===zh)) || !!resolved?.id&&(r.id===resolved.id||r.character_id===resolved.id||r.character_ids?.includes(resolved.id));
     };
     const hasRoute = r => {
       if(r.route)return r.route===route;

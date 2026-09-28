@@ -2,6 +2,7 @@
   const q=s=>document.querySelector(s);
   const escape=v=>String(window.FE_t?.(v)??v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   window.FE_CATALOG_CATEGORIES=[
+    {id:'strategy-guides',title:'玩法攻略',collection:'strategy_guides',description:'查隐藏招募、路线切换与快速战斗'},
     {id:'gifts',title:'礼物图鉴',collection:'gift_profiles',description:'查看喜欢与非常喜欢的赠礼对象'},
     {id:'fish',title:'鱼类图鉴',collection:'material_profiles',category:'fish',description:'查栖息、取得和使用条件'},
     {id:'ore',title:'矿石',collection:'material_profiles',category:'ore',description:'查矿石与锻造材料'},

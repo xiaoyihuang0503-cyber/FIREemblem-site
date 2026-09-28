@@ -63,7 +63,13 @@ function detail(collection,id){
   const r=item.record;let content='';
   const person=store.resolveCharacter(['personal_ability_catalog','level_ability_catalog','bloodmark_ability_catalog'].includes(collection)?r.character_id||r.supplemental_character_name:r.character_id||r.name_en||r.character||r.name);
   if(person)content+=`<a class="secondary-btn" href="#character/${encodeURIComponent(person.id||person.name_en.toLowerCase().replace(/[^a-z0-9]+/g,'_'))}">进入人物专页 →</a>`;
-  if(collection==='characters'||collection==='supplemental_characters'){
+  if(collection==='strategy_guides'){
+    content+=section('用途',r.summary_zh);
+    content+=r.steps.map((step,i)=>`<section><h3>${i+1}. ${esc(step.title)}</h3><p>${esc(step.body)}</p></section>`).join('');
+    if(r.character_ids?.length)content+=`<section><h3>关联人物</h3><div class="person-chips">${r.character_ids.map(id=>{const c=store.database.characters.find(x=>x.id===id);return c?`<a href="#character/${raw(id)}">${esc(c.name_zh)}</a>`:'';}).join('')}</div></section>`;
+    if(r.limitations?.length)content+=section('待核实',r.limitations.join('；'));
+    content+='<p class="knowledge-note">基于已核对的攻略资料整理；具体触发与数值仍以游戏内结果为准。</p>';
+  }else if(collection==='characters'||collection==='supplemental_characters'){
     const c=store.characterContext(r.id||r.name_en);
     content+=`${c.portrait?`<img class="knowledge-portrait" src="${raw(c.portrait.path)}" alt="${esc(item.title)}头像" />`:''}<p>${esc(r.name_en)}</p>`;
     content+=section('个人技能',c.profile?.personal_ability_zh||r.personal_ability?.description||c.reference_profile?.personal_ability);
@@ -257,7 +263,7 @@ function renderCatalog(){
   const categories=window.FE_CATALOG_CATEGORIES;
   q('#libraryCatalogCards').innerHTML=categories.map(c=>`<a data-catalog="${c.id}" href="${categoryHref(c)}"><div><strong>${esc(c.title)}</strong><span>${browseRecords(c.collection,c.category).length} ${['fish','ore','ingredients','weapons','gifts','items','battle-items','licenses'].includes(c.id)?'种':'条'}</span></div><p>${esc(c.description)}</p></a>`).join('');
   const gifts=browseRecords('gift_profiles').length,fish=browseRecords('material_profiles','fish').length;
-  q('#homeCatalogLinks').innerHTML=[['gifts','礼物'],['fish','鱼类'],['ore','矿石'],['ingredients','食材'],['weapons','武器与法术']].map(([id,title])=>{const c=categories.find(c=>c.id===id);return `<a data-home-catalog="${id}" href="${categoryHref(c)}">${title}<span>${browseRecords(c.collection,c.category).length}</span></a>`;}).join('')+'<a href="#library">全部资料 →</a>';
+  q('#homeCatalogLinks').innerHTML=[['strategy-guides','玩法攻略'],['gifts','礼物'],['fish','鱼类'],['ore','矿石'],['ingredients','食材'],['weapons','武器与法术']].map(([id,title])=>{const c=categories.find(c=>c.id===id);return `<a data-home-catalog="${id}" href="${categoryHref(c)}">${title}<span>${browseRecords(c.collection,c.category).length}</span></a>`;}).join('')+'<a href="#library">全部资料 →</a>';
   const date=new Date(store.database.updated_at).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai'});
   q('#libraryInventory').textContent=`已收录 ${gifts} 件礼物 · ${fish} 种鱼类 · ${store.database.classes.length} 个职业 · 资料更新 ${date}`;
 }

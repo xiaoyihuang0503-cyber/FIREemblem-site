@@ -33122,7 +33122,7 @@
         "verification": "reference_fact_not_in_game_verified"
       }
     ],
-    "updated_at": "2026-09-28T07:36:36+00:00",
+    "updated_at": "2026-09-28T09:01:20+00:00",
     "class_requirements": [
       {
         "id": "class_requirements_archer_en_620256",
@@ -128226,6 +128226,175 @@
         ],
         "same_source_conflict": false
       }
+    ],
+    "strategy_guides": [
+      {
+        "id": "hidden-recruits-thread",
+        "title_zh": "隐藏人物招募：前置任务与关键击破",
+        "summary_zh": "按第一部前置、战争篇战斗和救世篇对话分开检查，避免错过人物。",
+        "category": "recruitment",
+        "character_ids": [
+          "orchel",
+          "talimun",
+          "bertrand",
+          "anatolia",
+          "centurio"
+        ],
+        "steps": [
+          {
+            "title": "基里克",
+            "body": "先在迪特里希篇或蕾达篇完成「亡妹的饰品」支线，再完成战争篇第 2 章；跳过战争篇会错过这次加入。",
+            "source_id": "ja_816920"
+          },
+          {
+            "title": "纳森",
+            "body": "基里克加入后，在战争篇第 3 章用基里克击败纳森；战斗中要确认最后一次击破由基里克完成。",
+            "source_id": "ja_816920"
+          },
+          {
+            "title": "四位外传人物",
+            "body": "第一部分别完成欧露赫露、谭利穆恩、伯特兰、爱娜特莉亚的外传，可在救世篇第一阶段迎来对应人物。",
+            "source_id": "ja_816920"
+          },
+          {
+            "title": "盛托利翁",
+            "body": "救世篇第二阶段完成其救援请求后，到达格希翁与他交谈。该救援请求属于救世篇，不是第一部前置任务。",
+            "source_id": "ja_816920"
+          },
+          {
+            "title": "克拉普卡",
+            "body": "救世篇第五阶段的战斗中确保其存活，来源资料称第六阶段开始可能加入；是否还要求完成赛奥朵拉篇尚未确认。",
+            "source_id": "ja_816920"
+          }
+        ],
+        "limitations": [
+          "基里克、纳森的章节标签与实际入队时点在资料中写法不完全一致；此处以触发动作和战斗阶段为准。",
+          "欧露赫露、爱娜特莉亚的入队阶段在不同攻略中有差异，本批按所列页面记录，待游戏内核对。",
+          "克拉普卡的路线前置仍待核对。"
+        ],
+        "source_ids": [
+          "ja_816920",
+          "ja_816922"
+        ],
+        "source_id": "ja_816920",
+        "source_url": "https://game8.jp/fe-banshisenko/816920",
+        "content_sha256": "4995fc7537adab567997466dfb65a9971a9e8a34da56d5bbb9b070558927de09",
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "source_updated_text": "2026-09-28 02:00",
+        "source_pages": [
+          {
+            "id": "ja_816920",
+            "url": "https://game8.jp/fe-banshisenko/816920",
+            "content_sha256": "4995fc7537adab567997466dfb65a9971a9e8a34da56d5bbb9b070558927de09"
+          },
+          {
+            "id": "ja_816922",
+            "url": "https://game8.jp/fe-banshisenko/816922",
+            "content_sha256": "1309276cf517c68a45ed3bd3cb1886d85c6976ba907d7c260cc12ae145f98111"
+          }
+        ],
+        "source_thread_id": "6ab86cd7-dcd4-83ec-8d28-73d33d8352a9",
+        "verification": "source_article_checked_not_gameplay_verified"
+      },
+      {
+        "id": "route-progress-thread",
+        "title_zh": "四路线切换与共享进度",
+        "summary_zh": "先完成一条第一部路线，再利用共享探索、职业和祝福推进其他路线。",
+        "category": "route",
+        "character_ids": [],
+        "steps": [
+          {
+            "title": "切换入口",
+            "body": "第一部第 4 章开放自由行动后，可从白鸦歇脚处返回方尖塔房间切换故事；切换到新路线后，仍需推进该路线至第 4 章，才能再次切换。",
+            "source_id": "ja_816388"
+          },
+          {
+            "title": "完成奖励",
+            "body": "完成一条第一部故事可获得 5000 个因果碎片；可据此优先升级跨路线生效的救世祝福。",
+            "source_id": "ja_816388"
+          },
+          {
+            "title": "共享项目",
+            "body": "世界地图探索与已开放车站、已解锁职业、救世祝福、已完成的共通支线会带到其他路线。",
+            "source_id": "ja_817152"
+          },
+          {
+            "title": "进入后续篇章",
+            "body": "完成第一部后可继续战争篇或进入救世篇。若要收齐基里克、纳森，需先游玩战争篇。",
+            "source_id": "ja_817152"
+          }
+        ],
+        "limitations": [
+          "金币、名声、支援值和角色技能的继承口径未在本批核实，暂不列为共享项目。"
+        ],
+        "source_ids": [
+          "ja_816388",
+          "ja_817152"
+        ],
+        "source_id": "ja_816388",
+        "source_url": "https://game8.jp/fe-banshisenko/816388",
+        "content_sha256": "7be20a5b73d3067b031b4cb203af59d2b3b8f2ebbfe9a79898208458a86ce2fe",
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "source_updated_text": "2026-09-28 02:00",
+        "source_pages": [
+          {
+            "id": "ja_816388",
+            "url": "https://game8.jp/fe-banshisenko/816388",
+            "content_sha256": "7be20a5b73d3067b031b4cb203af59d2b3b8f2ebbfe9a79898208458a86ce2fe"
+          },
+          {
+            "id": "ja_817152",
+            "url": "https://game8.jp/fe-banshisenko/817152",
+            "content_sha256": "71deef6069ecb19b7cf3d8c45fd33c840da58c82a1376c89e3e1045e9b1c8f16"
+          }
+        ],
+        "source_thread_id": "6ab86cd7-dcd4-83ec-8d28-73d33d8352a9",
+        "verification": "source_article_checked_not_gameplay_verified"
+      },
+      {
+        "id": "quick-battle-thread",
+        "title_zh": "快速战斗：先制、经验与连续作战",
+        "summary_zh": "迷宫和剧情事件的快速战斗会保留损失的生命；规划连战时要主动恢复。",
+        "category": "battle",
+        "character_ids": [],
+        "steps": [
+          {
+            "title": "进入战斗",
+            "body": "在迷宫接触敌人前用动作攻击命中，可先制进入战斗。",
+            "source_id": "ja_816968"
+          },
+          {
+            "title": "分配经验",
+            "body": "把希望培养的人物安排在击破目标的最后一击，可获得 MVP 经验奖励；连携攻击也可参与最后一击。",
+            "source_id": "ja_816968"
+          },
+          {
+            "title": "检查生命",
+            "body": "快速战斗中损失的生命会保留到战斗结束后；连续作战前检查队伍状态，利用休息点恢复。",
+            "source_id": "ja_816968"
+          }
+        ],
+        "limitations": [
+          "具体经验加成数值尚未核实，不把快速战斗写成固定升级收益。"
+        ],
+        "source_ids": [
+          "ja_816968"
+        ],
+        "source_id": "ja_816968",
+        "source_url": "https://game8.jp/fe-banshisenko/816968",
+        "content_sha256": "fb253a7f0ea1d14b1dfd0955b29bc96f50a7dad4923f0211ad01a75e2297bb69",
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "source_updated_text": "2026-09-28 02:00",
+        "source_pages": [
+          {
+            "id": "ja_816968",
+            "url": "https://game8.jp/fe-banshisenko/816968",
+            "content_sha256": "fb253a7f0ea1d14b1dfd0955b29bc96f50a7dad4923f0211ad01a75e2297bb69"
+          }
+        ],
+        "source_thread_id": "6ab86cd7-dcd4-83ec-8d28-73d33d8352a9",
+        "verification": "source_article_checked_not_gameplay_verified"
+      }
     ]
   },
   "source_inventory": {
@@ -149693,13 +149862,22 @@
         "url": "https://game8.jp/fe-banshisenko/816388",
         "locale": "ja",
         "label": "ストーリーの切り替え方",
-        "category": "chapters",
-        "status": "pending",
+        "category": "mechanics",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T12:59:08+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0
+        "reviewed_sections": [
+          "路线切换条件与完成奖励"
+        ],
+        "remaining_sections": [
+          "切换界面细节和其他正文"
+        ],
+        "attempts": 1,
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "content_sha256": "7be20a5b73d3067b031b4cb203af59d2b3b8f2ebbfe9a79898208458a86ce2fe",
+        "fact_rows_parsed": 1,
+        "field_semantics": "攻略要点；仅记录可核实的条件和数值，未核实章节仍待补。",
+        "source_updated_text": "2026-09-28 02:00"
       },
       {
         "id": "ja_816390",
@@ -152047,12 +152225,21 @@
         "locale": "ja",
         "label": "隠しキャラ",
         "category": "characters",
-        "status": "pending",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T12:59:08+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0
+        "reviewed_sections": [
+          "隐藏人物加入条件"
+        ],
+        "remaining_sections": [
+          "人物性能评价、路线限制与其他正文"
+        ],
+        "attempts": 1,
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "content_sha256": "4995fc7537adab567997466dfb65a9971a9e8a34da56d5bbb9b070558927de09",
+        "fact_rows_parsed": 1,
+        "field_semantics": "攻略要点；仅记录可核实的条件和数值，未核实章节仍待补。",
+        "source_updated_text": "2026-09-28 02:00"
       },
       {
         "id": "ja_816921",
@@ -152073,12 +152260,21 @@
         "locale": "ja",
         "label": "戦争篇3章",
         "category": "chapters",
-        "status": "pending",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T12:59:08+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0
+        "reviewed_sections": [
+          "纳森战斗的关键击破条件"
+        ],
+        "remaining_sections": [
+          "章节地图、宝箱与其余战斗步骤"
+        ],
+        "attempts": 1,
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "content_sha256": "1309276cf517c68a45ed3bd3cb1886d85c6976ba907d7c260cc12ae145f98111",
+        "fact_rows_parsed": 1,
+        "field_semantics": "攻略要点；仅记录可核实的条件和数值，未核实章节仍待补。",
+        "source_updated_text": "2026-09-28 02:00"
       },
       {
         "id": "ja_816929",
@@ -152410,13 +152606,22 @@
         "url": "https://game8.jp/fe-banshisenko/816968",
         "locale": "ja",
         "label": "クイックバトル",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "mechanics",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T12:59:08+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0
+        "reviewed_sections": [
+          "快速战斗、先制、生命保留与经验要点"
+        ],
+        "remaining_sections": [
+          "其余操作技巧与细节"
+        ],
+        "attempts": 1,
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "content_sha256": "fb253a7f0ea1d14b1dfd0955b29bc96f50a7dad4923f0211ad01a75e2297bb69",
+        "fact_rows_parsed": 1,
+        "field_semantics": "攻略要点；仅记录可核实的条件和数值，未核实章节仍待补。",
+        "source_updated_text": "2026-09-28 02:00"
       },
       {
         "id": "ja_816969",
@@ -152852,13 +153057,22 @@
         "url": "https://game8.jp/fe-banshisenko/817152",
         "locale": "ja",
         "label": "クリア後 やり込み",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "mechanics",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T12:59:08+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0
+        "reviewed_sections": [
+          "第一部完成后的跨路线继承项目"
+        ],
+        "remaining_sections": [
+          "第三部通关与后续要素"
+        ],
+        "attempts": 1,
+        "retrieved_at": "2026-09-28T08:54:29+00:00",
+        "content_sha256": "71deef6069ecb19b7cf3d8c45fd33c840da58c82a1376c89e3e1045e9b1c8f16",
+        "fact_rows_parsed": 1,
+        "field_semantics": "攻略要点；仅记录可核实的条件和数值，未核实章节仍待补。",
+        "source_updated_text": "2026-09-28 02:00"
       },
       {
         "id": "ja_817155",
@@ -153500,10 +153714,10 @@
         "content_sha256": "f9b2b3379502bdaecdd3e8f20dbd0a477810c5e7c055d6e82d2172909fe64375"
       }
     },
-    "updated_at": "2026-09-28T07:36:36+00:00",
+    "updated_at": "2026-09-28T09:01:20+00:00",
     "counts": {
-      "pending": 656,
-      "partial": 145,
+      "pending": 651,
+      "partial": 150,
       "reviewed": 0,
       "failed": 0,
       "excluded": 10
