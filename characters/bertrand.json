@@ -1,0 +1,845 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "bertrand",
+    "name_en": "Bertrand",
+    "name_zh": "伯特兰",
+    "growth": {
+      "hp": 50,
+      "str": 55,
+      "mag": 15,
+      "spd": 45,
+      "dex": 50,
+      "def": 45,
+      "res": 20,
+      "lck": 30,
+      "cha": 50
+    },
+    "growth_total": 360,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Requiem Style",
+      "description": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "later": "Guest Part II: War; full unit Part III: Salvation. Paralogue in Part I recommended."
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/bertrand.webp",
+      "width": 334,
+      "height": 343,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_15.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = ベルトラン; mapped to Bertrand.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/bertrand.webp",
+    "width": 334,
+    "height": 343,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_15.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = ベルトラン; mapped to Bertrand.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": null,
+  "reference_profile": {
+    "name_en": "Bertrand",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624391",
+    "faction": "Bertrand's Army",
+    "personal_ability": "Requiem Style",
+    "preferred_skills": [
+      "Authority Skill",
+      "Axe Skill",
+      "Gauntlet Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [
+      "White Magic Skill",
+      "Black Magic Skill"
+    ],
+    "growth": {
+      "hp": 50,
+      "str": 55,
+      "mag": 15,
+      "spd": 45,
+      "dex": 50,
+      "def": 45,
+      "res": 20,
+      "lck": 30,
+      "cha": 50
+    },
+    "growth_total": 360
+  },
+  "reference_update": {
+    "id": "profile_bertrand",
+    "character_id": "bertrand",
+    "name_en": "Bertrand",
+    "name_zh": "伯特兰",
+    "growth": {
+      "hp": 50,
+      "str": 55,
+      "mag": 15,
+      "spd": 45,
+      "dex": 50,
+      "def": 45,
+      "res": 20,
+      "lck": 30,
+      "cha": 50
+    },
+    "birthday": null,
+    "personal_ability_name": "Requiem Style",
+    "preferred_skills": [
+      "Authority",
+      "Axe",
+      "Gauntlet",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "White Magic",
+      "Black Magic"
+    ],
+    "source_id": "en_624391",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624391",
+    "source_updated_text": "2026-09-26T06:31:02-04:00",
+    "retrieved_at": "2026-09-26T12:59:37+00:00",
+    "content_sha256": "f8ab63f381131f67499d5cdb11fe7e421b85f5608b6e83c5241eb09d2f487d90",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Attack Formation"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+      "name_en": "Diadem of Duality",
+      "name_zh": "两仪之冠",
+      "title_zh": "两仪之冠",
+      "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "ability": "Diadem of Duality",
+      "crest_name_en": "Gautier",
+      "crest_name_zh": "戈蒂耶",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "theodora",
+        "bertrand",
+        "talimun",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 3
+        },
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+      "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_the_victor_17010b9153_en_623691",
+      "name_en": "Diadem of the Victor",
+      "name_zh": "胜者之冠",
+      "title_zh": "胜者之冠",
+      "summary_zh": "自身发动攻击时，攻击 +5。触发概率为 10%。",
+      "ability": "Diadem of the Victor",
+      "crest_name_en": "Daphnel",
+      "crest_name_zh": "达夫纳尔",
+      "holders": [
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "bertrand"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 5
+        },
+        "trigger_percent": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +5。触发概率为 10%。",
+      "effect_text_sha256": "a6d85cb12f164b1ef095ac63bbc5309338b08415e669d09a2d868c3d3f33c95b",
+      "source_row_sha256": "f527a62872d79577afde2f2345ff78fdfd67c61654c3abf0c23ffc15400e4011",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Duality",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+        "name_en": "Diadem of Duality",
+        "name_zh": "两仪之冠",
+        "title_zh": "两仪之冠",
+        "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "ability": "Diadem of Duality",
+        "crest_name_en": "Gautier",
+        "crest_name_zh": "戈蒂耶",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Theodora",
+            "character_id": "theodora",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Talimun",
+            "character_id": "talimun",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "theodora",
+          "bertrand",
+          "talimun",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 3
+          },
+          "trigger_percent": 25
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+        "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Cai",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Talimun",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Theodora",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    },
+    {
+      "ability": "Diadem of the Victor",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_the_victor_17010b9153_en_623691",
+        "name_en": "Diadem of the Victor",
+        "name_zh": "胜者之冠",
+        "title_zh": "胜者之冠",
+        "summary_zh": "自身发动攻击时，攻击 +5。触发概率为 10%。",
+        "ability": "Diadem of the Victor",
+        "crest_name_en": "Daphnel",
+        "crest_name_zh": "达夫纳尔",
+        "holders": [
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "bertrand"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 5
+          },
+          "trigger_percent": 10
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +5。触发概率为 10%。",
+        "effect_text_sha256": "a6d85cb12f164b1ef095ac63bbc5309338b08415e669d09a2d868c3d3f33c95b",
+        "source_row_sha256": "f527a62872d79577afde2f2345ff78fdfd67c61654c3abf0c23ffc15400e4011",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of the Victor",
+          "holders": "Bertrand"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_go_no_sen_39233fdf9b_en_623691",
+      "name_en": "Go No Sen",
+      "name_zh": "后发先至",
+      "title_zh": "后发先至",
+      "summary_zh": "敌军阶段，本次战斗自身先发动攻击。触发概率为 25%。",
+      "ability": "Go No Sen",
+      "effect_facts": {
+        "phase": "enemy",
+        "self_attacks_first": true,
+        "timing": "during_combat",
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军阶段，本次战斗自身先发动攻击。触发概率为 25%。",
+      "effect_text_sha256": "3fa2883c6e61bbb6c8eb79248ec89857855503cabf5fa63a22461414125ab863",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Bertrand",
+      "character_id": "bertrand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Go No Sen",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_go_no_sen_39233fdf9b_en_623691",
+          "name_en": "Go No Sen",
+          "name_zh": "后发先至",
+          "title_zh": "后发先至",
+          "summary_zh": "敌军阶段，本次战斗自身先发动攻击。触发概率为 25%。",
+          "ability": "Go No Sen",
+          "effect_facts": {
+            "phase": "enemy",
+            "self_attacks_first": true,
+            "timing": "during_combat",
+            "trigger_percent": 25
+          },
+          "effect_status": "parsed",
+          "effect_zh": "敌军阶段，本次战斗自身先发动攻击。触发概率为 25%。",
+          "effect_text_sha256": "3fa2883c6e61bbb6c8eb79248ec89857855503cabf5fa63a22461414125ab863",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_requiem_style_c4d49e7ee3_en_623691",
+      "name_en": "Requiem Style",
+      "name_zh": "镇魂流派",
+      "title_zh": "镇魂流派",
+      "summary_zh": "本次战斗无视攻击速度发动追击。触发概率为 5%。",
+      "ability": "Requiem Style",
+      "effect_facts": {
+        "timing": "during_combat",
+        "follow_up_regardless_of_attack_speed": true,
+        "trigger_percent": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "本次战斗无视攻击速度发动追击。触发概率为 5%。",
+      "effect_text_sha256": "6f8037f83b1749f21a87568e7ac9203970567e1126851f2d82cd9d1877c07de7",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Bertrand",
+      "character_id": "bertrand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Requiem Style",
+      "effect_zh": "战斗中无视攻击速度进行追击。发动概率：5%。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_requiem_style_c4d49e7ee3_en_623691",
+      "name_en": "Requiem Style",
+      "name_zh": "镇魂流派",
+      "title_zh": "镇魂流派",
+      "summary_zh": "本次战斗无视攻击速度发动追击。触发概率为 5%。",
+      "ability": "Requiem Style",
+      "effect_facts": {
+        "timing": "during_combat",
+        "follow_up_regardless_of_attack_speed": true,
+        "trigger_percent": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "本次战斗无视攻击速度发动追击。触发概率为 5%。",
+      "effect_text_sha256": "6f8037f83b1749f21a87568e7ac9203970567e1126851f2d82cd9d1877c07de7",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Bertrand",
+      "character_id": "bertrand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 50,
+        "str": 55,
+        "mag": 15,
+        "spd": 45,
+        "dex": 50,
+        "def": 45,
+        "res": 20,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 50,
+        "str": 55,
+        "mag": 15,
+        "spd": 45,
+        "dex": 50,
+        "def": 45,
+        "res": 20,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624391",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 50,
+        "str": 55,
+        "mag": 15,
+        "spd": 45,
+        "dex": 50,
+        "def": 45,
+        "res": 20,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624391",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624391",
+        "source_updated_text": "2026-09-26T06:31:02-04:00",
+        "retrieved_at": "2026-09-26T12:59:37+00:00",
+        "content_sha256": "f8ab63f381131f67499d5cdb11fe7e421b85f5608b6e83c5241eb09d2f487d90",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": {
+    "later": "Guest Part II: War; full unit Part III: Salvation. Paralogue in Part I recommended."
+  },
+  "recruitment_variants": {
+    "base": {
+      "later": "Guest Part II: War; full unit Part III: Salvation. Paralogue in Part I recommended."
+    },
+    "profile": []
+  },
+  "supports": [
+    {
+      "name": "Bertrand",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Bertrand",
+      "partner": "Talimun",
+      "rank": "A"
+    },
+    {
+      "name": "Bertrand",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Bertrand",
+      "rank": "A"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Bertrand",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Bertrand",
+      "rank": "B"
+    }
+  ],
+  "spells": [],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Bertrand",
+      "kind": "preferred",
+      "skill": "Authority Skill"
+    },
+    {
+      "name": "Bertrand",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Bertrand",
+      "kind": "preferred",
+      "skill": "Gauntlet Skill"
+    },
+    {
+      "name": "Bertrand",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    },
+    {
+      "name": "Bertrand",
+      "kind": "non_ideal",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Bertrand",
+      "kind": "non_ideal",
+      "skill": "Black Magic Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Bertrand",
+      "art": "Ruler's Awakening",
+      "range": "Self",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Bertrand",
+      "art": "Flash Awakening",
+      "range": "Self",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Bertrand",
+      "art": "Reason Awakening",
+      "range": "Self",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Bertrand",
+      "art": "Storm Awakening",
+      "range": "Self",
+      "blaze": "1",
+      "learned": "Default"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of the Victor",
+      "holders": "Bertrand"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Talimun",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Theodora",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    }
+  ],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": false,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "bertrand",
+  "display_name": "伯特兰"
+}

@@ -1,0 +1,1458 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "updated_at": "2026-09-28",
+  "origin": {
+    "site_source_commit": "01c88f5caa38d438d09edd7b5ccd507c5acf1421",
+    "import_date": "2026-09-26"
+  },
+  "collections": [
+    {
+      "id": "characters",
+      "label": "人物",
+      "count": 57,
+      "coverage": "partial"
+    },
+    {
+      "id": "supplemental_characters",
+      "label": "补充人物",
+      "count": 6,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "character_profiles",
+      "label": "人物档案",
+      "count": 53,
+      "coverage": "partial"
+    },
+    {
+      "id": "character_growth_variants",
+      "label": "成长变体",
+      "count": 1,
+      "coverage": "partial"
+    },
+    {
+      "id": "character_growth_reference",
+      "label": "人物成长对照",
+      "count": 62,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "classes",
+      "label": "职业",
+      "count": 60,
+      "coverage": "partial"
+    },
+    {
+      "id": "class_growth_reference",
+      "label": "职业成长对照",
+      "count": 58,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "supports",
+      "label": "支援",
+      "count": 460,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "spells",
+      "label": "法术",
+      "count": 160,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "gifts",
+      "label": "礼物",
+      "count": 580,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "skill_preferences",
+      "label": "技能偏好",
+      "count": 192,
+      "coverage": "community_snapshot"
+    },
+    {
+      "id": "blaze_arts",
+      "label": "炎之战技",
+      "count": 40,
+      "coverage": "index_only"
+    },
+    {
+      "id": "bloodmarks",
+      "label": "血印",
+      "count": 17,
+      "coverage": "index_only"
+    },
+    {
+      "id": "build_presets",
+      "label": "培养示例",
+      "count": 3,
+      "coverage": "examples_only"
+    },
+    {
+      "id": "references",
+      "label": "机制条目",
+      "count": 8,
+      "coverage": "partial"
+    },
+    {
+      "id": "character_notes",
+      "label": "人物设定",
+      "count": 5,
+      "coverage": "partial"
+    },
+    {
+      "id": "portraits",
+      "label": "头像",
+      "count": 57,
+      "coverage": "local_roster_covered"
+    },
+    {
+      "id": "maps",
+      "label": "区域地图",
+      "count": 3,
+      "coverage": "three_regions"
+    },
+    {
+      "id": "map_nodes",
+      "label": "地图地点",
+      "count": 147,
+      "coverage": "three_regions"
+    },
+    {
+      "id": "map_edges",
+      "label": "地图连接",
+      "count": 166,
+      "coverage": "three_regions"
+    },
+    {
+      "id": "chapters",
+      "label": "章节",
+      "count": 56,
+      "coverage": "part3_incomplete"
+    },
+    {
+      "id": "battles",
+      "label": "战斗目标",
+      "count": 57,
+      "coverage": "objectives_only"
+    },
+    {
+      "id": "paralogues",
+      "label": "外传",
+      "count": 9,
+      "coverage": "nine_records"
+    },
+    {
+      "id": "paralogue_windows",
+      "label": "外传接受期",
+      "count": 23,
+      "coverage": "nine_records"
+    },
+    {
+      "id": "sources",
+      "label": "来源记录",
+      "count": 19,
+      "coverage": "audit_only"
+    },
+    {
+      "id": "character_reference_profiles",
+      "label": "人物资料补充",
+      "count": 56,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "recruitment_conditions",
+      "label": "路线招募条件",
+      "count": 184,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "level_abilities",
+      "label": "等级习得技能",
+      "count": 96,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "spell_unlocks",
+      "label": "法术习得补充",
+      "count": 196,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "class_requirements",
+      "label": "职业资格补充",
+      "count": 111,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "certification_requirements",
+      "label": "职业考试门槛",
+      "count": 27,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "class_profiles",
+      "label": "职业数值档案",
+      "count": 58,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "class_abilities",
+      "label": "职业技能效果",
+      "count": 184,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "certification_items",
+      "label": "转职道具",
+      "count": 18,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "diadem_key_locations",
+      "label": "冠冕之钥位置",
+      "count": 5,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "divine_chambers",
+      "label": "神殿房间",
+      "count": 8,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "class_change_rules",
+      "label": "转职规则",
+      "count": 16,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "weapon_profiles",
+      "label": "武器与法术数值",
+      "count": 115,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "weapon_type_rules",
+      "label": "武器类别规则",
+      "count": 6,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "ability_catalog",
+      "label": "职业技能目录",
+      "count": 106,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "item_profiles",
+      "label": "战斗道具",
+      "count": 28,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "proficiency_abilities",
+      "label": "熟练度技能",
+      "count": 34,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "mount_abilities",
+      "label": "坐骑技能",
+      "count": 11,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "personal_ability_catalog",
+      "label": "个人技能效果",
+      "count": 65,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "level_ability_catalog",
+      "label": "等级技能效果",
+      "count": 106,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "bloodmark_ability_catalog",
+      "label": "血印技能效果",
+      "count": 12,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "material_profiles",
+      "label": "矿石、食材与鱼类",
+      "count": 197,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "other_item_profiles",
+      "label": "探索与交付道具",
+      "count": 82,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "item_usage_rules",
+      "label": "道具使用规则",
+      "count": 82,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "ingestion_pages",
+      "label": "入库进度",
+      "count": 809,
+      "coverage": "audit_only"
+    },
+    {
+      "id": "gift_profiles",
+      "label": "礼物档案",
+      "count": 107,
+      "coverage": "reference_partial"
+    },
+    {
+      "id": "gift_preferences",
+      "label": "人物送礼偏好",
+      "count": 1368,
+      "coverage": "reference_partial"
+    }
+  ],
+  "limitations": [
+    "基础培养名单为 57 人；6 名补充人物独立保留，尚无本地头像。",
+    "社区提取的成长、支援和收集记录尚未逐项在游戏内验证。",
+    "不同口径的成长值保留并列；穆的技能生效成长单独记录。",
+    "第三部当前仅 1 个章节档案，未宣称完整收录。",
+    "区域图目前 3 个；战场格子、敌军和宝箱位置未收录。",
+    "40 条炎之战技及 17 条血印是索引记录，部分字段仍缺失。",
+    "职业成长修正可查询，尚未用于培养收益计算；培养示例仅 3 条。",
+    "空数组和 null 表示未收录，不能推断游戏中不存在。",
+    "千岛指定小程序无法读取，未导入。",
+    "新增人物记录和路线条件仍在逐项补全，技能效果与额外加入门槛存在未收录项。",
+    "职业目录的资格、推荐等级与技能名称已核对；考试等级单独记录，组合规则及技能具体效果仍待核对。",
+    "58 个职业有独立数值档案及 184 条职业关联技能效果记录；未覆盖职业仍待补。数值加成与成长修正分开保存，尚未用于培养计算。",
+    "矿石与食材保留独立记录；近似名称、逐项取得点、配方、恢复量与坐骑诱饵仍待核对。类别规则不自动应用为个别材料的效果。",
+    "礼物的喜欢与非常喜欢保留各条记录；偏好强度冲突、未列人物和未知支援点数均可查询。生日规则仅确认中性礼物反应变化，未用于培养计算。"
+  ],
+  "missing_fields": [
+    {
+      "collection": "characters",
+      "field": "proficiencies",
+      "missing_count": 47
+    },
+    {
+      "collection": "classes",
+      "field": "class_growth",
+      "missing_count": 60
+    },
+    {
+      "collection": "classes",
+      "field": "recommended_level",
+      "missing_count": 10
+    }
+  ],
+  "files": [
+    {
+      "path": "data/adventure.json",
+      "bytes": 89939,
+      "sha256": "d53e01cb8c2af117762ee498a6f9874594a7930f2135de0958fe2063ce8b9a3c"
+    },
+    {
+      "path": "data/build_presets.json",
+      "bytes": 3823,
+      "sha256": "3d5a4d86930a182a976f16a594108833414abddb2a20c99ade3da8a75f242664"
+    },
+    {
+      "path": "data/character_portraits.json",
+      "bytes": 34901,
+      "sha256": "4dbc03c78f2b774ee120eec22e52363f6667a8ed778c5c1c2f4267010503d4fd"
+    },
+    {
+      "path": "data/characters.json",
+      "bytes": 46883,
+      "sha256": "65ce3d890798a9b3f825a93eca21995d250b3478280c2009c85cbfd8d9335aa8"
+    },
+    {
+      "path": "data/classes.json",
+      "bytes": 21661,
+      "sha256": "712403ad1f48b518aff9ea4c5cc779e42b7f502156d28fe5b4af0e8c4210c8ef"
+    },
+    {
+      "path": "data/gamersky_profiles.json",
+      "bytes": 56478,
+      "sha256": "2d9b97bad9ec961e7bf08824afa5dcdee798194d160d8ce0c445cf08609db923"
+    },
+    {
+      "path": "data/guide_facts.json",
+      "bytes": 4367576,
+      "sha256": "eb71ec30d8115af6e08317521c5ce2980702fa096a980b9f0d44dd8bc7d15dc1"
+    },
+    {
+      "path": "data/official_character_notes.json",
+      "bytes": 1603,
+      "sha256": "c74f72a1f64f4daed40de4c94938f7792b585ba886e02e555cdeefbcef226269"
+    },
+    {
+      "path": "data/overseas_database.json",
+      "bytes": 201489,
+      "sha256": "326859e0d9e7eb53bffeea22dbfb09f3ee617bfd1982812695b4bc3ec6e6353e"
+    },
+    {
+      "path": "data/reference_entries.json",
+      "bytes": 6118,
+      "sha256": "865a75b4c97b9a9e382ed8bbb4cd813b2ceb41d718597a801f76cd9ba71cd785"
+    },
+    {
+      "path": "data/source_inventory.json",
+      "bytes": 740587,
+      "sha256": "18e4a2ec328692d4d9b18c0f2bf55704b1f7cb4e7e15748e0d6ee75857c7e3c9"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 5085,
+      "sha256": "1d4ec971c7eee42a749ca0fa7013a887fa71912a7631bd26ccec1ff96e3d62b6"
+    },
+    {
+      "path": "data/translations.zh-CN.json",
+      "bytes": 77828,
+      "sha256": "e885933b6a45957f4cdfc555a30dee057ae0282239e9af18ef4848a3b352d32d"
+    },
+    {
+      "path": "dist/assets/portraits/alexandra.webp",
+      "bytes": 21474,
+      "sha256": "87600558c3c9d2ec033bcbf26f505b5698978ea0010ef21589617bbc8b4bf3f8"
+    },
+    {
+      "path": "dist/assets/portraits/anatolia.webp",
+      "bytes": 19720,
+      "sha256": "d29571a8dad578b45f510e6ca0c2553a60cf2380972f94e68e92f3e66364d4e1"
+    },
+    {
+      "path": "dist/assets/portraits/aurora_guest.webp",
+      "bytes": 19716,
+      "sha256": "51c1f797541468c294de20f0a88efb5731b486691f39d3274803f48f149545ad"
+    },
+    {
+      "path": "dist/assets/portraits/benditz.webp",
+      "bytes": 15994,
+      "sha256": "1e8b7e74920d4f9a8f86b4a30d6a493151e77fa59e92674eec07445a81a50802"
+    },
+    {
+      "path": "dist/assets/portraits/bertrand.webp",
+      "bytes": 20834,
+      "sha256": "4056547045d4cede54918e5cf39aae9a80162a94c6572edc85e70bc5a1c9ba85"
+    },
+    {
+      "path": "dist/assets/portraits/bonaventure.webp",
+      "bytes": 17214,
+      "sha256": "5799db447e5a8786465bfce66334a74b542f6bf07d53fbd695ccdf2ae0f4eeff"
+    },
+    {
+      "path": "dist/assets/portraits/buccar.webp",
+      "bytes": 17330,
+      "sha256": "0d6a73f8b0d1ef848c353bf1adf89d72396ddcb65156af96810009e04e251890"
+    },
+    {
+      "path": "dist/assets/portraits/cai.jpg",
+      "bytes": 18315,
+      "sha256": "ca76c86fe04c723ff07ce49a19ae059709bf3fdc26ee9540d11cb91f49c21b25"
+    },
+    {
+      "path": "dist/assets/portraits/catania.webp",
+      "bytes": 21070,
+      "sha256": "f24f1e7cb1d8901d720bf4285d0112bedcb4829db9b4218e7ad686311a1c9e11"
+    },
+    {
+      "path": "dist/assets/portraits/centurio.jpg",
+      "bytes": 26659,
+      "sha256": "4f41a30e1d1528316e1b8681f9653ce275d9aa96a750e72042cc32ea73bc8b68"
+    },
+    {
+      "path": "dist/assets/portraits/dadao.jpg",
+      "bytes": 4221,
+      "sha256": "61201c2966f0cf7f74ae60d56dd6e42b4fc55f8e96071d30fdd16954b8c20604"
+    },
+    {
+      "path": "dist/assets/portraits/dante.webp",
+      "bytes": 20252,
+      "sha256": "01afc6cdf84acb7184374a41d41a829bda039d453273f4cc7cf8e3f0ae482e07"
+    },
+    {
+      "path": "dist/assets/portraits/diego.webp",
+      "bytes": 20566,
+      "sha256": "b90af0f0adf03c3cbe1ab742c00dfc5c137aaffa5e8ed1c041130680620926ca"
+    },
+    {
+      "path": "dist/assets/portraits/dietrich.jpg",
+      "bytes": 22954,
+      "sha256": "0a75e9bf8387da3368015cca4d800de942e5804d9f45846c330e4fb45799a307"
+    },
+    {
+      "path": "dist/assets/portraits/eshmel.jpg",
+      "bytes": 21062,
+      "sha256": "de01ed5d10b60cd578f56da5ed8f943008c8bf09a6858c5751207e2a3e7d60b2"
+    },
+    {
+      "path": "dist/assets/portraits/esmeralda.webp",
+      "bytes": 21894,
+      "sha256": "da2803a5b7a6dc3a35b8095ed1b832ca8476d00624eb9b08a61bc1cf323711cd"
+    },
+    {
+      "path": "dist/assets/portraits/fabio.webp",
+      "bytes": 13860,
+      "sha256": "964292e44d6917cb6843cd0f6055d05164b094a396f105a5051cc406b3b8816f"
+    },
+    {
+      "path": "dist/assets/portraits/fianna.jpg",
+      "bytes": 4794,
+      "sha256": "9627fcad629dc2504fd7dc2e33a608c423f864e61ec452183b9420ec0a7fe80c"
+    },
+    {
+      "path": "dist/assets/portraits/gaitz.webp",
+      "bytes": 20700,
+      "sha256": "3aafe55895e7e2f77c43dd69dbfa59f20e7654a16b515b05f11ba65e36b25f9e"
+    },
+    {
+      "path": "dist/assets/portraits/goliath.jpg",
+      "bytes": 5825,
+      "sha256": "fd4ed828ceb1309f3308772ebcabe3ff5e8350ca4c29e17a58ec1c1108b1a371"
+    },
+    {
+      "path": "dist/assets/portraits/guzran.webp",
+      "bytes": 14702,
+      "sha256": "05b20aa096a7b84a88a415525867ea14c039d32c640fa8896f0bdbb086b2a413"
+    },
+    {
+      "path": "dist/assets/portraits/halvin.jpg",
+      "bytes": 5950,
+      "sha256": "6a00bc1ed5cf351c3b9ef7b328b4ce185fd4388731022f5722378229e549b214"
+    },
+    {
+      "path": "dist/assets/portraits/inyoni.jpg",
+      "bytes": 28141,
+      "sha256": "57b11af3a9f435a98cd7351d8f237ef26d329713d6701d8f744df1ebe6551bd0"
+    },
+    {
+      "path": "dist/assets/portraits/io.webp",
+      "bytes": 15882,
+      "sha256": "4cf3a1acd95aed68114c6ddff2587882539cb88bd905a01a68c2960fb5f97cab"
+    },
+    {
+      "path": "dist/assets/portraits/jasmine.webp",
+      "bytes": 56834,
+      "sha256": "b71e437501b404ff312d482414a2a6fb52626e7ca3e701ec413bc5180e6fa3a9"
+    },
+    {
+      "path": "dist/assets/portraits/jester.jpg",
+      "bytes": 6365,
+      "sha256": "2c509637e0d753997f9a129c5866ad480ecf5a8e9c93f05ad9d95f54ffbe5b70"
+    },
+    {
+      "path": "dist/assets/portraits/kiroc.jpg",
+      "bytes": 8083,
+      "sha256": "cf8ac21e800c6230b87c950a96a322bc1152bb22a7c73720d74ca68e44bcfb3a"
+    },
+    {
+      "path": "dist/assets/portraits/leda.jpg",
+      "bytes": 23236,
+      "sha256": "0a8da27a9c476b41ad5e7a56486e810f6bc47d3281a1241ad2f6722adf6d7dcd"
+    },
+    {
+      "path": "dist/assets/portraits/lilian.webp",
+      "bytes": 18658,
+      "sha256": "363409255e9f02db64332a940e03ef05711e402aed0575fef362f8a28d2cf189"
+    },
+    {
+      "path": "dist/assets/portraits/loretta.jpg",
+      "bytes": 5534,
+      "sha256": "9d5b5f05c4cb49c53f835a55cd73c9a5161a203c4cbfed0b50f44cf41693e3ce"
+    },
+    {
+      "path": "dist/assets/portraits/ludia.jpg",
+      "bytes": 6664,
+      "sha256": "031dba56280c7349a29b8dc4d31e878c54246bf2c02a1e3ca7c917ddcfd227c4"
+    },
+    {
+      "path": "dist/assets/portraits/lysander.webp",
+      "bytes": 20004,
+      "sha256": "37f3d75edf1d56be7bc342fe705b99fd89622b6649c54181b7e5249ba866d6f7"
+    },
+    {
+      "path": "dist/assets/portraits/majide.jpg",
+      "bytes": 6142,
+      "sha256": "7569ef24622f69dead23e131e03cbb3b603dc1d4d68133f4b03272ba3745dfde"
+    },
+    {
+      "path": "dist/assets/portraits/mikaela.webp",
+      "bytes": 18420,
+      "sha256": "546b11cb48bea4ea42d4e61df0e554fb0f51ed7b7f3f1ee38cc780431d4996a0"
+    },
+    {
+      "path": "dist/assets/portraits/mu.webp",
+      "bytes": 22302,
+      "sha256": "e5a0c8aacaf5bfdc59a05b742ad713d25e1544fa418fa38e6686cb11196b8973"
+    },
+    {
+      "path": "dist/assets/portraits/nezha.webp",
+      "bytes": 20350,
+      "sha256": "90ae5970ed9131acbe1cfa5c65b2cbd30645258f4c8966480348dde2260ed2bf"
+    },
+    {
+      "path": "dist/assets/portraits/ninae.webp",
+      "bytes": 21056,
+      "sha256": "6a613929d1dda584e2fe5c7abd93b03f20148fa45afd7c0500b10e8783ad5225"
+    },
+    {
+      "path": "dist/assets/portraits/noctula.jpg",
+      "bytes": 19011,
+      "sha256": "0ca6f72a7ccdb0b57685efd01d0926c4686a35b733b8fd2f74aa0746937da467"
+    },
+    {
+      "path": "dist/assets/portraits/nuzzuo.jpg",
+      "bytes": 26200,
+      "sha256": "3a6b55ade886925e30685f191b004bc8cc13a7f750cd77a0abbbb74be43da7e5"
+    },
+    {
+      "path": "dist/assets/portraits/nydine.webp",
+      "bytes": 22616,
+      "sha256": "a37cc6d7f4015a2bc42a92a79a9af801365c3ead7a6bb599f5462220f4eccfe1"
+    },
+    {
+      "path": "dist/assets/portraits/olympia.webp",
+      "bytes": 23886,
+      "sha256": "b29c7b6fd68447abda4466757d4b1bc1c870d4e4e169832490923fdf9cb408da"
+    },
+    {
+      "path": "dist/assets/portraits/orchel.webp",
+      "bytes": 18582,
+      "sha256": "6f0e799a9004c04393a877888af1e97243bc4f95dae1c0b8993d17405c0c4629"
+    },
+    {
+      "path": "dist/assets/portraits/peppe.jpg",
+      "bytes": 4865,
+      "sha256": "bb31ab74cc973e5ce162d186550e8465056a45297b27043808ec53ffd983c883"
+    },
+    {
+      "path": "dist/assets/portraits/peter.webp",
+      "bytes": 17548,
+      "sha256": "24bc90c7743703f114f6a194fae51ff8692d4db47273126bbe56ac4f3a6b551d"
+    },
+    {
+      "path": "dist/assets/portraits/seteth.jpg",
+      "bytes": 5420,
+      "sha256": "08b8a782672ca6591de71c6f536787fe02dafe0c311178e96a2bda72ce951ffe"
+    },
+    {
+      "path": "dist/assets/portraits/sha_lan.webp",
+      "bytes": 17920,
+      "sha256": "f36efecb87bf413240ec7e3147f4897e4350e3288b92d79cbf1334e8217aad75"
+    },
+    {
+      "path": "dist/assets/portraits/simon.webp",
+      "bytes": 19510,
+      "sha256": "36bd1d13720c53cf7d7b1e7d9e8c508d6c4fdf257bcfbcb5285a2ef70eb5f186"
+    },
+    {
+      "path": "dist/assets/portraits/sirocco.webp",
+      "bytes": 22060,
+      "sha256": "16ba70604c03ee3c65aa0615a7a5c2bdfc625ba9b997c20cb9cb7e8bd1e5cfcd"
+    },
+    {
+      "path": "dist/assets/portraits/sofia.jpg",
+      "bytes": 17645,
+      "sha256": "93fcafaee05cc077a18403c61244dbf69cadf0ffe23960a38130fd07a34b4a62"
+    },
+    {
+      "path": "dist/assets/portraits/talimun.webp",
+      "bytes": 20516,
+      "sha256": "ab45d988d95e35335f09242dcf076815e33a0c5ec69e0e66eb06ad4bd2deaf2d"
+    },
+    {
+      "path": "dist/assets/portraits/theodora.jpg",
+      "bytes": 29017,
+      "sha256": "68f03eb381836ee80795de57c26a7fe0127d01859dd79e4e7eef6c4ed15723df"
+    },
+    {
+      "path": "dist/assets/portraits/tialla.webp",
+      "bytes": 18256,
+      "sha256": "f4e1e32ef3013f9d88152bcfe4a7ed41568e853c70dfcd938bf93e47ea8c08a1"
+    },
+    {
+      "path": "dist/assets/portraits/tobias.webp",
+      "bytes": 16752,
+      "sha256": "d7d3f8d13d0d43aa22fe424212c8078686463e8f3f041ac41e7df958dcaada70"
+    },
+    {
+      "path": "dist/assets/portraits/ultand.webp",
+      "bytes": 20648,
+      "sha256": "37181043b16df97fc13e675de596195bef9430ca169a076c844b4c72e1c4519a"
+    },
+    {
+      "path": "dist/assets/portraits/ursula.webp",
+      "bytes": 22020,
+      "sha256": "09ce30c436c5a5bc2f6c9f9fd90044ee9960db2de6ae1daa392930d3bfb2b303"
+    },
+    {
+      "path": "dist/assets/portraits/yang_jie.jpg",
+      "bytes": 19183,
+      "sha256": "828a1683bb2e2f3b3b1de02764c40ad3d9f3f7399c95e7d84ea2b29f85f2c561"
+    },
+    {
+      "path": "dist/assets/portraits/zarcone.jpg",
+      "bytes": 4301,
+      "sha256": "d606eb3f62ae396e2156acbb3277b13a5d2df8bd45bd1cd47b303a39438317f4"
+    },
+    {
+      "path": "dist/database.json",
+      "bytes": 5998899,
+      "sha256": "8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76"
+    },
+    {
+      "path": "dist/database.sqlite",
+      "bytes": 11608064,
+      "sha256": "117b21faba7f9a5cfa6d04abf1e398fc9a476b15340134d6387c5824b84bd368"
+    },
+    {
+      "path": "dist/characters/eshmel.json",
+      "bytes": 48555,
+      "sha256": "4004f02b2af5ff7e4cf574c995134fe594d41d26db6e9ee8df8b9c736205c360"
+    },
+    {
+      "path": "dist/characters/cai.json",
+      "bytes": 78088,
+      "sha256": "a6e158d3ed465645d98fed9511e5595e2cb8547da81d352b52f2ec872570dfea"
+    },
+    {
+      "path": "dist/characters/tialla.json",
+      "bytes": 170485,
+      "sha256": "d61cd0ffab6dafe80afdd7a5686f56445af0bb6fd533cd609ca233e0a369e18d"
+    },
+    {
+      "path": "dist/characters/peter.json",
+      "bytes": 140826,
+      "sha256": "a65701e229f9d93b11004946be6b6c41d106eff2337e8b39efda59b1849930ea"
+    },
+    {
+      "path": "dist/characters/ultand.json",
+      "bytes": 83401,
+      "sha256": "30bf419e0554006ece90a1ae5404757bde63de7cbdcf035bdb3a0fdff63f1d78"
+    },
+    {
+      "path": "dist/characters/bertrand.json",
+      "bytes": 29080,
+      "sha256": "e7a514cae5795e6d6efba8b2e90d048c8fc74b89c511ac12e0ff4e9e069fde8a"
+    },
+    {
+      "path": "dist/characters/gaitz.json",
+      "bytes": 82833,
+      "sha256": "fbc338224e6a28f5afbfc0acfe627bd04da9b7ce8fee731e5b1f7aaa6e5b1fa4"
+    },
+    {
+      "path": "dist/characters/jester.json",
+      "bytes": 72168,
+      "sha256": "24176b969d1443b115634e634750585c5c0a9c196cf934e814582ee43f13a377"
+    },
+    {
+      "path": "dist/characters/goliath.json",
+      "bytes": 139805,
+      "sha256": "7f51a2fda6c14b8700e29299aa235ad2b07ea74bccdc2bb06bfd17b041d53496"
+    },
+    {
+      "path": "dist/characters/dante.json",
+      "bytes": 84777,
+      "sha256": "b369d00556602cc4dfe74e9d2b88b9b7973f5540342d680c2ee3bf845fc1b2c9"
+    },
+    {
+      "path": "dist/characters/dietrich.json",
+      "bytes": 121383,
+      "sha256": "b7fc255aca6970414c1a07a3969405e19d033e34f85c35968f745f2e3762a850"
+    },
+    {
+      "path": "dist/characters/fabio.json",
+      "bytes": 194984,
+      "sha256": "4488851a0a4ba209715b428d4a6d340b1da420100f389f52a2040ea8e3fcd130"
+    },
+    {
+      "path": "dist/characters/esmeralda.json",
+      "bytes": 207264,
+      "sha256": "d436f733712520234fcd8c88204db9efad1dcd52d7c026000acd3a77b929ccc6"
+    },
+    {
+      "path": "dist/characters/mikaela.json",
+      "bytes": 211854,
+      "sha256": "c3c0ccd97140c1464fb2880fa3b0fbf38489c228eb29a9b681b4a7d923fc0d2b"
+    },
+    {
+      "path": "dist/characters/orchel.json",
+      "bytes": 44961,
+      "sha256": "71e45b39eadd9b3127eb4b381be3846ca5f35c3b636a7536c2b1a1b299d95e4b"
+    },
+    {
+      "path": "dist/characters/diego.json",
+      "bytes": 71443,
+      "sha256": "82e495d3675a4a8af288d0e0664bfdc6d07dde75518a8c7cd390d32e6b1174c6"
+    },
+    {
+      "path": "dist/characters/loretta.json",
+      "bytes": 99499,
+      "sha256": "245572b00477f88ed8d140892f22bf1308427cfde5c7937666f0c8a3e6aecc2c"
+    },
+    {
+      "path": "dist/characters/seteth.json",
+      "bytes": 150637,
+      "sha256": "41861cf882dc3184d690d69c60a03caa769b6ec7c74c04b7b5548e1153b33365"
+    },
+    {
+      "path": "dist/characters/ninae.json",
+      "bytes": 82705,
+      "sha256": "bc33e57e0e90fa05e95ae19a443cf4b6a4a45996057028fc812ebbac88a78c3c"
+    },
+    {
+      "path": "dist/characters/theodora.json",
+      "bytes": 69040,
+      "sha256": "09c7b65951a009dcd81903248f3d2d117fd407edc0dd8dabca8b433087f494b8"
+    },
+    {
+      "path": "dist/characters/bonaventure.json",
+      "bytes": 138849,
+      "sha256": "595573cb22f163e02a4305a0589336b994b857304c70c62a6f734e3805543cda"
+    },
+    {
+      "path": "dist/characters/tobias.json",
+      "bytes": 223700,
+      "sha256": "54e33748dc8e49606e1c8005752691103711d1fc80000ab1d9e41c27849f6e70"
+    },
+    {
+      "path": "dist/characters/lilian.json",
+      "bytes": 125278,
+      "sha256": "ee6ccd792f7d2a3d5be9376e08c9c7edd36f805c5457be17b33b68dca21adf05"
+    },
+    {
+      "path": "dist/characters/lysander.json",
+      "bytes": 69964,
+      "sha256": "03149ce345bfc5b2a9bd0aa4182f3e10369a2dcb28557190a8deafe12c1265c7"
+    },
+    {
+      "path": "dist/characters/talimun.json",
+      "bytes": 34959,
+      "sha256": "c75d9b78c92f11623bbaa49b2a6bb8b516189634ce0f9de81f4beedccc9da527"
+    },
+    {
+      "path": "dist/characters/ursula.json",
+      "bytes": 84994,
+      "sha256": "06854a513af1904d583c655be9e5a6de85f881a2758ece2af8e13358eaf9c8e2"
+    },
+    {
+      "path": "dist/characters/ludia.json",
+      "bytes": 184426,
+      "sha256": "3a7e9b84874eb9c9238f1fe3376e94f0d705e488c19613e982ec700d6d110e11"
+    },
+    {
+      "path": "dist/characters/simon.json",
+      "bytes": 54547,
+      "sha256": "ab65d96eee4813154dfc3dfc1ecb210b095b9f14f936dd678763b12f2a50bb73"
+    },
+    {
+      "path": "dist/characters/fianna.json",
+      "bytes": 107659,
+      "sha256": "a8fa38c9acddaef2bb9b5bbe48e9fc72203716beb0ced44ff70000db097775f7"
+    },
+    {
+      "path": "dist/characters/leda.json",
+      "bytes": 186106,
+      "sha256": "3bcc6f23cfe36755f9000469819d63922ae5ae4f31296fba30e5a83032ab2b5a"
+    },
+    {
+      "path": "dist/characters/buccar.json",
+      "bytes": 125481,
+      "sha256": "86dd467d3b93ca0e3c4c2c10417af602f6c4219c21ec52cc0f30c83579b6647d"
+    },
+    {
+      "path": "dist/characters/sirocco.json",
+      "bytes": 131671,
+      "sha256": "9e4b2c5b4b22850e915a10f4c5ba6d06babecc4ba247effdc8c836b17129e663"
+    },
+    {
+      "path": "dist/characters/olympia.json",
+      "bytes": 104206,
+      "sha256": "0ac37dd5a62fed9c5f91017ee9d4e412930b2f84b339accb5fa68598e5cec3eb"
+    },
+    {
+      "path": "dist/characters/mu.json",
+      "bytes": 102727,
+      "sha256": "d5e4d4289afcd544aeb04943ffcdb5b1db358e30f563d14829119ae0ea3a9135"
+    },
+    {
+      "path": "dist/characters/anatolia.json",
+      "bytes": 27621,
+      "sha256": "62929a6795b87bb664f71c63bf222230ec10b24adf5cfaa197aab5a76a092a3a"
+    },
+    {
+      "path": "dist/characters/sha_lan.json",
+      "bytes": 80644,
+      "sha256": "02b5d355e416f0287ab438039764dc10ecc140cac451c67bbbceead2e7866329"
+    },
+    {
+      "path": "dist/characters/nezha.json",
+      "bytes": 81097,
+      "sha256": "35f84ea32452211887935a9078a467f809574e9c8aa1ba44278471fccbc014db"
+    },
+    {
+      "path": "dist/characters/dadao.json",
+      "bytes": 158499,
+      "sha256": "3dd7caf14c35b81d8f99291cacbf90c62ee177bbae1e184ae5a1ac6160286b28"
+    },
+    {
+      "path": "dist/characters/halvin.json",
+      "bytes": 119455,
+      "sha256": "8d859903ddf15548d21ca150c68b03861760e573b939370bd207132827747102"
+    },
+    {
+      "path": "dist/characters/aurora_guest.json",
+      "bytes": 4843,
+      "sha256": "0757fb830b86ca0a316096082a7d21ce654a066d304e97df1cc9521e0c4d373c"
+    },
+    {
+      "path": "dist/characters/guzran.json",
+      "bytes": 177770,
+      "sha256": "477d7465412e6ebfc3670e96dd5c0c1ef2daca7eb504760b1896654f5c92e52d"
+    },
+    {
+      "path": "dist/characters/yang_jie.json",
+      "bytes": 236506,
+      "sha256": "e58717c19b67ba32165cee456b27359b105f91224fb3aae495aa448ede2fbf83"
+    },
+    {
+      "path": "dist/characters/io.json",
+      "bytes": 117475,
+      "sha256": "ab560c4c4d33e56a6bd75698f0946fc3df3c66d1fc457089599830444878d329"
+    },
+    {
+      "path": "dist/characters/peppe.json",
+      "bytes": 144015,
+      "sha256": "2a557fb597a97d7b245d5e19da419aff8867314f06ece949d83d8c92015a4f34"
+    },
+    {
+      "path": "dist/characters/noctula.json",
+      "bytes": 79597,
+      "sha256": "06e067fd1c910dd07def98e7a80debff018105db4b0d291cde1decb4cb0ac0bc"
+    },
+    {
+      "path": "dist/characters/sofia.json",
+      "bytes": 173853,
+      "sha256": "77dc1ed293242d46c5f284bd2cb353a5335bde64407b2fde49db54447f9e9418"
+    },
+    {
+      "path": "dist/characters/catania.json",
+      "bytes": 132483,
+      "sha256": "c2787bb9510d17087ce719f400b1df6724f9fee67d2fab40ba282b8969216b52"
+    },
+    {
+      "path": "dist/characters/nydine.json",
+      "bytes": 92468,
+      "sha256": "1bf6f98907c7531cc4037c9f6af21a07d36a2f5e581e24f5dd2eb52f4d5765f7"
+    },
+    {
+      "path": "dist/characters/zarcone.json",
+      "bytes": 85874,
+      "sha256": "fe943ca12ea844b9c8e7e70380c0f946310495b4387f3e9610e62b601f14cfdd"
+    },
+    {
+      "path": "dist/characters/majide.json",
+      "bytes": 129208,
+      "sha256": "180681ea3857d44cf7129134fc5d07b075dcc6ef2141377b98803f7895d33fb5"
+    },
+    {
+      "path": "dist/characters/benditz.json",
+      "bytes": 115415,
+      "sha256": "e108e044cd6c606cff38f68bf27de7c4681e382352b76ba2456fd46e6dc99234"
+    },
+    {
+      "path": "dist/characters/inyoni.json",
+      "bytes": 89376,
+      "sha256": "26a1c4568ae4227fd3ddeabfd76167eefc6b2f3f16fba9c4215800b9dd62c571"
+    },
+    {
+      "path": "dist/characters/jasmine.json",
+      "bytes": 147236,
+      "sha256": "ce8ee947487411808615ec8b4a8f622f7b9c8aefbbd61d7ec5148284ec5dfd9f"
+    },
+    {
+      "path": "dist/characters/alexandra.json",
+      "bytes": 159029,
+      "sha256": "1af9fff8b430183a27216769a2b498c3c7030395eb18a97e950ebb50eddde057"
+    },
+    {
+      "path": "dist/characters/nuzzuo.json",
+      "bytes": 127609,
+      "sha256": "2d74c0efc2d45f41b42e1c87f8ee9d394808466ea376082d599ddfc891123f54"
+    },
+    {
+      "path": "dist/characters/centurio.json",
+      "bytes": 13806,
+      "sha256": "e803429558ab27bcfacfc84853db6c6ee5afe9bc2641503cde8e71670adf164e"
+    },
+    {
+      "path": "dist/characters/kiroc.json",
+      "bytes": 142410,
+      "sha256": "0ab9e75211d87770ae7e37ae06e5a7fbbf3bf125182fad43018797614fda6980"
+    },
+    {
+      "path": "dist/characters/aswan.json",
+      "bytes": 11935,
+      "sha256": "af6cd4fb85cc3b589fbcf29d8b3817d52d14faae73e0bafed32a5d1f0c32b75a"
+    },
+    {
+      "path": "dist/characters/creek.json",
+      "bytes": 14003,
+      "sha256": "094617671e5e9f1e7b37f48f25070af2d5e4d70162acd24cfa5cdd7e40584ac3"
+    },
+    {
+      "path": "dist/characters/hong_hua.json",
+      "bytes": 7319,
+      "sha256": "3152e3929ea7db7cfb5a03172621d45253920cf8a9761442843021dce6e2c42b"
+    },
+    {
+      "path": "dist/characters/nathan.json",
+      "bytes": 7338,
+      "sha256": "3c50731ced9e5ad42e3fc1ce5d00ee753530536446aaffc6749d92fbb7cdaf15"
+    },
+    {
+      "path": "dist/characters/tahonia.json",
+      "bytes": 7000,
+      "sha256": "2d10ba5590ef7a5f6c64b22dec2a7d8c25684abb9af7fabe8ee7530d7e3abd0d"
+    },
+    {
+      "path": "dist/characters/troy.json",
+      "bytes": 7133,
+      "sha256": "f320f75a070ed0066929600db94e17c7c66d8cb40b8223cbf0884733eef9e43b"
+    }
+  ],
+  "ingestion": {
+    "completion": "in_progress",
+    "discovery_status": "article_links_scanning_not_frozen",
+    "counts": {
+      "pending": 659,
+      "partial": 140,
+      "reviewed": 0,
+      "failed": 0,
+      "excluded": 10
+    },
+    "candidate_pages": 809,
+    "fact_counts": {
+      "character_profiles": 56,
+      "recruitment_conditions": 184,
+      "level_abilities": 96,
+      "spell_unlocks": 196,
+      "class_requirements": 111,
+      "certification_requirements": 27,
+      "class_profiles": 58,
+      "class_abilities": 184,
+      "certification_items": 18,
+      "diadem_key_locations": 5,
+      "divine_chambers": 8,
+      "class_change_rules": 16,
+      "weapon_profiles": 115,
+      "weapon_type_rules": 6,
+      "ability_catalog": 106,
+      "item_profiles": 28,
+      "proficiency_abilities": 34,
+      "mount_abilities": 11,
+      "personal_ability_catalog": 65,
+      "level_ability_catalog": 106,
+      "bloodmark_ability_catalog": 12,
+      "other_item_profiles": 82,
+      "item_usage_rules": 82,
+      "material_profiles": 197,
+      "gift_profiles": 107,
+      "gift_preferences": 1368
+    }
+  },
+  "character_pages": [
+    {
+      "id": "eshmel",
+      "name": "伊修玛尔",
+      "route": "#character/eshmel",
+      "path": "characters/eshmel.json"
+    },
+    {
+      "id": "cai",
+      "name": "凯伊",
+      "route": "#character/cai",
+      "path": "characters/cai.json"
+    },
+    {
+      "id": "tialla",
+      "name": "媞雅拉",
+      "route": "#character/tialla",
+      "path": "characters/tialla.json"
+    },
+    {
+      "id": "peter",
+      "name": "皮特鲁",
+      "route": "#character/peter",
+      "path": "characters/peter.json"
+    },
+    {
+      "id": "ultand",
+      "name": "乌尔坦德",
+      "route": "#character/ultand",
+      "path": "characters/ultand.json"
+    },
+    {
+      "id": "bertrand",
+      "name": "伯特兰",
+      "route": "#character/bertrand",
+      "path": "characters/bertrand.json"
+    },
+    {
+      "id": "gaitz",
+      "name": "盖茨",
+      "route": "#character/gaitz",
+      "path": "characters/gaitz.json"
+    },
+    {
+      "id": "jester",
+      "name": "杰斯塔",
+      "route": "#character/jester",
+      "path": "characters/jester.json"
+    },
+    {
+      "id": "goliath",
+      "name": "哥莱亚斯",
+      "route": "#character/goliath",
+      "path": "characters/goliath.json"
+    },
+    {
+      "id": "dante",
+      "name": "丹提",
+      "route": "#character/dante",
+      "path": "characters/dante.json"
+    },
+    {
+      "id": "dietrich",
+      "name": "迪托利希",
+      "route": "#character/dietrich",
+      "path": "characters/dietrich.json"
+    },
+    {
+      "id": "fabio",
+      "name": "法毕欧",
+      "route": "#character/fabio",
+      "path": "characters/fabio.json"
+    },
+    {
+      "id": "esmeralda",
+      "name": "艾丝梅拉尔达",
+      "route": "#character/esmeralda",
+      "path": "characters/esmeralda.json"
+    },
+    {
+      "id": "mikaela",
+      "name": "米迦艾拉",
+      "route": "#character/mikaela",
+      "path": "characters/mikaela.json"
+    },
+    {
+      "id": "orchel",
+      "name": "欧露赫露",
+      "route": "#character/orchel",
+      "path": "characters/orchel.json"
+    },
+    {
+      "id": "diego",
+      "name": "迪雅各",
+      "route": "#character/diego",
+      "path": "characters/diego.json"
+    },
+    {
+      "id": "loretta",
+      "name": "罗蕾塔",
+      "route": "#character/loretta",
+      "path": "characters/loretta.json"
+    },
+    {
+      "id": "seteth",
+      "name": "西提司",
+      "route": "#character/seteth",
+      "path": "characters/seteth.json"
+    },
+    {
+      "id": "ninae",
+      "name": "妮涅",
+      "route": "#character/ninae",
+      "path": "characters/ninae.json"
+    },
+    {
+      "id": "theodora",
+      "name": "赛奥朵拉",
+      "route": "#character/theodora",
+      "path": "characters/theodora.json"
+    },
+    {
+      "id": "bonaventure",
+      "name": "波拿帕尔特",
+      "route": "#character/bonaventure",
+      "path": "characters/bonaventure.json"
+    },
+    {
+      "id": "tobias",
+      "name": "托比亚斯",
+      "route": "#character/tobias",
+      "path": "characters/tobias.json"
+    },
+    {
+      "id": "lilian",
+      "name": "莉利安",
+      "route": "#character/lilian",
+      "path": "characters/lilian.json"
+    },
+    {
+      "id": "lysander",
+      "name": "莱桑达",
+      "route": "#character/lysander",
+      "path": "characters/lysander.json"
+    },
+    {
+      "id": "talimun",
+      "name": "谭利穆恩",
+      "route": "#character/talimun",
+      "path": "characters/talimun.json"
+    },
+    {
+      "id": "ursula",
+      "name": "乌修拉",
+      "route": "#character/ursula",
+      "path": "characters/ursula.json"
+    },
+    {
+      "id": "ludia",
+      "name": "露露蒂雅",
+      "route": "#character/ludia",
+      "path": "characters/ludia.json"
+    },
+    {
+      "id": "simon",
+      "name": "希蒙",
+      "route": "#character/simon",
+      "path": "characters/simon.json"
+    },
+    {
+      "id": "fianna",
+      "name": "绯亚娜",
+      "route": "#character/fianna",
+      "path": "characters/fianna.json"
+    },
+    {
+      "id": "leda",
+      "name": "蕾达",
+      "route": "#character/leda",
+      "path": "characters/leda.json"
+    },
+    {
+      "id": "buccar",
+      "name": "巴卡尼亚",
+      "route": "#character/buccar",
+      "path": "characters/buccar.json"
+    },
+    {
+      "id": "sirocco",
+      "name": "西洛可",
+      "route": "#character/sirocco",
+      "path": "characters/sirocco.json"
+    },
+    {
+      "id": "olympia",
+      "name": "奥琳琵娅",
+      "route": "#character/olympia",
+      "path": "characters/olympia.json"
+    },
+    {
+      "id": "mu",
+      "name": "穆",
+      "route": "#character/mu",
+      "path": "characters/mu.json"
+    },
+    {
+      "id": "anatolia",
+      "name": "爱娜特莉亚",
+      "route": "#character/anatolia",
+      "path": "characters/anatolia.json"
+    },
+    {
+      "id": "sha_lan",
+      "name": "沙兰",
+      "route": "#character/sha_lan",
+      "path": "characters/sha_lan.json"
+    },
+    {
+      "id": "nezha",
+      "name": "哪吒",
+      "route": "#character/nezha",
+      "path": "characters/nezha.json"
+    },
+    {
+      "id": "dadao",
+      "name": "大刀",
+      "route": "#character/dadao",
+      "path": "characters/dadao.json"
+    },
+    {
+      "id": "halvin",
+      "name": "哈尔温",
+      "route": "#character/halvin",
+      "path": "characters/halvin.json"
+    },
+    {
+      "id": "aurora_guest",
+      "name": "奥萝拉（Guest，译名待核）",
+      "route": "#character/aurora_guest",
+      "path": "characters/aurora_guest.json"
+    },
+    {
+      "id": "guzran",
+      "name": "古扎岚",
+      "route": "#character/guzran",
+      "path": "characters/guzran.json"
+    },
+    {
+      "id": "yang_jie",
+      "name": "杨界",
+      "route": "#character/yang_jie",
+      "path": "characters/yang_jie.json"
+    },
+    {
+      "id": "io",
+      "name": "伊欧",
+      "route": "#character/io",
+      "path": "characters/io.json"
+    },
+    {
+      "id": "peppe",
+      "name": "佩佩",
+      "route": "#character/peppe",
+      "path": "characters/peppe.json"
+    },
+    {
+      "id": "noctula",
+      "name": "诺克裘拉",
+      "route": "#character/noctula",
+      "path": "characters/noctula.json"
+    },
+    {
+      "id": "sofia",
+      "name": "索绯雅",
+      "route": "#character/sofia",
+      "path": "characters/sofia.json"
+    },
+    {
+      "id": "catania",
+      "name": "卡塔妮雅",
+      "route": "#character/catania",
+      "path": "characters/catania.json"
+    },
+    {
+      "id": "nydine",
+      "name": "努蒂奴",
+      "route": "#character/nydine",
+      "path": "characters/nydine.json"
+    },
+    {
+      "id": "zarcone",
+      "name": "札可捏",
+      "route": "#character/zarcone",
+      "path": "characters/zarcone.json"
+    },
+    {
+      "id": "majide",
+      "name": "马吉迪",
+      "route": "#character/majide",
+      "path": "characters/majide.json"
+    },
+    {
+      "id": "benditz",
+      "name": "班迪兹",
+      "route": "#character/benditz",
+      "path": "characters/benditz.json"
+    },
+    {
+      "id": "inyoni",
+      "name": "易尼奥尼",
+      "route": "#character/inyoni",
+      "path": "characters/inyoni.json"
+    },
+    {
+      "id": "jasmine",
+      "name": "贾斯敏（对照译名）",
+      "route": "#character/jasmine",
+      "path": "characters/jasmine.json"
+    },
+    {
+      "id": "alexandra",
+      "name": "亚历珊德拉",
+      "route": "#character/alexandra",
+      "path": "characters/alexandra.json"
+    },
+    {
+      "id": "nuzzuo",
+      "name": "努佐",
+      "route": "#character/nuzzuo",
+      "path": "characters/nuzzuo.json"
+    },
+    {
+      "id": "centurio",
+      "name": "盛托利翁",
+      "route": "#character/centurio",
+      "path": "characters/centurio.json"
+    },
+    {
+      "id": "kiroc",
+      "name": "奇洛伊卡",
+      "route": "#character/kiroc",
+      "path": "characters/kiroc.json"
+    },
+    {
+      "id": "aswan",
+      "name": "阿斯旺",
+      "route": "#character/aswan",
+      "path": "characters/aswan.json"
+    },
+    {
+      "id": "creek",
+      "name": "克里克",
+      "route": "#character/creek",
+      "path": "characters/creek.json"
+    },
+    {
+      "id": "hong_hua",
+      "name": "红花",
+      "route": "#character/hong_hua",
+      "path": "characters/hong_hua.json"
+    },
+    {
+      "id": "nathan",
+      "name": "纳森",
+      "route": "#character/nathan",
+      "path": "characters/nathan.json"
+    },
+    {
+      "id": "tahonia",
+      "name": "塔霍尼亚",
+      "route": "#character/tahonia",
+      "path": "characters/tahonia.json"
+    },
+    {
+      "id": "troy",
+      "name": "特洛伊",
+      "route": "#character/troy",
+      "path": "characters/troy.json"
+    }
+  ],
+  "translation": {
+    "locale": "zh-CN",
+    "status": "working_translation",
+    "term_count": 1674
+  }
+}

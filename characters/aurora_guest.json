@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "aurora_guest",
+    "name_en": "Aurora (guest)",
+    "name_zh": "奥萝拉（Guest，译名待核）",
+    "growth": {
+      "hp": 35,
+      "str": 40,
+      "mag": 20,
+      "spd": 35,
+      "dex": 35,
+      "def": 35,
+      "res": 35,
+      "lck": 30,
+      "cha": 20
+    },
+    "growth_total": 285,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Blinking Star",
+      "description": "If foe is undead, grants Shld+5 during combat.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "portrait": {
+      "path": "assets/portraits/aurora_guest.webp",
+      "width": 334,
+      "height": 311,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/other/select/btn_5.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = アウロラ; mapped to Aurora (guest).",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/aurora_guest.webp",
+    "width": 334,
+    "height": 311,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/other/select/btn_5.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = アウロラ; mapped to Aurora (guest).",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": null,
+  "reference_profile": null,
+  "reference_update": null,
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [],
+  "level_ability_variants": [],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Blinking Star",
+      "effect_zh": "敌人为不死族时，战斗中护盾 +5。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "single_structured_source_or_missing",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 35,
+        "str": 40,
+        "mag": 20,
+        "spd": 35,
+        "dex": 35,
+        "def": 35,
+        "res": 35,
+        "lck": 30,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": null,
+  "recruitment_variants": {
+    "base": null,
+    "profile": []
+  },
+  "supports": [],
+  "spells": [],
+  "gifts": [],
+  "skill_preferences": [],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": false,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "aurora_guest",
+  "display_name": "奥萝拉（Guest，译名待核）"
+}

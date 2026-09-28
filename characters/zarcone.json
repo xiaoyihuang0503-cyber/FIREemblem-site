@@ -1,0 +1,2138 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "zarcone",
+    "name_en": "Zarcone",
+    "name_zh": "札可捏",
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 20,
+      "spd": 35,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 30,
+      "cha": 15
+    },
+    "growth_total": 285,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Hatchet Man",
+      "description": "When equipped with an axe, grants Hit+10.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": [
+      "sword",
+      "axe"
+    ],
+    "proficiencies_source": "gamersky_character_profile",
+    "recruitment": {
+      "Cai": "3S, 8R, Negotiate",
+      "Dietrich": "3S, 7R, Negotiate",
+      "Theodora": "1S, 4R, Negotiate",
+      "Leda": "2S, 5R, Negotiate"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/zarcone.jpg",
+      "width": 160,
+      "height": 160,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_42.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image042.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 札可捏；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_eastern_earrings_04d20aef91_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_earrings_04d20aef91_en_621535",
+      "gift_name_en": "Eastern Earrings",
+      "gift_name_zh": "东方耳饰",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Earrings",
+      "name_zh": "东方耳饰",
+      "title_zh": "札可捏 · 东方耳饰",
+      "summary_zh": "札可捏喜欢东方耳饰；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "dee765d4de5cd34f6cd0e4435f80b3808adb07737ba13ffeda5e2be703493f64",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_eastern_earrings_04d20aef91_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_earrings_04d20aef91_en_621535",
+      "gift_name_en": "Eastern Earrings",
+      "gift_name_zh": "东方耳饰",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Earrings",
+      "name_zh": "东方耳饰",
+      "title_zh": "札可捏 · 东方耳饰",
+      "summary_zh": "札可捏喜欢东方耳饰；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_eastern_tea_leaves_04c8d9c5a1_loved_en_621535",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "札可捏 · 东方茶叶",
+      "summary_zh": "札可捏非常喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_eastern_tea_leaves_04c8d9c5a1_loved_en_623690",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "札可捏 · 东方茶叶",
+      "summary_zh": "札可捏非常喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_gaudy_bangle_aee55deed8_liked_en_621535",
+      "gift_profile_id": "gift_profile_gaudy_bangle_aee55deed8_en_621535",
+      "gift_name_en": "Gaudy Bangle",
+      "gift_name_zh": "华丽手镯",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Gaudy Bangle",
+      "name_zh": "华丽手镯",
+      "title_zh": "札可捏 · 华丽手镯",
+      "summary_zh": "札可捏喜欢华丽手镯；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "26ac79f3a47f886bc3ce48b2df57fc4afd474fe595f1b6e7e45ecb3295a1df56",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_gaudy_bangle_aee55deed8_liked_en_623690",
+      "gift_profile_id": "gift_profile_gaudy_bangle_aee55deed8_en_621535",
+      "gift_name_en": "Gaudy Bangle",
+      "gift_name_zh": "华丽手镯",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Gaudy Bangle",
+      "name_zh": "华丽手镯",
+      "title_zh": "札可捏 · 华丽手镯",
+      "summary_zh": "札可捏喜欢华丽手镯；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_pickled_bulbs_ac88733ed2_liked_en_621535",
+      "gift_profile_id": "gift_profile_pickled_bulbs_ac88733ed2_en_621535",
+      "gift_name_en": "Pickled Bulbs",
+      "gift_name_zh": "腌球茎",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pickled Bulbs",
+      "name_zh": "腌球茎",
+      "title_zh": "札可捏 · 腌球茎",
+      "summary_zh": "札可捏喜欢腌球茎；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "444f7a9dcfff270a533cba1affece101330bdb071283f55102c0f9558f5862bd",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_pickled_bulbs_ac88733ed2_liked_en_623690",
+      "gift_profile_id": "gift_profile_pickled_bulbs_ac88733ed2_en_621535",
+      "gift_name_en": "Pickled Bulbs",
+      "gift_name_zh": "腌球茎",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pickled Bulbs",
+      "name_zh": "腌球茎",
+      "title_zh": "札可捏 · 腌球茎",
+      "summary_zh": "札可捏喜欢腌球茎；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_potted_vegetables_a07b324f83_liked_en_621535",
+      "gift_profile_id": "gift_profile_potted_vegetables_a07b324f83_en_621535",
+      "gift_name_en": "Potted Vegetables",
+      "gift_name_zh": "盆栽蔬菜",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Potted Vegetables",
+      "name_zh": "盆栽蔬菜",
+      "title_zh": "札可捏 · 盆栽蔬菜",
+      "summary_zh": "札可捏喜欢盆栽蔬菜；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "a632e64f5670ea5924998d0bb386898d80be9403c920c0aca93561a7a91844bd",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_potted_vegetables_a07b324f83_liked_en_623690",
+      "gift_profile_id": "gift_profile_potted_vegetables_a07b324f83_en_621535",
+      "gift_name_en": "Potted Vegetables",
+      "gift_name_zh": "盆栽蔬菜",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Potted Vegetables",
+      "name_zh": "盆栽蔬菜",
+      "title_zh": "札可捏 · 盆栽蔬菜",
+      "summary_zh": "札可捏喜欢盆栽蔬菜；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_strategy_manuscript_1ac56c5c7d_liked_en_621535",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "札可捏 · 战略手稿",
+      "summary_zh": "札可捏喜欢战略手稿；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_strategy_manuscript_1ac56c5c7d_liked_en_623690",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "札可捏 · 战略手稿",
+      "summary_zh": "札可捏喜欢战略手稿；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_tales_of_adventure_319f747588_liked_en_621535",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Tales of Adventure",
+      "name_zh": "冒险故事",
+      "title_zh": "札可捏 · 冒险故事",
+      "summary_zh": "札可捏喜欢冒险故事；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "0a62e26a3efa335ed9d8b413d3a9bad3adbc403b955a450a928b3b36393ec0dd",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_tales_of_adventure_319f747588_liked_en_623690",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Tales of Adventure",
+      "name_zh": "冒险故事",
+      "title_zh": "札可捏 · 冒险故事",
+      "summary_zh": "札可捏喜欢冒险故事；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_wing_fletching_4e85c1dea4_liked_en_621535",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Wing Fletching",
+      "name_zh": "箭羽",
+      "title_zh": "札可捏 · 箭羽",
+      "summary_zh": "札可捏喜欢箭羽；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c6d67c999327a4fd428a027e6f1de23ebc66bd030a58e686b280f403ed94e454",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_zarcone_f19f2ab3d1_wing_fletching_4e85c1dea4_liked_en_623690",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Wing Fletching",
+      "name_zh": "箭羽",
+      "title_zh": "札可捏 · 箭羽",
+      "summary_zh": "札可捏喜欢箭羽；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Eastern Earrings",
+      "gift_name_zh": "东方耳饰",
+      "gift_profile_id": "gift_profile_eastern_earrings_04d20aef91_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_eastern_earrings_04d20aef91_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_earrings_04d20aef91_en_621535",
+          "gift_name_en": "Eastern Earrings",
+          "gift_name_zh": "东方耳饰",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Earrings",
+          "name_zh": "东方耳饰",
+          "title_zh": "札可捏 · 东方耳饰",
+          "summary_zh": "札可捏喜欢东方耳饰；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "dee765d4de5cd34f6cd0e4435f80b3808adb07737ba13ffeda5e2be703493f64",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_eastern_earrings_04d20aef91_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_earrings_04d20aef91_en_621535",
+          "gift_name_en": "Eastern Earrings",
+          "gift_name_zh": "东方耳饰",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Earrings",
+          "name_zh": "东方耳饰",
+          "title_zh": "札可捏 · 东方耳饰",
+          "summary_zh": "札可捏喜欢东方耳饰；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_eastern_tea_leaves_04c8d9c5a1_loved_en_621535",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "札可捏 · 东方茶叶",
+          "summary_zh": "札可捏非常喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_eastern_tea_leaves_04c8d9c5a1_loved_en_623690",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "札可捏 · 东方茶叶",
+          "summary_zh": "札可捏非常喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Gaudy Bangle",
+      "gift_name_zh": "华丽手镯",
+      "gift_profile_id": "gift_profile_gaudy_bangle_aee55deed8_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_gaudy_bangle_aee55deed8_liked_en_621535",
+          "gift_profile_id": "gift_profile_gaudy_bangle_aee55deed8_en_621535",
+          "gift_name_en": "Gaudy Bangle",
+          "gift_name_zh": "华丽手镯",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Gaudy Bangle",
+          "name_zh": "华丽手镯",
+          "title_zh": "札可捏 · 华丽手镯",
+          "summary_zh": "札可捏喜欢华丽手镯；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "26ac79f3a47f886bc3ce48b2df57fc4afd474fe595f1b6e7e45ecb3295a1df56",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_gaudy_bangle_aee55deed8_liked_en_623690",
+          "gift_profile_id": "gift_profile_gaudy_bangle_aee55deed8_en_621535",
+          "gift_name_en": "Gaudy Bangle",
+          "gift_name_zh": "华丽手镯",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Gaudy Bangle",
+          "name_zh": "华丽手镯",
+          "title_zh": "札可捏 · 华丽手镯",
+          "summary_zh": "札可捏喜欢华丽手镯；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pickled Bulbs",
+      "gift_name_zh": "腌球茎",
+      "gift_profile_id": "gift_profile_pickled_bulbs_ac88733ed2_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_pickled_bulbs_ac88733ed2_liked_en_621535",
+          "gift_profile_id": "gift_profile_pickled_bulbs_ac88733ed2_en_621535",
+          "gift_name_en": "Pickled Bulbs",
+          "gift_name_zh": "腌球茎",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pickled Bulbs",
+          "name_zh": "腌球茎",
+          "title_zh": "札可捏 · 腌球茎",
+          "summary_zh": "札可捏喜欢腌球茎；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "444f7a9dcfff270a533cba1affece101330bdb071283f55102c0f9558f5862bd",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_pickled_bulbs_ac88733ed2_liked_en_623690",
+          "gift_profile_id": "gift_profile_pickled_bulbs_ac88733ed2_en_621535",
+          "gift_name_en": "Pickled Bulbs",
+          "gift_name_zh": "腌球茎",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pickled Bulbs",
+          "name_zh": "腌球茎",
+          "title_zh": "札可捏 · 腌球茎",
+          "summary_zh": "札可捏喜欢腌球茎；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Potted Vegetables",
+      "gift_name_zh": "盆栽蔬菜",
+      "gift_profile_id": "gift_profile_potted_vegetables_a07b324f83_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_potted_vegetables_a07b324f83_liked_en_621535",
+          "gift_profile_id": "gift_profile_potted_vegetables_a07b324f83_en_621535",
+          "gift_name_en": "Potted Vegetables",
+          "gift_name_zh": "盆栽蔬菜",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Potted Vegetables",
+          "name_zh": "盆栽蔬菜",
+          "title_zh": "札可捏 · 盆栽蔬菜",
+          "summary_zh": "札可捏喜欢盆栽蔬菜；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "a632e64f5670ea5924998d0bb386898d80be9403c920c0aca93561a7a91844bd",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_potted_vegetables_a07b324f83_liked_en_623690",
+          "gift_profile_id": "gift_profile_potted_vegetables_a07b324f83_en_621535",
+          "gift_name_en": "Potted Vegetables",
+          "gift_name_zh": "盆栽蔬菜",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Potted Vegetables",
+          "name_zh": "盆栽蔬菜",
+          "title_zh": "札可捏 · 盆栽蔬菜",
+          "summary_zh": "札可捏喜欢盆栽蔬菜；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_strategy_manuscript_1ac56c5c7d_liked_en_621535",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "札可捏 · 战略手稿",
+          "summary_zh": "札可捏喜欢战略手稿；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_strategy_manuscript_1ac56c5c7d_liked_en_623690",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "札可捏 · 战略手稿",
+          "summary_zh": "札可捏喜欢战略手稿；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_tales_of_adventure_319f747588_liked_en_621535",
+          "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+          "gift_name_en": "Tales of Adventure",
+          "gift_name_zh": "冒险故事",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Tales of Adventure",
+          "name_zh": "冒险故事",
+          "title_zh": "札可捏 · 冒险故事",
+          "summary_zh": "札可捏喜欢冒险故事；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "0a62e26a3efa335ed9d8b413d3a9bad3adbc403b955a450a928b3b36393ec0dd",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_tales_of_adventure_319f747588_liked_en_623690",
+          "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+          "gift_name_en": "Tales of Adventure",
+          "gift_name_zh": "冒险故事",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Tales of Adventure",
+          "name_zh": "冒险故事",
+          "title_zh": "札可捏 · 冒险故事",
+          "summary_zh": "札可捏喜欢冒险故事；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_wing_fletching_4e85c1dea4_liked_en_621535",
+          "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+          "gift_name_en": "Wing Fletching",
+          "gift_name_zh": "箭羽",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Wing Fletching",
+          "name_zh": "箭羽",
+          "title_zh": "札可捏 · 箭羽",
+          "summary_zh": "札可捏喜欢箭羽；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c6d67c999327a4fd428a027e6f1de23ebc66bd030a58e686b280f403ed94e454",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_zarcone_f19f2ab3d1_wing_fletching_4e85c1dea4_liked_en_623690",
+          "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+          "gift_name_en": "Wing Fletching",
+          "gift_name_zh": "箭羽",
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Wing Fletching",
+          "name_zh": "箭羽",
+          "title_zh": "札可捏 · 箭羽",
+          "summary_zh": "札可捏喜欢箭羽；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "ef20cbc26cfe6ffefce6d06b9f1c8f59ae2a00f9d03f745a647feb60988ecbd8",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/zarcone.jpg",
+    "width": 160,
+    "height": 160,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_42.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image042.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 札可捏；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 42,
+    "name_zh": "札可捏",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_42.shtml",
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 20,
+      "spd": 35,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 30,
+      "cha": 15
+    },
+    "preferred_skills": [
+      "剑术",
+      "斧术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv1/名声Lv4/可交涉（难度低）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv2/名声Lv5/可交涉（难度低）"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "装备斧时，命中+10"
+  },
+  "reference_profile": {
+    "name_en": "Zarcone",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+    "faction": "Bandits",
+    "personal_ability": "Hatchet Man",
+    "preferred_skills": [
+      "Axe Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [
+      "White Magic Skill",
+      "Black Magic Skill"
+    ],
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 20,
+      "spd": 35,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 30,
+      "cha": 15
+    },
+    "growth_total": 285
+  },
+  "reference_update": {
+    "id": "profile_zarcone",
+    "character_id": "zarcone",
+    "name_en": "Zarcone",
+    "name_zh": "札可捏",
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 20,
+      "spd": 35,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 30,
+      "cha": 15
+    },
+    "birthday": "3/11",
+    "personal_ability_name": "Hatchet Man",
+    "preferred_skills": [
+      "Axe",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "White Magic",
+      "Black Magic"
+    ],
+    "source_id": "en_623989",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+    "source_updated_text": "2026-09-26T06:22:07-04:00",
+    "retrieved_at": "2026-09-26T17:30:39+00:00",
+    "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": []
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_vulgar_conduct_10cf20101b_en_623691",
+      "name_en": "Vulgar Conduct+",
+      "name_zh": "粗豪举止+",
+      "title_zh": "粗豪举止+",
+      "summary_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20、攻击 +3。",
+      "ability": "Vulgar Conduct+",
+      "effect_facts": {
+        "condition": "foe_hp_at_most_percent",
+        "maximum_foe_hp_percent": 50,
+        "timing": "during_combat",
+        "stat_bonuses": {
+          "hit": 20,
+          "atk": 3
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20、攻击 +3。",
+      "effect_text_sha256": "b86e8113bb14d3c3ae5583c597a08684e3f730f00228497720778d803786ff89",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_vulgar_conduct_7a7b1d8d48_en_623691",
+      "name_en": "Vulgar Conduct",
+      "name_zh": "粗豪举止",
+      "title_zh": "粗豪举止",
+      "summary_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20。",
+      "ability": "Vulgar Conduct",
+      "effect_facts": {
+        "condition": "foe_hp_at_most_percent",
+        "maximum_foe_hp_percent": 50,
+        "timing": "during_combat",
+        "stat_bonuses": {
+          "hit": 20
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20。",
+      "effect_text_sha256": "d77eb30a821ca4dd793b315d26a72174972153ab7df05c4e8b8d6923102747c6",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Vulgar Conduct",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_zarcone_vulgarconduct_20",
+          "character_id": "zarcone",
+          "character": "Zarcone",
+          "ability": "Vulgar Conduct",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_623989",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+          "source_updated_text": "2026-09-26T06:22:07-04:00",
+          "retrieved_at": "2026-09-26T17:30:39+00:00",
+          "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623989",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+            "source_updated_text": "2026-09-26T06:22:07-04:00",
+            "retrieved_at": "2026-09-26T17:30:39+00:00",
+            "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_vulgar_conduct_7a7b1d8d48_en_623691",
+          "name_en": "Vulgar Conduct",
+          "name_zh": "粗豪举止",
+          "title_zh": "粗豪举止",
+          "summary_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20。",
+          "ability": "Vulgar Conduct",
+          "effect_facts": {
+            "condition": "foe_hp_at_most_percent",
+            "maximum_foe_hp_percent": 50,
+            "timing": "during_combat",
+            "stat_bonuses": {
+              "hit": 20
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20。",
+          "effect_text_sha256": "d77eb30a821ca4dd793b315d26a72174972153ab7df05c4e8b8d6923102747c6",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Vulgar Conduct+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_zarcone_vulgarconductplus_35",
+          "character_id": "zarcone",
+          "character": "Zarcone",
+          "ability": "Vulgar Conduct+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_623989",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+          "source_updated_text": "2026-09-26T06:22:07-04:00",
+          "retrieved_at": "2026-09-26T17:30:39+00:00",
+          "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623989",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+            "source_updated_text": "2026-09-26T06:22:07-04:00",
+            "retrieved_at": "2026-09-26T17:30:39+00:00",
+            "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_vulgar_conduct_10cf20101b_en_623691",
+          "name_en": "Vulgar Conduct+",
+          "name_zh": "粗豪举止+",
+          "title_zh": "粗豪举止+",
+          "summary_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20、攻击 +3。",
+          "ability": "Vulgar Conduct+",
+          "effect_facts": {
+            "condition": "foe_hp_at_most_percent",
+            "maximum_foe_hp_percent": 50,
+            "timing": "during_combat",
+            "stat_bonuses": {
+              "hit": 20,
+              "atk": 3
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "敌军当前生命不高于生命上限的 50% 时，本次战斗命中 +20、攻击 +3。",
+          "effect_text_sha256": "b86e8113bb14d3c3ae5583c597a08684e3f730f00228497720778d803786ff89",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Zarcone",
+          "character_id": "zarcone",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_hatchet_man_b48cd796b4_en_623691",
+      "name_en": "Hatchet Man",
+      "name_zh": "斧使",
+      "title_zh": "斧使",
+      "summary_zh": "装备斧时，命中 +10。",
+      "ability": "Hatchet Man",
+      "effect_facts": {
+        "condition": "equipped_weapon",
+        "weapon": "axe",
+        "stat": "hit",
+        "bonus": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "装备斧时，命中 +10。",
+      "effect_text_sha256": "39e8cb526e7478140748ae008e0a93e8325f516e71449d6fc5b3fdb7fb41574d",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Hatchet Man",
+      "effect_zh": "装备斧时，命中 +10。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Hatchet Man",
+      "effect_zh": "装备斧时，命中+10",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_42.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_hatchet_man_b48cd796b4_en_623691",
+      "name_en": "Hatchet Man",
+      "name_zh": "斧使",
+      "title_zh": "斧使",
+      "summary_zh": "装备斧时，命中 +10。",
+      "ability": "Hatchet Man",
+      "effect_facts": {
+        "condition": "equipped_weapon",
+        "weapon": "axe",
+        "stat": "hit",
+        "bonus": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "装备斧时，命中 +10。",
+      "effect_text_sha256": "39e8cb526e7478140748ae008e0a93e8325f516e71449d6fc5b3fdb7fb41574d",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Zarcone",
+      "character_id": "zarcone",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_zarcone_cai_i_5",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "name_zh": "札可捏",
+      "route": "Cai",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Refuse to pay thrice then pay Zarcone 10 Gold.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 10,
+      "required_payment_refusals": 3,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_zarcone_dietrich_i_4",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "name_zh": "札可捏",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 7,
+      "special_requirement": "Refuse to pay thrice then pay Zarcone 10 Gold.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 10,
+      "required_payment_refusals": 3,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_zarcone_leda_i_4",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "name_zh": "札可捏",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 2,
+      "renown_level": 5,
+      "special_requirement": "Refuse to pay thrice then pay Zarcone 10 Gold.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 10,
+      "required_payment_refusals": 3,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_zarcone_theodora_i_5",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "name_zh": "札可捏",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 1,
+      "renown_level": 4,
+      "special_requirement": "Refuse to pay thrice then pay Zarcone 10 Gold.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 10,
+      "required_payment_refusals": 3,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_zarcone_vulgarconduct_20",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "ability": "Vulgar Conduct",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_zarcone_vulgarconductplus_35",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "ability": "Vulgar Conduct+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_zarcone_d_black_thunder",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_zarcone_d_white_heal",
+      "character_id": "zarcone",
+      "character": "Zarcone",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_623989",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+      "source_updated_text": "2026-09-26T06:22:07-04:00",
+      "retrieved_at": "2026-09-26T17:30:39+00:00",
+      "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 40,
+        "str": 30,
+        "mag": 20,
+        "spd": 35,
+        "dex": 60,
+        "def": 30,
+        "res": 25,
+        "lck": 30,
+        "cha": 15
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 40,
+        "str": 30,
+        "mag": 20,
+        "spd": 35,
+        "dex": 60,
+        "def": 30,
+        "res": 25,
+        "lck": 30,
+        "cha": 15
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_42.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 40,
+        "str": 30,
+        "mag": 20,
+        "spd": 35,
+        "dex": 60,
+        "def": 30,
+        "res": 25,
+        "lck": 30,
+        "cha": 15
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 40,
+        "str": 30,
+        "mag": 20,
+        "spd": 35,
+        "dex": 60,
+        "def": 30,
+        "res": 25,
+        "lck": 30,
+        "cha": 15
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623989",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623989",
+        "source_updated_text": "2026-09-26T06:22:07-04:00",
+        "retrieved_at": "2026-09-26T17:30:39+00:00",
+        "content_sha256": "d1ae683a0cce122f4148e16413896e023584a79d6482e00101d1035cabd285b4",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv1/名声Lv4/可交涉（难度低）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章",
+      "condition": "支援Lv2/名声Lv5/可交涉（难度低）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "3S, 8R, Negotiate",
+      "Dietrich": "3S, 7R, Negotiate",
+      "Theodora": "1S, 4R, Negotiate",
+      "Leda": "2S, 5R, Negotiate"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv1/名声Lv4/可交涉（难度低）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv2/名声Lv5/可交涉（难度低）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Eshmel",
+      "partner": "Zarcone",
+      "rank": "A"
+    },
+    {
+      "name": "Gaitz",
+      "partner": "Zarcone",
+      "rank": "C"
+    },
+    {
+      "name": "Halvin",
+      "partner": "Zarcone",
+      "rank": "C"
+    },
+    {
+      "name": "Simon",
+      "partner": "Zarcone",
+      "rank": "C"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Gaitz",
+      "rank": "C"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Halvin",
+      "rank": "C"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Simon",
+      "rank": "C"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Zarcone",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Thunder"
+    },
+    {
+      "name": "Zarcone",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Zarcone",
+      "gift": "Eastern Earrings"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Gaudy Bangle"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Pickled Bulbs"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Potted Vegetables"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Strategy Manuscript"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Tales of Adventure"
+    },
+    {
+      "name": "Zarcone",
+      "gift": "Wing Fletching"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Zarcone",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Zarcone",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    },
+    {
+      "name": "Zarcone",
+      "kind": "non_ideal",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Zarcone",
+      "kind": "non_ideal",
+      "skill": "Black Magic Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "zarcone",
+  "display_name": "札可捏"
+}

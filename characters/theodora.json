@@ -1,0 +1,1904 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "theodora",
+    "name_en": "Theodora",
+    "name_zh": "赛奥朵拉",
+    "growth": {
+      "hp": 70,
+      "str": 50,
+      "mag": 30,
+      "spd": 40,
+      "dex": 40,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 50
+    },
+    "growth_total": 380,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Royal Resolve",
+      "description": "Unit takes half damage when attacked. Trigger % = 30.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "N/A",
+      "Dietrich": "N/A",
+      "Theodora": "Automatic",
+      "Leda": "N/A"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/theodora.jpg",
+      "width": 450,
+      "height": 450,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_4.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image004.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 赛奥朵拉；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_theodora_41a33193e9_dagda_beard_grass_79e19a2046_liked_en_621535",
+      "gift_profile_id": "gift_profile_dagda_beard_grass_79e19a2046_en_621535",
+      "gift_name_en": "Dagda Beard Grass",
+      "gift_name_zh": "达格达须草",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Dagda Beard Grass",
+      "name_zh": "达格达须草",
+      "title_zh": "赛奥朵拉 · 达格达须草",
+      "summary_zh": "赛奥朵拉喜欢达格达须草；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "3283a0b63a21feef82917fd25f0fd26ff6b6dc7f1bcf7dcff097e08a1ca77490",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_dagda_beard_grass_79e19a2046_liked_en_623690",
+      "gift_profile_id": "gift_profile_dagda_beard_grass_79e19a2046_en_621535",
+      "gift_name_en": "Dagda Beard Grass",
+      "gift_name_zh": "达格达须草",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Dagda Beard Grass",
+      "name_zh": "达格达须草",
+      "title_zh": "赛奥朵拉 · 达格达须草",
+      "summary_zh": "赛奥朵拉喜欢达格达须草；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_eastern_black_silk_b0371e6413_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Black Silk",
+      "name_zh": "东方黑丝绸",
+      "title_zh": "赛奥朵拉 · 东方黑丝绸",
+      "summary_zh": "赛奥朵拉喜欢东方黑丝绸；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "98aba28dcba179bec7ffb800601cdee492330e4d20c18d122656d280fececf63",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_eastern_black_silk_b0371e6413_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Black Silk",
+      "name_zh": "东方黑丝绸",
+      "title_zh": "赛奥朵拉 · 东方黑丝绸",
+      "summary_zh": "赛奥朵拉喜欢东方黑丝绸；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "赛奥朵拉 · 东方茶叶",
+      "summary_zh": "赛奥朵拉喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "赛奥朵拉 · 东方茶叶",
+      "summary_zh": "赛奥朵拉喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_horse_grooming_kit_26c14fb146_liked_en_621535",
+      "gift_profile_id": "gift_profile_horse_grooming_kit_26c14fb146_en_621535",
+      "gift_name_en": "Horse-Grooming Kit",
+      "gift_name_zh": "坐骑护理套装",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Horse-Grooming Kit",
+      "name_zh": "坐骑护理套装",
+      "title_zh": "赛奥朵拉 · 坐骑护理套装",
+      "summary_zh": "赛奥朵拉喜欢坐骑护理套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "8b8a2f5f80afecbfcbd4ad3ca2579cca13f38a9ba882cfb98db32af38356683b",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_theodora_41a33193e9_horse_grooming_kit_26c14fb146_liked_en_623690",
+      "gift_profile_id": "gift_profile_horse_grooming_kit_26c14fb146_en_621535",
+      "gift_name_en": "Horse-Grooming Kit",
+      "gift_name_zh": "坐骑护理套装",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Horse-Grooming Kit",
+      "name_zh": "坐骑护理套装",
+      "title_zh": "赛奥朵拉 · 坐骑护理套装",
+      "summary_zh": "赛奥朵拉喜欢坐骑护理套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Dagda Beard Grass",
+      "gift_name_zh": "达格达须草",
+      "gift_profile_id": "gift_profile_dagda_beard_grass_79e19a2046_en_621535",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_theodora_41a33193e9_dagda_beard_grass_79e19a2046_liked_en_621535",
+          "gift_profile_id": "gift_profile_dagda_beard_grass_79e19a2046_en_621535",
+          "gift_name_en": "Dagda Beard Grass",
+          "gift_name_zh": "达格达须草",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Dagda Beard Grass",
+          "name_zh": "达格达须草",
+          "title_zh": "赛奥朵拉 · 达格达须草",
+          "summary_zh": "赛奥朵拉喜欢达格达须草；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "3283a0b63a21feef82917fd25f0fd26ff6b6dc7f1bcf7dcff097e08a1ca77490",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_theodora_41a33193e9_dagda_beard_grass_79e19a2046_liked_en_623690",
+          "gift_profile_id": "gift_profile_dagda_beard_grass_79e19a2046_en_621535",
+          "gift_name_en": "Dagda Beard Grass",
+          "gift_name_zh": "达格达须草",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Dagda Beard Grass",
+          "name_zh": "达格达须草",
+          "title_zh": "赛奥朵拉 · 达格达须草",
+          "summary_zh": "赛奥朵拉喜欢达格达须草；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_theodora_41a33193e9_eastern_black_silk_b0371e6413_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+          "gift_name_en": "Eastern Black Silk",
+          "gift_name_zh": "东方黑丝绸",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Black Silk",
+          "name_zh": "东方黑丝绸",
+          "title_zh": "赛奥朵拉 · 东方黑丝绸",
+          "summary_zh": "赛奥朵拉喜欢东方黑丝绸；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "98aba28dcba179bec7ffb800601cdee492330e4d20c18d122656d280fececf63",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_theodora_41a33193e9_eastern_black_silk_b0371e6413_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+          "gift_name_en": "Eastern Black Silk",
+          "gift_name_zh": "东方黑丝绸",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Black Silk",
+          "name_zh": "东方黑丝绸",
+          "title_zh": "赛奥朵拉 · 东方黑丝绸",
+          "summary_zh": "赛奥朵拉喜欢东方黑丝绸；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_theodora_41a33193e9_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "赛奥朵拉 · 东方茶叶",
+          "summary_zh": "赛奥朵拉喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_theodora_41a33193e9_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "赛奥朵拉 · 东方茶叶",
+          "summary_zh": "赛奥朵拉喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Horse-Grooming Kit",
+      "gift_name_zh": "坐骑护理套装",
+      "gift_profile_id": "gift_profile_horse_grooming_kit_26c14fb146_en_621535",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_theodora_41a33193e9_horse_grooming_kit_26c14fb146_liked_en_621535",
+          "gift_profile_id": "gift_profile_horse_grooming_kit_26c14fb146_en_621535",
+          "gift_name_en": "Horse-Grooming Kit",
+          "gift_name_zh": "坐骑护理套装",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Horse-Grooming Kit",
+          "name_zh": "坐骑护理套装",
+          "title_zh": "赛奥朵拉 · 坐骑护理套装",
+          "summary_zh": "赛奥朵拉喜欢坐骑护理套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "8b8a2f5f80afecbfcbd4ad3ca2579cca13f38a9ba882cfb98db32af38356683b",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_theodora_41a33193e9_horse_grooming_kit_26c14fb146_liked_en_623690",
+          "gift_profile_id": "gift_profile_horse_grooming_kit_26c14fb146_en_621535",
+          "gift_name_en": "Horse-Grooming Kit",
+          "gift_name_zh": "坐骑护理套装",
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Horse-Grooming Kit",
+          "name_zh": "坐骑护理套装",
+          "title_zh": "赛奥朵拉 · 坐骑护理套装",
+          "summary_zh": "赛奥朵拉喜欢坐骑护理套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "e4f16e049b6a53d9c2af5878aec9e56deddb4148737fef24dbaf6f61cf83af39",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [
+    {
+      "id": "other_item_profiles_mahadu_s_arm_79b8eab106_en_621281",
+      "name_en": "Mahadu's Arm",
+      "name_zh": "马哈杜之臂",
+      "title_zh": "马哈杜之臂",
+      "summary_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+      "category": "stat_bonus_item",
+      "category_zh": "属性加成物品",
+      "effect_facts": {
+        "stat_bonuses": {
+          "str": 6
+        },
+        "permanent_stat_change": null,
+        "stacking": null,
+        "equip_requirement": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+      "character_relations": [
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "signature_item"
+        }
+      ],
+      "effect_text_sha256": "fce63cce2c9e6aaa842a6e3357b4f2fe54670e345f868d69cd7bf5685e4ced12",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_621281",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+      "source_updated_text": "2026-09-26T04:04:39-04:00",
+      "retrieved_at": "2026-09-27T13:55:20+00:00",
+      "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "other_item_profiles_mahadu_s_arm_79b8eab106_en_624946",
+      "name_en": "Mahadu's Arm",
+      "name_zh": "马哈杜之臂",
+      "title_zh": "马哈杜之臂",
+      "summary_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+      "category": "stat_bonus_item",
+      "category_zh": "属性加成物品",
+      "effect_facts": {
+        "stat_bonuses": {
+          "str": 6
+        },
+        "permanent_stat_change": null,
+        "stacking": null,
+        "equip_requirement": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+      "character_relations": [
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "signature_item"
+        }
+      ],
+      "effect_text_sha256": "fce63cce2c9e6aaa842a6e3357b4f2fe54670e345f868d69cd7bf5685e4ced12",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_624946",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+      "source_updated_text": "2026-09-25T07:24:54-04:00",
+      "retrieved_at": "2026-09-27T07:40:00+00:00",
+      "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_variants": [
+    {
+      "name_en": "Mahadu's Arm",
+      "assertions": [
+        {
+          "id": "other_item_profiles_mahadu_s_arm_79b8eab106_en_621281",
+          "name_en": "Mahadu's Arm",
+          "name_zh": "马哈杜之臂",
+          "title_zh": "马哈杜之臂",
+          "summary_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+          "category": "stat_bonus_item",
+          "category_zh": "属性加成物品",
+          "effect_facts": {
+            "stat_bonuses": {
+              "str": 6
+            },
+            "permanent_stat_change": null,
+            "stacking": null,
+            "equip_requirement": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+          "character_relations": [
+            {
+              "character": "Theodora",
+              "character_id": "theodora",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "signature_item"
+            }
+          ],
+          "effect_text_sha256": "fce63cce2c9e6aaa842a6e3357b4f2fe54670e345f868d69cd7bf5685e4ced12",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_621281",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+          "source_updated_text": "2026-09-26T04:04:39-04:00",
+          "retrieved_at": "2026-09-27T13:55:20+00:00",
+          "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+          "verification": "reference_fact_not_in_game_verified"
+        },
+        {
+          "id": "other_item_profiles_mahadu_s_arm_79b8eab106_en_624946",
+          "name_en": "Mahadu's Arm",
+          "name_zh": "马哈杜之臂",
+          "title_zh": "马哈杜之臂",
+          "summary_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+          "category": "stat_bonus_item",
+          "category_zh": "属性加成物品",
+          "effect_facts": {
+            "stat_bonuses": {
+              "str": 6
+            },
+            "permanent_stat_change": null,
+            "stacking": null,
+            "equip_requirement": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "力量 +6；加成是否永久、叠加方式及装备要求未列出。",
+          "character_relations": [
+            {
+              "character": "Theodora",
+              "character_id": "theodora",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "signature_item"
+            }
+          ],
+          "effect_text_sha256": "fce63cce2c9e6aaa842a6e3357b4f2fe54670e345f868d69cd7bf5685e4ced12",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_624946",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+          "source_updated_text": "2026-09-25T07:24:54-04:00",
+          "retrieved_at": "2026-09-27T07:40:00+00:00",
+          "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+          "verification": "reference_fact_not_in_game_verified"
+        }
+      ],
+      "effect_comparison_status": "same"
+    }
+  ],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/theodora.jpg",
+    "width": 450,
+    "height": 450,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_4.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image004.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 赛奥朵拉；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 4,
+    "name_zh": "赛奥朵拉",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_4.shtml",
+    "growth": {
+      "hp": 70,
+      "str": 50,
+      "mag": 30,
+      "spd": 40,
+      "dex": 50,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 50
+    },
+    "preferred_skills": [
+      "枪术",
+      "白魔术",
+      "指挥术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有25%概率发动，攻击力+3"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "女",
+    "personal_ability_zh": "受到攻击时有30%概率发动，所受伤害减半"
+  },
+  "reference_profile": {
+    "name_en": "Theodora",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+    "faction": "Megaira's Beacon",
+    "personal_ability": "Royal Resolve",
+    "preferred_skills": [
+      "Authority Skill",
+      "White Magic Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 70,
+      "str": 50,
+      "mag": 30,
+      "spd": 40,
+      "dex": 40,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 50
+    },
+    "growth_total": 380
+  },
+  "reference_update": {
+    "id": "profile_theodora",
+    "character_id": "theodora",
+    "name_en": "Theodora",
+    "name_zh": "赛奥朵拉",
+    "growth": {
+      "hp": 70,
+      "str": 50,
+      "mag": 30,
+      "spd": 40,
+      "dex": 40,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 50
+    },
+    "birthday": "2/12",
+    "personal_ability_name": "Royal Resolve",
+    "preferred_skills": [
+      "Authority",
+      "White Magic",
+      "Spear"
+    ],
+    "non_ideal_skills": [
+      "Black Magic"
+    ],
+    "source_id": "en_620411",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+    "source_updated_text": "2026-09-26T05:50:03-04:00",
+    "retrieved_at": "2026-09-26T12:59:10+00:00",
+    "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Read the Winds",
+      "Vanguard",
+      "Flitting Flier",
+      "Knightly Senses",
+      "Rein",
+      "Infantry Move"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+      "name_en": "Diadem of Duality",
+      "name_zh": "两仪之冠",
+      "title_zh": "两仪之冠",
+      "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "ability": "Diadem of Duality",
+      "crest_name_en": "Gautier",
+      "crest_name_zh": "戈蒂耶",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "theodora",
+        "bertrand",
+        "talimun",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 3
+        },
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+      "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Duality",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+        "name_en": "Diadem of Duality",
+        "name_zh": "两仪之冠",
+        "title_zh": "两仪之冠",
+        "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "ability": "Diadem of Duality",
+        "crest_name_en": "Gautier",
+        "crest_name_zh": "戈蒂耶",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Theodora",
+            "character_id": "theodora",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Talimun",
+            "character_id": "talimun",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "theodora",
+          "bertrand",
+          "talimun",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 3
+          },
+          "trigger_percent": 25
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+        "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Cai",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Talimun",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Theodora",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_direct_hit_f18fdc920d_en_623691",
+      "name_en": "Direct Hit",
+      "name_zh": "直接命中",
+      "title_zh": "直接命中",
+      "summary_zh": "使用炎之战技发动攻击时，伤害 +10。触发概率为 30%。",
+      "ability": "Direct Hit",
+      "effect_facts": {
+        "condition": "self_attacking_with_blaze_art",
+        "damage_bonus": 10,
+        "trigger_percent": 30
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用炎之战技发动攻击时，伤害 +10。触发概率为 30%。",
+      "effect_text_sha256": "1caa90c9b5976890522077fc0285d8f5463cb2355d9958f5cc0efb32f3738ddc",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 5,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Direct Hit",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_theodora_directhit_5",
+          "character_id": "theodora",
+          "character": "Theodora",
+          "ability": "Direct Hit",
+          "level": 5,
+          "effect": null,
+          "source_id": "en_620411",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+          "source_updated_text": "2026-09-26T05:50:03-04:00",
+          "retrieved_at": "2026-09-26T12:59:10+00:00",
+          "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 5,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_620411",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+            "source_updated_text": "2026-09-26T05:50:03-04:00",
+            "retrieved_at": "2026-09-26T12:59:10+00:00",
+            "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_direct_hit_f18fdc920d_en_623691",
+          "name_en": "Direct Hit",
+          "name_zh": "直接命中",
+          "title_zh": "直接命中",
+          "summary_zh": "使用炎之战技发动攻击时，伤害 +10。触发概率为 30%。",
+          "ability": "Direct Hit",
+          "effect_facts": {
+            "condition": "self_attacking_with_blaze_art",
+            "damage_bonus": 10,
+            "trigger_percent": 30
+          },
+          "effect_status": "parsed",
+          "effect_zh": "使用炎之战技发动攻击时，伤害 +10。触发概率为 30%。",
+          "effect_text_sha256": "1caa90c9b5976890522077fc0285d8f5463cb2355d9958f5cc0efb32f3738ddc",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 5,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_royal_resolve_650e1b7118_en_623691",
+      "name_en": "Royal Resolve",
+      "name_zh": "王者决心",
+      "title_zh": "王者决心",
+      "summary_zh": "受到攻击时，所受伤害减半。触发概率为 30%。",
+      "ability": "Royal Resolve",
+      "effect_facts": {
+        "condition": "self_is_attacked",
+        "damage_taken_multiplier": 0.5,
+        "trigger_percent": 30
+      },
+      "effect_status": "parsed",
+      "effect_zh": "受到攻击时，所受伤害减半。触发概率为 30%。",
+      "effect_text_sha256": "1d22a7b6370c060cf9691ae109717f15fb4f21579385679e586220a2d74f1963",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Royal Resolve",
+      "effect_zh": "受攻击时承受伤害减半。发动概率：30%。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Royal Resolve",
+      "effect_zh": "受到攻击时有30%概率发动，所受伤害减半",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_4.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_royal_resolve_650e1b7118_en_623691",
+      "name_en": "Royal Resolve",
+      "name_zh": "王者决心",
+      "title_zh": "王者决心",
+      "summary_zh": "受到攻击时，所受伤害减半。触发概率为 30%。",
+      "ability": "Royal Resolve",
+      "effect_facts": {
+        "condition": "self_is_attacked",
+        "damage_taken_multiplier": 0.5,
+        "trigger_percent": 30
+      },
+      "effect_status": "parsed",
+      "effect_zh": "受到攻击时，所受伤害减半。触发概率为 30%。",
+      "effect_text_sha256": "1d22a7b6370c060cf9691ae109717f15fb4f21579385679e586220a2d74f1963",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Theodora",
+      "character_id": "theodora",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [
+    {
+      "id": "proficiency_abilities_rein_2b314ab53a_en_623691",
+      "name_en": "Rein",
+      "name_zh": "缰绳",
+      "title_zh": "缰绳",
+      "summary_zh": "相邻敌军回避 -3。",
+      "ability": "Rein",
+      "effect_status": "parsed",
+      "effect_facts": {
+        "target": "adjacent_foes",
+        "stat": "avo",
+        "bonus": -3
+      },
+      "effect_zh": "相邻敌军回避 -3。",
+      "effect_text_sha256": "c4283aafa0e723add1b7ea17d4fc4d1e98eb3f1ff9f6f6df948e3502e7b0b2ed",
+      "unit_type_restriction": null,
+      "review_flags": [],
+      "review_notes_zh": [],
+      "required_skill": "authority",
+      "required_skill_rank": "D",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "unlock_status": "source_listed",
+      "unlock_text_sha256": "66f2ff8eeda415c3b6ea760a38bb0672e1fd3b08c0f19c0b6c1f13ffc7dba53d",
+      "ability_series_level": null,
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "route_recruitment": [],
+  "level_abilities": [
+    {
+      "id": "level_theodora_directhit_5",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "ability": "Direct Hit",
+      "level": 5,
+      "effect": null,
+      "source_id": "en_620411",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+      "source_updated_text": "2026-09-26T05:50:03-04:00",
+      "retrieved_at": "2026-09-26T12:59:10+00:00",
+      "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_theodora_c_black_thunder",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_620411",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+      "source_updated_text": "2026-09-26T05:50:03-04:00",
+      "retrieved_at": "2026-09-26T12:59:10+00:00",
+      "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_theodora_c_white_seraphim",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Seraphim",
+      "source_id": "en_620411",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+      "source_updated_text": "2026-09-26T05:50:03-04:00",
+      "retrieved_at": "2026-09-26T12:59:10+00:00",
+      "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_theodora_d_black_fire",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_620411",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+      "source_updated_text": "2026-09-26T05:50:03-04:00",
+      "retrieved_at": "2026-09-26T12:59:10+00:00",
+      "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_theodora_d_white_heal",
+      "character_id": "theodora",
+      "character": "Theodora",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_620411",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+      "source_updated_text": "2026-09-26T05:50:03-04:00",
+      "retrieved_at": "2026-09-26T12:59:10+00:00",
+      "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 70,
+        "str": 50,
+        "mag": 30,
+        "spd": 40,
+        "dex": 40,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 70,
+        "str": 50,
+        "mag": 30,
+        "spd": 40,
+        "dex": 50,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_4.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 70,
+        "str": 50,
+        "mag": 30,
+        "spd": 40,
+        "dex": 40,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 70,
+        "str": 50,
+        "mag": 30,
+        "spd": 40,
+        "dex": 40,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_620411",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620411",
+        "source_updated_text": "2026-09-26T05:50:03-04:00",
+        "retrieved_at": "2026-09-26T12:59:10+00:00",
+        "content_sha256": "b651b8abe8df16c3fabaaa5a2d6666afa6f5b20c785cc4a504c029096ff1d540",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [
+    "dex"
+  ],
+  "growth_differences": [
+    {
+      "stat": "dex",
+      "values": [
+        40,
+        50
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 40
+        },
+        {
+          "variant": "profile",
+          "value": 50
+        },
+        {
+          "variant": "reference",
+          "value": 40
+        },
+        {
+          "variant": "reference_update",
+          "value": 40
+        }
+      ]
+    }
+  ],
+  "growth_scope_note": null,
+  "growth_review_status": "conflicting_unverified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "N/A",
+      "Dietrich": "N/A",
+      "Theodora": "Automatic",
+      "Leda": "N/A"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Alexandra",
+      "partner": "Theodora",
+      "rank": "C"
+    },
+    {
+      "name": "Bertrand",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Bonaventure",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Diego",
+      "partner": "Theodora",
+      "rank": "C"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Leda",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Lilian",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Lysander",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Nezha",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Alexandra",
+      "rank": "C"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Bertrand",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Bonaventure",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Diego",
+      "rank": "C"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Lilian",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Lysander",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Nezha",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Tialla",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Tobias",
+      "rank": "A"
+    },
+    {
+      "name": "Tialla",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Tobias",
+      "partner": "Theodora",
+      "rank": "A"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Theodora",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Theodora",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Theodora",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Seraphim"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Theodora",
+      "gift": "Dagda Beard Grass"
+    },
+    {
+      "name": "Theodora",
+      "gift": "Eastern Black Silk"
+    },
+    {
+      "name": "Theodora",
+      "gift": "Eastern Tea Leaves"
+    },
+    {
+      "name": "Theodora",
+      "gift": "Horse-Grooming Kit"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Theodora",
+      "kind": "preferred",
+      "skill": "Authority Skill"
+    },
+    {
+      "name": "Theodora",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Theodora",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Theodora",
+      "art": "Earthern Throw",
+      "range": "1-5",
+      "blaze": "2",
+      "learned": "Part I Chapter 1"
+    },
+    {
+      "name": "Theodora",
+      "art": "Earthern Hurl",
+      "range": "1-7",
+      "blaze": "3",
+      "learned": "Lv. 20"
+    },
+    {
+      "name": "Theodora",
+      "art": "Dazzling Comet",
+      "range": "-",
+      "blaze": "4",
+      "learned": "Lv. 35"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Talimun",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Theodora",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    }
+  ],
+  "character_notes": [
+    {
+      "character_id": "theodora",
+      "summary": "赛奥朵拉的路线可以在聚落招募士兵并编成部队。",
+      "source_label": "任天堂开发者访谈 · 第 2 篇",
+      "url": "https://www.nintendo.com/au/news-and-articles/ask-the-developer-vol-23-fire-emblem-fortunes-weave-chapter-2/"
+    }
+  ],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "theodora",
+  "display_name": "赛奥朵拉"
+}

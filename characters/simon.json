@@ -1,0 +1,1462 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "simon",
+    "name_en": "Simon",
+    "name_zh": "希蒙",
+    "growth": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 25,
+      "lck": 50,
+      "cha": 35
+    },
+    "growth_total": 345,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Close Call",
+      "description": "If unit’s HP ≥ 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": [
+      "sword",
+      "axe",
+      "infantry"
+    ],
+    "proficiencies_source": "gamersky_character_profile",
+    "recruitment": {
+      "Cai": "3S, 8R, Coin flip: Tails",
+      "Dietrich": "3S, 7R, Coin flip: Tails",
+      "Theodora": "3S, 7R, Coin flip: Tails",
+      "Leda": "3S, 6R, Coin flip: Tails"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/simon.webp",
+      "width": 334,
+      "height": 333,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_20.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = シモン; mapped to Simon.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_simon_7c6e1bf162_crimson_ghosh_f126222d07_liked_en_621535",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "希蒙 · 深红格修酒",
+      "summary_zh": "希蒙喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_simon_7c6e1bf162_crimson_ghosh_f126222d07_liked_en_623690",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "希蒙 · 深红格修酒",
+      "summary_zh": "希蒙喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_simon_7c6e1bf162_dual_fish_knives_4852d9632c_liked_en_621535",
+      "gift_profile_id": "gift_profile_dual_fish_knives_4852d9632c_en_621535",
+      "gift_name_en": "Dual Fish Knives",
+      "gift_name_zh": "双刃鱼刀",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Dual Fish Knives",
+      "name_zh": "双刃鱼刀",
+      "title_zh": "希蒙 · 双刃鱼刀",
+      "summary_zh": "希蒙喜欢双刃鱼刀；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "98bdd50efcf3bf4ac5b2f1e3ecf30fb9b51d98da49043cf8e80f42b4a937dd49",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_simon_7c6e1bf162_dual_fish_knives_4852d9632c_liked_en_623690",
+      "gift_profile_id": "gift_profile_dual_fish_knives_4852d9632c_en_621535",
+      "gift_name_en": "Dual Fish Knives",
+      "gift_name_zh": "双刃鱼刀",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Dual Fish Knives",
+      "name_zh": "双刃鱼刀",
+      "title_zh": "希蒙 · 双刃鱼刀",
+      "summary_zh": "希蒙喜欢双刃鱼刀；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_simon_7c6e1bf162_protection_figurine_47c55426b7_liked_en_621535",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Protection Figurine",
+      "name_zh": "守护摆件",
+      "title_zh": "希蒙 · 守护摆件",
+      "summary_zh": "希蒙喜欢守护摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c6e0183de3606b57bf5a60af298078524182c721bb28aa2e43cf1504f9b8d313",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_simon_7c6e1bf162_protection_figurine_47c55426b7_liked_en_623690",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Protection Figurine",
+      "name_zh": "守护摆件",
+      "title_zh": "希蒙 · 守护摆件",
+      "summary_zh": "希蒙喜欢守护摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_simon_7c6e1bf162_crimson_ghosh_f126222d07_liked_en_621535",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "希蒙 · 深红格修酒",
+          "summary_zh": "希蒙喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_simon_7c6e1bf162_crimson_ghosh_f126222d07_liked_en_623690",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "希蒙 · 深红格修酒",
+          "summary_zh": "希蒙喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Dual Fish Knives",
+      "gift_name_zh": "双刃鱼刀",
+      "gift_profile_id": "gift_profile_dual_fish_knives_4852d9632c_en_621535",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_simon_7c6e1bf162_dual_fish_knives_4852d9632c_liked_en_621535",
+          "gift_profile_id": "gift_profile_dual_fish_knives_4852d9632c_en_621535",
+          "gift_name_en": "Dual Fish Knives",
+          "gift_name_zh": "双刃鱼刀",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Dual Fish Knives",
+          "name_zh": "双刃鱼刀",
+          "title_zh": "希蒙 · 双刃鱼刀",
+          "summary_zh": "希蒙喜欢双刃鱼刀；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "98bdd50efcf3bf4ac5b2f1e3ecf30fb9b51d98da49043cf8e80f42b4a937dd49",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_simon_7c6e1bf162_dual_fish_knives_4852d9632c_liked_en_623690",
+          "gift_profile_id": "gift_profile_dual_fish_knives_4852d9632c_en_621535",
+          "gift_name_en": "Dual Fish Knives",
+          "gift_name_zh": "双刃鱼刀",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Dual Fish Knives",
+          "name_zh": "双刃鱼刀",
+          "title_zh": "希蒙 · 双刃鱼刀",
+          "summary_zh": "希蒙喜欢双刃鱼刀；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_simon_7c6e1bf162_protection_figurine_47c55426b7_liked_en_621535",
+          "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+          "gift_name_en": "Protection Figurine",
+          "gift_name_zh": "守护摆件",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Protection Figurine",
+          "name_zh": "守护摆件",
+          "title_zh": "希蒙 · 守护摆件",
+          "summary_zh": "希蒙喜欢守护摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c6e0183de3606b57bf5a60af298078524182c721bb28aa2e43cf1504f9b8d313",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_simon_7c6e1bf162_protection_figurine_47c55426b7_liked_en_623690",
+          "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+          "gift_name_en": "Protection Figurine",
+          "gift_name_zh": "守护摆件",
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Protection Figurine",
+          "name_zh": "守护摆件",
+          "title_zh": "希蒙 · 守护摆件",
+          "summary_zh": "希蒙喜欢守护摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "99aa3537fcc48c8b01fb1887ec5fc49c9ef7c674b19d92f7c397a811693a09ab",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/simon.webp",
+    "width": 334,
+    "height": 333,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_20.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = シモン; mapped to Simon.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 28,
+    "name_zh": "希蒙",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_28.shtml",
+    "growth": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 25,
+      "lck": 50,
+      "cha": 35
+    },
+    "preferred_skills": [
+      "剑术",
+      "斧术",
+      "步兵术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度低）"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "自身HP不低于2，受到会使HP归零的伤害时，以幸运%的概率发动，使HP保留1点"
+  },
+  "reference_profile": {
+    "name_en": "Simon",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+    "faction": "Tale of the Moon",
+    "personal_ability": "Close Call",
+    "preferred_skills": [
+      "Axe Skill",
+      "Infantry Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 25,
+      "lck": 50,
+      "cha": 35
+    },
+    "growth_total": 345
+  },
+  "reference_update": {
+    "id": "profile_simon",
+    "character_id": "simon",
+    "name_en": "Simon",
+    "name_zh": "希蒙",
+    "growth": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 25,
+      "lck": 50,
+      "cha": 35
+    },
+    "birthday": null,
+    "personal_ability_name": "Close Call",
+    "preferred_skills": [
+      "Axe",
+      "Infantry",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "White Magic"
+    ],
+    "source_id": "en_624019",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+    "source_updated_text": "2026-09-26T06:05:46-04:00",
+    "retrieved_at": "2026-09-26T15:56:22+00:00",
+    "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Threaten",
+      "Avoid Fatality"
+    ]
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_devil_s_luck_212a1b47ca_en_623691",
+      "name_en": "Devil's Luck+",
+      "name_zh": "恶魔之运+",
+      "title_zh": "恶魔之运+",
+      "summary_zh": "每次击败敌军后，幸运 +2，持续至本张地图结束，最多 +10。",
+      "ability": "Devil's Luck+",
+      "effect_facts": {
+        "condition": "defeat_foe",
+        "duration": "until_map_end",
+        "stat": "lck",
+        "bonus_per_trigger": 2,
+        "max_bonus": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "每次击败敌军后，幸运 +2，持续至本张地图结束，最多 +10。",
+      "effect_text_sha256": "9f6eba4c3fdb9e0708d7bbf4d4924d168f7931af38fe37ce715440f4a0d87a69",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_devil_s_luck_3967a31988_en_623691",
+      "name_en": "Devil's Luck",
+      "name_zh": "恶魔之运",
+      "title_zh": "恶魔之运",
+      "summary_zh": "每次击败敌军后，幸运 +1，持续至本张地图结束，最多 +10。",
+      "ability": "Devil's Luck",
+      "effect_facts": {
+        "condition": "defeat_foe",
+        "duration": "until_map_end",
+        "stat": "lck",
+        "bonus_per_trigger": 1,
+        "max_bonus": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "每次击败敌军后，幸运 +1，持续至本张地图结束，最多 +10。",
+      "effect_text_sha256": "ca04cf0bae4a97397ff2fb53ef7a9dbd1aadb1e4198175a6b941dc244f42bc63",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Devil's Luck",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_simon_devilsluck_20",
+          "character_id": "simon",
+          "character": "Simon",
+          "ability": "Devil's Luck",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_624019",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+          "source_updated_text": "2026-09-26T06:05:46-04:00",
+          "retrieved_at": "2026-09-26T15:56:22+00:00",
+          "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624019",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+            "source_updated_text": "2026-09-26T06:05:46-04:00",
+            "retrieved_at": "2026-09-26T15:56:22+00:00",
+            "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_devil_s_luck_3967a31988_en_623691",
+          "name_en": "Devil's Luck",
+          "name_zh": "恶魔之运",
+          "title_zh": "恶魔之运",
+          "summary_zh": "每次击败敌军后，幸运 +1，持续至本张地图结束，最多 +10。",
+          "ability": "Devil's Luck",
+          "effect_facts": {
+            "condition": "defeat_foe",
+            "duration": "until_map_end",
+            "stat": "lck",
+            "bonus_per_trigger": 1,
+            "max_bonus": 10
+          },
+          "effect_status": "parsed",
+          "effect_zh": "每次击败敌军后，幸运 +1，持续至本张地图结束，最多 +10。",
+          "effect_text_sha256": "ca04cf0bae4a97397ff2fb53ef7a9dbd1aadb1e4198175a6b941dc244f42bc63",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Devil's Luck+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_simon_devilsluckplus_35",
+          "character_id": "simon",
+          "character": "Simon",
+          "ability": "Devil's Luck+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_624019",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+          "source_updated_text": "2026-09-26T06:05:46-04:00",
+          "retrieved_at": "2026-09-26T15:56:22+00:00",
+          "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624019",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+            "source_updated_text": "2026-09-26T06:05:46-04:00",
+            "retrieved_at": "2026-09-26T15:56:22+00:00",
+            "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_devil_s_luck_212a1b47ca_en_623691",
+          "name_en": "Devil's Luck+",
+          "name_zh": "恶魔之运+",
+          "title_zh": "恶魔之运+",
+          "summary_zh": "每次击败敌军后，幸运 +2，持续至本张地图结束，最多 +10。",
+          "ability": "Devil's Luck+",
+          "effect_facts": {
+            "condition": "defeat_foe",
+            "duration": "until_map_end",
+            "stat": "lck",
+            "bonus_per_trigger": 2,
+            "max_bonus": 10
+          },
+          "effect_status": "parsed",
+          "effect_zh": "每次击败敌军后，幸运 +2，持续至本张地图结束，最多 +10。",
+          "effect_text_sha256": "9f6eba4c3fdb9e0708d7bbf4d4924d168f7931af38fe37ce715440f4a0d87a69",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Simon",
+          "character_id": "simon",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_close_call_06e10d3064_en_623691",
+      "name_en": "Close Call",
+      "name_zh": "千钧一发",
+      "title_zh": "千钧一发",
+      "summary_zh": "当前生命至少为 2，且伤害将使生命归零时，保留 1 点生命。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "ability": "Close Call",
+      "effect_facts": {
+        "condition": "lethal_damage_with_hp_threshold",
+        "minimum_current_hp": 2,
+        "hp_after_trigger": 1,
+        "trigger_percent_expression": {
+          "stat": "lck",
+          "subject": "self",
+          "divisor": 1,
+          "rounding": null,
+          "cap_percent": null
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "当前生命至少为 2，且伤害将使生命归零时，保留 1 点生命。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "effect_text_sha256": "3e6b05c931de809d3efc6942461d910725b45b4a840447fb8e1534df94e3b702",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Close Call",
+      "effect_zh": "生命至少为 2，且伤害将使生命降至 0 时，保留 1 点生命。发动概率：幸运值%。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Close Call",
+      "effect_zh": "自身HP不低于2，受到会使HP归零的伤害时，以幸运%的概率发动，使HP保留1点",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_28.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_close_call_06e10d3064_en_623691",
+      "name_en": "Close Call",
+      "name_zh": "千钧一发",
+      "title_zh": "千钧一发",
+      "summary_zh": "当前生命至少为 2，且伤害将使生命归零时，保留 1 点生命。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "ability": "Close Call",
+      "effect_facts": {
+        "condition": "lethal_damage_with_hp_threshold",
+        "minimum_current_hp": 2,
+        "hp_after_trigger": 1,
+        "trigger_percent_expression": {
+          "stat": "lck",
+          "subject": "self",
+          "divisor": 1,
+          "rounding": null,
+          "cap_percent": null
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "当前生命至少为 2，且伤害将使生命归零时，保留 1 点生命。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "effect_text_sha256": "3e6b05c931de809d3efc6942461d910725b45b4a840447fb8e1534df94e3b702",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Simon",
+      "character_id": "simon",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_simon_cai_i_5",
+      "character_id": "simon",
+      "character": "Simon",
+      "name_zh": "希蒙",
+      "route": "Cai",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Pay 500 Gold and pick tails on coin toss.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 500,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_simon_dietrich_i_4",
+      "character_id": "simon",
+      "character": "Simon",
+      "name_zh": "希蒙",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 7,
+      "special_requirement": "Pay 500 Gold and pick tails on coin toss.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 500,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_simon_leda_i_4",
+      "character_id": "simon",
+      "character": "Simon",
+      "name_zh": "希蒙",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 6,
+      "special_requirement": "Pay 500 Gold and pick tails on coin toss.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 500,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_simon_theodora_i_5",
+      "character_id": "simon",
+      "character": "Simon",
+      "name_zh": "希蒙",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 7,
+      "special_requirement": "Pay 500 Gold and pick tails on coin toss.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": 500,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_simon_devilsluck_20",
+      "character_id": "simon",
+      "character": "Simon",
+      "ability": "Devil's Luck",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_simon_devilsluckplus_35",
+      "character_id": "simon",
+      "character": "Simon",
+      "ability": "Devil's Luck+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_simon_d_black_thunder",
+      "character_id": "simon",
+      "character": "Simon",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_simon_d_white_heal",
+      "character_id": "simon",
+      "character": "Simon",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624019",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+      "source_updated_text": "2026-09-26T06:05:46-04:00",
+      "retrieved_at": "2026-09-26T15:56:22+00:00",
+      "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 20,
+        "spd": 35,
+        "dex": 40,
+        "def": 40,
+        "res": 25,
+        "lck": 50,
+        "cha": 35
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 20,
+        "spd": 35,
+        "dex": 40,
+        "def": 40,
+        "res": 25,
+        "lck": 50,
+        "cha": 35
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_28.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 20,
+        "spd": 35,
+        "dex": 40,
+        "def": 40,
+        "res": 25,
+        "lck": 50,
+        "cha": 35
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 20,
+        "spd": 35,
+        "dex": 40,
+        "def": 40,
+        "res": 25,
+        "lck": 50,
+        "cha": 35
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624019",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624019",
+        "source_updated_text": "2026-09-26T06:05:46-04:00",
+        "retrieved_at": "2026-09-26T15:56:22+00:00",
+        "content_sha256": "5b3d90be238138ce3e036e3fc779aeee1d1c4a22cfba181d5444eb206dfc2fee",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章",
+      "condition": "支援Lv3/名声Lv6/可交涉（难度低）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "3S, 8R, Coin flip: Tails",
+      "Dietrich": "3S, 7R, Coin flip: Tails",
+      "Theodora": "3S, 7R, Coin flip: Tails",
+      "Leda": "3S, 6R, Coin flip: Tails"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度低）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度低）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度低）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Eshmel",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Fianna",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Lilian",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Ludia",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Mikaela",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Fianna",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Lilian",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Ludia",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Mikaela",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Ursula",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Zarcone",
+      "rank": "C"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Ursula",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Simon",
+      "rank": "C"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Simon",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Thunder"
+    },
+    {
+      "name": "Simon",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Simon",
+      "gift": "Crimson Ghosh"
+    },
+    {
+      "name": "Simon",
+      "gift": "Dual Fish Knives"
+    },
+    {
+      "name": "Simon",
+      "gift": "Protection Figurine"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Simon",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Simon",
+      "kind": "preferred",
+      "skill": "Infantry Skill"
+    },
+    {
+      "name": "Simon",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "simon",
+  "display_name": "希蒙"
+}

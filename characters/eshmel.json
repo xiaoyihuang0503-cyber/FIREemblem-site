@@ -1,0 +1,1576 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "eshmel",
+    "name_en": "Eshmel",
+    "name_zh": "伊修玛尔",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 50
+    },
+    "growth_total": 385,
+    "source": "gamersky_character_profile",
+    "source_status": "guide",
+    "personal_ability": {
+      "name": "个人技能",
+      "description": "让周围 2 格内敌人的「冥府加护」失效。",
+      "source": "gamersky_character_profile",
+      "source_status": "guide"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "story": "序章 1 随剧情加入"
+    },
+    "recruitment_source": "gamersky_recruitment",
+    "portrait": {
+      "path": "assets/portraits/eshmel.jpg",
+      "width": 350,
+      "height": 350,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image001.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 伊修玛尔；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": true,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [
+    {
+      "id": "item_usage_rules_eshmel_battle_assist_rule_c6d3344710_en_621536",
+      "name_en": "Eshmel Battle Assist Rule",
+      "name_zh": "伊修玛尔战场支援规则",
+      "title_zh": "伊修玛尔战场支援规则",
+      "summary_zh": "提高与伊修玛尔的支援等级，会增加其在战斗中保护一名友军或攻击敌军的出现概率；具体概率待补。",
+      "effect_facts": {
+        "category": "ingredient",
+        "condition": "increase_Eshmel_support",
+        "effect": "increase_assist_chance",
+        "assist_options": [
+          "protect_one_unit",
+          "attack_enemies"
+        ],
+        "chance": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "748a174289fb7892646c16950565fd6e33b3e9af0ca4bcb2977e98abe75b15c2",
+      "applies_to": "category_not_individual_price_location_or_owner",
+      "source_id": "en_621536",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621536",
+      "source_updated_text": "2026-09-26T04:04:44-04:00",
+      "retrieved_at": "2026-09-27T08:40:31+00:00",
+      "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_glirmosa_eshmel_battle_assistance_rule_a310ce7b0e_en_624732",
+      "name_en": "Glirmosa Eshmel Battle Assistance Rule",
+      "name_zh": "格里摩萨与伊修玛尔战场支援",
+      "title_zh": "格里摩萨与伊修玛尔战场支援",
+      "summary_zh": "提高与伊修玛尔的支援会增加他在战斗中协助保护友军或攻击敌军的机会；概率与具体效果数值未列出。",
+      "effect_facts": {
+        "item_name_en": "Glirmosa",
+        "support_character": "Eshmel",
+        "chance_direction": "increases_with_support",
+        "actions": [
+          "protect_one_ally",
+          "attack_enemies"
+        ],
+        "chance": null,
+        "formula": null,
+        "damage": null,
+        "protection_amount": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "748a174289fb7892646c16950565fd6e33b3e9af0ca4bcb2977e98abe75b15c2",
+      "applies_to": "Glirmosa_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "出现概率",
+        "概率公式",
+        "伤害与保护数值"
+      ],
+      "source_id": "en_624732",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624732",
+      "source_updated_text": "2026-09-26T00:49:37-04:00",
+      "retrieved_at": "2026-09-27T12:50:15+00:00",
+      "content_sha256": "f73897d176b578d8c748aea6baff278a89281c0b94d242eb72b38e83242a3667",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_glirmosa_pale_raven_bird_time_rule_18a0adccb3_en_624732",
+      "name_en": "Glirmosa Pale Raven Bird Time Rule",
+      "name_zh": "格里摩萨与苍鸦时间",
+      "title_zh": "格里摩萨与苍鸦时间",
+      "summary_zh": "在达格希翁给苍鸦喂格里摩萨可开始苍鸦时间；正确回应全部所选人物的话可提高与伊修玛尔的支援。",
+      "effect_facts": {
+        "item_name_en": "Glirmosa",
+        "city": "Dagsion",
+        "animal": "Pale Raven",
+        "unlocks": "Bird Time",
+        "support_character": "Eshmel",
+        "support_increase_condition": "all_chosen_character_statements_answered_correctly",
+        "support_increase": null,
+        "required_quantity": null,
+        "answers": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "9d76ab46e6be78df1317282d42600d73e48b6043200eba78820d5626de64c875",
+      "applies_to": "Glirmosa_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "支援增幅",
+        "消耗数量",
+        "问答内容"
+      ],
+      "source_id": "en_624732",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624732",
+      "source_updated_text": "2026-09-26T00:49:37-04:00",
+      "retrieved_at": "2026-09-27T12:50:15+00:00",
+      "content_sha256": "f73897d176b578d8c748aea6baff278a89281c0b94d242eb72b38e83242a3667",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_pale_raven_support_rule_4305d5c992_en_621536",
+      "name_en": "Pale Raven Support Rule",
+      "name_zh": "苍鸦支援规则",
+      "title_zh": "苍鸦支援规则",
+      "summary_zh": "在达格西翁喂食苍鸦可开始苍鸦时间；正确回应所选人物的全部发言后，提高与伊修玛尔的支援等级，增幅待补。",
+      "effect_facts": {
+        "category": "ingredient",
+        "purpose": "begin_bird_time",
+        "location": "Dagsion",
+        "condition": "all_chosen_character_responses_correct",
+        "support_target": "Eshmel",
+        "support_increase": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "e14311584cd6a7ce8ab3455659f5b85cdc8c408a0399bc2c1ce063264f92727e",
+      "applies_to": "category_not_individual_price_location_or_owner",
+      "source_id": "en_621536",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621536",
+      "source_updated_text": "2026-09-26T04:04:44-04:00",
+      "retrieved_at": "2026-09-27T08:40:31+00:00",
+      "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_sandworm_meat_eshmel_battle_assistance_rule_deeeb1dce2_en_624304",
+      "name_en": "Sandworm Meat Eshmel Battle Assistance Rule",
+      "name_zh": "沙虫肉与伊修玛尔战场支援",
+      "title_zh": "沙虫肉与伊修玛尔战场支援",
+      "summary_zh": "提高与伊修玛尔的支援会增加他在战斗中协助保护友军或攻击敌军的机会；概率与具体效果数值未列出。",
+      "effect_facts": {
+        "item_name_en": "Sandworm Meat",
+        "support_character": "Eshmel",
+        "chance_direction": "increases_with_support",
+        "actions": [
+          "protect_one_ally",
+          "attack_enemies"
+        ],
+        "chance": null,
+        "formula": null,
+        "damage": null,
+        "protection_amount": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "748a174289fb7892646c16950565fd6e33b3e9af0ca4bcb2977e98abe75b15c2",
+      "applies_to": "Sandworm_Meat_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "出现概率",
+        "概率公式",
+        "伤害与保护数值"
+      ],
+      "source_id": "en_624304",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624304",
+      "source_updated_text": "2026-09-26T00:49:00-04:00",
+      "retrieved_at": "2026-09-27T13:55:19+00:00",
+      "content_sha256": "b4426e0dad0cc6fa921bc6790c77c652e19bb78f01b744319499394d3d297a14",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_sandworm_meat_pale_raven_bird_time_rule_1ac3ac29dd_en_624304",
+      "name_en": "Sandworm Meat Pale Raven Bird Time Rule",
+      "name_zh": "沙虫肉与苍鸦时间",
+      "title_zh": "沙虫肉与苍鸦时间",
+      "summary_zh": "在达格希翁给苍鸦喂沙虫肉可开始苍鸦时间；正确回应全部所选人物的话可提高与伊修玛尔的支援。",
+      "effect_facts": {
+        "item_name_en": "Sandworm Meat",
+        "city": "Dagsion",
+        "animal": "Pale Raven",
+        "unlocks": "Bird Time",
+        "support_character": "Eshmel",
+        "support_increase_condition": "all_chosen_character_statements_answered_correctly",
+        "support_increase": null,
+        "required_quantity": null,
+        "answers": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "support_target"
+        }
+      ],
+      "effect_text_sha256": "fe5dc612ec81659d01e062002bef6cbfb6624e0d485a6ed5b305872562d8000f",
+      "applies_to": "Sandworm_Meat_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "支援增幅",
+        "消耗数量",
+        "问答内容"
+      ],
+      "source_id": "en_624304",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624304",
+      "source_updated_text": "2026-09-26T00:49:00-04:00",
+      "retrieved_at": "2026-09-27T13:55:19+00:00",
+      "content_sha256": "b4426e0dad0cc6fa921bc6790c77c652e19bb78f01b744319499394d3d297a14",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/eshmel.jpg",
+    "width": 350,
+    "height": 350,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image001.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 伊修玛尔；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 1,
+    "name_zh": "伊修玛尔",
+    "url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 50
+    },
+    "preferred_skills": [
+      "枪术",
+      "指挥术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有5%概率发动命中+100"
+      }
+    ],
+    "recruitment": [],
+    "gender": "男/女",
+    "personal_ability_zh": "使周围2格内敌人的「冥府加护」无效化"
+  },
+  "reference_profile": {
+    "name_en": "Eshmel",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+    "faction": "The Savior's Army",
+    "personal_ability": "",
+    "preferred_skills": [
+      "Authority Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 45,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 50
+    },
+    "growth_total": 390
+  },
+  "reference_update": {
+    "id": "profile_eshmel",
+    "character_id": "eshmel",
+    "name_en": "Eshmel",
+    "name_zh": "伊修玛尔",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 45,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 50
+    },
+    "birthday": null,
+    "personal_ability_name": "Light of Salvation",
+    "preferred_skills": [
+      "Authority",
+      "Spear"
+    ],
+    "non_ideal_skills": [],
+    "source_id": "en_623869",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+    "source_updated_text": "2026-09-26T05:15:41-04:00",
+    "retrieved_at": "2026-09-26T17:30:38+00:00",
+    "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": []
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_the_auger_ba9a51d10f_en_623691",
+      "name_en": "Diadem of the Auger",
+      "name_zh": "预兆之冠",
+      "title_zh": "预兆之冠",
+      "summary_zh": "自身发动攻击时，命中 +100。触发概率为 5%。",
+      "ability": "Diadem of the Auger",
+      "crest_name_en": "Noa",
+      "crest_name_zh": "诺雅",
+      "holders": [
+        {
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Solel",
+          "character_id": null,
+          "supplemental_character_name": null,
+          "character_identity_status": "unresolved",
+          "identity_match_method": null
+        }
+      ],
+      "character_ids": [
+        "eshmel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [
+        "Solel"
+      ],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "hit": 100
+        },
+        "trigger_percent": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，命中 +100。触发概率为 5%。",
+      "effect_text_sha256": "c0c206dbc15b17a008254b3ba3cc12d8bb1cd98fea55bacc9adc0ff24b93fb26",
+      "source_row_sha256": "dcf349dd83deac7f8a7a3a0217b3215a2e7b545d75ac4782f17198bd9700f0e1",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of the Auger",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_the_auger_ba9a51d10f_en_623691",
+        "name_en": "Diadem of the Auger",
+        "name_zh": "预兆之冠",
+        "title_zh": "预兆之冠",
+        "summary_zh": "自身发动攻击时，命中 +100。触发概率为 5%。",
+        "ability": "Diadem of the Auger",
+        "crest_name_en": "Noa",
+        "crest_name_zh": "诺雅",
+        "holders": [
+          {
+            "character": "Eshmel",
+            "character_id": "eshmel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Solel",
+            "character_id": null,
+            "supplemental_character_name": null,
+            "character_identity_status": "unresolved",
+            "identity_match_method": null
+          }
+        ],
+        "character_ids": [
+          "eshmel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [
+          "Solel"
+        ],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "hit": 100
+          },
+          "trigger_percent": 5
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，命中 +100。触发概率为 5%。",
+        "effect_text_sha256": "c0c206dbc15b17a008254b3ba3cc12d8bb1cd98fea55bacc9adc0ff24b93fb26",
+        "source_row_sha256": "dcf349dd83deac7f8a7a3a0217b3215a2e7b545d75ac4782f17198bd9700f0e1",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Eshmel",
+          "mark": "Diadem of the Auger",
+          "holders": "Eshmel, Solel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_scorching_sun_8006f7358a_en_623691",
+      "name_en": "Scorching Sun+",
+      "name_zh": "灼日+",
+      "title_zh": "灼日+",
+      "summary_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 10%。",
+      "ability": "Scorching Sun+",
+      "effect_facts": {
+        "condition": "attacked_by_undead_foe",
+        "damage_taken": 0,
+        "trigger_percent": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 10%。",
+      "effect_text_sha256": "23a249eafcb6b09c03ff625da1b8bb2457808d168fae0e751e3bb0d0754e4835",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Eshmel",
+      "character_id": "eshmel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_scorching_sun_95f3f9fbeb_en_623691",
+      "name_en": "Scorching Sun",
+      "name_zh": "灼日",
+      "title_zh": "灼日",
+      "summary_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 5%。",
+      "ability": "Scorching Sun",
+      "effect_facts": {
+        "condition": "attacked_by_undead_foe",
+        "damage_taken": 0,
+        "trigger_percent": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 5%。",
+      "effect_text_sha256": "3adba753024ecd697b2330183959e8d6736a11839cf6dbbc140a5de0ff5be770",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Eshmel",
+      "character_id": "eshmel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Scorching Sun+",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_scorching_sun_8006f7358a_en_623691",
+          "name_en": "Scorching Sun+",
+          "name_zh": "灼日+",
+          "title_zh": "灼日+",
+          "summary_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 10%。",
+          "ability": "Scorching Sun+",
+          "effect_facts": {
+            "condition": "attacked_by_undead_foe",
+            "damage_taken": 0,
+            "trigger_percent": 10
+          },
+          "effect_status": "parsed",
+          "effect_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 10%。",
+          "effect_text_sha256": "23a249eafcb6b09c03ff625da1b8bb2457808d168fae0e751e3bb0d0754e4835",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    },
+    {
+      "ability": "Scorching Sun",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_scorching_sun_95f3f9fbeb_en_623691",
+          "name_en": "Scorching Sun",
+          "name_zh": "灼日",
+          "title_zh": "灼日",
+          "summary_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 5%。",
+          "ability": "Scorching Sun",
+          "effect_facts": {
+            "condition": "attacked_by_undead_foe",
+            "damage_taken": 0,
+            "trigger_percent": 5
+          },
+          "effect_status": "parsed",
+          "effect_zh": "受到亡灵敌军攻击时，所受伤害为 0。触发概率为 5%。",
+          "effect_text_sha256": "3adba753024ecd697b2330183959e8d6736a11839cf6dbbc140a5de0ff5be770",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Eshmel",
+          "character_id": "eshmel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_light_of_salvation_519d197bed_en_623691",
+      "name_en": "Light of Salvation",
+      "name_zh": "救赎之光",
+      "title_zh": "救赎之光",
+      "summary_zh": "使 2 格内敌军的冥府加护失效。",
+      "ability": "Light of Salvation",
+      "effect_facts": {
+        "target": "foes_in_radius",
+        "radius_spaces": 2,
+        "neutralizes_ability_name": "Underworld Boon",
+        "neutralized_ability_id": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使 2 格内敌军的冥府加护失效。",
+      "effect_text_sha256": "4034d43ad0bf25ddd3b24cdb851b2b80aa9b060860def3c05ef66100c47eebf1",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Eshmel",
+      "character_id": "eshmel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "个人技能",
+      "effect_zh": "让周围 2 格内敌人的「冥府加护」失效。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+        "status": "guide"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Light of Salvation",
+      "effect_zh": "使周围2格内敌人的「冥府加护」无效化",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_light_of_salvation_519d197bed_en_623691",
+      "name_en": "Light of Salvation",
+      "name_zh": "救赎之光",
+      "title_zh": "救赎之光",
+      "summary_zh": "使 2 格内敌军的冥府加护失效。",
+      "ability": "Light of Salvation",
+      "effect_facts": {
+        "target": "foes_in_radius",
+        "radius_spaces": 2,
+        "neutralizes_ability_name": "Underworld Boon",
+        "neutralized_ability_id": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使 2 格内敌军的冥府加护失效。",
+      "effect_text_sha256": "4034d43ad0bf25ddd3b24cdb851b2b80aa9b060860def3c05ef66100c47eebf1",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Eshmel",
+      "character_id": "eshmel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [
+    {
+      "id": "spell_eshmel_b_black_bolganone",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "B",
+      "magic": "black",
+      "spell": "Bolganone",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_eshmel_b_white_recover",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Recover",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_eshmel_c_black_thunder",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_eshmel_c_white_seraphim",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Seraphim",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_eshmel_d_black_fire",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_eshmel_d_white_heal",
+      "character_id": "eshmel",
+      "character": "Eshmel",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_623869",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+      "source_updated_text": "2026-09-26T05:15:41-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+        "status": "guide"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 45,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 45,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623869",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623869",
+        "source_updated_text": "2026-09-26T05:15:41-04:00",
+        "retrieved_at": "2026-09-26T17:30:38+00:00",
+        "content_sha256": "5ae23dc9c9b5e9faf9036a29a1dc3ed841b4d219372a7946008103bec8f6f458",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [
+    "mag"
+  ],
+  "growth_differences": [
+    {
+      "stat": "mag",
+      "values": [
+        40,
+        45
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 40
+        },
+        {
+          "variant": "profile",
+          "value": 40
+        },
+        {
+          "variant": "reference",
+          "value": 45
+        },
+        {
+          "variant": "reference_update",
+          "value": 45
+        }
+      ]
+    }
+  ],
+  "growth_scope_note": null,
+  "growth_review_status": "conflicting_unverified",
+  "recruitment": {
+    "story": "序章 1 随剧情加入"
+  },
+  "recruitment_variants": {
+    "base": {
+      "story": "序章 1 随剧情加入"
+    },
+    "profile": []
+  },
+  "supports": [
+    {
+      "name": "Alexandra",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Benditz",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Bonaventure",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Buccar",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Catania",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Dadao",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Dante",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Diego",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Alexandra",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Benditz",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Bonaventure",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Buccar",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Catania",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Dadao",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Dante",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Diego",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Esmeralda",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Fabio",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Fianna",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Gaitz",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Guzran",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Halvin",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Inyoni",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Io",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Jasmine",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Jester",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Lilian",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Loretta",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ludia",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Lysander",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Majide",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Mikaela",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Nezha",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ninae",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Noctula",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Nydine",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Olympia",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Peppe",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Peter",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Sha Lan",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Simon",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Sirocco",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Sofia",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Tialla",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Tobias",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ursula",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Yang Jie",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Zarcone",
+      "rank": "A"
+    },
+    {
+      "name": "Esmeralda",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Fabio",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Fianna",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Gaitz",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Guzran",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Halvin",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Inyoni",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Io",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Jasmine",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Jester",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Leda",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Lilian",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Loretta",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ludia",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Lysander",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Majide",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Mikaela",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Nezha",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Noctula",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Nydine",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Olympia",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Peppe",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Peter",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Simon",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Sirocco",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Sofia",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Tialla",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Tobias",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ursula",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Yang Jie",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Zarcone",
+      "partner": "Eshmel",
+      "rank": "A"
+    }
+  ],
+  "spells": [],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Eshmel",
+      "kind": "preferred",
+      "skill": "Authority Skill"
+    },
+    {
+      "name": "Eshmel",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Eshmel",
+      "art": "Purifying Flash",
+      "range": "0-3",
+      "blaze": "1",
+      "learned": "Prologue: Descent"
+    },
+    {
+      "name": "Eshmel",
+      "art": "Purifying Flash+",
+      "range": "0-3",
+      "blaze": "2",
+      "learned": "Start of Part III"
+    },
+    {
+      "name": "Eshmel",
+      "art": "Nine-Sky Strike",
+      "range": "0-3",
+      "blaze": "6",
+      "learned": "Start of Part III"
+    },
+    {
+      "name": "Eshmel",
+      "art": "Nine-Sky Strike+",
+      "range": "0-3",
+      "blaze": "6",
+      "learned": "Start of Part III"
+    },
+    {
+      "name": "Eshmel",
+      "art": "Cleave Heaven",
+      "range": "0-3",
+      "blaze": "6",
+      "learned": "Start of Part III"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Eshmel",
+      "mark": "Diadem of the Auger",
+      "holders": "Eshmel, Solel"
+    }
+  ],
+  "character_notes": [
+    {
+      "character_id": "eshmel",
+      "summary": "玩家在序章操控伊修玛尔，之后由他回到过去协助四位主角，让各条故事汇集。",
+      "source_label": "任天堂开发者访谈 · 第 1 篇",
+      "url": "https://www.nintendo.com/au/news-and-articles/ask-the-developer-vol-23-fire-emblem-fortunes-weave-chapter-1/"
+    }
+  ],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": false,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "eshmel",
+  "display_name": "伊修玛尔"
+}

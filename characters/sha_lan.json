@@ -1,0 +1,2057 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "sha_lan",
+    "name_en": "Sha Lan",
+    "name_zh": "沙兰",
+    "growth": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 35,
+      "dex": 50,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 40
+    },
+    "growth_total": 345,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Cooler Heads",
+      "description": "After using Draw Back, unit can use assist magic.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "N/A",
+      "Dietrich": "3S, 10R, Clear Anatolia Paralogue + questions",
+      "Theodora": "N/A",
+      "Leda": "3S, 8R, Clear Anatolia Paralogue + questions"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/sha_lan.webp",
+      "width": 334,
+      "height": 305,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_25.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = サラン; mapped to Sha Lan.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_common_coffee_aee11df224_liked_en_621535",
+      "gift_profile_id": "gift_profile_common_coffee_aee11df224_en_621535",
+      "gift_name_en": "Common Coffee",
+      "gift_name_zh": "普通咖啡",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Common Coffee",
+      "name_zh": "普通咖啡",
+      "title_zh": "沙兰 · 普通咖啡",
+      "summary_zh": "沙兰喜欢普通咖啡；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "002a947e746e401fb56e9a79791bfbd5e0896a25ad4a3be4120e4539ea2f88bf",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_common_coffee_aee11df224_liked_en_623690",
+      "gift_profile_id": "gift_profile_common_coffee_aee11df224_en_621535",
+      "gift_name_en": "Common Coffee",
+      "gift_name_zh": "普通咖啡",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Common Coffee",
+      "name_zh": "普通咖啡",
+      "title_zh": "沙兰 · 普通咖啡",
+      "summary_zh": "沙兰喜欢普通咖啡；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_energizing_ghosh_48745de9f3_liked_en_621535",
+      "gift_profile_id": "gift_profile_energizing_ghosh_48745de9f3_en_621535",
+      "gift_name_en": "Energizing Ghosh",
+      "gift_name_zh": "提神格修酒",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Energizing Ghosh",
+      "name_zh": "提神格修酒",
+      "title_zh": "沙兰 · 提神格修酒",
+      "summary_zh": "沙兰喜欢提神格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "3e7365d623ec108c8b4b6b496edf1fa55c7ea88f3801d44ee1508dcff207197e",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_energizing_ghosh_48745de9f3_liked_en_623690",
+      "gift_profile_id": "gift_profile_energizing_ghosh_48745de9f3_en_621535",
+      "gift_name_en": "Energizing Ghosh",
+      "gift_name_zh": "提神格修酒",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Energizing Ghosh",
+      "name_zh": "提神格修酒",
+      "title_zh": "沙兰 · 提神格修酒",
+      "summary_zh": "沙兰喜欢提神格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_niiza_garum_477304b406_liked_en_621535",
+      "gift_profile_id": "gift_profile_niiza_garum_477304b406_en_621535",
+      "gift_name_en": "Niiza Garum",
+      "gift_name_zh": "尼萨鱼酱",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Niiza Garum",
+      "name_zh": "尼萨鱼酱",
+      "title_zh": "沙兰 · 尼萨鱼酱",
+      "summary_zh": "沙兰喜欢尼萨鱼酱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "f96881552dacb3f269cc164566214c25fe9d2c89396713e194e396c6d5c8198e",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_niiza_garum_477304b406_liked_en_623690",
+      "gift_profile_id": "gift_profile_niiza_garum_477304b406_en_621535",
+      "gift_name_en": "Niiza Garum",
+      "gift_name_zh": "尼萨鱼酱",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Niiza Garum",
+      "name_zh": "尼萨鱼酱",
+      "title_zh": "沙兰 · 尼萨鱼酱",
+      "summary_zh": "沙兰喜欢尼萨鱼酱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "沙兰 · 野外炊具套装",
+      "summary_zh": "沙兰喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "沙兰 · 野外炊具套装",
+      "summary_zh": "沙兰喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_pastry_cookbook_7243623941_liked_en_621535",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "沙兰 · 糕点食谱",
+      "summary_zh": "沙兰喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_pastry_cookbook_7243623941_liked_en_623690",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "沙兰 · 糕点食谱",
+      "summary_zh": "沙兰喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_select_coffee_dec5167cc0_liked_en_621535",
+      "gift_profile_id": "gift_profile_select_coffee_dec5167cc0_en_621535",
+      "gift_name_en": "Select Coffee",
+      "gift_name_zh": "精选咖啡",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Select Coffee",
+      "name_zh": "精选咖啡",
+      "title_zh": "沙兰 · 精选咖啡",
+      "summary_zh": "沙兰喜欢精选咖啡；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "a4a075ff676fa882315d262aeb5231024597370ed12464843fc144217ba8a000",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_select_coffee_dec5167cc0_liked_en_623690",
+      "gift_profile_id": "gift_profile_select_coffee_dec5167cc0_en_621535",
+      "gift_name_en": "Select Coffee",
+      "gift_name_zh": "精选咖啡",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Select Coffee",
+      "name_zh": "精选咖啡",
+      "title_zh": "沙兰 · 精选咖啡",
+      "summary_zh": "沙兰喜欢精选咖啡；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_special_medicine_6605f060f7_loved_en_621535",
+      "gift_profile_id": "gift_profile_special_medicine_6605f060f7_en_621535",
+      "gift_name_en": "Special “Medicine”",
+      "gift_name_zh": "特制“药”",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Special “Medicine”",
+      "name_zh": "特制“药”",
+      "title_zh": "沙兰 · 特制“药”",
+      "summary_zh": "沙兰非常喜欢特制“药”；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "9ce150a62ec1869ed8f7a1fb8ee983f2a801948a3164e4612c01d87196ac2d08",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_sha_lan_4849c59c42_special_medicine_6605f060f7_loved_en_623690",
+      "gift_profile_id": "gift_profile_special_medicine_6605f060f7_en_621535",
+      "gift_name_en": "Special “Medicine”",
+      "gift_name_zh": "特制“药”",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Special “Medicine”",
+      "name_zh": "特制“药”",
+      "title_zh": "沙兰 · 特制“药”",
+      "summary_zh": "沙兰非常喜欢特制“药”；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Common Coffee",
+      "gift_name_zh": "普通咖啡",
+      "gift_profile_id": "gift_profile_common_coffee_aee11df224_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_common_coffee_aee11df224_liked_en_621535",
+          "gift_profile_id": "gift_profile_common_coffee_aee11df224_en_621535",
+          "gift_name_en": "Common Coffee",
+          "gift_name_zh": "普通咖啡",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Common Coffee",
+          "name_zh": "普通咖啡",
+          "title_zh": "沙兰 · 普通咖啡",
+          "summary_zh": "沙兰喜欢普通咖啡；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "002a947e746e401fb56e9a79791bfbd5e0896a25ad4a3be4120e4539ea2f88bf",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_common_coffee_aee11df224_liked_en_623690",
+          "gift_profile_id": "gift_profile_common_coffee_aee11df224_en_621535",
+          "gift_name_en": "Common Coffee",
+          "gift_name_zh": "普通咖啡",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Common Coffee",
+          "name_zh": "普通咖啡",
+          "title_zh": "沙兰 · 普通咖啡",
+          "summary_zh": "沙兰喜欢普通咖啡；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Energizing Ghosh",
+      "gift_name_zh": "提神格修酒",
+      "gift_profile_id": "gift_profile_energizing_ghosh_48745de9f3_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_energizing_ghosh_48745de9f3_liked_en_621535",
+          "gift_profile_id": "gift_profile_energizing_ghosh_48745de9f3_en_621535",
+          "gift_name_en": "Energizing Ghosh",
+          "gift_name_zh": "提神格修酒",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Energizing Ghosh",
+          "name_zh": "提神格修酒",
+          "title_zh": "沙兰 · 提神格修酒",
+          "summary_zh": "沙兰喜欢提神格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "3e7365d623ec108c8b4b6b496edf1fa55c7ea88f3801d44ee1508dcff207197e",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_energizing_ghosh_48745de9f3_liked_en_623690",
+          "gift_profile_id": "gift_profile_energizing_ghosh_48745de9f3_en_621535",
+          "gift_name_en": "Energizing Ghosh",
+          "gift_name_zh": "提神格修酒",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Energizing Ghosh",
+          "name_zh": "提神格修酒",
+          "title_zh": "沙兰 · 提神格修酒",
+          "summary_zh": "沙兰喜欢提神格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Niiza Garum",
+      "gift_name_zh": "尼萨鱼酱",
+      "gift_profile_id": "gift_profile_niiza_garum_477304b406_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_niiza_garum_477304b406_liked_en_621535",
+          "gift_profile_id": "gift_profile_niiza_garum_477304b406_en_621535",
+          "gift_name_en": "Niiza Garum",
+          "gift_name_zh": "尼萨鱼酱",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Niiza Garum",
+          "name_zh": "尼萨鱼酱",
+          "title_zh": "沙兰 · 尼萨鱼酱",
+          "summary_zh": "沙兰喜欢尼萨鱼酱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "f96881552dacb3f269cc164566214c25fe9d2c89396713e194e396c6d5c8198e",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_niiza_garum_477304b406_liked_en_623690",
+          "gift_profile_id": "gift_profile_niiza_garum_477304b406_en_621535",
+          "gift_name_en": "Niiza Garum",
+          "gift_name_zh": "尼萨鱼酱",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Niiza Garum",
+          "name_zh": "尼萨鱼酱",
+          "title_zh": "沙兰 · 尼萨鱼酱",
+          "summary_zh": "沙兰喜欢尼萨鱼酱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "沙兰 · 野外炊具套装",
+          "summary_zh": "沙兰喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "沙兰 · 野外炊具套装",
+          "summary_zh": "沙兰喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_pastry_cookbook_7243623941_liked_en_621535",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "沙兰 · 糕点食谱",
+          "summary_zh": "沙兰喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_pastry_cookbook_7243623941_liked_en_623690",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "沙兰 · 糕点食谱",
+          "summary_zh": "沙兰喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Select Coffee",
+      "gift_name_zh": "精选咖啡",
+      "gift_profile_id": "gift_profile_select_coffee_dec5167cc0_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_select_coffee_dec5167cc0_liked_en_621535",
+          "gift_profile_id": "gift_profile_select_coffee_dec5167cc0_en_621535",
+          "gift_name_en": "Select Coffee",
+          "gift_name_zh": "精选咖啡",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Select Coffee",
+          "name_zh": "精选咖啡",
+          "title_zh": "沙兰 · 精选咖啡",
+          "summary_zh": "沙兰喜欢精选咖啡；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "a4a075ff676fa882315d262aeb5231024597370ed12464843fc144217ba8a000",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_select_coffee_dec5167cc0_liked_en_623690",
+          "gift_profile_id": "gift_profile_select_coffee_dec5167cc0_en_621535",
+          "gift_name_en": "Select Coffee",
+          "gift_name_zh": "精选咖啡",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Select Coffee",
+          "name_zh": "精选咖啡",
+          "title_zh": "沙兰 · 精选咖啡",
+          "summary_zh": "沙兰喜欢精选咖啡；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Special “Medicine”",
+      "gift_name_zh": "特制“药”",
+      "gift_profile_id": "gift_profile_special_medicine_6605f060f7_en_621535",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_special_medicine_6605f060f7_loved_en_621535",
+          "gift_profile_id": "gift_profile_special_medicine_6605f060f7_en_621535",
+          "gift_name_en": "Special “Medicine”",
+          "gift_name_zh": "特制“药”",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Special “Medicine”",
+          "name_zh": "特制“药”",
+          "title_zh": "沙兰 · 特制“药”",
+          "summary_zh": "沙兰非常喜欢特制“药”；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "9ce150a62ec1869ed8f7a1fb8ee983f2a801948a3164e4612c01d87196ac2d08",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_sha_lan_4849c59c42_special_medicine_6605f060f7_loved_en_623690",
+          "gift_profile_id": "gift_profile_special_medicine_6605f060f7_en_621535",
+          "gift_name_en": "Special “Medicine”",
+          "gift_name_zh": "特制“药”",
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Special “Medicine”",
+          "name_zh": "特制“药”",
+          "title_zh": "沙兰 · 特制“药”",
+          "summary_zh": "沙兰非常喜欢特制“药”；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "d621ba92c0c4237f678d2428ea89f3def98cce4276511b82b0646beb990216a9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/sha_lan.webp",
+    "width": 334,
+    "height": 305,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_25.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = サラン; mapped to Sha Lan.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 26,
+    "name_zh": "沙兰",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_26.shtml",
+    "growth": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 35,
+      "dex": 50,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 40
+    },
+    "preferred_skills": [
+      "枪术",
+      "白魔术",
+      "指挥术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv10/通关???/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv8/通关???/可交涉（难度低）"
+      }
+    ],
+    "gender": "女"
+  },
+  "reference_profile": {
+    "name_en": "Sha Lan",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+    "faction": "Pale Raven's Bridal Party",
+    "personal_ability": "Cooler Heads",
+    "preferred_skills": [
+      "Authority Skill",
+      "White Magic Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 35,
+      "dex": 50,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 40
+    },
+    "growth_total": 345
+  },
+  "reference_update": {
+    "id": "profile_sha_lan",
+    "character_id": "sha_lan",
+    "name_en": "Sha Lan",
+    "name_zh": "沙兰",
+    "growth": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 35,
+      "dex": 50,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 40
+    },
+    "birthday": null,
+    "personal_ability_name": "Cooler Heads",
+    "preferred_skills": [
+      "Authority",
+      "White Magic",
+      "Spear"
+    ],
+    "non_ideal_skills": [
+      "Sword"
+    ],
+    "source_id": "en_624017",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+    "source_updated_text": "2026-09-26T06:07:59-04:00",
+    "retrieved_at": "2026-09-26T14:00:03+00:00",
+    "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Defense Formation"
+    ]
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_watchfulness_53f80b1d58_en_623691",
+      "name_en": "Watchfulness",
+      "name_zh": "警觉",
+      "title_zh": "警觉",
+      "summary_zh": "相邻友军速度 +2。",
+      "ability": "Watchfulness",
+      "effect_facts": {
+        "target": "adjacent_allies",
+        "stat": "spd",
+        "bonus": 2
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军速度 +2。",
+      "effect_text_sha256": "20e8866991636947c3dff13e8626d8c9ceea8447c2ba6f6298e914638cf1f430",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_watchfulness_b0803c61e5_en_623691",
+      "name_en": "Watchfulness+",
+      "name_zh": "警觉+",
+      "title_zh": "警觉+",
+      "summary_zh": "相邻友军速度 +4。",
+      "ability": "Watchfulness+",
+      "effect_facts": {
+        "target": "adjacent_allies",
+        "stat": "spd",
+        "bonus": 4
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军速度 +4。",
+      "effect_text_sha256": "a75cf3949321a1d30e3020a161380a0f842c30b32851aebc1f9ac96293de2931",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Watchfulness",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_sha_lan_watchfulness_20",
+          "character_id": "sha_lan",
+          "character": "Sha Lan",
+          "ability": "Watchfulness",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_624017",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+          "source_updated_text": "2026-09-26T06:07:59-04:00",
+          "retrieved_at": "2026-09-26T14:00:03+00:00",
+          "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624017",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+            "source_updated_text": "2026-09-26T06:07:59-04:00",
+            "retrieved_at": "2026-09-26T14:00:03+00:00",
+            "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_watchfulness_53f80b1d58_en_623691",
+          "name_en": "Watchfulness",
+          "name_zh": "警觉",
+          "title_zh": "警觉",
+          "summary_zh": "相邻友军速度 +2。",
+          "ability": "Watchfulness",
+          "effect_facts": {
+            "target": "adjacent_allies",
+            "stat": "spd",
+            "bonus": 2
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻友军速度 +2。",
+          "effect_text_sha256": "20e8866991636947c3dff13e8626d8c9ceea8447c2ba6f6298e914638cf1f430",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Watchfulness+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_sha_lan_watchfulnessplus_35",
+          "character_id": "sha_lan",
+          "character": "Sha Lan",
+          "ability": "Watchfulness+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_624017",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+          "source_updated_text": "2026-09-26T06:07:59-04:00",
+          "retrieved_at": "2026-09-26T14:00:03+00:00",
+          "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624017",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+            "source_updated_text": "2026-09-26T06:07:59-04:00",
+            "retrieved_at": "2026-09-26T14:00:03+00:00",
+            "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_watchfulness_b0803c61e5_en_623691",
+          "name_en": "Watchfulness+",
+          "name_zh": "警觉+",
+          "title_zh": "警觉+",
+          "summary_zh": "相邻友军速度 +4。",
+          "ability": "Watchfulness+",
+          "effect_facts": {
+            "target": "adjacent_allies",
+            "stat": "spd",
+            "bonus": 4
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻友军速度 +4。",
+          "effect_text_sha256": "a75cf3949321a1d30e3020a161380a0f842c30b32851aebc1f9ac96293de2931",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Sha Lan",
+          "character_id": "sha_lan",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_cooler_heads_402cc70160_en_623691",
+      "name_en": "Cooler Heads",
+      "name_zh": "冷静判断",
+      "title_zh": "冷静判断",
+      "summary_zh": "使用拉回后，可使用辅助魔法。",
+      "ability": "Cooler Heads",
+      "effect_facts": {
+        "condition": "use_draw_back",
+        "can_use_assist_magic": true
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用拉回后，可使用辅助魔法。",
+      "effect_text_sha256": "f90705ceaeac507c090e48ea29898d82ec7641088968be2bbb96e40c842d5683",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Cooler Heads",
+      "effect_zh": "使用拉回后，可以使用辅助魔法。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_cooler_heads_402cc70160_en_623691",
+      "name_en": "Cooler Heads",
+      "name_zh": "冷静判断",
+      "title_zh": "冷静判断",
+      "summary_zh": "使用拉回后，可使用辅助魔法。",
+      "ability": "Cooler Heads",
+      "effect_facts": {
+        "condition": "use_draw_back",
+        "can_use_assist_magic": true
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用拉回后，可使用辅助魔法。",
+      "effect_text_sha256": "f90705ceaeac507c090e48ea29898d82ec7641088968be2bbb96e40c842d5683",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Sha Lan",
+      "character_id": "sha_lan",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_sha_lan_cai_unavailable",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "name_zh": "沙兰",
+      "route": "Cai",
+      "availability": "not_recruitable",
+      "chapter": null,
+      "part": null,
+      "support_level": null,
+      "renown_level": null,
+      "special_requirement": null,
+      "automatic_join": null,
+      "missing_thresholds_mean": "not_applicable_on_this_route",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_sha_lan_dietrich_i_4",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "name_zh": "沙兰",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 10,
+      "special_requirement": "Clear Anatolia's Paralogue and answer questions correctly.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": "Anatolia's",
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_sha_lan_leda_i_4",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "name_zh": "沙兰",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Clear Anatolia's Paralogue and answer questions correctly.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": "Anatolia's",
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_sha_lan_theodora_unavailable",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "name_zh": "沙兰",
+      "route": "Theodora",
+      "availability": "not_recruitable",
+      "chapter": null,
+      "part": null,
+      "support_level": null,
+      "renown_level": null,
+      "special_requirement": null,
+      "automatic_join": null,
+      "missing_thresholds_mean": "not_applicable_on_this_route",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_sha_lan_watchfulness_20",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "ability": "Watchfulness",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_sha_lan_watchfulnessplus_35",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "ability": "Watchfulness+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_sha_lan_b_white_recover",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Recover",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_sha_lan_c_black_blizzard",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Blizzard",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_sha_lan_c_white_nosferatu",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Nosferatu",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_sha_lan_d_black_wanderingwall",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Wandering Wall",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_sha_lan_d_black_wind",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Wind",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_sha_lan_d_white_heal",
+      "character_id": "sha_lan",
+      "character": "Sha Lan",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624017",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+      "source_updated_text": "2026-09-26T06:07:59-04:00",
+      "retrieved_at": "2026-09-26T14:00:03+00:00",
+      "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 35,
+        "str": 30,
+        "mag": 45,
+        "spd": 35,
+        "dex": 50,
+        "def": 30,
+        "res": 45,
+        "lck": 35,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 35,
+        "str": 30,
+        "mag": 45,
+        "spd": 35,
+        "dex": 50,
+        "def": 30,
+        "res": 45,
+        "lck": 35,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_26.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 35,
+        "str": 30,
+        "mag": 45,
+        "spd": 35,
+        "dex": 50,
+        "def": 30,
+        "res": 45,
+        "lck": 35,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 35,
+        "str": 30,
+        "mag": 45,
+        "spd": 35,
+        "dex": 50,
+        "def": 30,
+        "res": 45,
+        "lck": 35,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624017",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624017",
+        "source_updated_text": "2026-09-26T06:07:59-04:00",
+        "retrieved_at": "2026-09-26T14:00:03+00:00",
+        "content_sha256": "b6db20518c43c69cac7ed3704fd5fe66325c865afeb426ad382756807e4a0b5d",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "支援Lv3/名声Lv10/通关???/可交涉（难度低）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章",
+      "condition": "支援Lv3/名声Lv8/通关???/可交涉（难度低）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "N/A",
+      "Dietrich": "3S, 10R, Clear Anatolia Paralogue + questions",
+      "Theodora": "N/A",
+      "Leda": "3S, 8R, Clear Anatolia Paralogue + questions"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv10/通关???/可交涉（难度低）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv8/通关???/可交涉（难度低）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Diego",
+      "partner": "Sha Lan",
+      "rank": "C"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Sha Lan",
+      "rank": "A"
+    },
+    {
+      "name": "Halvin",
+      "partner": "Sha Lan",
+      "rank": "A"
+    },
+    {
+      "name": "Loretta",
+      "partner": "Sha Lan",
+      "rank": "B"
+    },
+    {
+      "name": "Nezha",
+      "partner": "Sha Lan",
+      "rank": "B"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Diego",
+      "rank": "C"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Halvin",
+      "rank": "A"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Loretta",
+      "rank": "B"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Nezha",
+      "rank": "B"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Sirocco",
+      "rank": "A"
+    },
+    {
+      "name": "Sha Lan",
+      "partner": "Yang Jie",
+      "rank": "B"
+    },
+    {
+      "name": "Sirocco",
+      "partner": "Sha Lan",
+      "rank": "A"
+    },
+    {
+      "name": "Yang Jie",
+      "partner": "Sha Lan",
+      "rank": "B"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Sha Lan",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Wind"
+    },
+    {
+      "name": "Sha Lan",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Wandering Wall"
+    },
+    {
+      "name": "Sha Lan",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Sha Lan",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Blizzard"
+    },
+    {
+      "name": "Sha Lan",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Nosferatu"
+    },
+    {
+      "name": "Sha Lan",
+      "skill_level": "B",
+      "magic": "White Magic",
+      "spell": "Recover"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Sha Lan",
+      "gift": "Common Coffee"
+    },
+    {
+      "name": "Sha Lan",
+      "gift": "Energizing Ghosh"
+    },
+    {
+      "name": "Sha Lan",
+      "gift": "Niiza Garum"
+    },
+    {
+      "name": "Sha Lan",
+      "gift": "Outdoor Cooking Set"
+    },
+    {
+      "name": "Sha Lan",
+      "gift": "Pastry Cookbook"
+    },
+    {
+      "name": "Sha Lan",
+      "gift": "Select Coffee"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Sha Lan",
+      "kind": "preferred",
+      "skill": "Authority Skill"
+    },
+    {
+      "name": "Sha Lan",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Sha Lan",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "sha_lan",
+  "display_name": "沙兰"
+}

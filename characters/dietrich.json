@@ -1,0 +1,2975 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "dietrich",
+    "name_en": "Dietrich",
+    "name_zh": "迪托利希",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 30,
+      "lck": 50,
+      "cha": 60
+    },
+    "growth_total": 415,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Murderous Intent",
+      "description": "If unit attacks first, grants Crit+5 during combat.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "N/A",
+      "Dietrich": "Automatic",
+      "Theodora": "N/A",
+      "Leda": "N/A"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/dietrich.jpg",
+      "width": 450,
+      "height": 450,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_3.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image003.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 迪托利希；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_arrowhead_gem_ff7dd580bf_liked_en_621535",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "迪托利希 · 箭镞宝石",
+      "summary_zh": "迪托利希喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_arrowhead_gem_ff7dd580bf_liked_en_623690",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "迪托利希 · 箭镞宝石",
+      "summary_zh": "迪托利希喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_board_game_tactics_b02126e12e_liked_en_621535",
+      "gift_profile_id": "gift_profile_board_game_tactics_b02126e12e_en_621535",
+      "gift_name_en": "Board-Game Tactics",
+      "gift_name_zh": "桌游战术",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Board-Game Tactics",
+      "name_zh": "桌游战术",
+      "title_zh": "迪托利希 · 桌游战术",
+      "summary_zh": "迪托利希喜欢桌游战术；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "40a5e8a4a3dac427521dcd2c1e15e76ae2ace5f7ef7b1c76fa5d9c5f4f945ed8",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_board_game_tactics_b02126e12e_liked_en_623690",
+      "gift_profile_id": "gift_profile_board_game_tactics_b02126e12e_en_621535",
+      "gift_name_en": "Board-Game Tactics",
+      "gift_name_zh": "桌游战术",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Board-Game Tactics",
+      "name_zh": "桌游战术",
+      "title_zh": "迪托利希 · 桌游战术",
+      "summary_zh": "迪托利希喜欢桌游战术；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_crimson_ghosh_f126222d07_liked_en_621535",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "迪托利希 · 深红格修酒",
+      "summary_zh": "迪托利希喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_crimson_ghosh_f126222d07_liked_en_623690",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "迪托利希 · 深红格修酒",
+      "summary_zh": "迪托利希喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_ginji_cervi_bc7c0cebd7_liked_en_621535",
+      "gift_profile_id": "gift_profile_ginji_cervi_bc7c0cebd7_en_621535",
+      "gift_name_en": "Ginji Cervi",
+      "gift_name_zh": "银吉瑟维酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Ginji Cervi",
+      "name_zh": "银吉瑟维酒",
+      "title_zh": "迪托利希 · 银吉瑟维酒",
+      "summary_zh": "迪托利希喜欢银吉瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "0bb091b5e15de98ef1627cd7d742911024ef93e4ebe706188b6cf248ddb3f1c0",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_ginji_cervi_bc7c0cebd7_liked_en_623690",
+      "gift_profile_id": "gift_profile_ginji_cervi_bc7c0cebd7_en_621535",
+      "gift_name_en": "Ginji Cervi",
+      "gift_name_zh": "银吉瑟维酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Ginji Cervi",
+      "name_zh": "银吉瑟维酒",
+      "title_zh": "迪托利希 · 银吉瑟维酒",
+      "summary_zh": "迪托利希喜欢银吉瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_honey_milk_5112ecbe85_liked_en_621535",
+      "gift_profile_id": "gift_profile_honey_milk_5112ecbe85_en_621535",
+      "gift_name_en": "Honey Milk",
+      "gift_name_zh": "蜂蜜牛奶",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Milk",
+      "name_zh": "蜂蜜牛奶",
+      "title_zh": "迪托利希 · 蜂蜜牛奶",
+      "summary_zh": "迪托利希喜欢蜂蜜牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "4a1f84caeea7ac31511d105bafdc10d7890769e02ac65b6d299404d8963fd073",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_honey_milk_5112ecbe85_liked_en_623690",
+      "gift_profile_id": "gift_profile_honey_milk_5112ecbe85_en_621535",
+      "gift_name_en": "Honey Milk",
+      "gift_name_zh": "蜂蜜牛奶",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Milk",
+      "name_zh": "蜂蜜牛奶",
+      "title_zh": "迪托利希 · 蜂蜜牛奶",
+      "summary_zh": "迪托利希喜欢蜂蜜牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_honey_pastries_5817bd8d14_liked_en_621535",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Pastries",
+      "name_zh": "蜂蜜糕点",
+      "title_zh": "迪托利希 · 蜂蜜糕点",
+      "summary_zh": "迪托利希喜欢蜂蜜糕点；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "81084a462252af7cbd84697c4ebbc2b1136ef7efd7e2dc932d5a1061b72aed05",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_honey_pastries_5817bd8d14_liked_en_623690",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Pastries",
+      "name_zh": "蜂蜜糕点",
+      "title_zh": "迪托利希 · 蜂蜜糕点",
+      "summary_zh": "迪托利希喜欢蜂蜜糕点；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_joint_relief_gloves_1fdc1bde25_liked_en_621535",
+      "gift_profile_id": "gift_profile_joint_relief_gloves_1fdc1bde25_en_621535",
+      "gift_name_en": "Joint-Relief Gloves",
+      "gift_name_zh": "护关节手套",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Joint-Relief Gloves",
+      "name_zh": "护关节手套",
+      "title_zh": "迪托利希 · 护关节手套",
+      "summary_zh": "迪托利希喜欢护关节手套；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "eeb4256ae7eba020a7b801b7c725ab9c2def65a6fbf99917f542dc82ba493545",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_joint_relief_gloves_1fdc1bde25_liked_en_623690",
+      "gift_profile_id": "gift_profile_joint_relief_gloves_1fdc1bde25_en_621535",
+      "gift_name_en": "Joint-Relief Gloves",
+      "gift_name_zh": "护关节手套",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Joint-Relief Gloves",
+      "name_zh": "护关节手套",
+      "title_zh": "迪托利希 · 护关节手套",
+      "summary_zh": "迪托利希喜欢护关节手套；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_kitten_figurine_285260b716_liked_en_621535",
+      "gift_profile_id": "gift_profile_kitten_figurine_285260b716_en_621535",
+      "gift_name_en": "Kitten Figurine",
+      "gift_name_zh": "小猫摆件",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Kitten Figurine",
+      "name_zh": "小猫摆件",
+      "title_zh": "迪托利希 · 小猫摆件",
+      "summary_zh": "迪托利希喜欢小猫摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c82f7c783b772c3315a281f3dca79e05cc00e42674178228cc4d9128f3eb2fa1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_kitten_figurine_285260b716_liked_en_623690",
+      "gift_profile_id": "gift_profile_kitten_figurine_285260b716_en_621535",
+      "gift_name_en": "Kitten Figurine",
+      "gift_name_zh": "小猫摆件",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Kitten Figurine",
+      "name_zh": "小猫摆件",
+      "title_zh": "迪托利希 · 小猫摆件",
+      "summary_zh": "迪托利希喜欢小猫摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_pastry_cookbook_7243623941_liked_en_621535",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "迪托利希 · 糕点食谱",
+      "summary_zh": "迪托利希喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_pastry_cookbook_7243623941_liked_en_623690",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "迪托利希 · 糕点食谱",
+      "summary_zh": "迪托利希喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_protection_figurine_47c55426b7_liked_en_621535",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Protection Figurine",
+      "name_zh": "守护摆件",
+      "title_zh": "迪托利希 · 守护摆件",
+      "summary_zh": "迪托利希喜欢守护摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c6e0183de3606b57bf5a60af298078524182c721bb28aa2e43cf1504f9b8d313",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_protection_figurine_47c55426b7_liked_en_623690",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Protection Figurine",
+      "name_zh": "守护摆件",
+      "title_zh": "迪托利希 · 守护摆件",
+      "summary_zh": "迪托利希喜欢守护摆件；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_pure_white_cervi_927dd66d4f_liked_en_621535",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pure-White Cervi",
+      "name_zh": "纯白瑟维酒",
+      "title_zh": "迪托利希 · 纯白瑟维酒",
+      "summary_zh": "迪托利希喜欢纯白瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "2de21bdfc93a98c68b4047f81f3f56e7b9a2121b23df73fbc6e99a7d514754cf",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_pure_white_cervi_927dd66d4f_liked_en_623690",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pure-White Cervi",
+      "name_zh": "纯白瑟维酒",
+      "title_zh": "迪托利希 · 纯白瑟维酒",
+      "summary_zh": "迪托利希喜欢纯白瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_spirit_board_game_aea8af630e_liked_en_621535",
+      "gift_profile_id": "gift_profile_spirit_board_game_aea8af630e_en_621535",
+      "gift_name_en": "Spirit Board Game",
+      "gift_name_zh": "精灵棋盘游戏",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Spirit Board Game",
+      "name_zh": "精灵棋盘游戏",
+      "title_zh": "迪托利希 · 精灵棋盘游戏",
+      "summary_zh": "迪托利希喜欢精灵棋盘游戏；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "40a5e8a4a3dac427521dcd2c1e15e76ae2ace5f7ef7b1c76fa5d9c5f4f945ed8",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_spirit_board_game_aea8af630e_liked_en_623690",
+      "gift_profile_id": "gift_profile_spirit_board_game_aea8af630e_en_621535",
+      "gift_name_en": "Spirit Board Game",
+      "gift_name_zh": "精灵棋盘游戏",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Spirit Board Game",
+      "name_zh": "精灵棋盘游戏",
+      "title_zh": "迪托利希 · 精灵棋盘游戏",
+      "summary_zh": "迪托利希喜欢精灵棋盘游戏；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_training_pillar_aadb80890f_liked_en_621535",
+      "gift_profile_id": "gift_profile_training_pillar_aadb80890f_en_621535",
+      "gift_name_en": "Training Pillar",
+      "gift_name_zh": "训练柱",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Pillar",
+      "name_zh": "训练柱",
+      "title_zh": "迪托利希 · 训练柱",
+      "summary_zh": "迪托利希喜欢训练柱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "8082c2512b16c7dc23a3bdceb17b506f021c3886dd68267b1ba1636772c92bc8",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_training_pillar_aadb80890f_liked_en_623690",
+      "gift_profile_id": "gift_profile_training_pillar_aadb80890f_en_621535",
+      "gift_name_en": "Training Pillar",
+      "gift_name_zh": "训练柱",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Pillar",
+      "name_zh": "训练柱",
+      "title_zh": "迪托利希 · 训练柱",
+      "summary_zh": "迪托利希喜欢训练柱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_training_weights_96c5a7b6c4_liked_en_621535",
+      "gift_profile_id": "gift_profile_training_weights_96c5a7b6c4_en_621535",
+      "gift_name_en": "Training Weights",
+      "gift_name_zh": "训练配重",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Weights",
+      "name_zh": "训练配重",
+      "title_zh": "迪托利希 · 训练配重",
+      "summary_zh": "迪托利希喜欢训练配重；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "a7c5cc025ebb02d594e1d20190392e3c3a9dbace54ec8f5feec2cbf2241ed258",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_dietrich_c5220bda1c_training_weights_96c5a7b6c4_liked_en_623690",
+      "gift_profile_id": "gift_profile_training_weights_96c5a7b6c4_en_621535",
+      "gift_name_en": "Training Weights",
+      "gift_name_zh": "训练配重",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Weights",
+      "name_zh": "训练配重",
+      "title_zh": "迪托利希 · 训练配重",
+      "summary_zh": "迪托利希喜欢训练配重；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_arrowhead_gem_ff7dd580bf_liked_en_621535",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "迪托利希 · 箭镞宝石",
+          "summary_zh": "迪托利希喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_arrowhead_gem_ff7dd580bf_liked_en_623690",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "迪托利希 · 箭镞宝石",
+          "summary_zh": "迪托利希喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Board-Game Tactics",
+      "gift_name_zh": "桌游战术",
+      "gift_profile_id": "gift_profile_board_game_tactics_b02126e12e_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_board_game_tactics_b02126e12e_liked_en_621535",
+          "gift_profile_id": "gift_profile_board_game_tactics_b02126e12e_en_621535",
+          "gift_name_en": "Board-Game Tactics",
+          "gift_name_zh": "桌游战术",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Board-Game Tactics",
+          "name_zh": "桌游战术",
+          "title_zh": "迪托利希 · 桌游战术",
+          "summary_zh": "迪托利希喜欢桌游战术；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "40a5e8a4a3dac427521dcd2c1e15e76ae2ace5f7ef7b1c76fa5d9c5f4f945ed8",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_board_game_tactics_b02126e12e_liked_en_623690",
+          "gift_profile_id": "gift_profile_board_game_tactics_b02126e12e_en_621535",
+          "gift_name_en": "Board-Game Tactics",
+          "gift_name_zh": "桌游战术",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Board-Game Tactics",
+          "name_zh": "桌游战术",
+          "title_zh": "迪托利希 · 桌游战术",
+          "summary_zh": "迪托利希喜欢桌游战术；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_crimson_ghosh_f126222d07_liked_en_621535",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "迪托利希 · 深红格修酒",
+          "summary_zh": "迪托利希喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_crimson_ghosh_f126222d07_liked_en_623690",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "迪托利希 · 深红格修酒",
+          "summary_zh": "迪托利希喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Ginji Cervi",
+      "gift_name_zh": "银吉瑟维酒",
+      "gift_profile_id": "gift_profile_ginji_cervi_bc7c0cebd7_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_ginji_cervi_bc7c0cebd7_liked_en_621535",
+          "gift_profile_id": "gift_profile_ginji_cervi_bc7c0cebd7_en_621535",
+          "gift_name_en": "Ginji Cervi",
+          "gift_name_zh": "银吉瑟维酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Ginji Cervi",
+          "name_zh": "银吉瑟维酒",
+          "title_zh": "迪托利希 · 银吉瑟维酒",
+          "summary_zh": "迪托利希喜欢银吉瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "0bb091b5e15de98ef1627cd7d742911024ef93e4ebe706188b6cf248ddb3f1c0",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_ginji_cervi_bc7c0cebd7_liked_en_623690",
+          "gift_profile_id": "gift_profile_ginji_cervi_bc7c0cebd7_en_621535",
+          "gift_name_en": "Ginji Cervi",
+          "gift_name_zh": "银吉瑟维酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Ginji Cervi",
+          "name_zh": "银吉瑟维酒",
+          "title_zh": "迪托利希 · 银吉瑟维酒",
+          "summary_zh": "迪托利希喜欢银吉瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Honey Milk",
+      "gift_name_zh": "蜂蜜牛奶",
+      "gift_profile_id": "gift_profile_honey_milk_5112ecbe85_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_honey_milk_5112ecbe85_liked_en_621535",
+          "gift_profile_id": "gift_profile_honey_milk_5112ecbe85_en_621535",
+          "gift_name_en": "Honey Milk",
+          "gift_name_zh": "蜂蜜牛奶",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Milk",
+          "name_zh": "蜂蜜牛奶",
+          "title_zh": "迪托利希 · 蜂蜜牛奶",
+          "summary_zh": "迪托利希喜欢蜂蜜牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "4a1f84caeea7ac31511d105bafdc10d7890769e02ac65b6d299404d8963fd073",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_honey_milk_5112ecbe85_liked_en_623690",
+          "gift_profile_id": "gift_profile_honey_milk_5112ecbe85_en_621535",
+          "gift_name_en": "Honey Milk",
+          "gift_name_zh": "蜂蜜牛奶",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Milk",
+          "name_zh": "蜂蜜牛奶",
+          "title_zh": "迪托利希 · 蜂蜜牛奶",
+          "summary_zh": "迪托利希喜欢蜂蜜牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_honey_pastries_5817bd8d14_liked_en_621535",
+          "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+          "gift_name_en": "Honey Pastries",
+          "gift_name_zh": "蜂蜜糕点",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Pastries",
+          "name_zh": "蜂蜜糕点",
+          "title_zh": "迪托利希 · 蜂蜜糕点",
+          "summary_zh": "迪托利希喜欢蜂蜜糕点；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "81084a462252af7cbd84697c4ebbc2b1136ef7efd7e2dc932d5a1061b72aed05",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_honey_pastries_5817bd8d14_liked_en_623690",
+          "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+          "gift_name_en": "Honey Pastries",
+          "gift_name_zh": "蜂蜜糕点",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Pastries",
+          "name_zh": "蜂蜜糕点",
+          "title_zh": "迪托利希 · 蜂蜜糕点",
+          "summary_zh": "迪托利希喜欢蜂蜜糕点；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Joint-Relief Gloves",
+      "gift_name_zh": "护关节手套",
+      "gift_profile_id": "gift_profile_joint_relief_gloves_1fdc1bde25_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_joint_relief_gloves_1fdc1bde25_liked_en_621535",
+          "gift_profile_id": "gift_profile_joint_relief_gloves_1fdc1bde25_en_621535",
+          "gift_name_en": "Joint-Relief Gloves",
+          "gift_name_zh": "护关节手套",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Joint-Relief Gloves",
+          "name_zh": "护关节手套",
+          "title_zh": "迪托利希 · 护关节手套",
+          "summary_zh": "迪托利希喜欢护关节手套；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "eeb4256ae7eba020a7b801b7c725ab9c2def65a6fbf99917f542dc82ba493545",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_joint_relief_gloves_1fdc1bde25_liked_en_623690",
+          "gift_profile_id": "gift_profile_joint_relief_gloves_1fdc1bde25_en_621535",
+          "gift_name_en": "Joint-Relief Gloves",
+          "gift_name_zh": "护关节手套",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Joint-Relief Gloves",
+          "name_zh": "护关节手套",
+          "title_zh": "迪托利希 · 护关节手套",
+          "summary_zh": "迪托利希喜欢护关节手套；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Kitten Figurine",
+      "gift_name_zh": "小猫摆件",
+      "gift_profile_id": "gift_profile_kitten_figurine_285260b716_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_kitten_figurine_285260b716_liked_en_621535",
+          "gift_profile_id": "gift_profile_kitten_figurine_285260b716_en_621535",
+          "gift_name_en": "Kitten Figurine",
+          "gift_name_zh": "小猫摆件",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Kitten Figurine",
+          "name_zh": "小猫摆件",
+          "title_zh": "迪托利希 · 小猫摆件",
+          "summary_zh": "迪托利希喜欢小猫摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c82f7c783b772c3315a281f3dca79e05cc00e42674178228cc4d9128f3eb2fa1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_kitten_figurine_285260b716_liked_en_623690",
+          "gift_profile_id": "gift_profile_kitten_figurine_285260b716_en_621535",
+          "gift_name_en": "Kitten Figurine",
+          "gift_name_zh": "小猫摆件",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Kitten Figurine",
+          "name_zh": "小猫摆件",
+          "title_zh": "迪托利希 · 小猫摆件",
+          "summary_zh": "迪托利希喜欢小猫摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_pastry_cookbook_7243623941_liked_en_621535",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "迪托利希 · 糕点食谱",
+          "summary_zh": "迪托利希喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_pastry_cookbook_7243623941_liked_en_623690",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "迪托利希 · 糕点食谱",
+          "summary_zh": "迪托利希喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Protection Figurine",
+      "gift_name_zh": "守护摆件",
+      "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_protection_figurine_47c55426b7_liked_en_621535",
+          "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+          "gift_name_en": "Protection Figurine",
+          "gift_name_zh": "守护摆件",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Protection Figurine",
+          "name_zh": "守护摆件",
+          "title_zh": "迪托利希 · 守护摆件",
+          "summary_zh": "迪托利希喜欢守护摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c6e0183de3606b57bf5a60af298078524182c721bb28aa2e43cf1504f9b8d313",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_protection_figurine_47c55426b7_liked_en_623690",
+          "gift_profile_id": "gift_profile_protection_figurine_47c55426b7_en_621535",
+          "gift_name_en": "Protection Figurine",
+          "gift_name_zh": "守护摆件",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Protection Figurine",
+          "name_zh": "守护摆件",
+          "title_zh": "迪托利希 · 守护摆件",
+          "summary_zh": "迪托利希喜欢守护摆件；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_pure_white_cervi_927dd66d4f_liked_en_621535",
+          "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+          "gift_name_en": "Pure-White Cervi",
+          "gift_name_zh": "纯白瑟维酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pure-White Cervi",
+          "name_zh": "纯白瑟维酒",
+          "title_zh": "迪托利希 · 纯白瑟维酒",
+          "summary_zh": "迪托利希喜欢纯白瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "2de21bdfc93a98c68b4047f81f3f56e7b9a2121b23df73fbc6e99a7d514754cf",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_pure_white_cervi_927dd66d4f_liked_en_623690",
+          "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+          "gift_name_en": "Pure-White Cervi",
+          "gift_name_zh": "纯白瑟维酒",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pure-White Cervi",
+          "name_zh": "纯白瑟维酒",
+          "title_zh": "迪托利希 · 纯白瑟维酒",
+          "summary_zh": "迪托利希喜欢纯白瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Spirit Board Game",
+      "gift_name_zh": "精灵棋盘游戏",
+      "gift_profile_id": "gift_profile_spirit_board_game_aea8af630e_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_spirit_board_game_aea8af630e_liked_en_621535",
+          "gift_profile_id": "gift_profile_spirit_board_game_aea8af630e_en_621535",
+          "gift_name_en": "Spirit Board Game",
+          "gift_name_zh": "精灵棋盘游戏",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Spirit Board Game",
+          "name_zh": "精灵棋盘游戏",
+          "title_zh": "迪托利希 · 精灵棋盘游戏",
+          "summary_zh": "迪托利希喜欢精灵棋盘游戏；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "40a5e8a4a3dac427521dcd2c1e15e76ae2ace5f7ef7b1c76fa5d9c5f4f945ed8",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_spirit_board_game_aea8af630e_liked_en_623690",
+          "gift_profile_id": "gift_profile_spirit_board_game_aea8af630e_en_621535",
+          "gift_name_en": "Spirit Board Game",
+          "gift_name_zh": "精灵棋盘游戏",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Spirit Board Game",
+          "name_zh": "精灵棋盘游戏",
+          "title_zh": "迪托利希 · 精灵棋盘游戏",
+          "summary_zh": "迪托利希喜欢精灵棋盘游戏；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Training Pillar",
+      "gift_name_zh": "训练柱",
+      "gift_profile_id": "gift_profile_training_pillar_aadb80890f_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_training_pillar_aadb80890f_liked_en_621535",
+          "gift_profile_id": "gift_profile_training_pillar_aadb80890f_en_621535",
+          "gift_name_en": "Training Pillar",
+          "gift_name_zh": "训练柱",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Pillar",
+          "name_zh": "训练柱",
+          "title_zh": "迪托利希 · 训练柱",
+          "summary_zh": "迪托利希喜欢训练柱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "8082c2512b16c7dc23a3bdceb17b506f021c3886dd68267b1ba1636772c92bc8",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_training_pillar_aadb80890f_liked_en_623690",
+          "gift_profile_id": "gift_profile_training_pillar_aadb80890f_en_621535",
+          "gift_name_en": "Training Pillar",
+          "gift_name_zh": "训练柱",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Pillar",
+          "name_zh": "训练柱",
+          "title_zh": "迪托利希 · 训练柱",
+          "summary_zh": "迪托利希喜欢训练柱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Training Weights",
+      "gift_name_zh": "训练配重",
+      "gift_profile_id": "gift_profile_training_weights_96c5a7b6c4_en_621535",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_training_weights_96c5a7b6c4_liked_en_621535",
+          "gift_profile_id": "gift_profile_training_weights_96c5a7b6c4_en_621535",
+          "gift_name_en": "Training Weights",
+          "gift_name_zh": "训练配重",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Weights",
+          "name_zh": "训练配重",
+          "title_zh": "迪托利希 · 训练配重",
+          "summary_zh": "迪托利希喜欢训练配重；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "a7c5cc025ebb02d594e1d20190392e3c3a9dbace54ec8f5feec2cbf2241ed258",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_dietrich_c5220bda1c_training_weights_96c5a7b6c4_liked_en_623690",
+          "gift_profile_id": "gift_profile_training_weights_96c5a7b6c4_en_621535",
+          "gift_name_en": "Training Weights",
+          "gift_name_zh": "训练配重",
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Weights",
+          "name_zh": "训练配重",
+          "title_zh": "迪托利希 · 训练配重",
+          "summary_zh": "迪托利希喜欢训练配重；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "78ccc26e5e785881db62d19d2fab2b34a428aa7c36ebbf0e966c662259ac0856",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/dietrich.jpg",
+    "width": 450,
+    "height": 450,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_3.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image003.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 迪托利希；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 3,
+    "name_zh": "迪托利希",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_3.shtml",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 30,
+      "lck": 50,
+      "cha": 60
+    },
+    "preferred_skills": [
+      "剑术",
+      "步兵术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有10%概率发动，为自身中幅恢复HP"
+      },
+      {
+        "label": "血印2",
+        "effect": "攻击时有25%概率发动，攻击力+3"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "主动发起战斗时，必杀+5"
+  },
+  "reference_profile": {
+    "name_en": "Dietrich",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+    "faction": "House Lamine",
+    "personal_ability": "Murderous Intent",
+    "preferred_skills": [
+      "Infantry Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 30,
+      "lck": 50,
+      "cha": 60
+    },
+    "growth_total": 415
+  },
+  "reference_update": {
+    "id": "profile_dietrich",
+    "character_id": "dietrich",
+    "name_en": "Dietrich",
+    "name_zh": "迪托利希",
+    "growth": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 30,
+      "lck": 50,
+      "cha": 60
+    },
+    "birthday": "9/10",
+    "personal_ability_name": "Murderous Intent",
+    "preferred_skills": [
+      "Infantry",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "White Magic"
+    ],
+    "source_id": "en_620168",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+    "source_updated_text": "2026-09-26T05:48:53-04:00",
+    "retrieved_at": "2026-09-26T12:59:09+00:00",
+    "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Read the Winds",
+      "Vanguard",
+      "Flitting Flier",
+      "Knightly Senses",
+      "Evasion",
+      "Narrow Defense"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_the_endless_3833d491f3_en_623691",
+      "name_en": "Diadem of the Endless",
+      "name_zh": "无尽之冠",
+      "title_zh": "无尽之冠",
+      "summary_zh": "自身发动攻击时，恢复部分生命；具体恢复量未列出。触发概率为 10%。",
+      "ability": "Diadem of the Endless",
+      "crest_name_en": "Lamine",
+      "crest_name_zh": "拉弥努",
+      "holders": [
+        {
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "dietrich"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "resource": "hp",
+        "restore_amount": null,
+        "amount_description": "some",
+        "trigger_percent": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，恢复部分生命；具体恢复量未列出。触发概率为 10%。",
+      "effect_text_sha256": "cc8ad5be8aa27d80a7f97bb8b47512e4a3c3f9f1a4c3b5c73f61dee1e2156170",
+      "source_row_sha256": "56cb7c1f70b2fe833d4b86ab713b7c37c20ac1556d3681bc66a78a995fe7cb19",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of the Endless",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_the_endless_3833d491f3_en_623691",
+        "name_en": "Diadem of the Endless",
+        "name_zh": "无尽之冠",
+        "title_zh": "无尽之冠",
+        "summary_zh": "自身发动攻击时，恢复部分生命；具体恢复量未列出。触发概率为 10%。",
+        "ability": "Diadem of the Endless",
+        "crest_name_en": "Lamine",
+        "crest_name_zh": "拉弥努",
+        "holders": [
+          {
+            "character": "Dietrich",
+            "character_id": "dietrich",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "dietrich"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "resource": "hp",
+          "restore_amount": null,
+          "amount_description": "some",
+          "trigger_percent": 10
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，恢复部分生命；具体恢复量未列出。触发概率为 10%。",
+        "effect_text_sha256": "cc8ad5be8aa27d80a7f97bb8b47512e4a3c3f9f1a4c3b5c73f61dee1e2156170",
+        "source_row_sha256": "56cb7c1f70b2fe833d4b86ab713b7c37c20ac1556d3681bc66a78a995fe7cb19",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Dietrich",
+          "mark": "Diadem of the Endless",
+          "holders": "Dietrich"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_bestial_impulse_c461d3afeb_en_623691",
+      "name_en": "Bestial Impulse",
+      "name_zh": "野性冲动",
+      "title_zh": "野性冲动",
+      "summary_zh": "战斗结束后，必杀 +2，持续至「一名单位发动必杀」；终止条件所指单位及叠加规则待核对。",
+      "ability": "Bestial Impulse",
+      "effect_facts": {
+        "condition": "complete_combat",
+        "stat": "crit",
+        "bonus": 2,
+        "duration_end": "a_unit_makes_critical",
+        "duration_end_subject": "source_a_unit_unresolved",
+        "stacking_rule": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "战斗结束后，必杀 +2，持续至「一名单位发动必杀」；终止条件所指单位及叠加规则待核对。",
+      "effect_text_sha256": "8990e4fc1107ae34c02605d9d225ec22a2579f81676df82dd2cfc630e53db6dc",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 5,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Bestial Impulse",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_dietrich_bestialimpulse_5",
+          "character_id": "dietrich",
+          "character": "Dietrich",
+          "ability": "Bestial Impulse",
+          "level": 5,
+          "effect": null,
+          "source_id": "en_620168",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+          "source_updated_text": "2026-09-26T05:48:53-04:00",
+          "retrieved_at": "2026-09-26T12:59:09+00:00",
+          "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 5,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_620168",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+            "source_updated_text": "2026-09-26T05:48:53-04:00",
+            "retrieved_at": "2026-09-26T12:59:09+00:00",
+            "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_bestial_impulse_c461d3afeb_en_623691",
+          "name_en": "Bestial Impulse",
+          "name_zh": "野性冲动",
+          "title_zh": "野性冲动",
+          "summary_zh": "战斗结束后，必杀 +2，持续至「一名单位发动必杀」；终止条件所指单位及叠加规则待核对。",
+          "ability": "Bestial Impulse",
+          "effect_facts": {
+            "condition": "complete_combat",
+            "stat": "crit",
+            "bonus": 2,
+            "duration_end": "a_unit_makes_critical",
+            "duration_end_subject": "source_a_unit_unresolved",
+            "stacking_rule": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "战斗结束后，必杀 +2，持续至「一名单位发动必杀」；终止条件所指单位及叠加规则待核对。",
+          "effect_text_sha256": "8990e4fc1107ae34c02605d9d225ec22a2579f81676df82dd2cfc630e53db6dc",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Dietrich",
+          "character_id": "dietrich",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 5,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_murderous_intent_b6053addb5_en_623691",
+      "name_en": "Murderous Intent",
+      "name_zh": "杀意",
+      "title_zh": "杀意",
+      "summary_zh": "自身先发动攻击时，本次战斗必杀 +5。",
+      "ability": "Murderous Intent",
+      "effect_facts": {
+        "condition": "self_attacks_first",
+        "timing": "during_combat",
+        "target": "self",
+        "stat_bonuses": {
+          "crit": 5
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身先发动攻击时，本次战斗必杀 +5。",
+      "effect_text_sha256": "23172905b8dbe8346237fc5310d8a2346a395602a9ad9528fb6b3ccce1fd762d",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Murderous Intent",
+      "effect_zh": "主动攻击时，战斗中必杀 +5。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Murderous Intent",
+      "effect_zh": "主动发起战斗时，必杀+5",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_3.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_murderous_intent_b6053addb5_en_623691",
+      "name_en": "Murderous Intent",
+      "name_zh": "杀意",
+      "title_zh": "杀意",
+      "summary_zh": "自身先发动攻击时，本次战斗必杀 +5。",
+      "ability": "Murderous Intent",
+      "effect_facts": {
+        "condition": "self_attacks_first",
+        "timing": "during_combat",
+        "target": "self",
+        "stat_bonuses": {
+          "crit": 5
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身先发动攻击时，本次战斗必杀 +5。",
+      "effect_text_sha256": "23172905b8dbe8346237fc5310d8a2346a395602a9ad9528fb6b3ccce1fd762d",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Dietrich",
+      "character_id": "dietrich",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [
+    {
+      "id": "level_dietrich_bestialimpulse_5",
+      "character_id": "dietrich",
+      "character": "Dietrich",
+      "ability": "Bestial Impulse",
+      "level": 5,
+      "effect": null,
+      "source_id": "en_620168",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+      "source_updated_text": "2026-09-26T05:48:53-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_dietrich_d_black_blizzard",
+      "character_id": "dietrich",
+      "character": "Dietrich",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Blizzard",
+      "source_id": "en_620168",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+      "source_updated_text": "2026-09-26T05:48:53-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_dietrich_d_white_heal",
+      "character_id": "dietrich",
+      "character": "Dietrich",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_620168",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+      "source_updated_text": "2026-09-26T05:48:53-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 30,
+        "spd": 50,
+        "dex": 60,
+        "def": 40,
+        "res": 30,
+        "lck": 50,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 30,
+        "spd": 50,
+        "dex": 60,
+        "def": 40,
+        "res": 30,
+        "lck": 50,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_3.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 30,
+        "spd": 50,
+        "dex": 60,
+        "def": 40,
+        "res": 30,
+        "lck": 50,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 50,
+        "str": 45,
+        "mag": 30,
+        "spd": 50,
+        "dex": 60,
+        "def": 40,
+        "res": 30,
+        "lck": 50,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_620168",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620168",
+        "source_updated_text": "2026-09-26T05:48:53-04:00",
+        "retrieved_at": "2026-09-26T12:59:09+00:00",
+        "content_sha256": "436de20199f4e71b351923821530d84706bbbcee70ac4479e084475ea3aec28b",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "N/A",
+      "Dietrich": "Automatic",
+      "Theodora": "N/A",
+      "Leda": "N/A"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Buccar",
+      "partner": "Dietrich",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Catania",
+      "partner": "Dietrich",
+      "rank": "B"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Buccar",
+      "rank": "B"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Catania",
+      "rank": "B"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Esmeralda",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Fabio",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Halvin",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Mikaela",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Seteth",
+      "rank": "C"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Talimun",
+      "rank": "A"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Esmeralda",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Fabio",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Halvin",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Leda",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Mikaela",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Seteth",
+      "partner": "Dietrich",
+      "rank": "C"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Dietrich",
+      "rank": "A"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Dietrich",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Blizzard"
+    },
+    {
+      "name": "Dietrich",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Dietrich",
+      "gift": "Arrowhead Gem"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Crimson Ghosh"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Ginji Cervi"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Honey Milk"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Honey Pastries"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Joint-Relief Gloves"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Kitten Figurine"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Pastry Cookbook"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Protection Figurine"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Pure-White Cervi"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Spirit Board Game"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Training Pillar"
+    },
+    {
+      "name": "Dietrich",
+      "gift": "Training Weights"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Dietrich",
+      "kind": "preferred",
+      "skill": "Infantry Skill"
+    },
+    {
+      "name": "Dietrich",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Dietrich",
+      "art": "Moving Shadow",
+      "range": "1-3",
+      "blaze": "1",
+      "learned": "Part I Chapter 4"
+    },
+    {
+      "name": "Dietrich",
+      "art": "Stifling Shadow",
+      "range": "0-3",
+      "blaze": "1",
+      "learned": "Lv. 20"
+    },
+    {
+      "name": "Dietrich",
+      "art": "Ruinous Shadow",
+      "range": "0-5",
+      "blaze": "6",
+      "learned": "Lv. 35"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Dietrich",
+      "mark": "Diadem of the Endless",
+      "holders": "Dietrich"
+    }
+  ],
+  "character_notes": [
+    {
+      "character_id": "dietrich",
+      "summary": "迪托利希的路线可以通过击败敌人获得并强化战技。",
+      "source_label": "任天堂开发者访谈 · 第 2 篇",
+      "url": "https://www.nintendo.com/au/news-and-articles/ask-the-developer-vol-23-fire-emblem-fortunes-weave-chapter-2/"
+    }
+  ],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "dietrich",
+  "display_name": "迪托利希"
+}

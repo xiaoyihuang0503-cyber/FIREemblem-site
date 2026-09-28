@@ -1,0 +1,3438 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "goliath",
+    "name_en": "Goliath",
+    "name_zh": "哥莱亚斯",
+    "growth": {
+      "hp": 55,
+      "str": 60,
+      "mag": 5,
+      "spd": 15,
+      "dex": 30,
+      "def": 50,
+      "res": 20,
+      "lck": 35,
+      "cha": 20
+    },
+    "growth_total": 290,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Heavyweight Class",
+      "description": "Unit cannot change to cavalry or flying. Grants Bld+5.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "3S, 7R, 3x Giant Meat",
+      "Dietrich": "3S, 6R, 3x Giant Meat",
+      "Theodora": "3S, 9R, 3x Giant Meat",
+      "Leda": "3S, 10R, 3x Giant Meat"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/goliath.jpg",
+      "width": 160,
+      "height": 160,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_43.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image043.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 哥莱亚斯；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_goliath_3f483e39d0_aromatic_shosh_1475dd8108_liked_en_621535",
+      "gift_profile_id": "gift_profile_aromatic_shosh_1475dd8108_en_621535",
+      "gift_name_en": "Aromatic Shosh",
+      "gift_name_zh": "芳香修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Aromatic Shosh",
+      "name_zh": "芳香修修酒",
+      "title_zh": "哥莱亚斯 · 芳香修修酒",
+      "summary_zh": "哥莱亚斯喜欢芳香修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "84c395ed12c1966df0a9505c5417d3d176d70803942fdd993447a50d4af80384",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_aromatic_shosh_1475dd8108_liked_en_623690",
+      "gift_profile_id": "gift_profile_aromatic_shosh_1475dd8108_en_621535",
+      "gift_name_en": "Aromatic Shosh",
+      "gift_name_zh": "芳香修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Aromatic Shosh",
+      "name_zh": "芳香修修酒",
+      "title_zh": "哥莱亚斯 · 芳香修修酒",
+      "summary_zh": "哥莱亚斯喜欢芳香修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "哥莱亚斯 · 东方茶叶",
+      "summary_zh": "哥莱亚斯喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "哥莱亚斯 · 东方茶叶",
+      "summary_zh": "哥莱亚斯喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_jade_ghosh_70ad604d69_liked_en_621535",
+      "gift_profile_id": "gift_profile_jade_ghosh_70ad604d69_en_621535",
+      "gift_name_en": "Jade Ghosh",
+      "gift_name_zh": "翡翠格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Jade Ghosh",
+      "name_zh": "翡翠格修酒",
+      "title_zh": "哥莱亚斯 · 翡翠格修酒",
+      "summary_zh": "哥莱亚斯喜欢翡翠格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_jade_ghosh_70ad604d69_liked_en_623690",
+      "gift_profile_id": "gift_profile_jade_ghosh_70ad604d69_en_621535",
+      "gift_name_en": "Jade Ghosh",
+      "gift_name_zh": "翡翠格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Jade Ghosh",
+      "name_zh": "翡翠格修酒",
+      "title_zh": "哥莱亚斯 · 翡翠格修酒",
+      "summary_zh": "哥莱亚斯喜欢翡翠格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_light_shosh_57e2989e5c_liked_en_621535",
+      "gift_profile_id": "gift_profile_light_shosh_57e2989e5c_en_621535",
+      "gift_name_en": "Light Shosh",
+      "gift_name_zh": "淡味修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Light Shosh",
+      "name_zh": "淡味修修酒",
+      "title_zh": "哥莱亚斯 · 淡味修修酒",
+      "summary_zh": "哥莱亚斯喜欢淡味修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "f5eb538b345b7edebacd31c729eed53c2be8a6f4ce9b26303b7a9f1f5ba53c76",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_light_shosh_57e2989e5c_liked_en_623690",
+      "gift_profile_id": "gift_profile_light_shosh_57e2989e5c_en_621535",
+      "gift_name_en": "Light Shosh",
+      "gift_name_zh": "淡味修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Light Shosh",
+      "name_zh": "淡味修修酒",
+      "title_zh": "哥莱亚斯 · 淡味修修酒",
+      "summary_zh": "哥莱亚斯喜欢淡味修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_mature_ghosh_1fc05e6ebf_liked_en_621535",
+      "gift_profile_id": "gift_profile_mature_ghosh_1fc05e6ebf_en_621535",
+      "gift_name_en": "Mature Ghosh",
+      "gift_name_zh": "陈年格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Mature Ghosh",
+      "name_zh": "陈年格修酒",
+      "title_zh": "哥莱亚斯 · 陈年格修酒",
+      "summary_zh": "哥莱亚斯喜欢陈年格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_mature_ghosh_1fc05e6ebf_liked_en_623690",
+      "gift_profile_id": "gift_profile_mature_ghosh_1fc05e6ebf_en_621535",
+      "gift_name_en": "Mature Ghosh",
+      "gift_name_zh": "陈年格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Mature Ghosh",
+      "name_zh": "陈年格修酒",
+      "title_zh": "哥莱亚斯 · 陈年格修酒",
+      "summary_zh": "哥莱亚斯喜欢陈年格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_mature_shosh_c645546a18_liked_en_621535",
+      "gift_profile_id": "gift_profile_mature_shosh_c645546a18_en_621535",
+      "gift_name_en": "Mature Shosh",
+      "gift_name_zh": "陈年修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Mature Shosh",
+      "name_zh": "陈年修修酒",
+      "title_zh": "哥莱亚斯 · 陈年修修酒",
+      "summary_zh": "哥莱亚斯喜欢陈年修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_mature_shosh_c645546a18_liked_en_623690",
+      "gift_profile_id": "gift_profile_mature_shosh_c645546a18_en_621535",
+      "gift_name_en": "Mature Shosh",
+      "gift_name_zh": "陈年修修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Mature Shosh",
+      "name_zh": "陈年修修酒",
+      "title_zh": "哥莱亚斯 · 陈年修修酒",
+      "summary_zh": "哥莱亚斯喜欢陈年修修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_rustic_ghosh_ab5c13be8c_liked_en_621535",
+      "gift_profile_id": "gift_profile_rustic_ghosh_ab5c13be8c_en_621535",
+      "gift_name_en": "Rustic Ghosh",
+      "gift_name_zh": "乡野格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Rustic Ghosh",
+      "name_zh": "乡野格修酒",
+      "title_zh": "哥莱亚斯 · 乡野格修酒",
+      "summary_zh": "哥莱亚斯喜欢乡野格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_rustic_ghosh_ab5c13be8c_liked_en_623690",
+      "gift_profile_id": "gift_profile_rustic_ghosh_ab5c13be8c_en_621535",
+      "gift_name_en": "Rustic Ghosh",
+      "gift_name_zh": "乡野格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Rustic Ghosh",
+      "name_zh": "乡野格修酒",
+      "title_zh": "哥莱亚斯 · 乡野格修酒",
+      "summary_zh": "哥莱亚斯喜欢乡野格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_secret_ghosh_5414a6b9dc_liked_en_621535",
+      "gift_profile_id": "gift_profile_secret_ghosh_5414a6b9dc_en_621535",
+      "gift_name_en": "Secret Ghosh",
+      "gift_name_zh": "秘制格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Secret Ghosh",
+      "name_zh": "秘制格修酒",
+      "title_zh": "哥莱亚斯 · 秘制格修酒",
+      "summary_zh": "哥莱亚斯喜欢秘制格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_secret_ghosh_5414a6b9dc_liked_en_623690",
+      "gift_profile_id": "gift_profile_secret_ghosh_5414a6b9dc_en_621535",
+      "gift_name_en": "Secret Ghosh",
+      "gift_name_zh": "秘制格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Secret Ghosh",
+      "name_zh": "秘制格修酒",
+      "title_zh": "哥莱亚斯 · 秘制格修酒",
+      "summary_zh": "哥莱亚斯喜欢秘制格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_southern_ghosh_adfd3d2c38_liked_en_621535",
+      "gift_profile_id": "gift_profile_southern_ghosh_adfd3d2c38_en_621535",
+      "gift_name_en": "Southern Ghosh",
+      "gift_name_zh": "南方格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Southern Ghosh",
+      "name_zh": "南方格修酒",
+      "title_zh": "哥莱亚斯 · 南方格修酒",
+      "summary_zh": "哥莱亚斯喜欢南方格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "1b7e6f0af88aa0e0b863354d8b55969c5ad1682bc993065bae42c63933c29446",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_southern_ghosh_adfd3d2c38_liked_en_623690",
+      "gift_profile_id": "gift_profile_southern_ghosh_adfd3d2c38_en_621535",
+      "gift_name_en": "Southern Ghosh",
+      "gift_name_zh": "南方格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Southern Ghosh",
+      "name_zh": "南方格修酒",
+      "title_zh": "哥莱亚斯 · 南方格修酒",
+      "summary_zh": "哥莱亚斯喜欢南方格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_strategy_manuscript_1ac56c5c7d_loved_en_621535",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "哥莱亚斯 · 战略手稿",
+      "summary_zh": "哥莱亚斯非常喜欢战略手稿；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_strategy_manuscript_1ac56c5c7d_loved_en_623690",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "哥莱亚斯 · 战略手稿",
+      "summary_zh": "哥莱亚斯非常喜欢战略手稿；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_sturdy_rucksack_42da731edd_liked_en_621535",
+      "gift_profile_id": "gift_profile_sturdy_rucksack_42da731edd_en_621535",
+      "gift_name_en": "Sturdy Rucksack",
+      "gift_name_zh": "结实背包",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sturdy Rucksack",
+      "name_zh": "结实背包",
+      "title_zh": "哥莱亚斯 · 结实背包",
+      "summary_zh": "哥莱亚斯喜欢结实背包；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "90097087e247f9ad120f6cdc08adaa0975db9b2d9e390bc298b900a96130eebd",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_sturdy_rucksack_42da731edd_liked_en_623690",
+      "gift_profile_id": "gift_profile_sturdy_rucksack_42da731edd_en_621535",
+      "gift_name_en": "Sturdy Rucksack",
+      "gift_name_zh": "结实背包",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sturdy Rucksack",
+      "name_zh": "结实背包",
+      "title_zh": "哥莱亚斯 · 结实背包",
+      "summary_zh": "哥莱亚斯喜欢结实背包；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_sun_ghosh_7d8b2f7ef8_liked_en_621535",
+      "gift_profile_id": "gift_profile_sun_ghosh_7d8b2f7ef8_en_621535",
+      "gift_name_en": "Sun Ghosh",
+      "gift_name_zh": "太阳格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sun Ghosh",
+      "name_zh": "太阳格修酒",
+      "title_zh": "哥莱亚斯 · 太阳格修酒",
+      "summary_zh": "哥莱亚斯喜欢太阳格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_sun_ghosh_7d8b2f7ef8_liked_en_623690",
+      "gift_profile_id": "gift_profile_sun_ghosh_7d8b2f7ef8_en_621535",
+      "gift_name_en": "Sun Ghosh",
+      "gift_name_zh": "太阳格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sun Ghosh",
+      "name_zh": "太阳格修酒",
+      "title_zh": "哥莱亚斯 · 太阳格修酒",
+      "summary_zh": "哥莱亚斯喜欢太阳格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_training_bracelet_d20193edb7_liked_en_621535",
+      "gift_profile_id": "gift_profile_training_bracelet_d20193edb7_en_621535",
+      "gift_name_en": "Training Bracelet",
+      "gift_name_zh": "训练手环",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Bracelet",
+      "name_zh": "训练手环",
+      "title_zh": "哥莱亚斯 · 训练手环",
+      "summary_zh": "哥莱亚斯喜欢训练手环；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "a85d7d5885348ec6eed6b7c6ec3feb6e17a7767e6afaeef193eec0d47cb5a3e4",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_training_bracelet_d20193edb7_liked_en_623690",
+      "gift_profile_id": "gift_profile_training_bracelet_d20193edb7_en_621535",
+      "gift_name_en": "Training Bracelet",
+      "gift_name_zh": "训练手环",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Training Bracelet",
+      "name_zh": "训练手环",
+      "title_zh": "哥莱亚斯 · 训练手环",
+      "summary_zh": "哥莱亚斯喜欢训练手环；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_volcano_ghosh_9caef1e7f8_loved_en_621535",
+      "gift_profile_id": "gift_profile_volcano_ghosh_9caef1e7f8_en_621535",
+      "gift_name_en": "Volcano Ghosh",
+      "gift_name_zh": "火山格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Volcano Ghosh",
+      "name_zh": "火山格修酒",
+      "title_zh": "哥莱亚斯 · 火山格修酒",
+      "summary_zh": "哥莱亚斯非常喜欢火山格修酒；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "f1aac9f13cdd99da8c3a60c1fab877eceb9dc35d535ed0407ba8e971bcdc91a2",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_volcano_ghosh_9caef1e7f8_loved_en_623690",
+      "gift_profile_id": "gift_profile_volcano_ghosh_9caef1e7f8_en_621535",
+      "gift_name_en": "Volcano Ghosh",
+      "gift_name_zh": "火山格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Volcano Ghosh",
+      "name_zh": "火山格修酒",
+      "title_zh": "哥莱亚斯 · 火山格修酒",
+      "summary_zh": "哥莱亚斯非常喜欢火山格修酒；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_wing_fletching_4e85c1dea4_liked_en_621535",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Wing Fletching",
+      "name_zh": "箭羽",
+      "title_zh": "哥莱亚斯 · 箭羽",
+      "summary_zh": "哥莱亚斯喜欢箭羽；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c6d67c999327a4fd428a027e6f1de23ebc66bd030a58e686b280f403ed94e454",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_wing_fletching_4e85c1dea4_liked_en_623690",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Wing Fletching",
+      "name_zh": "箭羽",
+      "title_zh": "哥莱亚斯 · 箭羽",
+      "summary_zh": "哥莱亚斯喜欢箭羽；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_young_ghosh_0effe4b6a3_liked_en_621535",
+      "gift_profile_id": "gift_profile_young_ghosh_0effe4b6a3_en_621535",
+      "gift_name_en": "Young Ghosh",
+      "gift_name_zh": "新酿格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Young Ghosh",
+      "name_zh": "新酿格修酒",
+      "title_zh": "哥莱亚斯 · 新酿格修酒",
+      "summary_zh": "哥莱亚斯喜欢新酿格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_goliath_3f483e39d0_young_ghosh_0effe4b6a3_liked_en_623690",
+      "gift_profile_id": "gift_profile_young_ghosh_0effe4b6a3_en_621535",
+      "gift_name_en": "Young Ghosh",
+      "gift_name_zh": "新酿格修酒",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Young Ghosh",
+      "name_zh": "新酿格修酒",
+      "title_zh": "哥莱亚斯 · 新酿格修酒",
+      "summary_zh": "哥莱亚斯喜欢新酿格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Aromatic Shosh",
+      "gift_name_zh": "芳香修修酒",
+      "gift_profile_id": "gift_profile_aromatic_shosh_1475dd8108_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_aromatic_shosh_1475dd8108_liked_en_621535",
+          "gift_profile_id": "gift_profile_aromatic_shosh_1475dd8108_en_621535",
+          "gift_name_en": "Aromatic Shosh",
+          "gift_name_zh": "芳香修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Aromatic Shosh",
+          "name_zh": "芳香修修酒",
+          "title_zh": "哥莱亚斯 · 芳香修修酒",
+          "summary_zh": "哥莱亚斯喜欢芳香修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "84c395ed12c1966df0a9505c5417d3d176d70803942fdd993447a50d4af80384",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_aromatic_shosh_1475dd8108_liked_en_623690",
+          "gift_profile_id": "gift_profile_aromatic_shosh_1475dd8108_en_621535",
+          "gift_name_en": "Aromatic Shosh",
+          "gift_name_zh": "芳香修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Aromatic Shosh",
+          "name_zh": "芳香修修酒",
+          "title_zh": "哥莱亚斯 · 芳香修修酒",
+          "summary_zh": "哥莱亚斯喜欢芳香修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "哥莱亚斯 · 东方茶叶",
+          "summary_zh": "哥莱亚斯喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "哥莱亚斯 · 东方茶叶",
+          "summary_zh": "哥莱亚斯喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Jade Ghosh",
+      "gift_name_zh": "翡翠格修酒",
+      "gift_profile_id": "gift_profile_jade_ghosh_70ad604d69_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_jade_ghosh_70ad604d69_liked_en_621535",
+          "gift_profile_id": "gift_profile_jade_ghosh_70ad604d69_en_621535",
+          "gift_name_en": "Jade Ghosh",
+          "gift_name_zh": "翡翠格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Jade Ghosh",
+          "name_zh": "翡翠格修酒",
+          "title_zh": "哥莱亚斯 · 翡翠格修酒",
+          "summary_zh": "哥莱亚斯喜欢翡翠格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_jade_ghosh_70ad604d69_liked_en_623690",
+          "gift_profile_id": "gift_profile_jade_ghosh_70ad604d69_en_621535",
+          "gift_name_en": "Jade Ghosh",
+          "gift_name_zh": "翡翠格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Jade Ghosh",
+          "name_zh": "翡翠格修酒",
+          "title_zh": "哥莱亚斯 · 翡翠格修酒",
+          "summary_zh": "哥莱亚斯喜欢翡翠格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Light Shosh",
+      "gift_name_zh": "淡味修修酒",
+      "gift_profile_id": "gift_profile_light_shosh_57e2989e5c_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_light_shosh_57e2989e5c_liked_en_621535",
+          "gift_profile_id": "gift_profile_light_shosh_57e2989e5c_en_621535",
+          "gift_name_en": "Light Shosh",
+          "gift_name_zh": "淡味修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Light Shosh",
+          "name_zh": "淡味修修酒",
+          "title_zh": "哥莱亚斯 · 淡味修修酒",
+          "summary_zh": "哥莱亚斯喜欢淡味修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "f5eb538b345b7edebacd31c729eed53c2be8a6f4ce9b26303b7a9f1f5ba53c76",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_light_shosh_57e2989e5c_liked_en_623690",
+          "gift_profile_id": "gift_profile_light_shosh_57e2989e5c_en_621535",
+          "gift_name_en": "Light Shosh",
+          "gift_name_zh": "淡味修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Light Shosh",
+          "name_zh": "淡味修修酒",
+          "title_zh": "哥莱亚斯 · 淡味修修酒",
+          "summary_zh": "哥莱亚斯喜欢淡味修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Mature Ghosh",
+      "gift_name_zh": "陈年格修酒",
+      "gift_profile_id": "gift_profile_mature_ghosh_1fc05e6ebf_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_mature_ghosh_1fc05e6ebf_liked_en_621535",
+          "gift_profile_id": "gift_profile_mature_ghosh_1fc05e6ebf_en_621535",
+          "gift_name_en": "Mature Ghosh",
+          "gift_name_zh": "陈年格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Mature Ghosh",
+          "name_zh": "陈年格修酒",
+          "title_zh": "哥莱亚斯 · 陈年格修酒",
+          "summary_zh": "哥莱亚斯喜欢陈年格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_mature_ghosh_1fc05e6ebf_liked_en_623690",
+          "gift_profile_id": "gift_profile_mature_ghosh_1fc05e6ebf_en_621535",
+          "gift_name_en": "Mature Ghosh",
+          "gift_name_zh": "陈年格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Mature Ghosh",
+          "name_zh": "陈年格修酒",
+          "title_zh": "哥莱亚斯 · 陈年格修酒",
+          "summary_zh": "哥莱亚斯喜欢陈年格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Mature Shosh",
+      "gift_name_zh": "陈年修修酒",
+      "gift_profile_id": "gift_profile_mature_shosh_c645546a18_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_mature_shosh_c645546a18_liked_en_621535",
+          "gift_profile_id": "gift_profile_mature_shosh_c645546a18_en_621535",
+          "gift_name_en": "Mature Shosh",
+          "gift_name_zh": "陈年修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Mature Shosh",
+          "name_zh": "陈年修修酒",
+          "title_zh": "哥莱亚斯 · 陈年修修酒",
+          "summary_zh": "哥莱亚斯喜欢陈年修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_mature_shosh_c645546a18_liked_en_623690",
+          "gift_profile_id": "gift_profile_mature_shosh_c645546a18_en_621535",
+          "gift_name_en": "Mature Shosh",
+          "gift_name_zh": "陈年修修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Mature Shosh",
+          "name_zh": "陈年修修酒",
+          "title_zh": "哥莱亚斯 · 陈年修修酒",
+          "summary_zh": "哥莱亚斯喜欢陈年修修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Rustic Ghosh",
+      "gift_name_zh": "乡野格修酒",
+      "gift_profile_id": "gift_profile_rustic_ghosh_ab5c13be8c_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_rustic_ghosh_ab5c13be8c_liked_en_621535",
+          "gift_profile_id": "gift_profile_rustic_ghosh_ab5c13be8c_en_621535",
+          "gift_name_en": "Rustic Ghosh",
+          "gift_name_zh": "乡野格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Rustic Ghosh",
+          "name_zh": "乡野格修酒",
+          "title_zh": "哥莱亚斯 · 乡野格修酒",
+          "summary_zh": "哥莱亚斯喜欢乡野格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_rustic_ghosh_ab5c13be8c_liked_en_623690",
+          "gift_profile_id": "gift_profile_rustic_ghosh_ab5c13be8c_en_621535",
+          "gift_name_en": "Rustic Ghosh",
+          "gift_name_zh": "乡野格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Rustic Ghosh",
+          "name_zh": "乡野格修酒",
+          "title_zh": "哥莱亚斯 · 乡野格修酒",
+          "summary_zh": "哥莱亚斯喜欢乡野格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Secret Ghosh",
+      "gift_name_zh": "秘制格修酒",
+      "gift_profile_id": "gift_profile_secret_ghosh_5414a6b9dc_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_secret_ghosh_5414a6b9dc_liked_en_621535",
+          "gift_profile_id": "gift_profile_secret_ghosh_5414a6b9dc_en_621535",
+          "gift_name_en": "Secret Ghosh",
+          "gift_name_zh": "秘制格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Secret Ghosh",
+          "name_zh": "秘制格修酒",
+          "title_zh": "哥莱亚斯 · 秘制格修酒",
+          "summary_zh": "哥莱亚斯喜欢秘制格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_secret_ghosh_5414a6b9dc_liked_en_623690",
+          "gift_profile_id": "gift_profile_secret_ghosh_5414a6b9dc_en_621535",
+          "gift_name_en": "Secret Ghosh",
+          "gift_name_zh": "秘制格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Secret Ghosh",
+          "name_zh": "秘制格修酒",
+          "title_zh": "哥莱亚斯 · 秘制格修酒",
+          "summary_zh": "哥莱亚斯喜欢秘制格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Southern Ghosh",
+      "gift_name_zh": "南方格修酒",
+      "gift_profile_id": "gift_profile_southern_ghosh_adfd3d2c38_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_southern_ghosh_adfd3d2c38_liked_en_621535",
+          "gift_profile_id": "gift_profile_southern_ghosh_adfd3d2c38_en_621535",
+          "gift_name_en": "Southern Ghosh",
+          "gift_name_zh": "南方格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Southern Ghosh",
+          "name_zh": "南方格修酒",
+          "title_zh": "哥莱亚斯 · 南方格修酒",
+          "summary_zh": "哥莱亚斯喜欢南方格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "1b7e6f0af88aa0e0b863354d8b55969c5ad1682bc993065bae42c63933c29446",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_southern_ghosh_adfd3d2c38_liked_en_623690",
+          "gift_profile_id": "gift_profile_southern_ghosh_adfd3d2c38_en_621535",
+          "gift_name_en": "Southern Ghosh",
+          "gift_name_zh": "南方格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Southern Ghosh",
+          "name_zh": "南方格修酒",
+          "title_zh": "哥莱亚斯 · 南方格修酒",
+          "summary_zh": "哥莱亚斯喜欢南方格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_strategy_manuscript_1ac56c5c7d_loved_en_621535",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "哥莱亚斯 · 战略手稿",
+          "summary_zh": "哥莱亚斯非常喜欢战略手稿；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_strategy_manuscript_1ac56c5c7d_loved_en_623690",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "哥莱亚斯 · 战略手稿",
+          "summary_zh": "哥莱亚斯非常喜欢战略手稿；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Sturdy Rucksack",
+      "gift_name_zh": "结实背包",
+      "gift_profile_id": "gift_profile_sturdy_rucksack_42da731edd_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_sturdy_rucksack_42da731edd_liked_en_621535",
+          "gift_profile_id": "gift_profile_sturdy_rucksack_42da731edd_en_621535",
+          "gift_name_en": "Sturdy Rucksack",
+          "gift_name_zh": "结实背包",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sturdy Rucksack",
+          "name_zh": "结实背包",
+          "title_zh": "哥莱亚斯 · 结实背包",
+          "summary_zh": "哥莱亚斯喜欢结实背包；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "90097087e247f9ad120f6cdc08adaa0975db9b2d9e390bc298b900a96130eebd",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_sturdy_rucksack_42da731edd_liked_en_623690",
+          "gift_profile_id": "gift_profile_sturdy_rucksack_42da731edd_en_621535",
+          "gift_name_en": "Sturdy Rucksack",
+          "gift_name_zh": "结实背包",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sturdy Rucksack",
+          "name_zh": "结实背包",
+          "title_zh": "哥莱亚斯 · 结实背包",
+          "summary_zh": "哥莱亚斯喜欢结实背包；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Sun Ghosh",
+      "gift_name_zh": "太阳格修酒",
+      "gift_profile_id": "gift_profile_sun_ghosh_7d8b2f7ef8_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_sun_ghosh_7d8b2f7ef8_liked_en_621535",
+          "gift_profile_id": "gift_profile_sun_ghosh_7d8b2f7ef8_en_621535",
+          "gift_name_en": "Sun Ghosh",
+          "gift_name_zh": "太阳格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sun Ghosh",
+          "name_zh": "太阳格修酒",
+          "title_zh": "哥莱亚斯 · 太阳格修酒",
+          "summary_zh": "哥莱亚斯喜欢太阳格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "610d0ae94f2b6dc38d66ae65430cba2b9862f2b70bd15ad0b9615dcae6b3b23a",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_sun_ghosh_7d8b2f7ef8_liked_en_623690",
+          "gift_profile_id": "gift_profile_sun_ghosh_7d8b2f7ef8_en_621535",
+          "gift_name_en": "Sun Ghosh",
+          "gift_name_zh": "太阳格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sun Ghosh",
+          "name_zh": "太阳格修酒",
+          "title_zh": "哥莱亚斯 · 太阳格修酒",
+          "summary_zh": "哥莱亚斯喜欢太阳格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Training Bracelet",
+      "gift_name_zh": "训练手环",
+      "gift_profile_id": "gift_profile_training_bracelet_d20193edb7_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_training_bracelet_d20193edb7_liked_en_621535",
+          "gift_profile_id": "gift_profile_training_bracelet_d20193edb7_en_621535",
+          "gift_name_en": "Training Bracelet",
+          "gift_name_zh": "训练手环",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Bracelet",
+          "name_zh": "训练手环",
+          "title_zh": "哥莱亚斯 · 训练手环",
+          "summary_zh": "哥莱亚斯喜欢训练手环；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "a85d7d5885348ec6eed6b7c6ec3feb6e17a7767e6afaeef193eec0d47cb5a3e4",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_training_bracelet_d20193edb7_liked_en_623690",
+          "gift_profile_id": "gift_profile_training_bracelet_d20193edb7_en_621535",
+          "gift_name_en": "Training Bracelet",
+          "gift_name_zh": "训练手环",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Training Bracelet",
+          "name_zh": "训练手环",
+          "title_zh": "哥莱亚斯 · 训练手环",
+          "summary_zh": "哥莱亚斯喜欢训练手环；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Volcano Ghosh",
+      "gift_name_zh": "火山格修酒",
+      "gift_profile_id": "gift_profile_volcano_ghosh_9caef1e7f8_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_volcano_ghosh_9caef1e7f8_loved_en_621535",
+          "gift_profile_id": "gift_profile_volcano_ghosh_9caef1e7f8_en_621535",
+          "gift_name_en": "Volcano Ghosh",
+          "gift_name_zh": "火山格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Volcano Ghosh",
+          "name_zh": "火山格修酒",
+          "title_zh": "哥莱亚斯 · 火山格修酒",
+          "summary_zh": "哥莱亚斯非常喜欢火山格修酒；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "f1aac9f13cdd99da8c3a60c1fab877eceb9dc35d535ed0407ba8e971bcdc91a2",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_volcano_ghosh_9caef1e7f8_loved_en_623690",
+          "gift_profile_id": "gift_profile_volcano_ghosh_9caef1e7f8_en_621535",
+          "gift_name_en": "Volcano Ghosh",
+          "gift_name_zh": "火山格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Volcano Ghosh",
+          "name_zh": "火山格修酒",
+          "title_zh": "哥莱亚斯 · 火山格修酒",
+          "summary_zh": "哥莱亚斯非常喜欢火山格修酒；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Wing Fletching",
+      "gift_name_zh": "箭羽",
+      "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_wing_fletching_4e85c1dea4_liked_en_621535",
+          "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+          "gift_name_en": "Wing Fletching",
+          "gift_name_zh": "箭羽",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Wing Fletching",
+          "name_zh": "箭羽",
+          "title_zh": "哥莱亚斯 · 箭羽",
+          "summary_zh": "哥莱亚斯喜欢箭羽；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c6d67c999327a4fd428a027e6f1de23ebc66bd030a58e686b280f403ed94e454",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_wing_fletching_4e85c1dea4_liked_en_623690",
+          "gift_profile_id": "gift_profile_wing_fletching_4e85c1dea4_en_621535",
+          "gift_name_en": "Wing Fletching",
+          "gift_name_zh": "箭羽",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Wing Fletching",
+          "name_zh": "箭羽",
+          "title_zh": "哥莱亚斯 · 箭羽",
+          "summary_zh": "哥莱亚斯喜欢箭羽；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Young Ghosh",
+      "gift_name_zh": "新酿格修酒",
+      "gift_profile_id": "gift_profile_young_ghosh_0effe4b6a3_en_621535",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_goliath_3f483e39d0_young_ghosh_0effe4b6a3_liked_en_621535",
+          "gift_profile_id": "gift_profile_young_ghosh_0effe4b6a3_en_621535",
+          "gift_name_en": "Young Ghosh",
+          "gift_name_zh": "新酿格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Young Ghosh",
+          "name_zh": "新酿格修酒",
+          "title_zh": "哥莱亚斯 · 新酿格修酒",
+          "summary_zh": "哥莱亚斯喜欢新酿格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "68419ceb25dcdf83f2677e71d6d2e4c0a8a0007c98b68f2c85b66df52c38d4a1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_goliath_3f483e39d0_young_ghosh_0effe4b6a3_liked_en_623690",
+          "gift_profile_id": "gift_profile_young_ghosh_0effe4b6a3_en_621535",
+          "gift_name_en": "Young Ghosh",
+          "gift_name_zh": "新酿格修酒",
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Young Ghosh",
+          "name_zh": "新酿格修酒",
+          "title_zh": "哥莱亚斯 · 新酿格修酒",
+          "summary_zh": "哥莱亚斯喜欢新酿格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "276b8ebda9fbea7e6e1f5ac0a602e362a53963aa016abc47959228541e96a8dd",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/goliath.jpg",
+    "width": 160,
+    "height": 160,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_43.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image043.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 哥莱亚斯；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 43,
+    "name_zh": "哥莱亚斯",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_43.shtml",
+    "growth": {
+      "hp": 55,
+      "str": 60,
+      "mag": 5,
+      "spd": 15,
+      "dex": 30,
+      "def": 70,
+      "res": 15,
+      "lck": 35,
+      "cha": 25
+    },
+    "preferred_skills": [
+      "斧术",
+      "重装术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度高）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv10/可交涉（难度高）"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "无法转职为骑兵或飞行兵种；体格+5"
+  },
+  "reference_profile": {
+    "name_en": "Goliath",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+    "faction": "Bertrand's Army",
+    "personal_ability": "Heavyweight Class",
+    "preferred_skills": [
+      "Axe Skill",
+      "Heavy Armor Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 55,
+      "str": 60,
+      "mag": 5,
+      "spd": 15,
+      "dex": 30,
+      "def": 50,
+      "res": 20,
+      "lck": 35,
+      "cha": 20
+    },
+    "growth_total": 290
+  },
+  "reference_update": {
+    "id": "profile_goliath",
+    "character_id": "goliath",
+    "name_en": "Goliath",
+    "name_zh": "哥莱亚斯",
+    "growth": {
+      "hp": 55,
+      "str": 60,
+      "mag": 5,
+      "spd": 15,
+      "dex": 30,
+      "def": 50,
+      "res": 20,
+      "lck": 35,
+      "cha": 20
+    },
+    "birthday": null,
+    "personal_ability_name": "Heavyweight Class",
+    "preferred_skills": [
+      "Axe",
+      "Heavy Armor"
+    ],
+    "non_ideal_skills": [
+      "White Magic",
+      "Flying",
+      "Black Magic"
+    ],
+    "source_id": "en_623976",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+    "source_updated_text": "2026-09-26T06:20:46-04:00",
+    "retrieved_at": "2026-09-26T13:59:57+00:00",
+    "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": []
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_pin_down_537c6d819d_en_623691",
+      "name_en": "Pin Down",
+      "name_zh": "压制",
+      "title_zh": "压制",
+      "summary_zh": "相邻敌军移动 -3。",
+      "ability": "Pin Down",
+      "effect_facts": {
+        "target": "adjacent_foes",
+        "stat": "mov",
+        "bonus": -3
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻敌军移动 -3。",
+      "effect_text_sha256": "6466e477b49b18782a3fe362ca61d0f14692c283c720f563eb49dc5201fb6661",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_pin_down_e0c2020660_en_623691",
+      "name_en": "Pin Down+",
+      "name_zh": "压制+",
+      "title_zh": "压制+",
+      "summary_zh": "相邻敌军移动 -5。",
+      "ability": "Pin Down+",
+      "effect_facts": {
+        "target": "adjacent_foes",
+        "stat": "mov",
+        "bonus": -5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻敌军移动 -5。",
+      "effect_text_sha256": "e07d77ae6e09157220b39df56013d3c8983ad7a884d0e34f87a92d62fe0a3ddf",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Pin Down",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_goliath_pindown_20",
+          "character_id": "goliath",
+          "character": "Goliath",
+          "ability": "Pin Down",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_623976",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+          "source_updated_text": "2026-09-26T06:20:46-04:00",
+          "retrieved_at": "2026-09-26T13:59:57+00:00",
+          "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623976",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+            "source_updated_text": "2026-09-26T06:20:46-04:00",
+            "retrieved_at": "2026-09-26T13:59:57+00:00",
+            "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_pin_down_537c6d819d_en_623691",
+          "name_en": "Pin Down",
+          "name_zh": "压制",
+          "title_zh": "压制",
+          "summary_zh": "相邻敌军移动 -3。",
+          "ability": "Pin Down",
+          "effect_facts": {
+            "target": "adjacent_foes",
+            "stat": "mov",
+            "bonus": -3
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻敌军移动 -3。",
+          "effect_text_sha256": "6466e477b49b18782a3fe362ca61d0f14692c283c720f563eb49dc5201fb6661",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Pin Down+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_goliath_pindownplus_35",
+          "character_id": "goliath",
+          "character": "Goliath",
+          "ability": "Pin Down+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_623976",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+          "source_updated_text": "2026-09-26T06:20:46-04:00",
+          "retrieved_at": "2026-09-26T13:59:57+00:00",
+          "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623976",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+            "source_updated_text": "2026-09-26T06:20:46-04:00",
+            "retrieved_at": "2026-09-26T13:59:57+00:00",
+            "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_pin_down_e0c2020660_en_623691",
+          "name_en": "Pin Down+",
+          "name_zh": "压制+",
+          "title_zh": "压制+",
+          "summary_zh": "相邻敌军移动 -5。",
+          "ability": "Pin Down+",
+          "effect_facts": {
+            "target": "adjacent_foes",
+            "stat": "mov",
+            "bonus": -5
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻敌军移动 -5。",
+          "effect_text_sha256": "e07d77ae6e09157220b39df56013d3c8983ad7a884d0e34f87a92d62fe0a3ddf",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Goliath",
+          "character_id": "goliath",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_heavyweight_class_42b5e2529f_en_623691",
+      "name_en": "Heavyweight Class",
+      "name_zh": "重量级",
+      "title_zh": "重量级",
+      "summary_zh": "体格 +5；不能转为骑兵或飞行单位。",
+      "ability": "Heavyweight Class",
+      "effect_facts": {
+        "cannot_change_unit_types": [
+          "cavalry",
+          "flying"
+        ],
+        "stat": "bld",
+        "bonus": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "体格 +5；不能转为骑兵或飞行单位。",
+      "effect_text_sha256": "c3645dcc6693889d668fdbd187c90a75ea33c603929b9f13f592110cb4e5b3e0",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Heavyweight Class",
+      "effect_zh": "无法转为骑兵或飞行职业；体格 +5。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Heavyweight Class",
+      "effect_zh": "无法转职为骑兵或飞行兵种；体格+5",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_43.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_heavyweight_class_42b5e2529f_en_623691",
+      "name_en": "Heavyweight Class",
+      "name_zh": "重量级",
+      "title_zh": "重量级",
+      "summary_zh": "体格 +5；不能转为骑兵或飞行单位。",
+      "ability": "Heavyweight Class",
+      "effect_facts": {
+        "cannot_change_unit_types": [
+          "cavalry",
+          "flying"
+        ],
+        "stat": "bld",
+        "bonus": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "体格 +5；不能转为骑兵或飞行单位。",
+      "effect_text_sha256": "c3645dcc6693889d668fdbd187c90a75ea33c603929b9f13f592110cb4e5b3e0",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Goliath",
+      "character_id": "goliath",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_goliath_cai_i_4",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "name_zh": "哥莱亚斯",
+      "route": "Cai",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 7,
+      "special_requirement": "Give 3 Giants' Meat to Goliath.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Giants' Meat",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_goliath_dietrich_i_4",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "name_zh": "哥莱亚斯",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 6,
+      "special_requirement": "Give 3 Giants' Meat to Goliath.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Giants' Meat",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_goliath_leda_i_4",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "name_zh": "哥莱亚斯",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 10,
+      "special_requirement": "Give 3 Giants' Meat to Goliath.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Giants' Meat",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_goliath_theodora_i_5",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "name_zh": "哥莱亚斯",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 9,
+      "special_requirement": "Give 3 Giants' Meat to Goliath.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Giants' Meat",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_goliath_pindown_20",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "ability": "Pin Down",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_goliath_pindownplus_35",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "ability": "Pin Down+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_goliath_d_black_blizzard",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Blizzard",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_goliath_d_white_laia",
+      "character_id": "goliath",
+      "character": "Goliath",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Laia",
+      "source_id": "en_623976",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+      "source_updated_text": "2026-09-26T06:20:46-04:00",
+      "retrieved_at": "2026-09-26T13:59:57+00:00",
+      "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 55,
+        "str": 60,
+        "mag": 5,
+        "spd": 15,
+        "dex": 30,
+        "def": 50,
+        "res": 20,
+        "lck": 35,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 55,
+        "str": 60,
+        "mag": 5,
+        "spd": 15,
+        "dex": 30,
+        "def": 70,
+        "res": 15,
+        "lck": 35,
+        "cha": 25
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_43.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 55,
+        "str": 60,
+        "mag": 5,
+        "spd": 15,
+        "dex": 30,
+        "def": 50,
+        "res": 20,
+        "lck": 35,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 55,
+        "str": 60,
+        "mag": 5,
+        "spd": 15,
+        "dex": 30,
+        "def": 50,
+        "res": 20,
+        "lck": 35,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623976",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623976",
+        "source_updated_text": "2026-09-26T06:20:46-04:00",
+        "retrieved_at": "2026-09-26T13:59:57+00:00",
+        "content_sha256": "25e9a29a4e218c531a4e877ddfa6aa0102fbd2e25a48a639420f2c0aa0d0721a",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [
+    "def",
+    "res",
+    "cha"
+  ],
+  "growth_differences": [
+    {
+      "stat": "def",
+      "values": [
+        50,
+        70
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 50
+        },
+        {
+          "variant": "profile",
+          "value": 70
+        },
+        {
+          "variant": "reference",
+          "value": 50
+        },
+        {
+          "variant": "reference_update",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "stat": "res",
+      "values": [
+        15,
+        20
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 20
+        },
+        {
+          "variant": "profile",
+          "value": 15
+        },
+        {
+          "variant": "reference",
+          "value": 20
+        },
+        {
+          "variant": "reference_update",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "stat": "cha",
+      "values": [
+        20,
+        25
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 20
+        },
+        {
+          "variant": "profile",
+          "value": 25
+        },
+        {
+          "variant": "reference",
+          "value": 20
+        },
+        {
+          "variant": "reference_update",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "growth_scope_note": null,
+  "growth_review_status": "conflicting_unverified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv7/可交涉（难度高）"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv9/可交涉（难度高）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv10/可交涉（难度高）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "3S, 7R, 3x Giant Meat",
+      "Dietrich": "3S, 6R, 3x Giant Meat",
+      "Theodora": "3S, 9R, 3x Giant Meat",
+      "Leda": "3S, 10R, 3x Giant Meat"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv7/可交涉（难度高）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv10/可交涉（难度高）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Cai",
+      "partner": "Goliath",
+      "rank": "B"
+    },
+    {
+      "name": "Dante",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Gaitz",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Dante",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Gaitz",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Jester",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Loretta",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Noctula",
+      "rank": "B"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Olympia",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Jester",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Loretta",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Noctula",
+      "partner": "Goliath",
+      "rank": "B"
+    },
+    {
+      "name": "Olympia",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Goliath",
+      "rank": "A"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Goliath",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Blizzard"
+    },
+    {
+      "name": "Goliath",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Laia"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Goliath",
+      "gift": "Aromatic Shosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Eastern Tea Leaves"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Jade Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Light Shosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Mature Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Mature Shosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Rustic Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Secret Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Southern Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Sturdy Rucksack"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Sun Ghosh"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Training Bracelet"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Wing Fletching"
+    },
+    {
+      "name": "Goliath",
+      "gift": "Young Ghosh"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Goliath",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Goliath",
+      "kind": "preferred",
+      "skill": "Heavy Armor Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "goliath",
+  "display_name": "哥莱亚斯"
+}

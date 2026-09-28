@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "anatolia",
+    "name_en": "Anatolia",
+    "name_zh": "爱娜特莉亚",
+    "growth": {
+      "hp": 40,
+      "str": 35,
+      "mag": 50,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 40,
+      "cha": 50
+    },
+    "growth_total": 385,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Celestial Flow",
+      "description": "Grants Avo+3.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/anatolia.webp",
+      "width": 334,
+      "height": 317,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_24.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = アナトリア; mapped to Anatolia.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/anatolia.webp",
+    "width": 334,
+    "height": 317,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_24.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = アナトリア; mapped to Anatolia.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 22,
+    "name_zh": "爱娜特莉亚",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_22.shtml",
+    "growth": {
+      "hp": 40,
+      "str": 35,
+      "mag": 50,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 40,
+      "cha": 50
+    },
+    "preferred_skills": [
+      "格斗术",
+      "黑魔术",
+      "步兵术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "女",
+    "personal_ability_zh": "回避+3"
+  },
+  "reference_profile": {
+    "name_en": "Anatolia",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+    "faction": "Pale Raven's Bridal Party",
+    "personal_ability": "Celestial Flow",
+    "preferred_skills": [
+      "Gauntlet Skill",
+      "Infantry Skill",
+      "Black Magic Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 40,
+      "str": 35,
+      "mag": 50,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 40,
+      "cha": 50
+    },
+    "growth_total": 385
+  },
+  "reference_update": {
+    "id": "profile_anatolia",
+    "character_id": "anatolia",
+    "name_en": "Anatolia",
+    "name_zh": "爱娜特莉亚",
+    "growth": {
+      "hp": 40,
+      "str": 35,
+      "mag": 50,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 40,
+      "cha": 50
+    },
+    "birthday": null,
+    "personal_ability_name": "Celestial Flow",
+    "preferred_skills": [
+      "Gauntlet",
+      "Infantry",
+      "Black Magic"
+    ],
+    "non_ideal_skills": [
+      "Heavy Armor"
+    ],
+    "source_id": "en_623966",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+    "source_updated_text": "2026-09-26T06:32:00-04:00",
+    "retrieved_at": "2026-09-26T17:30:38+00:00",
+    "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Evasion"
+    ]
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_continuum_2cfd127acc_en_623691",
+      "name_en": "Continuum",
+      "name_zh": "连续回复",
+      "title_zh": "连续回复",
+      "summary_zh": "自身回避攻击时，恢复 5 点生命。",
+      "ability": "Continuum",
+      "effect_facts": {
+        "condition": "self_avoids_attack",
+        "target": "self",
+        "resource": "hp",
+        "restore_amount": 5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身回避攻击时，恢复 5 点生命。",
+      "effect_text_sha256": "69f881edbcf92e95e9f64abd88fab81587281939da88991263f52a6e401114b2",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Anatolia",
+      "character_id": "anatolia",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_continuum_a4d4330583_en_623691",
+      "name_en": "Continuum+",
+      "name_zh": "连续回复+",
+      "title_zh": "连续回复+",
+      "summary_zh": "自身回避攻击时，恢复 10 点生命。",
+      "ability": "Continuum+",
+      "effect_facts": {
+        "condition": "self_avoids_attack",
+        "target": "self",
+        "resource": "hp",
+        "restore_amount": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身回避攻击时，恢复 10 点生命。",
+      "effect_text_sha256": "2d4e148a957e6ff57a8502d88b7cc9c7369090b6d7d2060a3fb4b875e42003d1",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Anatolia",
+      "character_id": "anatolia",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Continuum",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_continuum_2cfd127acc_en_623691",
+          "name_en": "Continuum",
+          "name_zh": "连续回复",
+          "title_zh": "连续回复",
+          "summary_zh": "自身回避攻击时，恢复 5 点生命。",
+          "ability": "Continuum",
+          "effect_facts": {
+            "condition": "self_avoids_attack",
+            "target": "self",
+            "resource": "hp",
+            "restore_amount": 5
+          },
+          "effect_status": "parsed",
+          "effect_zh": "自身回避攻击时，恢复 5 点生命。",
+          "effect_text_sha256": "69f881edbcf92e95e9f64abd88fab81587281939da88991263f52a6e401114b2",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Anatolia",
+          "character_id": "anatolia",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    },
+    {
+      "ability": "Continuum+",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_continuum_a4d4330583_en_623691",
+          "name_en": "Continuum+",
+          "name_zh": "连续回复+",
+          "title_zh": "连续回复+",
+          "summary_zh": "自身回避攻击时，恢复 10 点生命。",
+          "ability": "Continuum+",
+          "effect_facts": {
+            "condition": "self_avoids_attack",
+            "target": "self",
+            "resource": "hp",
+            "restore_amount": 10
+          },
+          "effect_status": "parsed",
+          "effect_zh": "自身回避攻击时，恢复 10 点生命。",
+          "effect_text_sha256": "2d4e148a957e6ff57a8502d88b7cc9c7369090b6d7d2060a3fb4b875e42003d1",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Anatolia",
+          "character_id": "anatolia",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_celestial_flow_34ba3022a8_en_623691",
+      "name_en": "Celestial Flow",
+      "name_zh": "天流",
+      "title_zh": "天流",
+      "summary_zh": "回避 +3。",
+      "ability": "Celestial Flow",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "avo": 3
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "回避 +3。",
+      "effect_text_sha256": "a169d32e44f24addece339e42044bfe544d6fbab34d7fab2dd9be5b462696e17",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Anatolia",
+      "character_id": "anatolia",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Celestial Flow",
+      "effect_zh": "回避 +3。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Celestial Flow",
+      "effect_zh": "回避+3",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_22.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_celestial_flow_34ba3022a8_en_623691",
+      "name_en": "Celestial Flow",
+      "name_zh": "天流",
+      "title_zh": "天流",
+      "summary_zh": "回避 +3。",
+      "ability": "Celestial Flow",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "avo": 3
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "回避 +3。",
+      "effect_text_sha256": "a169d32e44f24addece339e42044bfe544d6fbab34d7fab2dd9be5b462696e17",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Anatolia",
+      "character_id": "anatolia",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [
+    {
+      "id": "spell_anatolia_b_black_bolganone",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "B",
+      "magic": "black",
+      "spell": "Bolganone",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_c_black_earthsjaws",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Earth's Jaws",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_c_black_thunder",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_c_black_wanderingwall",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Wandering Wall",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_d_black_fire",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_d_black_glasswheel",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Glass Wheel",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_anatolia_d_white_heal",
+      "character_id": "anatolia",
+      "character": "Anatolia",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_623966",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+      "source_updated_text": "2026-09-26T06:32:00-04:00",
+      "retrieved_at": "2026-09-26T17:30:38+00:00",
+      "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 40,
+        "str": 35,
+        "mag": 50,
+        "spd": 50,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 40,
+        "str": 35,
+        "mag": 50,
+        "spd": 50,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_22.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 40,
+        "str": 35,
+        "mag": 50,
+        "spd": 50,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 40,
+        "str": 35,
+        "mag": 50,
+        "spd": 50,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 40,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623966",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623966",
+        "source_updated_text": "2026-09-26T06:32:00-04:00",
+        "retrieved_at": "2026-09-26T17:30:38+00:00",
+        "content_sha256": "5b5130f9542be95f433100afd9e8fd96433565f3972f1a0ddd7a3d1a7b5c2ac7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Anatolia",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Dante",
+      "rank": "C"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Fabio",
+      "rank": "B"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Sirocco",
+      "rank": "C"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Tobias",
+      "rank": "B"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Yang Jie",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Anatolia",
+      "rank": "B"
+    },
+    {
+      "name": "Dante",
+      "partner": "Anatolia",
+      "rank": "C"
+    },
+    {
+      "name": "Fabio",
+      "partner": "Anatolia",
+      "rank": "B"
+    },
+    {
+      "name": "Sirocco",
+      "partner": "Anatolia",
+      "rank": "C"
+    },
+    {
+      "name": "Tobias",
+      "partner": "Anatolia",
+      "rank": "B"
+    },
+    {
+      "name": "Yang Jie",
+      "partner": "Anatolia",
+      "rank": "B"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Anatolia",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Glass Wheel"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Thunder"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Wandering Wall"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Earth's Jaws"
+    },
+    {
+      "name": "Anatolia",
+      "skill_level": "B",
+      "magic": "Black Magic",
+      "spell": "Bolganone"
+    }
+  ],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Anatolia",
+      "kind": "preferred",
+      "skill": "Gauntlet Skill"
+    },
+    {
+      "name": "Anatolia",
+      "kind": "preferred",
+      "skill": "Infantry Skill"
+    },
+    {
+      "name": "Anatolia",
+      "kind": "preferred",
+      "skill": "Black Magic Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Anatolia",
+      "art": "Dragon Strike I",
+      "range": "-",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Anatolia",
+      "art": "Dragon Strike II",
+      "range": "-",
+      "blaze": "2",
+      "learned": "Default"
+    },
+    {
+      "name": "Anatolia",
+      "art": "Dragon Strike III",
+      "range": "-",
+      "blaze": "3",
+      "learned": "Default"
+    },
+    {
+      "name": "Anatolia",
+      "art": "Shining Dragon Strike",
+      "range": "-",
+      "blaze": "6",
+      "learned": "Default"
+    },
+    {
+      "name": "Anatolia",
+      "art": "Dragon Rotation",
+      "range": "-",
+      "blaze": "6",
+      "learned": "Default"
+    },
+    {
+      "name": "Anatolia",
+      "art": "Seven-Star Dragon",
+      "range": "-",
+      "blaze": "6",
+      "learned": "Default"
+    }
+  ],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "anatolia",
+  "display_name": "爱娜特莉亚"
+}

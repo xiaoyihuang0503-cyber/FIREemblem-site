@@ -1,0 +1,2164 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "ultand",
+    "name_en": "Ultand",
+    "name_zh": "乌尔坦德",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 40,
+      "spd": 35,
+      "dex": 40,
+      "def": 35,
+      "res": 45,
+      "lck": 55,
+      "cha": 50
+    },
+    "growth_total": 385,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Patch Up",
+      "description": "After an adjacent ally’s combat, restores a little HP to that ally.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "Automatic (Chapter 6)",
+      "Dietrich": "3S, 5R, Quest",
+      "Theodora": "3S, 6R, Quest",
+      "Leda": "3S, 8R, Quest"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/ultand.webp",
+      "width": 332,
+      "height": 302,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_3.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = ウルタンド; mapped to Ultand.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_blue_rose_bouquet_ec31f8fe21_liked_en_621535",
+      "gift_profile_id": "gift_profile_blue_rose_bouquet_ec31f8fe21_en_621535",
+      "gift_name_en": "Blue-Rose Bouquet",
+      "gift_name_zh": "蓝玫瑰花束",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Blue-Rose Bouquet",
+      "name_zh": "蓝玫瑰花束",
+      "title_zh": "乌尔坦德 · 蓝玫瑰花束",
+      "summary_zh": "乌尔坦德喜欢蓝玫瑰花束；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "edb881b4be9f838572517402be4f8277855cdc68343a955bd6c63c5558455e2e",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_blue_rose_bouquet_ec31f8fe21_liked_en_623690",
+      "gift_profile_id": "gift_profile_blue_rose_bouquet_ec31f8fe21_en_621535",
+      "gift_name_en": "Blue-Rose Bouquet",
+      "gift_name_zh": "蓝玫瑰花束",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Blue-Rose Bouquet",
+      "name_zh": "蓝玫瑰花束",
+      "title_zh": "乌尔坦德 · 蓝玫瑰花束",
+      "summary_zh": "乌尔坦德喜欢蓝玫瑰花束；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_crimson_ghosh_f126222d07_liked_en_621535",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "乌尔坦德 · 深红格修酒",
+      "summary_zh": "乌尔坦德喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_crimson_ghosh_f126222d07_liked_en_623690",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "乌尔坦德 · 深红格修酒",
+      "summary_zh": "乌尔坦德喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_eastern_love_story_3426898b72_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_love_story_3426898b72_en_621535",
+      "gift_name_en": "Eastern Love Story",
+      "gift_name_zh": "东方爱情故事",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Love Story",
+      "name_zh": "东方爱情故事",
+      "title_zh": "乌尔坦德 · 东方爱情故事",
+      "summary_zh": "乌尔坦德喜欢东方爱情故事；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "b82cee81aa4548e093183365de0ae92fea5af7922ddfa0815f7c2d2be7b96298",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_eastern_love_story_3426898b72_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_love_story_3426898b72_en_621535",
+      "gift_name_en": "Eastern Love Story",
+      "gift_name_zh": "东方爱情故事",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Love Story",
+      "name_zh": "东方爱情故事",
+      "title_zh": "乌尔坦德 · 东方爱情故事",
+      "summary_zh": "乌尔坦德喜欢东方爱情故事；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_garum_475583fd05_liked_en_621535",
+      "gift_profile_id": "gift_profile_garum_475583fd05_en_621535",
+      "gift_name_en": "Garum",
+      "gift_name_zh": "鱼酱",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Garum",
+      "name_zh": "鱼酱",
+      "title_zh": "乌尔坦德 · 鱼酱",
+      "summary_zh": "乌尔坦德喜欢鱼酱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7ed055593c6dace699dee9525f36b8f3c3a220e5423361664b2d8d7f1f203bcf",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_garum_475583fd05_liked_en_623690",
+      "gift_profile_id": "gift_profile_garum_475583fd05_en_621535",
+      "gift_name_en": "Garum",
+      "gift_name_zh": "鱼酱",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Garum",
+      "name_zh": "鱼酱",
+      "title_zh": "乌尔坦德 · 鱼酱",
+      "summary_zh": "乌尔坦德喜欢鱼酱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "乌尔坦德 · 野外炊具套装",
+      "summary_zh": "乌尔坦德喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "乌尔坦德 · 野外炊具套装",
+      "summary_zh": "乌尔坦德喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_pastry_cookbook_7243623941_liked_en_621535",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "乌尔坦德 · 糕点食谱",
+      "summary_zh": "乌尔坦德喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ultand_4cb9f17c20_pastry_cookbook_7243623941_liked_en_623690",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pastry Cookbook",
+      "name_zh": "糕点食谱",
+      "title_zh": "乌尔坦德 · 糕点食谱",
+      "summary_zh": "乌尔坦德喜欢糕点食谱；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Blue-Rose Bouquet",
+      "gift_name_zh": "蓝玫瑰花束",
+      "gift_profile_id": "gift_profile_blue_rose_bouquet_ec31f8fe21_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_blue_rose_bouquet_ec31f8fe21_liked_en_621535",
+          "gift_profile_id": "gift_profile_blue_rose_bouquet_ec31f8fe21_en_621535",
+          "gift_name_en": "Blue-Rose Bouquet",
+          "gift_name_zh": "蓝玫瑰花束",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Blue-Rose Bouquet",
+          "name_zh": "蓝玫瑰花束",
+          "title_zh": "乌尔坦德 · 蓝玫瑰花束",
+          "summary_zh": "乌尔坦德喜欢蓝玫瑰花束；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "edb881b4be9f838572517402be4f8277855cdc68343a955bd6c63c5558455e2e",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_blue_rose_bouquet_ec31f8fe21_liked_en_623690",
+          "gift_profile_id": "gift_profile_blue_rose_bouquet_ec31f8fe21_en_621535",
+          "gift_name_en": "Blue-Rose Bouquet",
+          "gift_name_zh": "蓝玫瑰花束",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Blue-Rose Bouquet",
+          "name_zh": "蓝玫瑰花束",
+          "title_zh": "乌尔坦德 · 蓝玫瑰花束",
+          "summary_zh": "乌尔坦德喜欢蓝玫瑰花束；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_crimson_ghosh_f126222d07_liked_en_621535",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "乌尔坦德 · 深红格修酒",
+          "summary_zh": "乌尔坦德喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_crimson_ghosh_f126222d07_liked_en_623690",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "乌尔坦德 · 深红格修酒",
+          "summary_zh": "乌尔坦德喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Love Story",
+      "gift_name_zh": "东方爱情故事",
+      "gift_profile_id": "gift_profile_eastern_love_story_3426898b72_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_eastern_love_story_3426898b72_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_love_story_3426898b72_en_621535",
+          "gift_name_en": "Eastern Love Story",
+          "gift_name_zh": "东方爱情故事",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Love Story",
+          "name_zh": "东方爱情故事",
+          "title_zh": "乌尔坦德 · 东方爱情故事",
+          "summary_zh": "乌尔坦德喜欢东方爱情故事；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "b82cee81aa4548e093183365de0ae92fea5af7922ddfa0815f7c2d2be7b96298",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_eastern_love_story_3426898b72_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_love_story_3426898b72_en_621535",
+          "gift_name_en": "Eastern Love Story",
+          "gift_name_zh": "东方爱情故事",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Love Story",
+          "name_zh": "东方爱情故事",
+          "title_zh": "乌尔坦德 · 东方爱情故事",
+          "summary_zh": "乌尔坦德喜欢东方爱情故事；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Garum",
+      "gift_name_zh": "鱼酱",
+      "gift_profile_id": "gift_profile_garum_475583fd05_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_garum_475583fd05_liked_en_621535",
+          "gift_profile_id": "gift_profile_garum_475583fd05_en_621535",
+          "gift_name_en": "Garum",
+          "gift_name_zh": "鱼酱",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Garum",
+          "name_zh": "鱼酱",
+          "title_zh": "乌尔坦德 · 鱼酱",
+          "summary_zh": "乌尔坦德喜欢鱼酱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7ed055593c6dace699dee9525f36b8f3c3a220e5423361664b2d8d7f1f203bcf",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_garum_475583fd05_liked_en_623690",
+          "gift_profile_id": "gift_profile_garum_475583fd05_en_621535",
+          "gift_name_en": "Garum",
+          "gift_name_zh": "鱼酱",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Garum",
+          "name_zh": "鱼酱",
+          "title_zh": "乌尔坦德 · 鱼酱",
+          "summary_zh": "乌尔坦德喜欢鱼酱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "乌尔坦德 · 野外炊具套装",
+          "summary_zh": "乌尔坦德喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "乌尔坦德 · 野外炊具套装",
+          "summary_zh": "乌尔坦德喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pastry Cookbook",
+      "gift_name_zh": "糕点食谱",
+      "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_pastry_cookbook_7243623941_liked_en_621535",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "乌尔坦德 · 糕点食谱",
+          "summary_zh": "乌尔坦德喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "566acab1370c65f5a063a4222da5cb6fc56f6ce6e838a83c22e15ae35671ec6b",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ultand_4cb9f17c20_pastry_cookbook_7243623941_liked_en_623690",
+          "gift_profile_id": "gift_profile_pastry_cookbook_7243623941_en_621535",
+          "gift_name_en": "Pastry Cookbook",
+          "gift_name_zh": "糕点食谱",
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pastry Cookbook",
+          "name_zh": "糕点食谱",
+          "title_zh": "乌尔坦德 · 糕点食谱",
+          "summary_zh": "乌尔坦德喜欢糕点食谱；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "c8b47d9f845370a5daba60eb80575d23224c1e48515cd89bba56d98fa5cc7fd5",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [
+    {
+      "id": "other_item_profiles_mother_s_gift_12527b1d1c_en_621281",
+      "name_en": "Mother's Gift",
+      "name_zh": "母亲的礼物",
+      "title_zh": "母亲的礼物",
+      "summary_zh": "需交给乌尔坦德。",
+      "category": "delivery_item",
+      "category_zh": "交付物品",
+      "effect_facts": {
+        "purpose": "delivery",
+        "origin_location_name": null,
+        "quest_id": null,
+        "required_quantity": null,
+        "reward": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "需交给乌尔坦德。",
+      "character_relations": [
+        {
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "delivery_recipient"
+        }
+      ],
+      "effect_text_sha256": "a81ff7976447c842f1e9b84d9c3cd4b913f438d3c169405cc052b06bb06cd224",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_621281",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+      "source_updated_text": "2026-09-26T04:04:39-04:00",
+      "retrieved_at": "2026-09-27T13:55:20+00:00",
+      "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "other_item_profiles_mother_s_gift_12527b1d1c_en_624946",
+      "name_en": "Mother's Gift",
+      "name_zh": "母亲的礼物",
+      "title_zh": "母亲的礼物",
+      "summary_zh": "需交给乌尔坦德。",
+      "category": "delivery_item",
+      "category_zh": "交付物品",
+      "effect_facts": {
+        "purpose": "delivery",
+        "origin_location_name": null,
+        "quest_id": null,
+        "required_quantity": null,
+        "reward": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "需交给乌尔坦德。",
+      "character_relations": [
+        {
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "delivery_recipient"
+        }
+      ],
+      "effect_text_sha256": "a81ff7976447c842f1e9b84d9c3cd4b913f438d3c169405cc052b06bb06cd224",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_624946",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+      "source_updated_text": "2026-09-25T07:24:54-04:00",
+      "retrieved_at": "2026-09-27T07:40:00+00:00",
+      "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_variants": [
+    {
+      "name_en": "Mother's Gift",
+      "assertions": [
+        {
+          "id": "other_item_profiles_mother_s_gift_12527b1d1c_en_621281",
+          "name_en": "Mother's Gift",
+          "name_zh": "母亲的礼物",
+          "title_zh": "母亲的礼物",
+          "summary_zh": "需交给乌尔坦德。",
+          "category": "delivery_item",
+          "category_zh": "交付物品",
+          "effect_facts": {
+            "purpose": "delivery",
+            "origin_location_name": null,
+            "quest_id": null,
+            "required_quantity": null,
+            "reward": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "需交给乌尔坦德。",
+          "character_relations": [
+            {
+              "character": "Ultand",
+              "character_id": "ultand",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "delivery_recipient"
+            }
+          ],
+          "effect_text_sha256": "a81ff7976447c842f1e9b84d9c3cd4b913f438d3c169405cc052b06bb06cd224",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_621281",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+          "source_updated_text": "2026-09-26T04:04:39-04:00",
+          "retrieved_at": "2026-09-27T13:55:20+00:00",
+          "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+          "verification": "reference_fact_not_in_game_verified"
+        },
+        {
+          "id": "other_item_profiles_mother_s_gift_12527b1d1c_en_624946",
+          "name_en": "Mother's Gift",
+          "name_zh": "母亲的礼物",
+          "title_zh": "母亲的礼物",
+          "summary_zh": "需交给乌尔坦德。",
+          "category": "delivery_item",
+          "category_zh": "交付物品",
+          "effect_facts": {
+            "purpose": "delivery",
+            "origin_location_name": null,
+            "quest_id": null,
+            "required_quantity": null,
+            "reward": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "需交给乌尔坦德。",
+          "character_relations": [
+            {
+              "character": "Ultand",
+              "character_id": "ultand",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "delivery_recipient"
+            }
+          ],
+          "effect_text_sha256": "a81ff7976447c842f1e9b84d9c3cd4b913f438d3c169405cc052b06bb06cd224",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_624946",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+          "source_updated_text": "2026-09-25T07:24:54-04:00",
+          "retrieved_at": "2026-09-27T07:40:00+00:00",
+          "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+          "verification": "reference_fact_not_in_game_verified"
+        }
+      ],
+      "effect_comparison_status": "same"
+    }
+  ],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/ultand.webp",
+    "width": 332,
+    "height": 302,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_3.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = ウルタンド; mapped to Ultand.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 8,
+    "name_zh": "乌尔坦德",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_8.shtml",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 40,
+      "spd": 35,
+      "dex": 40,
+      "def": 35,
+      "res": 45,
+      "lck": 55,
+      "cha": 50
+    },
+    "preferred_skills": [
+      "枪术",
+      "白魔术",
+      "飞行术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第6章",
+        "condition": "随剧情推进加入"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv5/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      }
+    ],
+    "gender": "女"
+  },
+  "reference_profile": {
+    "name_en": "Ultand",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+    "faction": "Ribeira Winds",
+    "personal_ability": "Patch Up",
+    "preferred_skills": [
+      "White Magic Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 40,
+      "spd": 35,
+      "dex": 40,
+      "def": 35,
+      "res": 45,
+      "lck": 55,
+      "cha": 50
+    },
+    "growth_total": 385
+  },
+  "reference_update": {
+    "id": "profile_ultand",
+    "character_id": "ultand",
+    "name_en": "Ultand",
+    "name_zh": "乌尔坦德",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 40,
+      "spd": 35,
+      "dex": 40,
+      "def": 35,
+      "res": 45,
+      "lck": 55,
+      "cha": 50
+    },
+    "birthday": "4/28",
+    "personal_ability_name": "Patch Up",
+    "preferred_skills": [
+      "White Magic",
+      "Flying",
+      "Spear"
+    ],
+    "non_ideal_skills": [
+      "Sword"
+    ],
+    "source_id": "en_624007",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+    "source_updated_text": "2026-09-26T05:54:20-04:00",
+    "retrieved_at": "2026-09-26T14:00:01+00:00",
+    "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Rein",
+      "Defense Formation",
+      "Avoid Fatality"
+    ]
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_pray_for_safety_8145141ed3_en_623691",
+      "name_en": "Pray for Safety+",
+      "name_zh": "祈求平安+",
+      "title_zh": "祈求平安+",
+      "summary_zh": "相邻友军必杀回避 +20。",
+      "ability": "Pray for Safety+",
+      "effect_facts": {
+        "target": "adjacent_allies",
+        "stat": "ddg",
+        "bonus": 20
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军必杀回避 +20。",
+      "effect_text_sha256": "74ab35622c2d9edd468def8f34b3828378c3dbd28bc210d54f832c27220f443b",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_pray_for_safety_8571f522e3_en_623691",
+      "name_en": "Pray for Safety",
+      "name_zh": "祈求平安",
+      "title_zh": "祈求平安",
+      "summary_zh": "相邻友军必杀回避 +10。",
+      "ability": "Pray for Safety",
+      "effect_facts": {
+        "target": "adjacent_allies",
+        "stat": "ddg",
+        "bonus": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军必杀回避 +10。",
+      "effect_text_sha256": "4f2ab4b3faea1300ac359e0fbc00974d450550823385b8caa68f805ef0d8a58a",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Pray for Safety",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_ultand_prayforsafety_20",
+          "character_id": "ultand",
+          "character": "Ultand",
+          "ability": "Pray for Safety",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_624007",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+          "source_updated_text": "2026-09-26T05:54:20-04:00",
+          "retrieved_at": "2026-09-26T14:00:01+00:00",
+          "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624007",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+            "source_updated_text": "2026-09-26T05:54:20-04:00",
+            "retrieved_at": "2026-09-26T14:00:01+00:00",
+            "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_pray_for_safety_8571f522e3_en_623691",
+          "name_en": "Pray for Safety",
+          "name_zh": "祈求平安",
+          "title_zh": "祈求平安",
+          "summary_zh": "相邻友军必杀回避 +10。",
+          "ability": "Pray for Safety",
+          "effect_facts": {
+            "target": "adjacent_allies",
+            "stat": "ddg",
+            "bonus": 10
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻友军必杀回避 +10。",
+          "effect_text_sha256": "4f2ab4b3faea1300ac359e0fbc00974d450550823385b8caa68f805ef0d8a58a",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Pray for Safety+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_ultand_prayforsafetyplus_35",
+          "character_id": "ultand",
+          "character": "Ultand",
+          "ability": "Pray for Safety+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_624007",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+          "source_updated_text": "2026-09-26T05:54:20-04:00",
+          "retrieved_at": "2026-09-26T14:00:01+00:00",
+          "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624007",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+            "source_updated_text": "2026-09-26T05:54:20-04:00",
+            "retrieved_at": "2026-09-26T14:00:01+00:00",
+            "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_pray_for_safety_8145141ed3_en_623691",
+          "name_en": "Pray for Safety+",
+          "name_zh": "祈求平安+",
+          "title_zh": "祈求平安+",
+          "summary_zh": "相邻友军必杀回避 +20。",
+          "ability": "Pray for Safety+",
+          "effect_facts": {
+            "target": "adjacent_allies",
+            "stat": "ddg",
+            "bonus": 20
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻友军必杀回避 +20。",
+          "effect_text_sha256": "74ab35622c2d9edd468def8f34b3828378c3dbd28bc210d54f832c27220f443b",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Ultand",
+          "character_id": "ultand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_patch_up_095c6b44ac_en_623691",
+      "name_en": "Patch Up",
+      "name_zh": "应急治疗",
+      "title_zh": "应急治疗",
+      "summary_zh": "相邻友军战斗结束后，恢复该友军少量生命；具体恢复量未列出。",
+      "ability": "Patch Up",
+      "effect_facts": {
+        "condition": "adjacent_ally_completes_combat",
+        "target": "that_adjacent_ally",
+        "resource": "hp",
+        "restore_amount": null,
+        "amount_description": "little"
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军战斗结束后，恢复该友军少量生命；具体恢复量未列出。",
+      "effect_text_sha256": "7857f2a11e39f8539492ffb0983cba1f9c6454463c0b81cfc5da51450ea94589",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Patch Up",
+      "effect_zh": "相邻友军战斗结束后，为该友军回复少量生命。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_patch_up_095c6b44ac_en_623691",
+      "name_en": "Patch Up",
+      "name_zh": "应急治疗",
+      "title_zh": "应急治疗",
+      "summary_zh": "相邻友军战斗结束后，恢复该友军少量生命；具体恢复量未列出。",
+      "ability": "Patch Up",
+      "effect_facts": {
+        "condition": "adjacent_ally_completes_combat",
+        "target": "that_adjacent_ally",
+        "resource": "hp",
+        "restore_amount": null,
+        "amount_description": "little"
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军战斗结束后，恢复该友军少量生命；具体恢复量未列出。",
+      "effect_text_sha256": "7857f2a11e39f8539492ffb0983cba1f9c6454463c0b81cfc5da51450ea94589",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Ultand",
+      "character_id": "ultand",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_ultand_cai_i_6",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "name_zh": "乌尔坦德",
+      "route": "Cai",
+      "chapter": 6,
+      "part": "I",
+      "support_level": null,
+      "renown_level": null,
+      "special_requirement": null,
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": "story_progression",
+      "requires_separate_quest_or_event": false,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained",
+      "unlock_evidence_section": "Auto-Unlocked on Cai's Path"
+    },
+    {
+      "id": "recruit_ultand_dietrich_i_4",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "name_zh": "乌尔坦德",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 5,
+      "special_requirement": "Give Ultand Her Mother's Gift",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_ultand_leda_i_4",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "name_zh": "乌尔坦德",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Give Ultand Her Mother's Gift",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_ultand_theodora_i_5",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "name_zh": "乌尔坦德",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 6,
+      "special_requirement": "Give Ultand Her Mother's Gift",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_ultand_prayforsafety_20",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "ability": "Pray for Safety",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ultand_prayforsafetyplus_35",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "ability": "Pray for Safety+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_ultand_a_white_ward",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "A",
+      "magic": "white",
+      "spell": "Ward",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_b_black_bolganone",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "B",
+      "magic": "black",
+      "spell": "Bolganone",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_b_white_emergis",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Emergis",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_c_black_wind",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Wind",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_c_white_seraphim",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Seraphim",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_d_black_fire",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_d_white_heal",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ultand_s_white_aura",
+      "character_id": "ultand",
+      "character": "Ultand",
+      "skill_level": "S",
+      "magic": "white",
+      "spell": "Aura",
+      "source_id": "en_624007",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+      "source_updated_text": "2026-09-26T05:54:20-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 40,
+        "spd": 35,
+        "dex": 40,
+        "def": 35,
+        "res": 45,
+        "lck": 55,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 40,
+        "spd": 35,
+        "dex": 40,
+        "def": 35,
+        "res": 45,
+        "lck": 55,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_8.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 40,
+        "spd": 35,
+        "dex": 40,
+        "def": 35,
+        "res": 45,
+        "lck": 55,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 40,
+        "spd": 35,
+        "dex": 40,
+        "def": 35,
+        "res": 45,
+        "lck": 55,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624007",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624007",
+        "source_updated_text": "2026-09-26T05:54:20-04:00",
+        "retrieved_at": "2026-09-26T14:00:01+00:00",
+        "content_sha256": "4fb7fcabdef44f7e24188a81f396bf1d5e882781f103c77b016ae6c4ee18e12f",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "第一部第6章",
+      "condition": "随剧情推进加入"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "支援Lv3/名声Lv5/可交涉（难度高）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章",
+      "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "Automatic (Chapter 6)",
+      "Dietrich": "3S, 5R, Quest",
+      "Theodora": "3S, 6R, Quest",
+      "Leda": "3S, 8R, Quest"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第6章",
+        "condition": "随剧情推进加入"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "支援Lv3/名声Lv5/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Cai",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Centurio",
+      "partner": "Ultand",
+      "rank": "C"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Loretta",
+      "partner": "Ultand",
+      "rank": "B"
+    },
+    {
+      "name": "Nezha",
+      "partner": "Ultand",
+      "rank": "B"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Ultand",
+      "rank": "C"
+    },
+    {
+      "name": "Peppe",
+      "partner": "Ultand",
+      "rank": "B"
+    },
+    {
+      "name": "Peter",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Tialla",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Tobias",
+      "partner": "Ultand",
+      "rank": "B"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Centurio",
+      "rank": "C"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Goliath",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Loretta",
+      "rank": "B"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Nezha",
+      "rank": "B"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Orchel",
+      "rank": "C"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Peppe",
+      "rank": "B"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Peter",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Tialla",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Tobias",
+      "rank": "B"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Ultand",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Ultand",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Ultand",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Wind"
+    },
+    {
+      "name": "Ultand",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Seraphim"
+    },
+    {
+      "name": "Ultand",
+      "skill_level": "B",
+      "magic": "Black Magic",
+      "spell": "Wind"
+    },
+    {
+      "name": "Ultand",
+      "skill_level": "B",
+      "magic": "White Magic",
+      "spell": "Emergis"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Ultand",
+      "gift": "Blue-Rose Bouquet"
+    },
+    {
+      "name": "Ultand",
+      "gift": "Crimson Ghosh"
+    },
+    {
+      "name": "Ultand",
+      "gift": "Eastern Love Story"
+    },
+    {
+      "name": "Ultand",
+      "gift": "Garum"
+    },
+    {
+      "name": "Ultand",
+      "gift": "Outdoor Cooking Set"
+    },
+    {
+      "name": "Ultand",
+      "gift": "Pastry Cookbook"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Ultand",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Ultand",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "ultand",
+  "display_name": "乌尔坦德"
+}

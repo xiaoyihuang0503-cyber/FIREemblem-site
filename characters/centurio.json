@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "centurio",
+    "name_en": "Centurio",
+    "name_zh": "盛托利翁",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 40,
+      "dex": 50,
+      "def": 50,
+      "res": 30,
+      "lck": 30,
+      "cha": 30
+    },
+    "growth_total": 345,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Sturdy Corundum",
+      "description": "For the first combat in enemy’s phase, unit takes half damage.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "later": "Part III Salvation Section 2 after 'Rescue Centurio'"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/centurio.jpg",
+      "width": 470,
+      "height": 470,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_23.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image023.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 盛托利翁；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/centurio.jpg",
+    "width": 470,
+    "height": 470,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_23.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image023.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 盛托利翁；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 23,
+    "name_zh": "盛托利翁",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_23.shtml",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 40,
+      "dex": 50,
+      "def": 50,
+      "res": 30,
+      "lck": 30,
+      "cha": 30
+    },
+    "preferred_skills": [
+      "枪术",
+      "斧术",
+      "重装术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "敌方阶段中，首次战斗受到的攻击伤害减半"
+  },
+  "reference_profile": {
+    "name_en": "Centurio",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624394",
+    "faction": "Temple Army",
+    "personal_ability": "Sturdy Corundum",
+    "preferred_skills": [
+      "Axe Skill",
+      "Heavy Armor Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 40,
+      "dex": 50,
+      "def": 50,
+      "res": 30,
+      "lck": 30,
+      "cha": 30
+    },
+    "growth_total": 345
+  },
+  "reference_update": {
+    "id": "profile_centurio",
+    "character_id": "centurio",
+    "name_en": "Centurio",
+    "name_zh": "盛托利翁",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 40,
+      "dex": 50,
+      "def": 50,
+      "res": 30,
+      "lck": 30,
+      "cha": 30
+    },
+    "birthday": null,
+    "personal_ability_name": "Sturdy Corundum",
+    "preferred_skills": [
+      "Axe",
+      "Heavy Armor",
+      "Spear"
+    ],
+    "non_ideal_skills": [],
+    "source_id": "en_624394",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624394",
+    "source_updated_text": "2026-09-26T06:33:29-04:00",
+    "retrieved_at": "2026-09-26T12:59:39+00:00",
+    "content_sha256": "6e9dce685aa38f1ba90396539abfc5052544becd3e1606b12e967e48ea2afc2e",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": []
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [],
+  "level_ability_variants": [],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_sturdy_corundum_4c9997ef71_en_623691",
+      "name_en": "Sturdy Corundum",
+      "name_zh": "坚固刚玉",
+      "title_zh": "坚固刚玉",
+      "summary_zh": "敌军阶段的第一次战斗，所受伤害减半。",
+      "ability": "Sturdy Corundum",
+      "effect_facts": {
+        "phase": "enemy",
+        "combat_index": 1,
+        "damage_taken_multiplier": 0.5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军阶段的第一次战斗，所受伤害减半。",
+      "effect_text_sha256": "cf8dc0c86f584f1c017b68187a6e9413626f8efbba018db64010d2d0064127bc",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Centurio",
+      "character_id": "centurio",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Sturdy Corundum",
+      "effect_zh": "敌方阶段的首次战斗中，承受伤害减半。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Sturdy Corundum",
+      "effect_zh": "敌方阶段中，首次战斗受到的攻击伤害减半",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_23.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_sturdy_corundum_4c9997ef71_en_623691",
+      "name_en": "Sturdy Corundum",
+      "name_zh": "坚固刚玉",
+      "title_zh": "坚固刚玉",
+      "summary_zh": "敌军阶段的第一次战斗，所受伤害减半。",
+      "ability": "Sturdy Corundum",
+      "effect_facts": {
+        "phase": "enemy",
+        "combat_index": 1,
+        "damage_taken_multiplier": 0.5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军阶段的第一次战斗，所受伤害减半。",
+      "effect_text_sha256": "cf8dc0c86f584f1c017b68187a6e9413626f8efbba018db64010d2d0064127bc",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Centurio",
+      "character_id": "centurio",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 25,
+        "spd": 40,
+        "dex": 50,
+        "def": 50,
+        "res": 30,
+        "lck": 30,
+        "cha": 30
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 25,
+        "spd": 40,
+        "dex": 50,
+        "def": 50,
+        "res": 30,
+        "lck": 30,
+        "cha": 30
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_23.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 25,
+        "spd": 40,
+        "dex": 50,
+        "def": 50,
+        "res": 30,
+        "lck": 30,
+        "cha": 30
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624394",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 25,
+        "spd": 40,
+        "dex": 50,
+        "def": 50,
+        "res": 30,
+        "lck": 30,
+        "cha": 30
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624394",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624394",
+        "source_updated_text": "2026-09-26T06:33:29-04:00",
+        "retrieved_at": "2026-09-26T12:59:39+00:00",
+        "content_sha256": "6e9dce685aa38f1ba90396539abfc5052544becd3e1606b12e967e48ea2afc2e",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "later": "Part III Salvation Section 2 after 'Rescue Centurio'"
+    },
+    "profile": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Cai",
+      "partner": "Centurio",
+      "rank": "C"
+    },
+    {
+      "name": "Centurio",
+      "partner": "Cai",
+      "rank": "C"
+    },
+    {
+      "name": "Centurio",
+      "partner": "Ultand",
+      "rank": "C"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Centurio",
+      "rank": "C"
+    }
+  ],
+  "spells": [],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Centurio",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Centurio",
+      "kind": "preferred",
+      "skill": "Heavy Armor Skill"
+    },
+    {
+      "name": "Centurio",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "centurio",
+  "display_name": "盛托利翁"
+}

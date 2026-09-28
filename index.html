@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="fe-interface-version" content="search-home-catalog-20260927" />
+  <meta name="description" content="搜索万缕千丝人物、职业、技能与物品资料，查看四条路线攻略，安排角色成长路径。" />
+  <title>万缕千丝｜搜索与人物规划</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111'/%3E%3Cpath d='M12 46 27 18l10 17 5-10 10 21H12Z' fill='none' stroke='%23f3f0e8' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='27' cy='18' r='4' fill='%23c43c30'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css?v=ee12046c5aee" />
+  <link rel="stylesheet" href="adventure.css?v=6c4479693544" />
+  <link rel="stylesheet" href="workbench.css?v=fe7f89202cae" />
+  <link rel="stylesheet" href="character-pages.css?v=04ce4b6ce715" />
+  <link rel="stylesheet" href="home.css?v=80a3672bf84f" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="返回搜索首页"><span class="brand-mark">纹</span><span>万缕千丝<span class="brand-sub">搜索与人物规划</span></span></a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#home">首页</a><a href="#planner">人物规划</a><a href="#characters">人物图鉴</a><a href="#classes">职业</a><a href="#maps">地图</a><a href="#library">资料库</a>
+    </nav>
+    <form id="globalSearchForm" class="global-search" role="search"><label class="sr-only" for="globalSearchInput">搜索站内人物与资料</label><input id="globalSearchInput" type="search" placeholder="人物、职业、技能…" autocomplete="off"><button type="submit" aria-label="搜索">搜索</button></form>
+  </header>
+
+  <main>
+    <section id="home" class="view active">
+      <div class="home-search-surface">
+        <h1>万缕千丝</h1>
+        <form id="homeSearchForm" class="home-search-form" role="search">
+          <label class="sr-only" for="homeQuery">搜索人物、职业、技能、物品或章节</label>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+          <input id="homeQuery" type="search" placeholder="搜索人物、职业、技能、物品或章节" autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+        <div class="home-search-hints" aria-label="常用搜索"><a href="#search?q=穆">穆</a><a href="#search?q=招募">招募条件</a><a href="#search?q=武僧">武僧</a><a href="#search?q=沙虫肉">沙虫肉</a></div>
+        <nav id="homeCatalogLinks" class="home-catalog-links" aria-label="浏览资料分类"><a href="#library?collection=gift_profiles">礼物</a><a href="#library?collection=material_profiles&amp;category=fish">鱼类</a><a href="#library?collection=weapon_profiles">武器与法术</a><a href="#library">全部资料</a></nav>
+      </div>
+      <div id="homeModules" class="home-modules">
+        <section class="home-routes" aria-labelledby="homeRoutesTitle">
+          <div class="home-section-heading"><h2 id="homeRoutesTitle">路线攻略</h2><a href="#maps/chapters/Cai">全部章节</a></div>
+          <div id="homeRouteCards" class="home-route-grid"></div>
+        </section>
+        <section class="home-planning" aria-labelledby="homePlanningTitle">
+          <div class="home-section-heading"><div><span class="home-core-label">核心功能</span><h2 id="homePlanningTitle">角色成长规划</h2></div><a class="home-planner-link" href="#planner">进入规划</a></div>
+          <p class="home-planning-copy">选择角色，安排目标职业、训练与精通。<span id="characterCount">57</span> 位人物 · <span id="classCount">60</span> 种职业。</p>
+          <label class="sr-only" for="homeSearch">选择规划人物</label><input id="homeSearch" class="search-input home-person-search" type="search" placeholder="选择人物：穆、凯伊…">
+          <div id="homeCharacterList" class="character-list compact"></div>
+          <details class="home-presets"><summary>穆的培养方案</summary><div id="muPresetCards" class="preset-grid"></div></details>
+        </section>
+        <section class="home-shortcuts" aria-labelledby="homeShortcutsTitle">
+          <div class="home-section-heading"><h2 id="homeShortcutsTitle">我的功能</h2><details id="homeModulePicker" class="home-module-picker"><summary>＋ 添加功能</summary><div class="home-module-options" id="homeModuleOptions"></div></details></div>
+          <div id="homeShortcutCards" class="home-shortcut-grid"></div>
+          <p id="homeModuleStatus" class="home-module-status" role="status"></p>
+        </section>
+      </div>
+    </section>
+
+    <section id="characters" class="view">
+      <div class="page-head grid12">
+        <span class="mono page-no">人物图鉴</span>
+        <h1>人物图鉴</h1>
+        <p>进入人物专页，查看成长、招募、技能和关联资料，再开始培养规划。</p>
+      </div>
+      <div class="toolbar">
+        <input aria-label="搜索中文名或英文名" id="characterSearch" class="search-input" type="search" placeholder="搜索中文名 / 英文名" />
+        <select aria-label="角色排序" id="characterSort" class="select-input"><option value="default">默认顺序</option><option value="growth">总成长从高到低</option><option value="speed">速度从高到低</option><option value="strength">力量从高到低</option></select>
+      </div>
+      <div id="characterGrid" class="character-grid"></div>
+      <div id="characterDetail" class="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawerName" aria-hidden="true" tabindex="-1" inert></div>
+    </section>
+
+    <section id="planner" class="view">
+      <div class="page-head grid12">
+        <span class="mono page-no">人物规划</span>
+        <h1>人物培养规划</h1>
+        <p>选人物、定目标，安排下一步训练。已保存的进度会按人物读取。</p>
+      </div>
+
+      <div class="planner-shell">
+        <aside class="planner-form">
+          <div class="form-section">
+            <label for="plannerCharacter">角色</label><select id="plannerCharacter" class="select-input"></select><div id="plannerCharacterPreview" class="planner-character-preview"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-section"><label for="currentClass">当前职业</label><select id="currentClass" class="select-input"></select></div>
+            <div class="form-section"><label for="currentLevel">等级</label><input id="currentLevel" type="number" inputmode="numeric" min="1" max="99" value="16" class="select-input" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-section"><label for="currentRoute">路线</label><select id="currentRoute" class="select-input"><option value="Cai">凯伊</option><option value="Dietrich">迪托利希</option><option value="Theodora">赛奥朵拉</option><option value="Leda">蕾达</option></select></div>
+            <div class="form-section"><label for="currentPart">阶段</label><select id="currentPart" class="select-input"><option value="1">第一部</option><option value="2">第二部</option><option value="3">第三部</option></select></div>
+          </div>
+          <div class="form-section">
+            <div class="form-label-row"><label>当前熟练度</label><button id="resetRanks" class="text-btn">重置</button></div>
+            <div id="rankInputs" class="rank-grid"></div>
+          </div>
+          <div class="form-section local-progress">
+            <button id="saveProgress" class="secondary-btn" type="button">保存这个角色的进度</button>
+            <p id="progressStatus" aria-live="polite">只保存在当前浏览器。换设备不会同步。</p>
+          </div>
+        </aside>
+
+        <section class="planner-target">
+          <div class="target-top">
+            <div><span class="mono small-label">目标职业</span><h2>你最后想练成什么？</h2></div>
+            <select aria-label="目标职业" id="targetClass" class="select-input large"></select>
+          </div>
+          <div class="build-direction">
+            <label for="buildDirection">想练成哪种方向</label>
+            <select id="buildDirection" class="select-input">
+              <option value="speed">高速输出 · 力量 / 速度 / 技巧</option>
+              <option value="burst">物理爆发 · 力量 / 技巧 / 生命</option>
+              <option value="tank">前排坦克 · 生命 / 防御 / 魔防</option>
+              <option value="balanced">均衡培养 · 力量 / 速度 / 耐久</option>
+            </select>
+          </div>
+          <div class="mode-tabs" role="tablist">
+            <button class="mode-tab active" data-mode="fastest">最快成型</button>
+            <button class="mode-tab" data-mode="optimized">属性优化</button>
+            <button class="mode-tab" data-mode="complete">完全体</button>
+          </div>
+          <button id="generateRoute" class="primary-btn full">生成培养路线 <span>→</span></button>
+          <div id="routeSummary" class="route-summary"></div>
+          <div id="routeTimeline" class="route-timeline"></div>
+          <div id="trainingPlan" class="planner-extra"></div>
+          <div id="masteryPlan" class="planner-extra"></div>
+          <section class="level-check planner-extra" aria-labelledby="levelCheckTitle">
+            <div class="extra-head"><span class="mono small-label">升级记录</span><h2 id="levelCheckTitle">这次升级要不要凹？</h2></div>
+            <p>勾选本次升级实际增加的属性。判断只是当前 Build 的培养建议。</p>
+            <div id="levelStats" class="level-stats"></div>
+            <div class="form-row level-actions">
+              <label>凹点严格度<select id="rerollStrictness" class="select-input"><option value="light">轻度</option><option value="normal" selected>推荐</option><option value="hard">极限</option></select></label>
+              <button id="checkLevel" type="button" class="secondary-btn">判断这次成长</button>
+            </div>
+            <div id="levelResult" class="level-result" aria-live="polite"></div>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <section id="classes" class="view">
+      <div class="page-head grid12">
+        <span class="mono page-no">职业图鉴</span>
+        <h1>职业图鉴</h1>
+        <p>本作是自由资格考试体系。这里展示“去哪里”的条件，不把它画成一棵假的固定转职树。</p>
+      </div>
+      <div class="toolbar class-toolbar">
+        <input aria-label="搜索职业或精通技能" id="classSearch" class="search-input" type="search" placeholder="搜索职业 / 精通技能" />
+        <div id="tierFilters" class="tier-filters"></div>
+      </div>
+      <div id="classTable" class="class-table"></div>
+      <p class="class-source-note">达到熟练度要求后参加资格考试。职业解锁、精通与成长加成可在各职业条目中查阅；未核实的数值会单独标记。</p>
+    </section>
+
+    <section id="maps" class="view">
+      <div class="page-head grid12"><span class="mono page-no">地图与章节</span><h1>地图与章节攻略</h1><p>找路、查目标、记期限。探索进度与通关记录保存在当前浏览器。</p></div>
+      <div class="adventure-stats"><span><strong>3</strong> 区域地图</span><span><strong>56</strong> 章节档案</span><span><strong>9</strong> 外传</span></div>
+      <div class="adventure-tabs" role="tablist" aria-label="攻略类型"><button type="button" role="tab" data-adventure-tab="regions" aria-selected="true" class="active">区域探索</button><button type="button" role="tab" data-adventure-tab="chapters" aria-selected="false">章节与战斗</button><button type="button" role="tab" data-adventure-tab="paralogues" aria-selected="false">外传与期限</button></div>
+      <div id="regionsPanel" class="adventure-panel">
+        <div class="map-region-tabs" id="mapRegionTabs" aria-label="选择区域"></div>
+        <div class="map-shell"><section class="map-main">
+          <div class="map-heading"><div><span id="mapEnglish" class="mono small-label"></span><h2 id="mapTitle"></h2><p id="mapSubtitle"></p></div><span id="mapProgress" aria-live="polite"></span></div>
+          <div class="map-controls"><label for="mapRoute">当前路线<select id="mapRoute" class="select-input"><option value="Cai">凯伊</option><option value="Dietrich">迪托利希</option><option value="Theodora">赛奥朵拉</option><option value="Leda">蕾达</option></select></label><label for="mapPart">篇章<select id="mapPart" class="select-input"><option value="1">第一部</option><option value="3">第三部</option></select></label><label class="map-conditional"><input id="mapCondition" type="checkbox"><span id="mapConditionLabel"></span></label></div>
+          <p id="mapAccess" class="map-access" aria-live="polite"></p>
+          <div class="map-tools"><div class="map-legend"><span class="legend-permanent">永久路线</span><span class="legend-temporary">单向临时路线</span><span class="legend-conditional">条件路线</span></div><div><button id="mapZoomOut" type="button" aria-label="缩小地图">−</button><span id="mapZoomLevel">100%</span><button id="mapZoomIn" type="button" aria-label="放大地图">＋</button><button id="mapZoomReset" type="button">适应</button></div></div>
+          <div id="mapViewport" class="map-viewport" tabindex="0" aria-label="区域地图，放大后可滚动查看"><div id="mapCanvas" class="map-canvas"></div></div>
+          <p class="map-caption">点击地点设置终点；放大后可横向、纵向滚动。节点位置为示意，不按地形比例绘制。中文地点名为对照译名。</p>
+        </section><aside class="map-sidebar"><div class="map-route-planner"><h3>这次去哪里？</h3><label for="mapFrom">从这里出发</label><select id="mapFrom" class="select-input"></select><label for="mapTo">到这里</label><select id="mapTo" class="select-input"></select><button type="button" id="findMapPath" class="primary-btn full">查询路线 →</button><div id="mapPathResult" aria-live="polite"></div></div><div id="mapLocationDetail" class="map-location-detail" aria-live="polite"></div><div class="map-notes"><h3>探索提醒</h3><ul id="mapNotes"></ul></div></aside></div>
+          <details class="explore-rules"><summary>世界地图行动怎么安排？</summary><div class="explore-rule-grid"><article><h3>行动与回合</h3><p>普通路线一次最多移动 3 个节点。到达后执行探索、交谈或等待会消耗回合；临时沙路和洋流通常更慢。回合归零后推进剧情。</p></article><article><h3>先确认返回方式</h3><p>驿站可以前往已访问的驿站；神殿之间可通过已解锁的通道移动。离开城市前先看章节截止日期。</p></article><article><h3>各主角的地图能力</h3><p>凯伊可以耕作与诱捕坐骑；迪托利希可以发现隐藏敌人；赛奥朵拉可以派遣部队；蕾达可以在指定地点表演。</p></article></div></details>
+      </div>
+      <div id="chaptersPanel" class="adventure-panel" hidden><div class="chapter-toolbar"><label for="chapterRoute">故事路线<select id="chapterRoute" class="select-input"></select></label><input id="chapterSearch" type="search" class="search-input" aria-label="搜索章节或地点" placeholder="搜索章节、地点或战斗名称"><span id="chapterProgress" aria-live="polite"></span></div><div class="chapter-layout"><div id="chapterList" class="chapter-list"></div><article id="chapterDetail" class="chapter-detail" aria-live="polite" tabindex="-1"></article></div></div>
+      <div id="paraloguesPanel" class="adventure-panel" hidden><div class="chapter-toolbar"><label for="paralogueRoute">按路线查询<select id="paralogueRoute" class="select-input"><option value="all">全部路线</option><option value="Cai">凯伊</option><option value="Dietrich">迪托利希</option><option value="Theodora">赛奥朵拉</option><option value="Leda">蕾达</option></select></label><p>日期为第一部游戏内日历。注意接受期限和任务自动开始日。</p></div><div id="paralogueList" class="paralogue-grid"></div></div>
+    </section>
+
+    <section id="library" class="view">
+      <div class="page-head grid12">
+        <span class="mono page-no">资料库</span>
+        <h1>资料库</h1>
+        <p>人物档案、培养机制、支援关系与收集资料集中查。数值口径不同的地方单独说明。</p>
+      </div>
+      <p id="libraryInventory" class="catalog-inventory" role="status">正在载入已收录资料…</p>
+      <div class="library-tabs" role="tablist" aria-label="资料类型">
+        <button type="button" data-library-tab="query" class="active" aria-selected="true">全部资料</button>
+        <button type="button" data-library-tab="profiles" aria-selected="false">人物成长对照</button>
+        <button type="button" data-library-tab="entries" aria-selected="false">机制与攻略</button>
+        <button type="button" data-library-tab="overseas" aria-selected="false">支援与收集</button>
+      </div>
+      <div id="libraryProfilesPanel" class="library-panel" hidden><p><span id="libraryProfileCount">53</span> 份成长对照档案</p>
+        <div class="library-toolbar">
+          <input id="profileSearch" class="search-input" type="search" aria-label="搜索角色资料" placeholder="搜索角色、擅长技能或加入条件" />
+          <span id="profileResultCount" class="mono library-result-count"></span>
+        </div>
+        <div class="profile-layout">
+          <div id="libraryProfileList" class="profile-list" aria-label="角色资料列表" tabindex="-1"></div>
+          <div id="libraryProfileDetail" class="profile-detail" aria-live="polite" tabindex="-1"></div>
+        </div>
+      </div>
+      <div id="libraryEntriesPanel" class="library-panel" hidden><p><span id="libraryEntryCount">8</span> 条机制与攻略</p>
+        <div class="library-toolbar">
+          <input id="entrySearch" class="search-input" type="search" aria-label="搜索机制与攻略" placeholder="搜索机制或关键词" />
+          <div class="library-filters" aria-label="资料分类">
+            <button type="button" data-source-filter="all" class="active">全部</button>
+            <button type="button" data-source-filter="official">游戏机制</button>
+            <button type="button" data-source-filter="guide">培养策略</button>
+            <button type="button" data-source-filter="player">实验记录</button>
+          </div>
+        </div>
+        <div id="libraryEntryList" class="library-entry-list"></div>
+      </div>
+      <div id="libraryOverseasPanel" class="library-panel" hidden>
+        <div class="library-toolbar">
+          <label class="overseas-picker" for="overseasCharacter">查询人物<select id="overseasCharacter" class="select-input"></select></label>
+          <span id="overseasCounts" class="library-result-count"></span>
+        </div>
+        <div id="overseasCharacterDetail" class="overseas-detail" aria-live="polite"></div>
+
+      </div>
+      <div id="libraryQueryPanel" class="library-panel">
+        <nav id="libraryCatalogCards" class="catalog-grid" aria-label="资料分类"></nav>
+        <div class="knowledge-intro"><h2 id="knowledgeHeading">礼物图鉴</h2><p>选择条目查看详情；尚未收录的条件标为待补。</p></div>
+        <form id="knowledgeForm" class="knowledge-form"><label>查什么<select id="knowledgeCollection" class="select-input"></select></label><label>关键词<input id="knowledgeSearch" class="search-input" type="search" placeholder="人物、技能或地点" /></label><label id="knowledgeCategoryLabel" hidden>材料分类<select id="knowledgeCategory" class="select-input"><option value="">全部材料</option><option value="fish">鱼类</option><option value="ore">矿石</option><option value="ingredient">食材</option></select></label><button type="submit" class="primary-btn">查询 →</button></form>
+        <p id="knowledgeStatus" class="knowledge-status" role="status">准备查询资料。</p>
+        <div class="knowledge-layout"><div><div id="knowledgeResults" class="knowledge-results"></div><div class="knowledge-pagination"><button id="knowledgePrev" type="button" class="secondary-btn">上一页</button><button id="knowledgeNext" type="button" class="secondary-btn">下一页</button></div></div><article id="knowledgeDetail" class="knowledge-detail" aria-live="polite" tabindex="-1"><p>选择一条资料查看内容。</p></article></div>
+      </div>
+    </section>
+    <section id="character" class="view"><div id="personPage" class="person-page" aria-live="polite"><p>正在载入人物资料…</p></div></section>
+    <section id="search" class="view"><div class="search-page"><div class="search-heading"><span class="small-label">全站搜索</span><h1>搜索资料</h1></div><form id="siteSearchForm" class="site-search-form" role="search"><label class="sr-only" for="siteSearchInput">搜索资料</label><input id="siteSearchInput" type="search" class="search-input" placeholder="搜索人物、职业、技能、法术或礼物"><button class="primary-btn" type="submit">搜索</button></form><div id="searchFilters" class="search-filter-tabs" aria-label="结果分类"></div><p id="siteSearchStatus" role="status"></p><div id="siteSearchResults" class="site-search-results"></div><button id="siteSearchMore" class="secondary-btn" type="button" hidden>加载更多</button></div></section>
+  </main>
+
+  <button class="drawer-backdrop" type="button" tabindex="-1" aria-label="关闭角色详情" hidden></button>
+
+  <footer class="footer mono">
+    <span>万缕千丝人物培养导航 · 非官方工具</span>
+    <span>资料更新 2026.09.27 · 首页已更新 / 缺失项已标记<br>角色图像 © Nintendo / INTELLIGENT SYSTEMS</span>
+  </footer>
+
+  <script src="data.js?v=262f445e9667"></script>
+  <script src="i18n.js?v=b071cfaf9a86"></script>
+  <script src="app.js?v=828f5646a14b"></script>
+  <script src="planner-v02.js?v=d575b92d9989"></script>
+  <script src="reference-library.js?v=f6a569bf7cf0"></script>
+  <script src="overseas-library.js?v=5f15588f20ed"></script>
+  <script src="adventure.js?v=57e96c6adf77"></script>
+  <script src="home.js?v=631beed03091"></script>
+  <script type="module" src="workbench.js?v=d12f93cfdbcd"></script>
+  <script type="module" src="character-pages.js?v=6c7c798b4eea"></script>
+</body>
+</html>

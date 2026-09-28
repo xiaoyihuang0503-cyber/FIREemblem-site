@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "name_en": "Tahonia",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624396",
+    "faction": "Neutral",
+    "personal_ability": "Python Technique",
+    "preferred_skills": [],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 65,
+      "str": 50,
+      "mag": 5,
+      "spd": 20,
+      "dex": 40,
+      "def": 45,
+      "res": 35,
+      "lck": 20,
+      "cha": 40
+    },
+    "growth_total": 320
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "supplemental",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": null,
+  "profile": null,
+  "reference_profile": {
+    "name_en": "Tahonia",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624396",
+    "faction": "Neutral",
+    "personal_ability": "Python Technique",
+    "preferred_skills": [],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 65,
+      "str": 50,
+      "mag": 5,
+      "spd": 20,
+      "dex": 40,
+      "def": 45,
+      "res": 35,
+      "lck": 20,
+      "cha": 40
+    },
+    "growth_total": 320
+  },
+  "reference_update": null,
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [],
+  "level_ability_variants": [],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_python_technique_55b8b61f0e_en_623691",
+      "name_en": "Python Technique",
+      "name_zh": "巨蟒之技",
+      "title_zh": "巨蟒之技",
+      "summary_zh": "使用拳套战技时，本次战斗无视攻击速度发动追击。触发概率为 15%。",
+      "ability": "Python Technique",
+      "effect_facts": {
+        "timing": "during_combat",
+        "follow_up_regardless_of_attack_speed": true,
+        "condition": "use_gauntlet_combat_art",
+        "trigger_percent": 15
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用拳套战技时，本次战斗无视攻击速度发动追击。触发概率为 15%。",
+      "effect_text_sha256": "4d047d82d84f58eb074c2ce2893e461b55468eef0134fd263517d4b877ea977e",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Tahonia",
+      "character_id": null,
+      "supplemental_character_name": "Tahonia",
+      "character_identity_status": "supplemental",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_python_technique_55b8b61f0e_en_623691",
+      "name_en": "Python Technique",
+      "name_zh": "巨蟒之技",
+      "title_zh": "巨蟒之技",
+      "summary_zh": "使用拳套战技时，本次战斗无视攻击速度发动追击。触发概率为 15%。",
+      "ability": "Python Technique",
+      "effect_facts": {
+        "timing": "during_combat",
+        "follow_up_regardless_of_attack_speed": true,
+        "condition": "use_gauntlet_combat_art",
+        "trigger_percent": 15
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用拳套战技时，本次战斗无视攻击速度发动追击。触发概率为 15%。",
+      "effect_text_sha256": "4d047d82d84f58eb074c2ce2893e461b55468eef0134fd263517d4b877ea977e",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Tahonia",
+      "character_id": null,
+      "supplemental_character_name": "Tahonia",
+      "character_identity_status": "supplemental",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "single_structured_source_or_missing",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [],
+  "growth_variants": [
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 65,
+        "str": 50,
+        "mag": 5,
+        "spd": 20,
+        "dex": 40,
+        "def": 45,
+        "res": 35,
+        "lck": 20,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624396",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": null,
+  "recruitment_variants": {
+    "base": null,
+    "profile": []
+  },
+  "supports": [],
+  "spells": [],
+  "gifts": [],
+  "skill_preferences": [],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": false,
+    "has_recruitment_profile": false,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "tahonia",
+  "display_name": "塔霍尼亚"
+}

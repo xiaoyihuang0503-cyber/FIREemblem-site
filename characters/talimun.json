@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "talimun",
+    "name_en": "Talimun",
+    "name_zh": "谭利穆恩",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 45,
+      "spd": 40,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 60,
+      "cha": 50
+    },
+    "growth_total": 400,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Swashbuckler’s Luck",
+      "description": "Grants Lck+3.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/talimun.webp",
+      "width": 334,
+      "height": 315,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_18.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = タリムーン; mapped to Talimun.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/talimun.webp",
+    "width": 334,
+    "height": 315,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_18.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = タリムーン; mapped to Talimun.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 20,
+    "name_zh": "谭利穆恩",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_20.shtml",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 45,
+      "spd": 40,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 60,
+      "cha": 50
+    },
+    "preferred_skills": [
+      "剑术",
+      "黑魔术",
+      "指挥术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有25%概率发动，攻击力+3"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "幸运+3"
+  },
+  "reference_profile": {
+    "name_en": "Talimun",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+    "faction": "Tale of the Moon",
+    "personal_ability": "Swashbuckler's Luck",
+    "preferred_skills": [
+      "Authority Skill",
+      "Black Magic Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 45,
+      "spd": 40,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 60,
+      "cha": 50
+    },
+    "growth_total": 400
+  },
+  "reference_update": {
+    "id": "profile_talimun",
+    "character_id": "talimun",
+    "name_en": "Talimun",
+    "name_zh": "谭利穆恩",
+    "growth": {
+      "hp": 45,
+      "str": 40,
+      "mag": 45,
+      "spd": 40,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 60,
+      "cha": 50
+    },
+    "birthday": null,
+    "personal_ability_name": "Swashbuckler's Luck",
+    "preferred_skills": [
+      "Authority",
+      "Black Magic",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "Heavy Armor"
+    ],
+    "source_id": "en_624392",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+    "source_updated_text": "2026-09-26T06:32:02-04:00",
+    "retrieved_at": "2026-09-26T12:59:38+00:00",
+    "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Attack Formation"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+      "name_en": "Diadem of Duality",
+      "name_zh": "两仪之冠",
+      "title_zh": "两仪之冠",
+      "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "ability": "Diadem of Duality",
+      "crest_name_en": "Gautier",
+      "crest_name_zh": "戈蒂耶",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "theodora",
+        "bertrand",
+        "talimun",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 3
+        },
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+      "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Duality",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+        "name_en": "Diadem of Duality",
+        "name_zh": "两仪之冠",
+        "title_zh": "两仪之冠",
+        "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "ability": "Diadem of Duality",
+        "crest_name_en": "Gautier",
+        "crest_name_zh": "戈蒂耶",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Theodora",
+            "character_id": "theodora",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Talimun",
+            "character_id": "talimun",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "theodora",
+          "bertrand",
+          "talimun",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 3
+          },
+          "trigger_percent": 25
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+        "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Cai",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Talimun",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Theodora",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_cannoning_flair_255a4faa60_en_623691",
+      "name_en": "Cannoning Flair",
+      "name_zh": "炮击才能",
+      "title_zh": "炮击才能",
+      "summary_zh": "使用炮械时，本次战斗命中 +30。",
+      "ability": "Cannoning Flair",
+      "effect_facts": {
+        "condition": "use_artillery",
+        "timing": "during_combat",
+        "stat_bonuses": {
+          "hit": 30
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "使用炮械时，本次战斗命中 +30。",
+      "effect_text_sha256": "b624e0018944c178c10e34620a650b1ccacad3b71c17e7d1d74ef1d7f8d422c4",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Talimun",
+      "character_id": "talimun",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_winds_of_victory_419b3d1569_en_623691",
+      "name_en": "Winds of Victory",
+      "name_zh": "胜利之风",
+      "title_zh": "胜利之风",
+      "summary_zh": "自身攻击时命中 +15，受到攻击时回避 +15；末尾触发概率的适用范围待核对。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "ability": "Winds of Victory",
+      "effect_facts": {
+        "effects": [
+          {
+            "condition": "self_attacking",
+            "stat": "hit",
+            "bonus": 15
+          },
+          {
+            "condition": "self_is_attacked",
+            "stat": "avo",
+            "bonus": 15
+          }
+        ],
+        "trigger_scope": "source_trailing_unresolved",
+        "trigger_percent_expression": {
+          "subject": "self",
+          "stat": "lck",
+          "divisor": 1,
+          "rounding": null,
+          "cap_percent": null
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身攻击时命中 +15，受到攻击时回避 +15；末尾触发概率的适用范围待核对。触发概率（%）为自身幸运；取整与概率上限未列出。",
+      "effect_text_sha256": "cbf98b12d37edaf8d92995b4ac2b1721f32a3c01763805def439bbbd414d12e0",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Talimun",
+      "character_id": "talimun",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Cannoning Flair",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_cannoning_flair_255a4faa60_en_623691",
+          "name_en": "Cannoning Flair",
+          "name_zh": "炮击才能",
+          "title_zh": "炮击才能",
+          "summary_zh": "使用炮械时，本次战斗命中 +30。",
+          "ability": "Cannoning Flair",
+          "effect_facts": {
+            "condition": "use_artillery",
+            "timing": "during_combat",
+            "stat_bonuses": {
+              "hit": 30
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "使用炮械时，本次战斗命中 +30。",
+          "effect_text_sha256": "b624e0018944c178c10e34620a650b1ccacad3b71c17e7d1d74ef1d7f8d422c4",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    },
+    {
+      "ability": "Winds of Victory",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_winds_of_victory_419b3d1569_en_623691",
+          "name_en": "Winds of Victory",
+          "name_zh": "胜利之风",
+          "title_zh": "胜利之风",
+          "summary_zh": "自身攻击时命中 +15，受到攻击时回避 +15；末尾触发概率的适用范围待核对。触发概率（%）为自身幸运；取整与概率上限未列出。",
+          "ability": "Winds of Victory",
+          "effect_facts": {
+            "effects": [
+              {
+                "condition": "self_attacking",
+                "stat": "hit",
+                "bonus": 15
+              },
+              {
+                "condition": "self_is_attacked",
+                "stat": "avo",
+                "bonus": 15
+              }
+            ],
+            "trigger_scope": "source_trailing_unresolved",
+            "trigger_percent_expression": {
+              "subject": "self",
+              "stat": "lck",
+              "divisor": 1,
+              "rounding": null,
+              "cap_percent": null
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "自身攻击时命中 +15，受到攻击时回避 +15；末尾触发概率的适用范围待核对。触发概率（%）为自身幸运；取整与概率上限未列出。",
+          "effect_text_sha256": "cbf98b12d37edaf8d92995b4ac2b1721f32a3c01763805def439bbbd414d12e0",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_swashbuckler_s_luck_e442856ae4_en_623691",
+      "name_en": "Swashbuckler's Luck",
+      "name_zh": "豪杰之运",
+      "title_zh": "豪杰之运",
+      "summary_zh": "幸运 +3。",
+      "ability": "Swashbuckler's Luck",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "lck": 3
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "幸运 +3。",
+      "effect_text_sha256": "4e239af655d6a2e128ac048ccd5d785d9e98a5fd867f9302543d26704a085fd2",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Talimun",
+      "character_id": "talimun",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Swashbuckler’s Luck",
+      "effect_zh": "幸运 +3。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Swashbuckler's Luck",
+      "effect_zh": "幸运+3",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_20.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_swashbuckler_s_luck_e442856ae4_en_623691",
+      "name_en": "Swashbuckler's Luck",
+      "name_zh": "豪杰之运",
+      "title_zh": "豪杰之运",
+      "summary_zh": "幸运 +3。",
+      "ability": "Swashbuckler's Luck",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "lck": 3
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "幸运 +3。",
+      "effect_text_sha256": "4e239af655d6a2e128ac048ccd5d785d9e98a5fd867f9302543d26704a085fd2",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Talimun",
+      "character_id": "talimun",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [
+    {
+      "id": "spell_talimun_b_black_bolganone",
+      "character_id": "talimun",
+      "character": "Talimun",
+      "skill_level": "B",
+      "magic": "black",
+      "spell": "Bolganone",
+      "source_id": "en_624392",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+      "source_updated_text": "2026-09-26T06:32:02-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_talimun_c_black_thunder",
+      "character_id": "talimun",
+      "character": "Talimun",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_624392",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+      "source_updated_text": "2026-09-26T06:32:02-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_talimun_d_black_fire",
+      "character_id": "talimun",
+      "character": "Talimun",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_624392",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+      "source_updated_text": "2026-09-26T06:32:02-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_talimun_d_white_heal",
+      "character_id": "talimun",
+      "character": "Talimun",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624392",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+      "source_updated_text": "2026-09-26T06:32:02-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 45,
+        "spd": 40,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 60,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 45,
+        "spd": 40,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 60,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_20.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 45,
+        "spd": 40,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 60,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 45,
+        "str": 40,
+        "mag": 45,
+        "spd": 40,
+        "dex": 45,
+        "def": 35,
+        "res": 40,
+        "lck": 60,
+        "cha": 50
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624392",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624392",
+        "source_updated_text": "2026-09-26T06:32:02-04:00",
+        "retrieved_at": "2026-09-26T12:59:38+00:00",
+        "content_sha256": "8174640740b292c7f5ff32a39abe7b9dec2af89ee1bb7b843e8d1248622ee37c",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "profile": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Bertrand",
+      "partner": "Talimun",
+      "rank": "A"
+    },
+    {
+      "name": "Dante",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Talimun",
+      "rank": "A"
+    },
+    {
+      "name": "Fianna",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Leda",
+      "partner": "Talimun",
+      "rank": "A"
+    },
+    {
+      "name": "Lilian",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Bertrand",
+      "rank": "A"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Dante",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Fianna",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Lilian",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Theodora",
+      "rank": "B"
+    },
+    {
+      "name": "Talimun",
+      "partner": "Tialla",
+      "rank": "B"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Talimun",
+      "rank": "B"
+    },
+    {
+      "name": "Tialla",
+      "partner": "Talimun",
+      "rank": "B"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Talimun",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Talimun",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Talimun",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Thunder"
+    },
+    {
+      "name": "Talimun",
+      "skill_level": "B",
+      "magic": "Black Magic",
+      "spell": "Bolganone"
+    }
+  ],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Talimun",
+      "kind": "preferred",
+      "skill": "Authority Skill"
+    },
+    {
+      "name": "Talimun",
+      "kind": "preferred",
+      "skill": "Black Magic Skill"
+    },
+    {
+      "name": "Talimun",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Talimun",
+      "art": "Collapsing Curse",
+      "range": "0-10",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Talimun",
+      "art": "Slowing Curse",
+      "range": "0-10",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Talimun",
+      "art": "Unlucky Curse",
+      "range": "0-10",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Talimun",
+      "art": "Str/Mag Curse",
+      "range": "0-10",
+      "blaze": "1",
+      "learned": "Default"
+    },
+    {
+      "name": "Talimun",
+      "art": "Def/Res Curse",
+      "range": "0-10",
+      "blaze": "1",
+      "learned": "Default"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Talimun",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Theodora",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    }
+  ],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "talimun",
+  "display_name": "谭利穆恩"
+}

@@ -1,0 +1,2809 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "mu",
+    "name_en": "Mu",
+    "name_zh": "穆",
+    "growth": {
+      "hp": 30,
+      "str": 30,
+      "mag": 5,
+      "spd": 30,
+      "dex": 30,
+      "def": 20,
+      "res": 10,
+      "lck": 10,
+      "cha": 20
+    },
+    "growth_total": 185,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Signs of Growth",
+      "description": "When unit levels up, gains enhanced basic stat growth.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": [
+      "sword",
+      "axe",
+      "gauntlets",
+      "white_magic"
+    ],
+    "proficiencies_source": "gamersky_character_profile",
+    "recruitment": {
+      "Cai": "3S, 9R, 3x Glirmosa",
+      "Dietrich": "3S, 7R, 3x Glirmosa",
+      "Theodora": "3S, 9R, 3x Glirmosa",
+      "Leda": "Automatic"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/mu.webp",
+      "width": 334,
+      "height": 322,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_14.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = ムウ; mapped to Mu.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_mu_e63717504f_arrowhead_gem_ff7dd580bf_liked_en_621535",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "穆 · 箭镞宝石",
+      "summary_zh": "穆喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_arrowhead_gem_ff7dd580bf_liked_en_623690",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "穆 · 箭镞宝石",
+      "summary_zh": "穆喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_candy_crystals_62d0b0dc58_liked_en_621535",
+      "gift_profile_id": "gift_profile_candy_crystals_62d0b0dc58_en_621535",
+      "gift_name_en": "Candy Crystals",
+      "gift_name_zh": "结晶糖",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Candy Crystals",
+      "name_zh": "结晶糖",
+      "title_zh": "穆 · 结晶糖",
+      "summary_zh": "穆喜欢结晶糖；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "738f66107807c2341e42c184870f08b76009224888af992915c8c84f0b505696",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_candy_crystals_62d0b0dc58_liked_en_623690",
+      "gift_profile_id": "gift_profile_candy_crystals_62d0b0dc58_en_621535",
+      "gift_name_en": "Candy Crystals",
+      "gift_name_zh": "结晶糖",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Candy Crystals",
+      "name_zh": "结晶糖",
+      "title_zh": "穆 · 结晶糖",
+      "summary_zh": "穆喜欢结晶糖；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_honey_pastries_5817bd8d14_liked_en_621535",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Pastries",
+      "name_zh": "蜂蜜糕点",
+      "title_zh": "穆 · 蜂蜜糕点",
+      "summary_zh": "穆喜欢蜂蜜糕点；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "81084a462252af7cbd84697c4ebbc2b1136ef7efd7e2dc932d5a1061b72aed05",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_honey_pastries_5817bd8d14_liked_en_623690",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Honey Pastries",
+      "name_zh": "蜂蜜糕点",
+      "title_zh": "穆 · 蜂蜜糕点",
+      "summary_zh": "穆喜欢蜂蜜糕点；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_jamel_milk_9d2c09689f_liked_en_621535",
+      "gift_profile_id": "gift_profile_jamel_milk_9d2c09689f_en_621535",
+      "gift_name_en": "Jamel Milk",
+      "gift_name_zh": "加梅尔牛奶",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Jamel Milk",
+      "name_zh": "加梅尔牛奶",
+      "title_zh": "穆 · 加梅尔牛奶",
+      "summary_zh": "穆喜欢加梅尔牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "2601ba8ed49f26462604be43535021e9e23aaeffe625b81ae8faa8dfd3327c83",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_jamel_milk_9d2c09689f_liked_en_623690",
+      "gift_profile_id": "gift_profile_jamel_milk_9d2c09689f_en_621535",
+      "gift_name_en": "Jamel Milk",
+      "gift_name_zh": "加梅尔牛奶",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Jamel Milk",
+      "name_zh": "加梅尔牛奶",
+      "title_zh": "穆 · 加梅尔牛奶",
+      "summary_zh": "穆喜欢加梅尔牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "穆 · 野外炊具套装",
+      "summary_zh": "穆喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Outdoor Cooking Set",
+      "name_zh": "野外炊具套装",
+      "title_zh": "穆 · 野外炊具套装",
+      "summary_zh": "穆喜欢野外炊具套装；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_pickled_vegetables_77509a232b_liked_en_621535",
+      "gift_profile_id": "gift_profile_pickled_vegetables_77509a232b_en_621535",
+      "gift_name_en": "Pickled Vegetables",
+      "gift_name_zh": "腌菜",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pickled Vegetables",
+      "name_zh": "腌菜",
+      "title_zh": "穆 · 腌菜",
+      "summary_zh": "穆喜欢腌菜；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "fd5c421ffced3ee2d81eb32e094b88e0ab1282ba0e71dcb3cde7708f211cd8e1",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_pickled_vegetables_77509a232b_liked_en_623690",
+      "gift_profile_id": "gift_profile_pickled_vegetables_77509a232b_en_621535",
+      "gift_name_en": "Pickled Vegetables",
+      "gift_name_zh": "腌菜",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pickled Vegetables",
+      "name_zh": "腌菜",
+      "title_zh": "穆 · 腌菜",
+      "summary_zh": "穆喜欢腌菜；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_pure_white_cervi_927dd66d4f_liked_en_621535",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pure-White Cervi",
+      "name_zh": "纯白瑟维酒",
+      "title_zh": "穆 · 纯白瑟维酒",
+      "summary_zh": "穆喜欢纯白瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "2de21bdfc93a98c68b4047f81f3f56e7b9a2121b23df73fbc6e99a7d514754cf",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_pure_white_cervi_927dd66d4f_liked_en_623690",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Pure-White Cervi",
+      "name_zh": "纯白瑟维酒",
+      "title_zh": "穆 · 纯白瑟维酒",
+      "summary_zh": "穆喜欢纯白瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_weak_cervi_4aabf545d8_liked_en_621535",
+      "gift_profile_id": "gift_profile_weak_cervi_4aabf545d8_en_621535",
+      "gift_name_en": "Weak Cervi",
+      "gift_name_zh": "淡瑟维酒",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Weak Cervi",
+      "name_zh": "淡瑟维酒",
+      "title_zh": "穆 · 淡瑟维酒",
+      "summary_zh": "穆喜欢淡瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "885d201bf480afd2a8ff7b46296da0371bc4d016476b1bfeba9a32d28909d374",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_weak_cervi_4aabf545d8_liked_en_623690",
+      "gift_profile_id": "gift_profile_weak_cervi_4aabf545d8_en_621535",
+      "gift_name_en": "Weak Cervi",
+      "gift_name_zh": "淡瑟维酒",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Weak Cervi",
+      "name_zh": "淡瑟维酒",
+      "title_zh": "穆 · 淡瑟维酒",
+      "summary_zh": "穆喜欢淡瑟维酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_yarc_milk_5a5b8e672a_liked_en_621535",
+      "gift_profile_id": "gift_profile_yarc_milk_5a5b8e672a_en_621535",
+      "gift_name_en": "Yarc Milk",
+      "gift_name_zh": "亚克牛奶",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Yarc Milk",
+      "name_zh": "亚克牛奶",
+      "title_zh": "穆 · 亚克牛奶",
+      "summary_zh": "穆喜欢亚克牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "f70c7669bc163b27c2a3f208021d17bc940b7f307d92c85f96bc9f850413ff56",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_mu_e63717504f_yarc_milk_5a5b8e672a_liked_en_623690",
+      "gift_profile_id": "gift_profile_yarc_milk_5a5b8e672a_en_621535",
+      "gift_name_en": "Yarc Milk",
+      "gift_name_zh": "亚克牛奶",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Yarc Milk",
+      "name_zh": "亚克牛奶",
+      "title_zh": "穆 · 亚克牛奶",
+      "summary_zh": "穆喜欢亚克牛奶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_arrowhead_gem_ff7dd580bf_liked_en_621535",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "穆 · 箭镞宝石",
+          "summary_zh": "穆喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_arrowhead_gem_ff7dd580bf_liked_en_623690",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "穆 · 箭镞宝石",
+          "summary_zh": "穆喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Candy Crystals",
+      "gift_name_zh": "结晶糖",
+      "gift_profile_id": "gift_profile_candy_crystals_62d0b0dc58_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_candy_crystals_62d0b0dc58_liked_en_621535",
+          "gift_profile_id": "gift_profile_candy_crystals_62d0b0dc58_en_621535",
+          "gift_name_en": "Candy Crystals",
+          "gift_name_zh": "结晶糖",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Candy Crystals",
+          "name_zh": "结晶糖",
+          "title_zh": "穆 · 结晶糖",
+          "summary_zh": "穆喜欢结晶糖；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "738f66107807c2341e42c184870f08b76009224888af992915c8c84f0b505696",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_candy_crystals_62d0b0dc58_liked_en_623690",
+          "gift_profile_id": "gift_profile_candy_crystals_62d0b0dc58_en_621535",
+          "gift_name_en": "Candy Crystals",
+          "gift_name_zh": "结晶糖",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Candy Crystals",
+          "name_zh": "结晶糖",
+          "title_zh": "穆 · 结晶糖",
+          "summary_zh": "穆喜欢结晶糖；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Honey Pastries",
+      "gift_name_zh": "蜂蜜糕点",
+      "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_honey_pastries_5817bd8d14_liked_en_621535",
+          "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+          "gift_name_en": "Honey Pastries",
+          "gift_name_zh": "蜂蜜糕点",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Pastries",
+          "name_zh": "蜂蜜糕点",
+          "title_zh": "穆 · 蜂蜜糕点",
+          "summary_zh": "穆喜欢蜂蜜糕点；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "81084a462252af7cbd84697c4ebbc2b1136ef7efd7e2dc932d5a1061b72aed05",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_honey_pastries_5817bd8d14_liked_en_623690",
+          "gift_profile_id": "gift_profile_honey_pastries_5817bd8d14_en_621535",
+          "gift_name_en": "Honey Pastries",
+          "gift_name_zh": "蜂蜜糕点",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Honey Pastries",
+          "name_zh": "蜂蜜糕点",
+          "title_zh": "穆 · 蜂蜜糕点",
+          "summary_zh": "穆喜欢蜂蜜糕点；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Jamel Milk",
+      "gift_name_zh": "加梅尔牛奶",
+      "gift_profile_id": "gift_profile_jamel_milk_9d2c09689f_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_jamel_milk_9d2c09689f_liked_en_621535",
+          "gift_profile_id": "gift_profile_jamel_milk_9d2c09689f_en_621535",
+          "gift_name_en": "Jamel Milk",
+          "gift_name_zh": "加梅尔牛奶",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Jamel Milk",
+          "name_zh": "加梅尔牛奶",
+          "title_zh": "穆 · 加梅尔牛奶",
+          "summary_zh": "穆喜欢加梅尔牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "2601ba8ed49f26462604be43535021e9e23aaeffe625b81ae8faa8dfd3327c83",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_jamel_milk_9d2c09689f_liked_en_623690",
+          "gift_profile_id": "gift_profile_jamel_milk_9d2c09689f_en_621535",
+          "gift_name_en": "Jamel Milk",
+          "gift_name_zh": "加梅尔牛奶",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Jamel Milk",
+          "name_zh": "加梅尔牛奶",
+          "title_zh": "穆 · 加梅尔牛奶",
+          "summary_zh": "穆喜欢加梅尔牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Outdoor Cooking Set",
+      "gift_name_zh": "野外炊具套装",
+      "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_outdoor_cooking_set_a78f1a75c5_liked_en_621535",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "穆 · 野外炊具套装",
+          "summary_zh": "穆喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "6089735bea983b8fd0a0c2b4837d52ff906469ef97acaadde6a5eb853d120b16",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_outdoor_cooking_set_a78f1a75c5_liked_en_623690",
+          "gift_profile_id": "gift_profile_outdoor_cooking_set_a78f1a75c5_en_621535",
+          "gift_name_en": "Outdoor Cooking Set",
+          "gift_name_zh": "野外炊具套装",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Outdoor Cooking Set",
+          "name_zh": "野外炊具套装",
+          "title_zh": "穆 · 野外炊具套装",
+          "summary_zh": "穆喜欢野外炊具套装；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pickled Vegetables",
+      "gift_name_zh": "腌菜",
+      "gift_profile_id": "gift_profile_pickled_vegetables_77509a232b_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_pickled_vegetables_77509a232b_liked_en_621535",
+          "gift_profile_id": "gift_profile_pickled_vegetables_77509a232b_en_621535",
+          "gift_name_en": "Pickled Vegetables",
+          "gift_name_zh": "腌菜",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pickled Vegetables",
+          "name_zh": "腌菜",
+          "title_zh": "穆 · 腌菜",
+          "summary_zh": "穆喜欢腌菜；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "fd5c421ffced3ee2d81eb32e094b88e0ab1282ba0e71dcb3cde7708f211cd8e1",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_pickled_vegetables_77509a232b_liked_en_623690",
+          "gift_profile_id": "gift_profile_pickled_vegetables_77509a232b_en_621535",
+          "gift_name_en": "Pickled Vegetables",
+          "gift_name_zh": "腌菜",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pickled Vegetables",
+          "name_zh": "腌菜",
+          "title_zh": "穆 · 腌菜",
+          "summary_zh": "穆喜欢腌菜；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Pure-White Cervi",
+      "gift_name_zh": "纯白瑟维酒",
+      "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_pure_white_cervi_927dd66d4f_liked_en_621535",
+          "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+          "gift_name_en": "Pure-White Cervi",
+          "gift_name_zh": "纯白瑟维酒",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pure-White Cervi",
+          "name_zh": "纯白瑟维酒",
+          "title_zh": "穆 · 纯白瑟维酒",
+          "summary_zh": "穆喜欢纯白瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "2de21bdfc93a98c68b4047f81f3f56e7b9a2121b23df73fbc6e99a7d514754cf",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_pure_white_cervi_927dd66d4f_liked_en_623690",
+          "gift_profile_id": "gift_profile_pure_white_cervi_927dd66d4f_en_621535",
+          "gift_name_en": "Pure-White Cervi",
+          "gift_name_zh": "纯白瑟维酒",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Pure-White Cervi",
+          "name_zh": "纯白瑟维酒",
+          "title_zh": "穆 · 纯白瑟维酒",
+          "summary_zh": "穆喜欢纯白瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Weak Cervi",
+      "gift_name_zh": "淡瑟维酒",
+      "gift_profile_id": "gift_profile_weak_cervi_4aabf545d8_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_weak_cervi_4aabf545d8_liked_en_621535",
+          "gift_profile_id": "gift_profile_weak_cervi_4aabf545d8_en_621535",
+          "gift_name_en": "Weak Cervi",
+          "gift_name_zh": "淡瑟维酒",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Weak Cervi",
+          "name_zh": "淡瑟维酒",
+          "title_zh": "穆 · 淡瑟维酒",
+          "summary_zh": "穆喜欢淡瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "885d201bf480afd2a8ff7b46296da0371bc4d016476b1bfeba9a32d28909d374",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_weak_cervi_4aabf545d8_liked_en_623690",
+          "gift_profile_id": "gift_profile_weak_cervi_4aabf545d8_en_621535",
+          "gift_name_en": "Weak Cervi",
+          "gift_name_zh": "淡瑟维酒",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Weak Cervi",
+          "name_zh": "淡瑟维酒",
+          "title_zh": "穆 · 淡瑟维酒",
+          "summary_zh": "穆喜欢淡瑟维酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Yarc Milk",
+      "gift_name_zh": "亚克牛奶",
+      "gift_profile_id": "gift_profile_yarc_milk_5a5b8e672a_en_621535",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_mu_e63717504f_yarc_milk_5a5b8e672a_liked_en_621535",
+          "gift_profile_id": "gift_profile_yarc_milk_5a5b8e672a_en_621535",
+          "gift_name_en": "Yarc Milk",
+          "gift_name_zh": "亚克牛奶",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Yarc Milk",
+          "name_zh": "亚克牛奶",
+          "title_zh": "穆 · 亚克牛奶",
+          "summary_zh": "穆喜欢亚克牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "f70c7669bc163b27c2a3f208021d17bc940b7f307d92c85f96bc9f850413ff56",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_mu_e63717504f_yarc_milk_5a5b8e672a_liked_en_623690",
+          "gift_profile_id": "gift_profile_yarc_milk_5a5b8e672a_en_621535",
+          "gift_name_en": "Yarc Milk",
+          "gift_name_zh": "亚克牛奶",
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Yarc Milk",
+          "name_zh": "亚克牛奶",
+          "title_zh": "穆 · 亚克牛奶",
+          "summary_zh": "穆喜欢亚克牛奶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "80b2354ade403f944195e53ad242eae345d3391d0e00de4377237564729efa65",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [
+    {
+      "id": "item_usage_rules_glirmosa_mu_recruitment_delivery_rule_95efe28e0f_en_624732",
+      "name_en": "Glirmosa Mu Recruitment Delivery Rule",
+      "name_zh": "格里摩萨与穆招募交付",
+      "title_zh": "格里摩萨与穆招募交付",
+      "summary_zh": "本文列穆招募需交付 3 个格里摩萨，并另满足名声和支援条件；未区分路线，具体分路线条件保留在穆的档案中。",
+      "effect_facts": {
+        "item_name_en": "Glirmosa",
+        "character": "Mu",
+        "required_quantity": 3,
+        "additional_requirements": [
+          "renown_level",
+          "support_level"
+        ],
+        "renown_threshold": null,
+        "support_threshold": null,
+        "routes": null,
+        "route_scope_status": "not_listed_in_item_article",
+        "automatic_join": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "delivery_recipient"
+        }
+      ],
+      "effect_text_sha256": "3682bd55aa8f42093cb578478fb447bb2a1d6aa8526fd209988d290f61849771",
+      "applies_to": "Glirmosa_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "本文的路线适用范围",
+        "本文的名声门槛",
+        "本文的支援门槛"
+      ],
+      "source_id": "en_624732",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624732",
+      "source_updated_text": "2026-09-26T00:49:37-04:00",
+      "retrieved_at": "2026-09-27T12:50:15+00:00",
+      "content_sha256": "f73897d176b578d8c748aea6baff278a89281c0b94d242eb72b38e83242a3667",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/mu.webp",
+    "width": 334,
+    "height": 322,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_14.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = ムウ; mapped to Mu.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 19,
+    "name_zh": "穆",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_19.shtml",
+    "growth": {
+      "hp": 50,
+      "str": 50,
+      "mag": 25,
+      "spd": 50,
+      "dex": 50,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 40
+    },
+    "preferred_skills": [
+      "剑术",
+      "斧术",
+      "格斗术",
+      "白魔术"
+    ],
+    "blood_marks": [],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第1章",
+        "condition": "随剧情推进加入"
+      }
+    ],
+    "gender": "女",
+    "personal_ability_zh": "升级时，基础能力更容易成长"
+  },
+  "reference_profile": {
+    "name_en": "Mu",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+    "faction": "Rose Tempest",
+    "personal_ability": "Signs of Growth",
+    "preferred_skills": [
+      "Axe Skill",
+      "Gauntlet Skill",
+      "White Magic Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 30,
+      "str": 30,
+      "mag": 5,
+      "spd": 30,
+      "dex": 30,
+      "def": 20,
+      "res": 10,
+      "lck": 10,
+      "cha": 20
+    },
+    "growth_total": 185
+  },
+  "reference_update": {
+    "id": "profile_mu",
+    "character_id": "mu",
+    "name_en": "Mu",
+    "name_zh": "穆",
+    "growth": {
+      "hp": 30,
+      "str": 30,
+      "mag": 5,
+      "spd": 30,
+      "dex": 30,
+      "def": 20,
+      "res": 10,
+      "lck": 10,
+      "cha": 20
+    },
+    "birthday": "6/25",
+    "personal_ability_name": "Signs of Growth",
+    "preferred_skills": [
+      "Axe",
+      "Gauntlet",
+      "White Magic",
+      "Sword"
+    ],
+    "non_ideal_skills": [],
+    "source_id": "en_624010",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+    "source_updated_text": "2026-09-26T06:05:10-04:00",
+    "retrieved_at": "2026-09-26T14:00:01+00:00",
+    "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Dodge",
+      "Evasion",
+      "Distraction"
+    ]
+  },
+  "bloodmark_ability_catalog": [],
+  "bloodmark_ability_variants": [],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_warrior_s_blood_9d9f8aa39f_en_623691",
+      "name_en": "Warrior's Blood+",
+      "name_zh": "战士之血+",
+      "title_zh": "战士之血+",
+      "summary_zh": "按所装备武器类型大幅提升属性；武器与属性对应关系及增幅未列出。",
+      "ability": "Warrior's Blood+",
+      "effect_facts": {
+        "condition": "equipped_weapon_type",
+        "stat_increase_degree": "large",
+        "weapon_stat_mapping": null,
+        "stat_bonus_amounts": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "按所装备武器类型大幅提升属性；武器与属性对应关系及增幅未列出。",
+      "effect_text_sha256": "99aa5770147097d3d4694aa690f22054a07eb1743bc8419748603075a338b2cf",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_warrior_s_blood_cb5e7b16f4_en_623691",
+      "name_en": "Warrior's Blood",
+      "name_zh": "战士之血",
+      "title_zh": "战士之血",
+      "summary_zh": "按所装备武器类型提升属性；武器与属性对应关系及增幅未列出。",
+      "ability": "Warrior's Blood",
+      "effect_facts": {
+        "condition": "equipped_weapon_type",
+        "stat_increase_degree": "unspecified",
+        "weapon_stat_mapping": null,
+        "stat_bonus_amounts": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "按所装备武器类型提升属性；武器与属性对应关系及增幅未列出。",
+      "effect_text_sha256": "e30488ef20601be56e42037a97c9502a05116a183091f58992dda91aa097314b",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Warrior's Blood",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_mu_warriorsblood_20",
+          "character_id": "mu",
+          "character": "Mu",
+          "ability": "Warrior's Blood",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_624010",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+          "source_updated_text": "2026-09-26T06:05:10-04:00",
+          "retrieved_at": "2026-09-26T14:00:01+00:00",
+          "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624010",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+            "source_updated_text": "2026-09-26T06:05:10-04:00",
+            "retrieved_at": "2026-09-26T14:00:01+00:00",
+            "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_warrior_s_blood_cb5e7b16f4_en_623691",
+          "name_en": "Warrior's Blood",
+          "name_zh": "战士之血",
+          "title_zh": "战士之血",
+          "summary_zh": "按所装备武器类型提升属性；武器与属性对应关系及增幅未列出。",
+          "ability": "Warrior's Blood",
+          "effect_facts": {
+            "condition": "equipped_weapon_type",
+            "stat_increase_degree": "unspecified",
+            "weapon_stat_mapping": null,
+            "stat_bonus_amounts": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "按所装备武器类型提升属性；武器与属性对应关系及增幅未列出。",
+          "effect_text_sha256": "e30488ef20601be56e42037a97c9502a05116a183091f58992dda91aa097314b",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Warrior's Blood+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_mu_warriorsbloodplus_35",
+          "character_id": "mu",
+          "character": "Mu",
+          "ability": "Warrior's Blood+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_624010",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+          "source_updated_text": "2026-09-26T06:05:10-04:00",
+          "retrieved_at": "2026-09-26T14:00:01+00:00",
+          "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_624010",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+            "source_updated_text": "2026-09-26T06:05:10-04:00",
+            "retrieved_at": "2026-09-26T14:00:01+00:00",
+            "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_warrior_s_blood_9d9f8aa39f_en_623691",
+          "name_en": "Warrior's Blood+",
+          "name_zh": "战士之血+",
+          "title_zh": "战士之血+",
+          "summary_zh": "按所装备武器类型大幅提升属性；武器与属性对应关系及增幅未列出。",
+          "ability": "Warrior's Blood+",
+          "effect_facts": {
+            "condition": "equipped_weapon_type",
+            "stat_increase_degree": "large",
+            "weapon_stat_mapping": null,
+            "stat_bonus_amounts": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "按所装备武器类型大幅提升属性；武器与属性对应关系及增幅未列出。",
+          "effect_text_sha256": "99aa5770147097d3d4694aa690f22054a07eb1743bc8419748603075a338b2cf",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Mu",
+          "character_id": "mu",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_signs_of_growth_47d2edef64_en_623691",
+      "name_en": "Signs of Growth",
+      "name_zh": "成长的征兆",
+      "title_zh": "成长的征兆",
+      "summary_zh": "升级时提升基础属性成长；具体增幅和公式未列出。",
+      "ability": "Signs of Growth",
+      "effect_facts": {
+        "timing": "level_up",
+        "enhanced_basic_stat_growth": true,
+        "growth_bonus": null,
+        "growth_formula": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "升级时提升基础属性成长；具体增幅和公式未列出。",
+      "effect_text_sha256": "6d19aae60bcac67ada128a8f8232d8744ce821075c34f0f443851acf6a096dc7",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Signs of Growth",
+      "effect_zh": "升级时提高基础属性成长率；具体提升值尚未收录。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Signs of Growth",
+      "effect_zh": "升级时，基础能力更容易成长",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_19.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_signs_of_growth_47d2edef64_en_623691",
+      "name_en": "Signs of Growth",
+      "name_zh": "成长的征兆",
+      "title_zh": "成长的征兆",
+      "summary_zh": "升级时提升基础属性成长；具体增幅和公式未列出。",
+      "ability": "Signs of Growth",
+      "effect_facts": {
+        "timing": "level_up",
+        "enhanced_basic_stat_growth": true,
+        "growth_bonus": null,
+        "growth_formula": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "升级时提升基础属性成长；具体增幅和公式未列出。",
+      "effect_text_sha256": "6d19aae60bcac67ada128a8f8232d8744ce821075c34f0f443851acf6a096dc7",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Mu",
+      "character_id": "mu",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_mu_cai_i_4",
+      "character_id": "mu",
+      "character": "Mu",
+      "name_zh": "穆",
+      "route": "Cai",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 9,
+      "special_requirement": "Give Mu 3 Glirmosa",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Glirmosa",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_mu_dietrich_i_5",
+      "character_id": "mu",
+      "character": "Mu",
+      "name_zh": "穆",
+      "route": "Dietrich",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 7,
+      "special_requirement": "Give Mu 3 Glirmosa",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Glirmosa",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_mu_leda_i_1",
+      "character_id": "mu",
+      "character": "Mu",
+      "name_zh": "穆",
+      "route": "Leda",
+      "chapter": 1,
+      "part": "I",
+      "support_level": null,
+      "renown_level": null,
+      "special_requirement": null,
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": null,
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": true,
+      "unlock_method": "story_progression",
+      "requires_separate_quest_or_event": false,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained",
+      "unlock_evidence_section": "Auto-Unlocked on Leda's Path"
+    },
+    {
+      "id": "recruit_mu_theodora_i_5",
+      "character_id": "mu",
+      "character": "Mu",
+      "name_zh": "穆",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 9,
+      "special_requirement": "Give Mu 3 Glirmosa",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Glirmosa",
+          "quantity": 3
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_mu_warriorsblood_20",
+      "character_id": "mu",
+      "character": "Mu",
+      "ability": "Warrior's Blood",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_mu_warriorsbloodplus_35",
+      "character_id": "mu",
+      "character": "Mu",
+      "ability": "Warrior's Blood+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_mu_c_white_nosferatu",
+      "character_id": "mu",
+      "character": "Mu",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Nosferatu",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_mu_d_black_wind",
+      "character_id": "mu",
+      "character": "Mu",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Wind",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_mu_d_white_heal",
+      "character_id": "mu",
+      "character": "Mu",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624010",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+      "source_updated_text": "2026-09-26T06:05:10-04:00",
+      "retrieved_at": "2026-09-26T14:00:01+00:00",
+      "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 30,
+        "str": 30,
+        "mag": 5,
+        "spd": 30,
+        "dex": 30,
+        "def": 20,
+        "res": 10,
+        "lck": 10,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 25,
+        "spd": 50,
+        "dex": 50,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_19.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 30,
+        "str": 30,
+        "mag": 5,
+        "spd": 30,
+        "dex": 30,
+        "def": 20,
+        "res": 10,
+        "lck": 10,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 30,
+        "str": 30,
+        "mag": 5,
+        "spd": 30,
+        "dex": 30,
+        "def": 20,
+        "res": 10,
+        "lck": 10,
+        "cha": 20
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624010",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624010",
+        "source_updated_text": "2026-09-26T06:05:10-04:00",
+        "retrieved_at": "2026-09-26T14:00:01+00:00",
+        "content_sha256": "ef6038216f5d840d1ccf58815e1fdb619001a9cb69bab2ec7762f54317819cef",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    },
+    {
+      "variant": "skill_effective",
+      "growth": {
+        "hp": 50,
+        "str": 50,
+        "mag": 25,
+        "spd": 50,
+        "dex": 50,
+        "def": 40,
+        "res": 30,
+        "lck": 30,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "character_growth_variants",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    }
+  ],
+  "growth_conflicts": [
+    "hp",
+    "str",
+    "mag",
+    "spd",
+    "dex",
+    "def",
+    "res",
+    "lck",
+    "cha"
+  ],
+  "growth_differences": [
+    {
+      "stat": "hp",
+      "values": [
+        30,
+        50
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 30
+        },
+        {
+          "variant": "profile",
+          "value": 50
+        },
+        {
+          "variant": "reference",
+          "value": 30
+        },
+        {
+          "variant": "reference_update",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "stat": "str",
+      "values": [
+        30,
+        50
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 30
+        },
+        {
+          "variant": "profile",
+          "value": 50
+        },
+        {
+          "variant": "reference",
+          "value": 30
+        },
+        {
+          "variant": "reference_update",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "stat": "mag",
+      "values": [
+        5,
+        25
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 5
+        },
+        {
+          "variant": "profile",
+          "value": 25
+        },
+        {
+          "variant": "reference",
+          "value": 5
+        },
+        {
+          "variant": "reference_update",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "stat": "spd",
+      "values": [
+        30,
+        50
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 30
+        },
+        {
+          "variant": "profile",
+          "value": 50
+        },
+        {
+          "variant": "reference",
+          "value": 30
+        },
+        {
+          "variant": "reference_update",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "stat": "dex",
+      "values": [
+        30,
+        50
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 30
+        },
+        {
+          "variant": "profile",
+          "value": 50
+        },
+        {
+          "variant": "reference",
+          "value": 30
+        },
+        {
+          "variant": "reference_update",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "stat": "def",
+      "values": [
+        20,
+        40
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 20
+        },
+        {
+          "variant": "profile",
+          "value": 40
+        },
+        {
+          "variant": "reference",
+          "value": 20
+        },
+        {
+          "variant": "reference_update",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "stat": "res",
+      "values": [
+        10,
+        30
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 10
+        },
+        {
+          "variant": "profile",
+          "value": 30
+        },
+        {
+          "variant": "reference",
+          "value": 10
+        },
+        {
+          "variant": "reference_update",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "stat": "lck",
+      "values": [
+        10,
+        30
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 10
+        },
+        {
+          "variant": "profile",
+          "value": 30
+        },
+        {
+          "variant": "reference",
+          "value": 10
+        },
+        {
+          "variant": "reference_update",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "stat": "cha",
+      "values": [
+        20,
+        40
+      ],
+      "records": [
+        {
+          "variant": "base",
+          "value": 20
+        },
+        {
+          "variant": "profile",
+          "value": 40
+        },
+        {
+          "variant": "reference",
+          "value": 20
+        },
+        {
+          "variant": "reference_update",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "growth_scope_note": "earlier_profile_matches_skill_effective_values_scope_unverified",
+  "growth_review_status": "conflicting_unverified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第1章",
+      "condition": "随剧情推进加入"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "3S, 9R, 3x Glirmosa",
+      "Dietrich": "3S, 7R, 3x Glirmosa",
+      "Theodora": "3S, 9R, 3x Glirmosa",
+      "Leda": "Automatic"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv9/可交涉（难度中）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第1章",
+        "condition": "随剧情推进加入"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Buccar",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Mu",
+      "rank": "B"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Guzran",
+      "partner": "Mu",
+      "rank": "C"
+    },
+    {
+      "name": "Leda",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Lilian",
+      "partner": "Mu",
+      "rank": "B"
+    },
+    {
+      "name": "Mikaela",
+      "partner": "Mu",
+      "rank": "B"
+    },
+    {
+      "name": "Mu",
+      "partner": "Buccar",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Mu",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Guzran",
+      "rank": "C"
+    },
+    {
+      "name": "Mu",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Lilian",
+      "rank": "B"
+    },
+    {
+      "name": "Mu",
+      "partner": "Mikaela",
+      "rank": "B"
+    },
+    {
+      "name": "Mu",
+      "partner": "Olympia",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Peppe",
+      "rank": "B"
+    },
+    {
+      "name": "Mu",
+      "partner": "Peter",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Sirocco",
+      "rank": "A"
+    },
+    {
+      "name": "Olympia",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Peppe",
+      "partner": "Mu",
+      "rank": "B"
+    },
+    {
+      "name": "Peter",
+      "partner": "Mu",
+      "rank": "A"
+    },
+    {
+      "name": "Sirocco",
+      "partner": "Mu",
+      "rank": "A"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Mu",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Wind"
+    },
+    {
+      "name": "Mu",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Mu",
+      "gift": "Arrowhead Gem"
+    },
+    {
+      "name": "Mu",
+      "gift": "Candy Crystals"
+    },
+    {
+      "name": "Mu",
+      "gift": "Honey Pastries"
+    },
+    {
+      "name": "Mu",
+      "gift": "Jamel Milk"
+    },
+    {
+      "name": "Mu",
+      "gift": "Outdoor Cooking Set"
+    },
+    {
+      "name": "Mu",
+      "gift": "Pickled Vegetables"
+    },
+    {
+      "name": "Mu",
+      "gift": "Pure-White Cervi"
+    },
+    {
+      "name": "Mu",
+      "gift": "Weak Cervi"
+    },
+    {
+      "name": "Mu",
+      "gift": "Yarc Milk"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Mu",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Mu",
+      "kind": "preferred",
+      "skill": "Gauntlet Skill"
+    },
+    {
+      "name": "Mu",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Mu",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [],
+  "character_notes": [],
+  "build_presets": [
+    {
+      "id": "mu_war_monk",
+      "character": "Mu",
+      "name_zh": "战僧穆",
+      "target_class": "War Monk",
+      "role_tags": [
+        "frontline_support",
+        "gauntlets",
+        "healing"
+      ],
+      "why": "穆的个人技能提高成长，且已确认擅长格斗与白魔法。War Monk只要求格斗B+白魔D，成型条件相对轻。",
+      "minimum_path": [
+        {
+          "step": 1,
+          "goal": "gauntlets >= B",
+          "note": "用能练格斗的职业/战斗持续补熟练度"
+        },
+        {
+          "step": 2,
+          "goal": "white_magic >= D",
+          "note": "尽早补到D即可，不必为了转战僧先冲到A"
+        },
+        {
+          "step": 3,
+          "goal": "Part 3: rebuild Aurora temple + complete request",
+          "note": "解锁War Monk"
+        },
+        {
+          "step": 4,
+          "goal": "certify War Monk",
+          "note": "获得近战后可继续使用治疗的定位"
+        }
+      ],
+      "optional_detours": [
+        "Pugilist: Gauntlets C，适合早期继续练格斗",
+        "Warrior/Battlemaster line: 如果另一条路线专门练物理爆发，可为合并提供更高力量/HP或职业精通"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "gamersky_mu_profile",
+        "gamixo_classes"
+      ]
+    },
+    {
+      "id": "mu_swordmaster",
+      "character": "Mu",
+      "name_zh": "高速剑士穆",
+      "target_class": "Swordmaster",
+      "role_tags": [
+        "speed",
+        "dex",
+        "crit",
+        "sword"
+      ],
+      "why": "穆有效成长中速度/技巧均为50，且已确认擅长剑术；适合把一条路线专门用来追求速度、技巧与剑系精通。",
+      "minimum_path": [
+        {
+          "step": 1,
+          "goal": "swords >= C",
+          "note": "可考Myrmidon，早期剑系成型"
+        },
+        {
+          "step": 2,
+          "goal": "swords >= B",
+          "note": "可考Shido"
+        },
+        {
+          "step": 3,
+          "goal": "swords >= A",
+          "note": "满足Swordmaster技能要求"
+        },
+        {
+          "step": 4,
+          "goal": "Part 3: rebuild Mars' temple + complete request",
+          "note": "解锁Swordmaster"
+        },
+        {
+          "step": 5,
+          "goal": "certify Swordmaster",
+          "note": "目标为高速剑/暴击/追击"
+        }
+      ],
+      "optional_detours": [
+        "Myrmidon mastery: Ravaging Arts，提高暴击伤害",
+        "Divine The Blade: 剑S后可作为极限速度终局方向，Divine Insight速度+10"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "serenes_growth",
+        "gamersky_mu_profile",
+        "gamixo_classes"
+      ]
+    },
+    {
+      "id": "mu_battlemaster",
+      "character": "Mu",
+      "name_zh": "战斗大师穆",
+      "target_class": "Battlemaster",
+      "role_tags": [
+        "physical_burst",
+        "gauntlets",
+        "axes",
+        "swords"
+      ],
+      "why": "穆有效力量成长50，且擅长剑/斧/格斗；Battlemaster要求三项A，培养成本高但与她的擅长完全对口。",
+      "minimum_path": [
+        {
+          "step": 1,
+          "goal": "swords/axes/gauntlets -> C",
+          "note": "根据当前短板补基础熟练度，可穿插Brigand/Pugilist"
+        },
+        {
+          "step": 2,
+          "goal": "swords/axes/gauntlets -> B",
+          "note": "Advanced Warrior要求三项B"
+        },
+        {
+          "step": 3,
+          "goal": "swords/axes/gauntlets -> A",
+          "note": "满足Battlemaster条件"
+        },
+        {
+          "step": 4,
+          "goal": "certify Battlemaster in Master tier",
+          "note": "自动开放的Master职业"
+        }
+      ],
+      "optional_detours": [
+        "Warrior mastery: Practiced Art，战技命中+10",
+        "Divine The Eternal: 三项S后可追求力量+10的极限物理终局"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "serenes_growth",
+        "gamersky_mu_profile",
+        "gamixo_classes"
+      ]
+    }
+  ],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "mu",
+  "display_name": "穆"
+}

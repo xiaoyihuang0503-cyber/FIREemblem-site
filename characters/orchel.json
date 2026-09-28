@@ -1,0 +1,1316 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "orchel",
+    "name_en": "Orchel",
+    "name_zh": "欧露赫露",
+    "growth": {
+      "hp": 30,
+      "str": 60,
+      "mag": 45,
+      "spd": 10,
+      "dex": 20,
+      "def": 60,
+      "res": 60,
+      "lck": 20,
+      "cha": 60
+    },
+    "growth_total": 365,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Solid and Sturdy",
+      "description": "Grants Def+5. Unit is armored. Cannot change class to cavalry or flying.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/orchel.webp",
+      "width": 334,
+      "height": 317,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_21.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = オルヘル; mapped to Orchel.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [],
+  "gift_preference_variants": [],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/orchel.webp",
+    "width": 334,
+    "height": 317,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_21.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = オルヘル; mapped to Orchel.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 21,
+    "name_zh": "欧露赫露",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_21.shtml",
+    "growth": {
+      "hp": 30,
+      "str": 60,
+      "mag": 45,
+      "spd": 10,
+      "dex": 20,
+      "def": 60,
+      "res": 60,
+      "lck": 20,
+      "cha": 60
+    },
+    "preferred_skills": [
+      "斧术",
+      "黑魔术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有25%概率发动，攻击力+3"
+      },
+      {
+        "label": "血印2",
+        "effect": "攻击时有20%概率发动，命中+20"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "女",
+    "personal_ability_zh": "防御+5；视为重装；无法转职为骑兵或飞行兵种"
+  },
+  "reference_profile": {
+    "name_en": "Orchel",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+    "faction": "Linaria Dewdrops",
+    "personal_ability": "Solid and Sturdy",
+    "preferred_skills": [
+      "Axe Skill",
+      "White Magic Skill",
+      "Black Magic Skill"
+    ],
+    "nonideal_skills": [
+      "Flying Skill",
+      "Riding Skill",
+      "Sword Skill"
+    ],
+    "growth": {
+      "hp": 30,
+      "str": 60,
+      "mag": 45,
+      "spd": 10,
+      "dex": 20,
+      "def": 60,
+      "res": 60,
+      "lck": 20,
+      "cha": 60
+    },
+    "growth_total": 365
+  },
+  "reference_update": {
+    "id": "profile_orchel",
+    "character_id": "orchel",
+    "name_en": "Orchel",
+    "name_zh": "欧露赫露",
+    "growth": {
+      "hp": 30,
+      "str": 60,
+      "mag": 45,
+      "spd": 10,
+      "dex": 20,
+      "def": 60,
+      "res": 60,
+      "lck": 20,
+      "cha": 60
+    },
+    "birthday": null,
+    "personal_ability_name": "Solid and Sturdy",
+    "preferred_skills": [
+      "Axe",
+      "White Magic",
+      "Black Magic"
+    ],
+    "non_ideal_skills": [
+      "Flying",
+      "Riding",
+      "Sword"
+    ],
+    "source_id": "en_624393",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+    "source_updated_text": "2026-09-26T06:32:36-04:00",
+    "retrieved_at": "2026-09-26T12:59:38+00:00",
+    "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": []
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+      "name_en": "Diadem of Duality",
+      "name_zh": "两仪之冠",
+      "title_zh": "两仪之冠",
+      "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "ability": "Diadem of Duality",
+      "crest_name_en": "Gautier",
+      "crest_name_zh": "戈蒂耶",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "theodora",
+        "bertrand",
+        "talimun",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 3
+        },
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+      "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_the_apostle_a46ffb4c2c_en_623691",
+      "name_en": "Diadem of the Apostle",
+      "name_zh": "使徒之冠",
+      "title_zh": "使徒之冠",
+      "summary_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+      "ability": "Diadem of the Apostle",
+      "crest_name_en": "Aubin",
+      "crest_name_zh": "奥班",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "hit": 20
+        },
+        "trigger_percent": 20
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+      "effect_text_sha256": "dbee91aa82665a3121f54f7fa54d01e1568ccfebe14cf8ffbbd3590e34f5c25b",
+      "source_row_sha256": "ced79d57e8f12fff2155c792a833b3ee568bf5a61f759b627f9f98a41d0afad4",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Duality",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+        "name_en": "Diadem of Duality",
+        "name_zh": "两仪之冠",
+        "title_zh": "两仪之冠",
+        "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "ability": "Diadem of Duality",
+        "crest_name_en": "Gautier",
+        "crest_name_zh": "戈蒂耶",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Theodora",
+            "character_id": "theodora",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Talimun",
+            "character_id": "talimun",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "theodora",
+          "bertrand",
+          "talimun",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 3
+          },
+          "trigger_percent": 25
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+        "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Cai",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Talimun",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Theodora",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    },
+    {
+      "ability": "Diadem of the Apostle",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_the_apostle_a46ffb4c2c_en_623691",
+        "name_en": "Diadem of the Apostle",
+        "name_zh": "使徒之冠",
+        "title_zh": "使徒之冠",
+        "summary_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+        "ability": "Diadem of the Apostle",
+        "crest_name_en": "Aubin",
+        "crest_name_zh": "奥班",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "hit": 20
+          },
+          "trigger_percent": 20
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+        "effect_text_sha256": "dbee91aa82665a3121f54f7fa54d01e1568ccfebe14cf8ffbbd3590e34f5c25b",
+        "source_row_sha256": "ced79d57e8f12fff2155c792a833b3ee568bf5a61f759b627f9f98a41d0afad4",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Cai",
+          "mark": "Diadem of the Apostle",
+          "holders": "Cai, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of the Apostle",
+          "holders": "Cai, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_harmonic_soul_3eb1c7ec8f_en_623691",
+      "name_en": "Harmonic Soul+",
+      "name_zh": "共鸣之魂+",
+      "title_zh": "共鸣之魂+",
+      "summary_zh": "用魔法治疗友军时，自身恢复部分生命；具体恢复量未列出。",
+      "ability": "Harmonic Soul+",
+      "effect_facts": {
+        "condition": "heal_ally_with_magic",
+        "target": "self",
+        "resource": "hp",
+        "restore_amount": null,
+        "amount_description": "some"
+      },
+      "effect_status": "parsed",
+      "effect_zh": "用魔法治疗友军时，自身恢复部分生命；具体恢复量未列出。",
+      "effect_text_sha256": "63db34b774e3eaf4947856235f85eea7e2e2ac685df26a6c08db3e6d43868d70",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Orchel",
+      "character_id": "orchel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_harmonic_soul_85b6e25f8a_en_623691",
+      "name_en": "Harmonic Soul",
+      "name_zh": "共鸣之魂",
+      "title_zh": "共鸣之魂",
+      "summary_zh": "用魔法治疗友军时，自身恢复少量生命；具体恢复量未列出。",
+      "ability": "Harmonic Soul",
+      "effect_facts": {
+        "condition": "heal_ally_with_magic",
+        "target": "self",
+        "resource": "hp",
+        "restore_amount": null,
+        "amount_description": "a little"
+      },
+      "effect_status": "parsed",
+      "effect_zh": "用魔法治疗友军时，自身恢复少量生命；具体恢复量未列出。",
+      "effect_text_sha256": "06dead66ca0b75cd4aa0366dfb02f12d6f7c10c38cc79343320f6d44e4ed7042",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Orchel",
+      "character_id": "orchel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_predictive_sense_9f9ea6019e_en_623691",
+      "name_en": "Predictive Sense",
+      "name_zh": "预见感知",
+      "title_zh": "预见感知",
+      "summary_zh": "自身先发动魔法攻击时，本次战斗命中 +20。",
+      "ability": "Predictive Sense",
+      "effect_facts": {
+        "condition": "self_attacks_first_with_magic",
+        "timing": "during_combat",
+        "stat": "hit",
+        "bonus": 20
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身先发动魔法攻击时，本次战斗命中 +20。",
+      "effect_text_sha256": "9acae1467a2f4fa77376fba0f3fc9d7bc30690da637f5ad8ba8cc70ae847754d",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Orchel",
+      "character_id": "orchel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": null,
+      "level_status": "not_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Harmonic Soul+",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_harmonic_soul_3eb1c7ec8f_en_623691",
+          "name_en": "Harmonic Soul+",
+          "name_zh": "共鸣之魂+",
+          "title_zh": "共鸣之魂+",
+          "summary_zh": "用魔法治疗友军时，自身恢复部分生命；具体恢复量未列出。",
+          "ability": "Harmonic Soul+",
+          "effect_facts": {
+            "condition": "heal_ally_with_magic",
+            "target": "self",
+            "resource": "hp",
+            "restore_amount": null,
+            "amount_description": "some"
+          },
+          "effect_status": "parsed",
+          "effect_zh": "用魔法治疗友军时，自身恢复部分生命；具体恢复量未列出。",
+          "effect_text_sha256": "63db34b774e3eaf4947856235f85eea7e2e2ac685df26a6c08db3e6d43868d70",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    },
+    {
+      "ability": "Harmonic Soul",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_harmonic_soul_85b6e25f8a_en_623691",
+          "name_en": "Harmonic Soul",
+          "name_zh": "共鸣之魂",
+          "title_zh": "共鸣之魂",
+          "summary_zh": "用魔法治疗友军时，自身恢复少量生命；具体恢复量未列出。",
+          "ability": "Harmonic Soul",
+          "effect_facts": {
+            "condition": "heal_ally_with_magic",
+            "target": "self",
+            "resource": "hp",
+            "restore_amount": null,
+            "amount_description": "a little"
+          },
+          "effect_status": "parsed",
+          "effect_zh": "用魔法治疗友军时，自身恢复少量生命；具体恢复量未列出。",
+          "effect_text_sha256": "06dead66ca0b75cd4aa0366dfb02f12d6f7c10c38cc79343320f6d44e4ed7042",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    },
+    {
+      "ability": "Predictive Sense",
+      "assertions": [
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_predictive_sense_9f9ea6019e_en_623691",
+          "name_en": "Predictive Sense",
+          "name_zh": "预见感知",
+          "title_zh": "预见感知",
+          "summary_zh": "自身先发动魔法攻击时，本次战斗命中 +20。",
+          "ability": "Predictive Sense",
+          "effect_facts": {
+            "condition": "self_attacks_first_with_magic",
+            "timing": "during_combat",
+            "stat": "hit",
+            "bonus": 20
+          },
+          "effect_status": "parsed",
+          "effect_zh": "自身先发动魔法攻击时，本次战斗命中 +20。",
+          "effect_text_sha256": "9acae1467a2f4fa77376fba0f3fc9d7bc30690da637f5ad8ba8cc70ae847754d",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": null,
+          "level_status": "not_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "missing_in_some_sources",
+      "effect_comparison_status": "single_structured_source"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_solid_and_sturdy_eaf0ff8fb6_en_623691",
+      "name_en": "Solid and Sturdy",
+      "name_zh": "坚实稳固",
+      "title_zh": "坚实稳固",
+      "summary_zh": "防御 +5，自身为重装单位；不能转为骑兵或飞行单位。",
+      "ability": "Solid and Sturdy",
+      "effect_facts": {
+        "stat": "def",
+        "bonus": 5,
+        "armored": true,
+        "cannot_change_unit_types": [
+          "cavalry",
+          "flying"
+        ]
+      },
+      "effect_status": "parsed",
+      "effect_zh": "防御 +5，自身为重装单位；不能转为骑兵或飞行单位。",
+      "effect_text_sha256": "0c09818fa9df54776031107afecf18c28684aef4ec1425c5155eb2d020461937",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Orchel",
+      "character_id": "orchel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Solid and Sturdy",
+      "effect_zh": "防御 +5，单位视为重装；无法转为骑兵或飞行职业。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Solid and Sturdy",
+      "effect_zh": "防御+5；视为重装；无法转职为骑兵或飞行兵种",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_21.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_solid_and_sturdy_eaf0ff8fb6_en_623691",
+      "name_en": "Solid and Sturdy",
+      "name_zh": "坚实稳固",
+      "title_zh": "坚实稳固",
+      "summary_zh": "防御 +5，自身为重装单位；不能转为骑兵或飞行单位。",
+      "ability": "Solid and Sturdy",
+      "effect_facts": {
+        "stat": "def",
+        "bonus": 5,
+        "armored": true,
+        "cannot_change_unit_types": [
+          "cavalry",
+          "flying"
+        ]
+      },
+      "effect_status": "parsed",
+      "effect_zh": "防御 +5，自身为重装单位；不能转为骑兵或飞行单位。",
+      "effect_text_sha256": "0c09818fa9df54776031107afecf18c28684aef4ec1425c5155eb2d020461937",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Orchel",
+      "character_id": "orchel",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [],
+  "spell_unlocks": [
+    {
+      "id": "spell_orchel_b_white_recover",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Recover",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_orchel_b_white_starlight",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Starlight",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_orchel_c_white_physic",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Physic",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_orchel_c_white_seraphim",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Seraphim",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_orchel_d_black_fire",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_orchel_d_white_heal",
+      "character_id": "orchel",
+      "character": "Orchel",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_624393",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+      "source_updated_text": "2026-09-26T06:32:36-04:00",
+      "retrieved_at": "2026-09-26T12:59:38+00:00",
+      "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 30,
+        "str": 60,
+        "mag": 45,
+        "spd": 10,
+        "dex": 20,
+        "def": 60,
+        "res": 60,
+        "lck": 20,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 30,
+        "str": 60,
+        "mag": 45,
+        "spd": 10,
+        "dex": 20,
+        "def": 60,
+        "res": 60,
+        "lck": 20,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_21.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 30,
+        "str": 60,
+        "mag": 45,
+        "spd": 10,
+        "dex": 20,
+        "def": 60,
+        "res": 60,
+        "lck": 20,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 30,
+        "str": 60,
+        "mag": 45,
+        "spd": 10,
+        "dex": 20,
+        "def": 60,
+        "res": 60,
+        "lck": 20,
+        "cha": 60
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_624393",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624393",
+        "source_updated_text": "2026-09-26T06:32:36-04:00",
+        "retrieved_at": "2026-09-26T12:59:38+00:00",
+        "content_sha256": "f8a1521b6169413f097c6bf964e29794b454d6e6dd16228542caaa0a68ef7006",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾达",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "all": "Joins automatically Part III: Salvation First Section; complete Paralogue in Part I recommended"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾达",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Bonaventure",
+      "partner": "Orchel",
+      "rank": "B"
+    },
+    {
+      "name": "Fianna",
+      "partner": "Orchel",
+      "rank": "C"
+    },
+    {
+      "name": "Leda",
+      "partner": "Orchel",
+      "rank": "B"
+    },
+    {
+      "name": "Majide",
+      "partner": "Orchel",
+      "rank": "C"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Orchel",
+      "rank": "C"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Bonaventure",
+      "rank": "B"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Fianna",
+      "rank": "C"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Leda",
+      "rank": "B"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Majide",
+      "rank": "C"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Ninae",
+      "rank": "C"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Ultand",
+      "rank": "C"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Orchel",
+      "rank": "C"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Orchel",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Orchel",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Orchel",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Physic"
+    },
+    {
+      "name": "Orchel",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Seraphim"
+    },
+    {
+      "name": "Orchel",
+      "skill_level": "B",
+      "magic": "White Magic",
+      "spell": "Starlight"
+    },
+    {
+      "name": "Orchel",
+      "skill_level": "B",
+      "magic": "White Magic",
+      "spell": "Recover"
+    }
+  ],
+  "gifts": [],
+  "skill_preferences": [
+    {
+      "name": "Orchel",
+      "kind": "preferred",
+      "skill": "Axe Skill"
+    },
+    {
+      "name": "Orchel",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Orchel",
+      "kind": "preferred",
+      "skill": "Black Magic Skill"
+    },
+    {
+      "name": "Orchel",
+      "kind": "non_ideal",
+      "skill": "Flying Skill"
+    },
+    {
+      "name": "Orchel",
+      "kind": "non_ideal",
+      "skill": "Riding Skill"
+    },
+    {
+      "name": "Orchel",
+      "kind": "non_ideal",
+      "skill": "Sword Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Orchel",
+      "art": "Strahl",
+      "range": "-",
+      "blaze": "-",
+      "learned": "Default"
+    },
+    {
+      "name": "Orchel",
+      "art": "Lanze",
+      "range": "1-10",
+      "blaze": "-",
+      "learned": "Default"
+    },
+    {
+      "name": "Orchel",
+      "art": "Elizabeth",
+      "range": "",
+      "blaze": "Grants",
+      "learned": ""
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of the Apostle",
+      "holders": "Cai, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of the Apostle",
+      "holders": "Cai, Orchel"
+    },
+    {
+      "name": "Talimun",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Theodora",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    }
+  ],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "orchel",
+  "display_name": "欧露赫露"
+}

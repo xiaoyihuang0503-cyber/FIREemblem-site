@@ -1,0 +1,2184 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "cai",
+    "name_en": "Cai",
+    "name_zh": "凯伊",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 40
+    },
+    "growth_total": 370,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Brio",
+      "description": "Grants Mov+1.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "Automatic",
+      "Dietrich": "N/A",
+      "Theodora": "N/A",
+      "Leda": "N/A"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/cai.jpg",
+      "width": 425,
+      "height": 425,
+      "source_url": "https://www.gamersky.com/handbook/202609/2211429_2.shtml",
+      "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image002.jpg",
+      "source_label": "GamerSky character profile",
+      "kind": "gamersky_character_portrait",
+      "identity_evidence": "中文人物专页标题与正文姓名 凯伊；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_cai_ecf45966c6_arrowhead_gem_ff7dd580bf_liked_en_621535",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "凯伊 · 箭镞宝石",
+      "summary_zh": "凯伊喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_cai_ecf45966c6_arrowhead_gem_ff7dd580bf_liked_en_623690",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "凯伊 · 箭镞宝石",
+      "summary_zh": "凯伊喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_cai_ecf45966c6_crimson_ghosh_f126222d07_liked_en_621535",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "凯伊 · 深红格修酒",
+      "summary_zh": "凯伊喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_cai_ecf45966c6_crimson_ghosh_f126222d07_liked_en_623690",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "凯伊 · 深红格修酒",
+      "summary_zh": "凯伊喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_cai_ecf45966c6_sharp_fishhook_d9b9539443_liked_en_621535",
+      "gift_profile_id": "gift_profile_sharp_fishhook_d9b9539443_en_621535",
+      "gift_name_en": "Sharp Fishhook",
+      "gift_name_zh": "锋利鱼钩",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sharp Fishhook",
+      "name_zh": "锋利鱼钩",
+      "title_zh": "凯伊 · 锋利鱼钩",
+      "summary_zh": "凯伊喜欢锋利鱼钩；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "e4142006d7c5d308fcb819d81ce975ff0b6787b202cf319880c61801620d247c",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_cai_ecf45966c6_sharp_fishhook_d9b9539443_liked_en_623690",
+      "gift_profile_id": "gift_profile_sharp_fishhook_d9b9539443_en_621535",
+      "gift_name_en": "Sharp Fishhook",
+      "gift_name_zh": "锋利鱼钩",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Sharp Fishhook",
+      "name_zh": "锋利鱼钩",
+      "title_zh": "凯伊 · 锋利鱼钩",
+      "summary_zh": "凯伊喜欢锋利鱼钩；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_cai_ecf45966c6_arrowhead_gem_ff7dd580bf_liked_en_621535",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "凯伊 · 箭镞宝石",
+          "summary_zh": "凯伊喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_cai_ecf45966c6_arrowhead_gem_ff7dd580bf_liked_en_623690",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "凯伊 · 箭镞宝石",
+          "summary_zh": "凯伊喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_cai_ecf45966c6_crimson_ghosh_f126222d07_liked_en_621535",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "凯伊 · 深红格修酒",
+          "summary_zh": "凯伊喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_cai_ecf45966c6_crimson_ghosh_f126222d07_liked_en_623690",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "凯伊 · 深红格修酒",
+          "summary_zh": "凯伊喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Sharp Fishhook",
+      "gift_name_zh": "锋利鱼钩",
+      "gift_profile_id": "gift_profile_sharp_fishhook_d9b9539443_en_621535",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_cai_ecf45966c6_sharp_fishhook_d9b9539443_liked_en_621535",
+          "gift_profile_id": "gift_profile_sharp_fishhook_d9b9539443_en_621535",
+          "gift_name_en": "Sharp Fishhook",
+          "gift_name_zh": "锋利鱼钩",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sharp Fishhook",
+          "name_zh": "锋利鱼钩",
+          "title_zh": "凯伊 · 锋利鱼钩",
+          "summary_zh": "凯伊喜欢锋利鱼钩；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "e4142006d7c5d308fcb819d81ce975ff0b6787b202cf319880c61801620d247c",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_cai_ecf45966c6_sharp_fishhook_d9b9539443_liked_en_623690",
+          "gift_profile_id": "gift_profile_sharp_fishhook_d9b9539443_en_621535",
+          "gift_name_en": "Sharp Fishhook",
+          "gift_name_zh": "锋利鱼钩",
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Sharp Fishhook",
+          "name_zh": "锋利鱼钩",
+          "title_zh": "凯伊 · 锋利鱼钩",
+          "summary_zh": "凯伊喜欢锋利鱼钩；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "14d44df75b75fbca0172b9e397bf243d80fce5e2052ab95386980f57d021b8e9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [
+    {
+      "id": "other_item_profiles_red_jewel_e40136d9b8_en_621281",
+      "name_en": "Red Jewel",
+      "name_zh": "红色宝石",
+      "title_zh": "红色宝石",
+      "summary_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+      "category": "stat_bonus_item",
+      "category_zh": "属性加成物品",
+      "effect_facts": {
+        "stat_bonuses": {
+          "mag": 3
+        },
+        "permanent_stat_change": null,
+        "stacking": null,
+        "equip_requirement": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "signature_item"
+        }
+      ],
+      "effect_text_sha256": "b05a01421740226a1dd2e3808f0eb25991712f1b3e58b392f3692c5c85bf71b1",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_621281",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+      "source_updated_text": "2026-09-26T04:04:39-04:00",
+      "retrieved_at": "2026-09-27T13:55:20+00:00",
+      "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "other_item_profiles_red_jewel_e40136d9b8_en_624946",
+      "name_en": "Red Jewel",
+      "name_zh": "红色宝石",
+      "title_zh": "红色宝石",
+      "summary_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+      "category": "stat_bonus_item",
+      "category_zh": "属性加成物品",
+      "effect_facts": {
+        "stat_bonuses": {
+          "mag": 3
+        },
+        "permanent_stat_change": null,
+        "stacking": null,
+        "equip_requirement": null
+      },
+      "effect_status": "parsed",
+      "effect_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "signature_item"
+        }
+      ],
+      "effect_text_sha256": "b05a01421740226a1dd2e3808f0eb25991712f1b3e58b392f3692c5c85bf71b1",
+      "weight": null,
+      "price": null,
+      "acquisition_status": "individual_details_not_listed",
+      "missing_fields_zh": [
+        "具体价格",
+        "逐项取得条件",
+        "重量"
+      ],
+      "source_id": "en_624946",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+      "source_updated_text": "2026-09-25T07:24:54-04:00",
+      "retrieved_at": "2026-09-27T07:40:00+00:00",
+      "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_variants": [
+    {
+      "name_en": "Red Jewel",
+      "assertions": [
+        {
+          "id": "other_item_profiles_red_jewel_e40136d9b8_en_621281",
+          "name_en": "Red Jewel",
+          "name_zh": "红色宝石",
+          "title_zh": "红色宝石",
+          "summary_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+          "category": "stat_bonus_item",
+          "category_zh": "属性加成物品",
+          "effect_facts": {
+            "stat_bonuses": {
+              "mag": 3
+            },
+            "permanent_stat_change": null,
+            "stacking": null,
+            "equip_requirement": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+          "character_relations": [
+            {
+              "character": "Cai",
+              "character_id": "cai",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "signature_item"
+            }
+          ],
+          "effect_text_sha256": "b05a01421740226a1dd2e3808f0eb25991712f1b3e58b392f3692c5c85bf71b1",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_621281",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621281",
+          "source_updated_text": "2026-09-26T04:04:39-04:00",
+          "retrieved_at": "2026-09-27T13:55:20+00:00",
+          "content_sha256": "1b4835c5eb85451c4e2282234ac498446e61208ce75c99f5cf6d75641e55fa6b",
+          "verification": "reference_fact_not_in_game_verified"
+        },
+        {
+          "id": "other_item_profiles_red_jewel_e40136d9b8_en_624946",
+          "name_en": "Red Jewel",
+          "name_zh": "红色宝石",
+          "title_zh": "红色宝石",
+          "summary_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+          "category": "stat_bonus_item",
+          "category_zh": "属性加成物品",
+          "effect_facts": {
+            "stat_bonuses": {
+              "mag": 3
+            },
+            "permanent_stat_change": null,
+            "stacking": null,
+            "equip_requirement": null
+          },
+          "effect_status": "parsed",
+          "effect_zh": "魔力 +3；加成是否永久、叠加方式及装备要求未列出。",
+          "character_relations": [
+            {
+              "character": "Cai",
+              "character_id": "cai",
+              "supplemental_character_name": null,
+              "character_identity_status": "canonical",
+              "identity_match_method": "exact_name_only",
+              "relation_kind": "signature_item"
+            }
+          ],
+          "effect_text_sha256": "b05a01421740226a1dd2e3808f0eb25991712f1b3e58b392f3692c5c85bf71b1",
+          "weight": null,
+          "price": null,
+          "acquisition_status": "individual_details_not_listed",
+          "missing_fields_zh": [
+            "具体价格",
+            "逐项取得条件",
+            "重量"
+          ],
+          "source_id": "en_624946",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+          "source_updated_text": "2026-09-25T07:24:54-04:00",
+          "retrieved_at": "2026-09-27T07:40:00+00:00",
+          "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+          "verification": "reference_fact_not_in_game_verified"
+        }
+      ],
+      "effect_comparison_status": "same"
+    }
+  ],
+  "item_usage_rules": [
+    {
+      "id": "item_usage_rules_cai_fish_capture_guide_rule_6876c75db2_en_624948",
+      "name_en": "Cai Fish Capture Guide Rule",
+      "name_zh": "凯伊鱼类诱饵捕获指引",
+      "title_zh": "凯伊鱼类诱饵捕获指引",
+      "summary_zh": "凯伊可在有野生动物的地点选择诱引并等待，再返回查看捕获结果；等待回合待补。",
+      "effect_facts": {
+        "user_name": "Cai",
+        "action": "Lure",
+        "target_location": "area_with_wild_animal",
+        "wait_turns": null,
+        "check_capture": "return_after_wait"
+      },
+      "effect_status": "parsed",
+      "category": "fish",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "f3a919b2089388adc91fa2298bc2bff9a9aa1ba29fa0326482bb98809e9f4aa8",
+      "applies_to": "general_capture_paragraph_not_route_gate",
+      "missing_fields_zh": [
+        "等待回合",
+        "成功率"
+      ],
+      "source_id": "en_624948",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624948",
+      "source_updated_text": "2026-09-25T07:24:41-04:00",
+      "retrieved_at": "2026-09-27T11:24:11+00:00",
+      "content_sha256": "3e7b6777be4745571b0d569aca976f229009c8bf27b543c0bfc68b9d9b85fc1c",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_cai_mount_capture_rule_0bef851925_en_621536",
+      "name_en": "Cai Mount Capture Rule",
+      "name_zh": "凯伊坐骑捕获规则",
+      "title_zh": "凯伊坐骑捕获规则",
+      "summary_zh": "凯伊可在野生动物所在区域选择诱捕，等若干回合后返回查看捕获结果；精确等待回合和成功率未列出。",
+      "effect_facts": {
+        "category": "ingredient",
+        "user_name": "Cai",
+        "purpose": "capture_wild_animals_as_mounts",
+        "action": "lure_then_return",
+        "wait_turns": null,
+        "capture_success": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "f3a919b2089388adc91fa2298bc2bff9a9aa1ba29fa0326482bb98809e9f4aa8",
+      "applies_to": "category_not_individual_price_location_or_owner",
+      "source_id": "en_621536",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621536",
+      "source_updated_text": "2026-09-26T04:04:44-04:00",
+      "retrieved_at": "2026-09-27T08:40:31+00:00",
+      "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_glirmosa_cai_mount_capture_rule_865fc9a088_en_624732",
+      "name_en": "Glirmosa Cai Mount Capture Rule",
+      "name_zh": "格里摩萨与凯伊捕获坐骑",
+      "title_zh": "格里摩萨与凯伊捕获坐骑",
+      "summary_zh": "凯伊可用格里摩萨引诱野生动物并尝试捕获为坐骑；选择诱引后需等待若干回合再查看。本文未列路线限制。",
+      "effect_facts": {
+        "item_name_en": "Glirmosa",
+        "character": "Cai",
+        "target": "Wild Animal",
+        "action": "Lure",
+        "outcome": "attempt_mount_capture",
+        "wait_turns": null,
+        "chance": null,
+        "route": null,
+        "capture_guaranteed": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "5b437af993a9f44c900219fbd491141a2ff3b417e1550d71b4988dcde7eaa32e",
+      "applies_to": "Glirmosa_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "精确等待回合",
+        "捕获概率",
+        "路线适用范围"
+      ],
+      "source_id": "en_624732",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624732",
+      "source_updated_text": "2026-09-26T00:49:37-04:00",
+      "retrieved_at": "2026-09-27T12:50:15+00:00",
+      "content_sha256": "f73897d176b578d8c748aea6baff278a89281c0b94d242eb72b38e83242a3667",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_kothar_gar_cai_mount_capture_rule_3ff6ad4013_en_624842",
+      "name_en": "Kothar Gar Cai Mount Capture Rule",
+      "name_zh": "科塔尔雀鳝与凯伊捕获坐骑",
+      "title_zh": "科塔尔雀鳝与凯伊捕获坐骑",
+      "summary_zh": "凯伊可用科塔尔雀鳝引诱野生动物并尝试捕获为坐骑；选择诱引后需等待若干回合再查看。本文未列路线限制。",
+      "effect_facts": {
+        "item_name_en": "Kothar Gar",
+        "character": "Cai",
+        "target": "Wild Animal",
+        "action": "Lure",
+        "outcome": "attempt_mount_capture",
+        "wait_turns": null,
+        "chance": null,
+        "route": null,
+        "capture_guaranteed": null
+      },
+      "effect_status": "parsed",
+      "category": "fish_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "ef427f16330c145b881b58c7d537e22243c47d217958c1e3d763347c13246b03",
+      "applies_to": "Kothar_Gar_specific_conditions_not_general_fish_rules",
+      "missing_fields_zh": [
+        "精确等待回合",
+        "捕获概率",
+        "路线适用范围"
+      ],
+      "source_id": "en_624842",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624842",
+      "source_updated_text": "2026-09-26T00:49:16-04:00",
+      "retrieved_at": "2026-09-27T13:55:19+00:00",
+      "content_sha256": "43aeef6ea65ca2f5aae70cbb97fc3063e19798b850f130f3706998a61d8f0bb7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_manure_route_rule_f924559255_en_624946",
+      "name_en": "Manure Route Rule",
+      "name_zh": "粪肥路线条件",
+      "title_zh": "粪肥路线条件",
+      "summary_zh": "凯伊路线可由凯伊使用粪肥改善作物品质；具体品质增益待补。",
+      "effect_facts": {
+        "category": "manure",
+        "route": "Cai",
+        "user_name": "Cai",
+        "purpose": "improve_crop_quality",
+        "bonus": null
+      },
+      "effect_status": "parsed",
+      "category": "manure",
+      "route": "Cai",
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "route_user"
+        }
+      ],
+      "effect_text_sha256": "1a6fab8063e2e4d0a64ed01f6976e4e500f3309d8439af5ef916a0b8c81cba67",
+      "applies_to": "category_not_individual_price_location_or_owner",
+      "source_id": "en_624946",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624946",
+      "source_updated_text": "2026-09-25T07:24:54-04:00",
+      "retrieved_at": "2026-09-27T07:40:00+00:00",
+      "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_paradise_fish_ornius_lure_rule_0be193e803_en_624317",
+      "name_en": "Paradise Fish Ornius Lure Rule",
+      "name_zh": "天堂鱼与凯伊鸟骑诱引",
+      "title_zh": "天堂鱼与凯伊鸟骑诱引",
+      "summary_zh": "凯伊路线可用天堂鱼更有效地诱引鸟骑；也可喂养偏好此鱼的坐骑，增幅与概率待补。",
+      "effect_facts": {
+        "item_name_en": "Paradise Fish",
+        "route": "Cai",
+        "target_mount_name": "Ornius",
+        "bait_category": "fish",
+        "more_effective_lure": true,
+        "capture_chance": null,
+        "feed_mounts_if_preferred": true,
+        "bond_bonus": null
+      },
+      "effect_status": "parsed",
+      "category": "fish",
+      "route": "Cai",
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "491740d53475196edb0b12e7498ef1abe8b2021423ac4f324584b1985c9ef3d6",
+      "applies_to": "Paradise_Fish_specific_Cai_Ornius_lure",
+      "missing_fields_zh": [
+        "捕获概率",
+        "羁绊增幅",
+        "具体坐骑偏好"
+      ],
+      "source_id": "en_624317",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624317",
+      "source_updated_text": "2026-09-26T00:48:36-04:00",
+      "retrieved_at": "2026-09-27T11:24:11+00:00",
+      "content_sha256": "d78600eee1826c57fef9f3e4c9b53423d5393d00db5b69542a65adbc4b1ef478",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "item_usage_rules_sandworm_meat_cai_mount_capture_rule_42ea517a99_en_624304",
+      "name_en": "Sandworm Meat Cai Mount Capture Rule",
+      "name_zh": "沙虫肉与凯伊捕获坐骑",
+      "title_zh": "沙虫肉与凯伊捕获坐骑",
+      "summary_zh": "凯伊可用沙虫肉引诱野生动物并尝试捕获为坐骑；选择诱引后需等待若干回合再查看。本文未列路线限制。",
+      "effect_facts": {
+        "item_name_en": "Sandworm Meat",
+        "character": "Cai",
+        "target": "Wild Animal",
+        "action": "Lure",
+        "outcome": "attempt_mount_capture",
+        "wait_turns": null,
+        "chance": null,
+        "route": null,
+        "capture_guaranteed": null
+      },
+      "effect_status": "parsed",
+      "category": "ingredient_use",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "mount_capture_user"
+        }
+      ],
+      "effect_text_sha256": "c4990330fe98a38096cc96a0f282a40ccb22b0a39f09f44aa94762059103b459",
+      "applies_to": "Sandworm_Meat_specific_conditions_not_general_ingredient_rules",
+      "missing_fields_zh": [
+        "精确等待回合",
+        "捕获概率",
+        "路线适用范围"
+      ],
+      "source_id": "en_624304",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624304",
+      "source_updated_text": "2026-09-26T00:49:00-04:00",
+      "retrieved_at": "2026-09-27T13:55:19+00:00",
+      "content_sha256": "b4426e0dad0cc6fa921bc6790c77c652e19bb78f01b744319499394d3d297a14",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/cai.jpg",
+    "width": 425,
+    "height": 425,
+    "source_url": "https://www.gamersky.com/handbook/202609/2211429_2.shtml",
+    "original_url": "https://img1.gamersky.com/image2026/09/20260917_qy_372_4/image002.jpg",
+    "source_label": "GamerSky character profile",
+    "kind": "gamersky_character_portrait",
+    "identity_evidence": "中文人物专页标题与正文姓名 凯伊；头像通过该页 showimage 原图链接取得；已与对应指南/官方素材逐图视觉核对。",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 2,
+    "name_zh": "凯伊",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_2.shtml",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 40
+    },
+    "preferred_skills": [
+      "剑术",
+      "枪术",
+      "骑术",
+      "白魔术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有20%概率发动，命中+20"
+      },
+      {
+        "label": "血印2",
+        "effect": "攻击时有25%概率发动，攻击力+3"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾妲",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ],
+    "gender": "男",
+    "personal_ability_zh": "移动力+1"
+  },
+  "reference_profile": {
+    "name_en": "Cai",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+    "faction": "Ribeira Winds",
+    "personal_ability": "Brio",
+    "preferred_skills": [
+      "White Magic Skill",
+      "Riding Skill",
+      "Spear Skill",
+      "Sword Skill"
+    ],
+    "nonideal_skills": [
+      "Bow Skill",
+      "Flying Skill"
+    ],
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 40
+    },
+    "growth_total": 370
+  },
+  "reference_update": {
+    "id": "profile_cai",
+    "character_id": "cai",
+    "name_en": "Cai",
+    "name_zh": "凯伊",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 40
+    },
+    "birthday": null,
+    "personal_ability_name": "Brio",
+    "preferred_skills": [
+      "White Magic",
+      "Riding",
+      "Spear",
+      "Sword"
+    ],
+    "non_ideal_skills": [
+      "Bow",
+      "Flying"
+    ],
+    "source_id": "en_620167",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+    "source_updated_text": "2026-09-26T05:46:09-04:00",
+    "retrieved_at": "2026-09-26T12:59:09+00:00",
+    "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Read the Winds",
+      "Vanguard",
+      "Dodge",
+      "Flitting Flier",
+      "Knightly Senses",
+      "Attack Formation"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+      "name_en": "Diadem of Duality",
+      "name_zh": "两仪之冠",
+      "title_zh": "两仪之冠",
+      "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "ability": "Diadem of Duality",
+      "crest_name_en": "Gautier",
+      "crest_name_zh": "戈蒂耶",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Theodora",
+          "character_id": "theodora",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Bertrand",
+          "character_id": "bertrand",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Talimun",
+          "character_id": "talimun",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "theodora",
+        "bertrand",
+        "talimun",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "atk": 3
+        },
+        "trigger_percent": 25
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+      "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+      "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_the_apostle_a46ffb4c2c_en_623691",
+      "name_en": "Diadem of the Apostle",
+      "name_zh": "使徒之冠",
+      "title_zh": "使徒之冠",
+      "summary_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+      "ability": "Diadem of the Apostle",
+      "crest_name_en": "Aubin",
+      "crest_name_zh": "奥班",
+      "holders": [
+        {
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        },
+        {
+          "character": "Orchel",
+          "character_id": "orchel",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "cai",
+        "orchel"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "hit": 20
+        },
+        "trigger_percent": 20
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+      "effect_text_sha256": "dbee91aa82665a3121f54f7fa54d01e1568ccfebe14cf8ffbbd3590e34f5c25b",
+      "source_row_sha256": "ced79d57e8f12fff2155c792a833b3ee568bf5a61f759b627f9f98a41d0afad4",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Duality",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_duality_704358fd13_en_623691",
+        "name_en": "Diadem of Duality",
+        "name_zh": "两仪之冠",
+        "title_zh": "两仪之冠",
+        "summary_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "ability": "Diadem of Duality",
+        "crest_name_en": "Gautier",
+        "crest_name_zh": "戈蒂耶",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Theodora",
+            "character_id": "theodora",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Bertrand",
+            "character_id": "bertrand",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Talimun",
+            "character_id": "talimun",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "theodora",
+          "bertrand",
+          "talimun",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "atk": 3
+          },
+          "trigger_percent": 25
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，攻击 +3。触发概率为 25%。",
+        "effect_text_sha256": "ad2869d81820f3cc1087b0f84ac87f8dda15ceb118ea0f964f83c4f2971ef2d9",
+        "source_row_sha256": "91f1f1287c4bed34ab3bd93a038e078821fd014b78ccfadbbe5960c65ed3e49f",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Bertrand",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Cai",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Talimun",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        },
+        {
+          "name": "Theodora",
+          "mark": "Diadem of Duality",
+          "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    },
+    {
+      "ability": "Diadem of the Apostle",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_the_apostle_a46ffb4c2c_en_623691",
+        "name_en": "Diadem of the Apostle",
+        "name_zh": "使徒之冠",
+        "title_zh": "使徒之冠",
+        "summary_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+        "ability": "Diadem of the Apostle",
+        "crest_name_en": "Aubin",
+        "crest_name_zh": "奥班",
+        "holders": [
+          {
+            "character": "Cai",
+            "character_id": "cai",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          },
+          {
+            "character": "Orchel",
+            "character_id": "orchel",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "cai",
+          "orchel"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "hit": 20
+          },
+          "trigger_percent": 20
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，命中 +20。触发概率为 20%。",
+        "effect_text_sha256": "dbee91aa82665a3121f54f7fa54d01e1568ccfebe14cf8ffbbd3590e34f5c25b",
+        "source_row_sha256": "ced79d57e8f12fff2155c792a833b3ee568bf5a61f759b627f9f98a41d0afad4",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Cai",
+          "mark": "Diadem of the Apostle",
+          "holders": "Cai, Orchel"
+        },
+        {
+          "name": "Orchel",
+          "mark": "Diadem of the Apostle",
+          "holders": "Cai, Orchel"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_flamekeeper_616fe7a012_en_623691",
+      "name_en": "Flamekeeper",
+      "name_zh": "守焰者",
+      "title_zh": "守焰者",
+      "summary_zh": "自身与所有友军不受冥府之炎影响；位于冥府之炎中时，所受攻击伤害减半。",
+      "ability": "Flamekeeper",
+      "effect_facts": {
+        "target": [
+          "self",
+          "all_allies"
+        ],
+        "unaffected_by_underworld_flames": true,
+        "damage_reduction_condition": "target_in_underworld_flames",
+        "damage_taken_multiplier": 0.5
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身与所有友军不受冥府之炎影响；位于冥府之炎中时，所受攻击伤害减半。",
+      "effect_text_sha256": "7e3b8cbf6d3903e73ecd5c98aab742b04cb1e615df7d201aebbdcb88779a25d5",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 5,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Flamekeeper",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_cai_flamekeeper_5",
+          "character_id": "cai",
+          "character": "Cai",
+          "ability": "Flamekeeper",
+          "level": 5,
+          "effect": null,
+          "source_id": "en_620167",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+          "source_updated_text": "2026-09-26T05:46:09-04:00",
+          "retrieved_at": "2026-09-26T12:59:09+00:00",
+          "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 5,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_620167",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+            "source_updated_text": "2026-09-26T05:46:09-04:00",
+            "retrieved_at": "2026-09-26T12:59:09+00:00",
+            "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_flamekeeper_616fe7a012_en_623691",
+          "name_en": "Flamekeeper",
+          "name_zh": "守焰者",
+          "title_zh": "守焰者",
+          "summary_zh": "自身与所有友军不受冥府之炎影响；位于冥府之炎中时，所受攻击伤害减半。",
+          "ability": "Flamekeeper",
+          "effect_facts": {
+            "target": [
+              "self",
+              "all_allies"
+            ],
+            "unaffected_by_underworld_flames": true,
+            "damage_reduction_condition": "target_in_underworld_flames",
+            "damage_taken_multiplier": 0.5
+          },
+          "effect_status": "parsed",
+          "effect_zh": "自身与所有友军不受冥府之炎影响；位于冥府之炎中时，所受攻击伤害减半。",
+          "effect_text_sha256": "7e3b8cbf6d3903e73ecd5c98aab742b04cb1e615df7d201aebbdcb88779a25d5",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Cai",
+          "character_id": "cai",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 5,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_brio_af7d80f986_en_623691",
+      "name_en": "Brio",
+      "name_zh": "活力",
+      "title_zh": "活力",
+      "summary_zh": "移动 +1。",
+      "ability": "Brio",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "mov": 1
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "移动 +1。",
+      "effect_text_sha256": "e80665f43160ab65d035ca4c11ca8ca17afa309d441669b72dd69c102eb1539f",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Brio",
+      "effect_zh": "移动 +1。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Brio",
+      "effect_zh": "移动力+1",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_2.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_brio_af7d80f986_en_623691",
+      "name_en": "Brio",
+      "name_zh": "活力",
+      "title_zh": "活力",
+      "summary_zh": "移动 +1。",
+      "ability": "Brio",
+      "effect_facts": {
+        "target": "self",
+        "stat_bonuses": {
+          "mov": 1
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "移动 +1。",
+      "effect_text_sha256": "e80665f43160ab65d035ca4c11ca8ca17afa309d441669b72dd69c102eb1539f",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Cai",
+      "character_id": "cai",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [],
+  "level_abilities": [
+    {
+      "id": "level_cai_flamekeeper_5",
+      "character_id": "cai",
+      "character": "Cai",
+      "ability": "Flamekeeper",
+      "level": 5,
+      "effect": null,
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_cai_b_black_bolganone",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "B",
+      "magic": "black",
+      "spell": "Bolganone",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_cai_b_white_seraphim",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Seraphim",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_cai_c_black_thunder",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Thunder",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_cai_c_white_nosferatu",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Nosferatu",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_cai_d_black_fire",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_cai_d_white_heal",
+      "character_id": "cai",
+      "character": "Cai",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_620167",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+      "source_updated_text": "2026-09-26T05:46:09-04:00",
+      "retrieved_at": "2026-09-26T12:59:09+00:00",
+      "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_2.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 40,
+        "spd": 45,
+        "dex": 45,
+        "def": 35,
+        "res": 35,
+        "lck": 40,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_620167",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620167",
+        "source_updated_text": "2026-09-26T05:46:09-04:00",
+        "retrieved_at": "2026-09-26T12:59:09+00:00",
+        "content_sha256": "9afaaebb45e35026ca98455873f831afbb6391be17b1d60face40889717b6b23",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "迪托利希",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "-",
+      "condition": "无法挖角"
+    },
+    {
+      "route": "蕾妲",
+      "timing": "-",
+      "condition": "无法挖角"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "Automatic",
+      "Dietrich": "N/A",
+      "Theodora": "N/A",
+      "Leda": "N/A"
+    },
+    "profile": [
+      {
+        "route": "迪托利希",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "-",
+        "condition": "无法挖角"
+      },
+      {
+        "route": "蕾妲",
+        "timing": "-",
+        "condition": "无法挖角"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Alexandra",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Anatolia",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Bertrand",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Alexandra",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Anatolia",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Bertrand",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Centurio",
+      "rank": "C"
+    },
+    {
+      "name": "Cai",
+      "partner": "Dietrich",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Esmeralda",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Goliath",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Leda",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Mu",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Cai",
+      "partner": "Peter",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Theodora",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Tialla",
+      "rank": "A"
+    },
+    {
+      "name": "Cai",
+      "partner": "Ultand",
+      "rank": "A"
+    },
+    {
+      "name": "Centurio",
+      "partner": "Cai",
+      "rank": "C"
+    },
+    {
+      "name": "Dietrich",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Esmeralda",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Goliath",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Leda",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Mu",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Peter",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Theodora",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Tialla",
+      "partner": "Cai",
+      "rank": "A"
+    },
+    {
+      "name": "Ultand",
+      "partner": "Cai",
+      "rank": "A"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Cai",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Cai",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Cai",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Nosferatu"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Cai",
+      "gift": "Arrowhead Gem"
+    },
+    {
+      "name": "Cai",
+      "gift": "Crimson Ghosh"
+    },
+    {
+      "name": "Cai",
+      "gift": "Sharp Fishhook"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Cai",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Cai",
+      "kind": "preferred",
+      "skill": "Riding Skill"
+    },
+    {
+      "name": "Cai",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    },
+    {
+      "name": "Cai",
+      "kind": "preferred",
+      "skill": "Sword Skill"
+    },
+    {
+      "name": "Cai",
+      "kind": "non_ideal",
+      "skill": "Bow Skill"
+    },
+    {
+      "name": "Cai",
+      "kind": "non_ideal",
+      "skill": "Flying Skill"
+    }
+  ],
+  "blaze_arts": [
+    {
+      "name": "Cai",
+      "art": "Underworld Burst",
+      "range": "1-4",
+      "blaze": "2",
+      "learned": "Part I Chapter 1"
+    },
+    {
+      "name": "Cai",
+      "art": "Blackfire",
+      "range": "-",
+      "blaze": "3",
+      "learned": "Lv. 10"
+    },
+    {
+      "name": "Cai",
+      "art": "Underworld Inferno",
+      "range": "1-10",
+      "blaze": "4",
+      "learned": "Lv. 35"
+    }
+  ],
+  "bloodmarks": [
+    {
+      "name": "Bertrand",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Cai",
+      "mark": "Diadem of the Apostle",
+      "holders": "Cai, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Orchel",
+      "mark": "Diadem of the Apostle",
+      "holders": "Cai, Orchel"
+    },
+    {
+      "name": "Talimun",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    },
+    {
+      "name": "Theodora",
+      "mark": "Diadem of Duality",
+      "holders": "Cai, Theodora, Bertrand, Talimun, Orchel"
+    }
+  ],
+  "character_notes": [
+    {
+      "character_id": "cai",
+      "summary": "凯伊的路线可以捕获、照料坐骑动物，并利用农作活动。",
+      "source_label": "任天堂开发者访谈 · 第 2 篇",
+      "url": "https://www.nintendo.com/au/news-and-articles/ask-the-developer-vol-23-fire-emblem-fortunes-weave-chapter-2/"
+    }
+  ],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "cai",
+  "display_name": "凯伊"
+}

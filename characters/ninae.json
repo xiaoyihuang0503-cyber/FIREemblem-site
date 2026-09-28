@@ -1,0 +1,2138 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "character": {
+    "id": "ninae",
+    "name_en": "Ninae",
+    "name_zh": "妮涅",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 35,
+      "spd": 35,
+      "dex": 45,
+      "def": 35,
+      "res": 45,
+      "lck": 50,
+      "cha": 40
+    },
+    "growth_total": 375,
+    "source": "serenes_growth",
+    "source_status": "WIP",
+    "personal_ability": {
+      "name": "Spirits’ Voice",
+      "description": "If foe uses magic, grants Hit/Avo+10 to unit during combat.",
+      "source": "serenes_personal_abilities",
+      "source_status": "WIP"
+    },
+    "proficiencies": null,
+    "recruitment": {
+      "Cai": "3S, 6R, 1x Paradise Fish",
+      "Dietrich": "3S, 8R, 1x Paradise Fish",
+      "Theodora": "3S, 6R, 1x Paradise Fish",
+      "Leda": "3S, 6R, 1x Paradise Fish"
+    },
+    "recruitment_source": "rpgsite_recruitment",
+    "portrait": {
+      "path": "assets/portraits/ninae.webp",
+      "width": 334,
+      "height": 343,
+      "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+      "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_23.webp",
+      "source_label": "Nintendo Japan official",
+      "kind": "official_selection_portrait",
+      "identity_evidence": "Official game character HTML img alt = ニネ; mapped to Ninae.",
+      "identity_status": "cross_checked",
+      "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+    }
+  },
+  "gift_preferences": [
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_arrowhead_gem_ff7dd580bf_liked_en_621535",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "妮涅 · 箭镞宝石",
+      "summary_zh": "妮涅喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_arrowhead_gem_ff7dd580bf_liked_en_623690",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Arrowhead Gem",
+      "name_zh": "箭镞宝石",
+      "title_zh": "妮涅 · 箭镞宝石",
+      "summary_zh": "妮涅喜欢箭镞宝石；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_crimson_ghosh_f126222d07_liked_en_621535",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "妮涅 · 深红格修酒",
+      "summary_zh": "妮涅喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_crimson_ghosh_f126222d07_liked_en_623690",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Crimson Ghosh",
+      "name_zh": "深红格修酒",
+      "title_zh": "妮涅 · 深红格修酒",
+      "summary_zh": "妮涅喜欢深红格修酒；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_eastern_black_silk_b0371e6413_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Black Silk",
+      "name_zh": "东方黑丝绸",
+      "title_zh": "妮涅 · 东方黑丝绸",
+      "summary_zh": "妮涅喜欢东方黑丝绸；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "98aba28dcba179bec7ffb800601cdee492330e4d20c18d122656d280fececf63",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_eastern_black_silk_b0371e6413_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Black Silk",
+      "name_zh": "东方黑丝绸",
+      "title_zh": "妮涅 · 东方黑丝绸",
+      "summary_zh": "妮涅喜欢东方黑丝绸；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "妮涅 · 东方茶叶",
+      "summary_zh": "妮涅喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Liked by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Eastern Tea Leaves",
+      "name_zh": "东方茶叶",
+      "title_zh": "妮涅 · 东方茶叶",
+      "summary_zh": "妮涅喜欢东方茶叶；支援点数未列出。",
+      "preference_level": "liked",
+      "preference_zh": "喜欢",
+      "source_preference_label": "Really Liked Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "liked"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_strategy_manuscript_1ac56c5c7d_loved_en_621535",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "妮涅 · 战略手稿",
+      "summary_zh": "妮涅非常喜欢战略手稿；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_strategy_manuscript_1ac56c5c7d_loved_en_623690",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Strategy Manuscript",
+      "name_zh": "战略手稿",
+      "title_zh": "妮涅 · 战略手稿",
+      "summary_zh": "妮涅非常喜欢战略手稿；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_tales_of_adventure_319f747588_loved_en_621535",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Tales of Adventure",
+      "name_zh": "冒险故事",
+      "title_zh": "妮涅 · 冒险故事",
+      "summary_zh": "妮涅非常喜欢冒险故事；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved by :",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "0a62e26a3efa335ed9d8b413d3a9bad3adbc403b955a450a928b3b36393ec0dd",
+      "source_id": "en_621535",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "retrieved_at": "2026-09-27T11:54:47+00:00",
+      "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+      "source_updated_text": "2026-09-26T00:48:30-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    },
+    {
+      "id": "gift_preference_ninae_02c0c7b7a5_tales_of_adventure_319f747588_loved_en_623690",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "name_en": "Tales of Adventure",
+      "name_zh": "冒险故事",
+      "title_zh": "妮涅 · 冒险故事",
+      "summary_zh": "妮涅非常喜欢冒险故事；支援点数未列出。",
+      "preference_level": "loved",
+      "preference_zh": "非常喜欢",
+      "source_preference_label": "Loved Gifts:",
+      "support_points": null,
+      "support_point_multiplier": null,
+      "route": null,
+      "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+      "source_id": "en_623690",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "retrieved_at": "2026-09-27T11:54:49+00:00",
+      "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+      "source_updated_text": "2026-09-24T23:18:43-04:00",
+      "verification": "reference_fact_not_in_game_verified",
+      "same_source_levels": [
+        "loved"
+      ],
+      "same_source_conflict": false
+    }
+  ],
+  "gift_preference_variants": [
+    {
+      "gift_name_en": "Arrowhead Gem",
+      "gift_name_zh": "箭镞宝石",
+      "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_arrowhead_gem_ff7dd580bf_liked_en_621535",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "妮涅 · 箭镞宝石",
+          "summary_zh": "妮涅喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "44bb4ab3a7d0d530a87eb14cad54fe5710f7c30a007828d04a9712fac3bb82a5",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_arrowhead_gem_ff7dd580bf_liked_en_623690",
+          "gift_profile_id": "gift_profile_arrowhead_gem_ff7dd580bf_en_621535",
+          "gift_name_en": "Arrowhead Gem",
+          "gift_name_zh": "箭镞宝石",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Arrowhead Gem",
+          "name_zh": "箭镞宝石",
+          "title_zh": "妮涅 · 箭镞宝石",
+          "summary_zh": "妮涅喜欢箭镞宝石；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Crimson Ghosh",
+      "gift_name_zh": "深红格修酒",
+      "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_crimson_ghosh_f126222d07_liked_en_621535",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "妮涅 · 深红格修酒",
+          "summary_zh": "妮涅喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "646f9970aa023fe2e84d55e0612651208296325cf01844340d6e36da85410fd6",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_crimson_ghosh_f126222d07_liked_en_623690",
+          "gift_profile_id": "gift_profile_crimson_ghosh_f126222d07_en_621535",
+          "gift_name_en": "Crimson Ghosh",
+          "gift_name_zh": "深红格修酒",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Crimson Ghosh",
+          "name_zh": "深红格修酒",
+          "title_zh": "妮涅 · 深红格修酒",
+          "summary_zh": "妮涅喜欢深红格修酒；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Black Silk",
+      "gift_name_zh": "东方黑丝绸",
+      "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_eastern_black_silk_b0371e6413_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+          "gift_name_en": "Eastern Black Silk",
+          "gift_name_zh": "东方黑丝绸",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Black Silk",
+          "name_zh": "东方黑丝绸",
+          "title_zh": "妮涅 · 东方黑丝绸",
+          "summary_zh": "妮涅喜欢东方黑丝绸；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "98aba28dcba179bec7ffb800601cdee492330e4d20c18d122656d280fececf63",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_eastern_black_silk_b0371e6413_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_black_silk_b0371e6413_en_621535",
+          "gift_name_en": "Eastern Black Silk",
+          "gift_name_zh": "东方黑丝绸",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Black Silk",
+          "name_zh": "东方黑丝绸",
+          "title_zh": "妮涅 · 东方黑丝绸",
+          "summary_zh": "妮涅喜欢东方黑丝绸；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Eastern Tea Leaves",
+      "gift_name_zh": "东方茶叶",
+      "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_eastern_tea_leaves_04c8d9c5a1_liked_en_621535",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "妮涅 · 东方茶叶",
+          "summary_zh": "妮涅喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Liked by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "740e66973a0df8e36b28eb564de8ca7bbfb2765ee84ff9db79e8dd2cb8f857a9",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_eastern_tea_leaves_04c8d9c5a1_liked_en_623690",
+          "gift_profile_id": "gift_profile_eastern_tea_leaves_04c8d9c5a1_en_621535",
+          "gift_name_en": "Eastern Tea Leaves",
+          "gift_name_zh": "东方茶叶",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Eastern Tea Leaves",
+          "name_zh": "东方茶叶",
+          "title_zh": "妮涅 · 东方茶叶",
+          "summary_zh": "妮涅喜欢东方茶叶；支援点数未列出。",
+          "preference_level": "liked",
+          "preference_zh": "喜欢",
+          "source_preference_label": "Really Liked Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "liked"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "liked"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Strategy Manuscript",
+      "gift_name_zh": "战略手稿",
+      "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_strategy_manuscript_1ac56c5c7d_loved_en_621535",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "妮涅 · 战略手稿",
+          "summary_zh": "妮涅非常喜欢战略手稿；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "cf36b55fd03b48e582b39b55eb1fc8e8f7c42bcc24caa9303fee4fafb9fa02a3",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_strategy_manuscript_1ac56c5c7d_loved_en_623690",
+          "gift_profile_id": "gift_profile_strategy_manuscript_1ac56c5c7d_en_621535",
+          "gift_name_en": "Strategy Manuscript",
+          "gift_name_zh": "战略手稿",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Strategy Manuscript",
+          "name_zh": "战略手稿",
+          "title_zh": "妮涅 · 战略手稿",
+          "summary_zh": "妮涅非常喜欢战略手稿；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    },
+    {
+      "gift_name_en": "Tales of Adventure",
+      "gift_name_zh": "冒险故事",
+      "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "assertions": [
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_tales_of_adventure_319f747588_loved_en_621535",
+          "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+          "gift_name_en": "Tales of Adventure",
+          "gift_name_zh": "冒险故事",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Tales of Adventure",
+          "name_zh": "冒险故事",
+          "title_zh": "妮涅 · 冒险故事",
+          "summary_zh": "妮涅非常喜欢冒险故事；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved by :",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "0a62e26a3efa335ed9d8b413d3a9bad3adbc403b955a450a928b3b36393ec0dd",
+          "source_id": "en_621535",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+          "retrieved_at": "2026-09-27T11:54:47+00:00",
+          "content_sha256": "4f43c5afbd3500d0e7adab673e3811dd8ed883544c8802101f8ec1ca73861774",
+          "source_updated_text": "2026-09-26T00:48:30-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        },
+        {
+          "id": "gift_preference_ninae_02c0c7b7a5_tales_of_adventure_319f747588_loved_en_623690",
+          "gift_profile_id": "gift_profile_tales_of_adventure_319f747588_en_621535",
+          "gift_name_en": "Tales of Adventure",
+          "gift_name_zh": "冒险故事",
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "name_en": "Tales of Adventure",
+          "name_zh": "冒险故事",
+          "title_zh": "妮涅 · 冒险故事",
+          "summary_zh": "妮涅非常喜欢冒险故事；支援点数未列出。",
+          "preference_level": "loved",
+          "preference_zh": "非常喜欢",
+          "source_preference_label": "Loved Gifts:",
+          "support_points": null,
+          "support_point_multiplier": null,
+          "route": null,
+          "preference_text_sha256": "7f3bbaa5b5328b99aadd7e7d56f46945bcaba1c60316e92a7be509b5247881f9",
+          "source_id": "en_623690",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+          "retrieved_at": "2026-09-27T11:54:49+00:00",
+          "content_sha256": "880078203064097bf995583a6f1f64cbb18161d36330b9b80867895f40d12a6e",
+          "source_updated_text": "2026-09-24T23:18:43-04:00",
+          "verification": "reference_fact_not_in_game_verified",
+          "same_source_levels": [
+            "loved"
+          ],
+          "same_source_conflict": false
+        }
+      ],
+      "levels": [
+        "loved"
+      ],
+      "preference_comparison_status": "same",
+      "support_points": null,
+      "source_count": 2
+    }
+  ],
+  "gift_preference_coverage": [
+    {
+      "source_id": "en_621535",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    },
+    {
+      "source_id": "en_623690",
+      "status": "partial",
+      "character_listed_without_gifts": false,
+      "absence_means": "not_listed_not_disliked"
+    }
+  ],
+  "gift_support_points_used_in_build_calculation": false,
+  "roster_status": "canonical",
+  "other_item_profiles": [],
+  "other_item_variants": [],
+  "item_usage_rules": [
+    {
+      "id": "item_usage_rules_paradise_fish_ninae_recruitment_rule_cd34c1f5d1_en_624317",
+      "name_en": "Paradise Fish Ninae Recruitment Rule",
+      "name_zh": "天堂鱼与妮娜招募",
+      "title_zh": "天堂鱼与妮娜招募",
+      "summary_zh": "四条路线招募妮娜均需交付 1 条天堂鱼，并先满足支援与名声门槛；本文未列具体门槛。",
+      "effect_facts": {
+        "item_name_en": "Paradise Fish",
+        "recipient": "Ninae",
+        "required_quantity": 1,
+        "routes": [
+          "Cai",
+          "Dietrich",
+          "Theodora",
+          "Leda"
+        ],
+        "requires_support": true,
+        "requires_renown": true,
+        "support_threshold": null,
+        "renown_threshold": null,
+        "joins_after_delivery_and_requirements": true
+      },
+      "effect_status": "parsed",
+      "category": "fish",
+      "route": null,
+      "character_relations": [
+        {
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "relation_kind": "delivery_recipient"
+        }
+      ],
+      "effect_text_sha256": "0197ef19ddbf732e8a25382cb7a0f3a59fbcfbc64364d31ae6fdb9c18af84083",
+      "applies_to": "Ninae_recruitment_all_four_routes",
+      "missing_fields_zh": [
+        "具体支援门槛",
+        "具体名声门槛"
+      ],
+      "source_id": "en_624317",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624317",
+      "source_updated_text": "2026-09-26T00:48:36-04:00",
+      "retrieved_at": "2026-09-27T11:24:11+00:00",
+      "content_sha256": "d78600eee1826c57fef9f3e4c9b53423d5393d00db5b69542a65adbc4b1ef478",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "other_item_stats_used_in_build_calculation": false,
+  "portrait": {
+    "path": "assets/portraits/ninae.webp",
+    "width": 334,
+    "height": 343,
+    "source_url": "https://www.nintendo.com/jp/games/switch2/aacsa/character/index.html",
+    "original_url": "https://www.nintendo.com/jp/games/switch2/aacsa/assets/data/webp/character/warrior/select/btn_23.webp",
+    "source_label": "Nintendo Japan official",
+    "kind": "official_selection_portrait",
+    "identity_evidence": "Official game character HTML img alt = ニネ; mapped to Ninae.",
+    "identity_status": "cross_checked",
+    "copyright": "Nintendo / INTELLIGENT SYSTEMS"
+  },
+  "profile": {
+    "page": 29,
+    "name_zh": "妮涅",
+    "url": "https://www.gamersky.com/handbook/202609/2211429_29.shtml",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 35,
+      "spd": 35,
+      "dex": 45,
+      "def": 35,
+      "res": 45,
+      "lck": 50,
+      "cha": 40
+    },
+    "preferred_skills": [
+      "枪术",
+      "白魔术",
+      "骑术"
+    ],
+    "blood_marks": [
+      {
+        "label": "血印",
+        "effect": "攻击时有10%概率发动，命中+30"
+      }
+    ],
+    "recruitment": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      }
+    ],
+    "gender": "女",
+    "personal_ability_zh": "战斗时，若敌人使用魔法，命中、回避+10"
+  },
+  "reference_profile": {
+    "name_en": "Ninae",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+    "faction": "Linaria Dewdrops",
+    "personal_ability": "Spirits' Voices",
+    "preferred_skills": [
+      "White Magic Skill",
+      "Spear Skill"
+    ],
+    "nonideal_skills": [],
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 35,
+      "spd": 35,
+      "dex": 45,
+      "def": 35,
+      "res": 45,
+      "lck": 50,
+      "cha": 40
+    },
+    "growth_total": 375
+  },
+  "reference_update": {
+    "id": "profile_ninae",
+    "character_id": "ninae",
+    "name_en": "Ninae",
+    "name_zh": "妮涅",
+    "growth": {
+      "hp": 45,
+      "str": 45,
+      "mag": 35,
+      "spd": 35,
+      "dex": 45,
+      "def": 35,
+      "res": 45,
+      "lck": 50,
+      "cha": 40
+    },
+    "birthday": "10/21",
+    "personal_ability_name": "Spirits' Voices",
+    "preferred_skills": [
+      "White Magic",
+      "Riding",
+      "Spear"
+    ],
+    "non_ideal_skills": [
+      "Bow"
+    ],
+    "source_id": "en_623990",
+    "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+    "source_updated_text": "2026-09-26T06:07:44-04:00",
+    "retrieved_at": "2026-09-26T15:03:26+00:00",
+    "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+    "verification": "reference_fact_not_in_game_verified",
+    "skill_ability_names": [
+      "Read the Winds",
+      "Vanguard",
+      "Knightly Senses",
+      "Threaten",
+      "Armored Move"
+    ]
+  },
+  "bloodmark_ability_catalog": [
+    {
+      "id": "bloodmark_ability_catalog_diadem_of_reflection_33a46dbcd4_en_623691",
+      "name_en": "Diadem of Reflection",
+      "name_zh": "映照之冠",
+      "title_zh": "映照之冠",
+      "summary_zh": "自身发动攻击时，命中 +30。触发概率为 10%。",
+      "ability": "Diadem of Reflection",
+      "crest_name_en": "Gloucester",
+      "crest_name_zh": "古罗斯塔尔",
+      "holders": [
+        {
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only"
+        }
+      ],
+      "character_ids": [
+        "ninae"
+      ],
+      "supplemental_character_names": [],
+      "unresolved_holder_names": [],
+      "owner_claim": "listed_holders_not_exclusive",
+      "effect_facts": {
+        "condition": "self_attacking",
+        "target": "self",
+        "stat_bonuses": {
+          "hit": 30
+        },
+        "trigger_percent": 10
+      },
+      "effect_status": "parsed",
+      "effect_zh": "自身发动攻击时，命中 +30。触发概率为 10%。",
+      "effect_text_sha256": "318fce75676e0859781fee3f2e67f17903197fe430a09e79732276235adc3f08",
+      "source_row_sha256": "56ddf3d0ef1cee65ecbf7a2f4127c9ac01baafd9d2e576b55d177e307e2f06f1",
+      "crest_semantics": "source_identity_only_not_other_game_lore",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "bloodmark_ability_variants": [
+    {
+      "ability": "Diadem of Reflection",
+      "structured_assertion": {
+        "id": "bloodmark_ability_catalog_diadem_of_reflection_33a46dbcd4_en_623691",
+        "name_en": "Diadem of Reflection",
+        "name_zh": "映照之冠",
+        "title_zh": "映照之冠",
+        "summary_zh": "自身发动攻击时，命中 +30。触发概率为 10%。",
+        "ability": "Diadem of Reflection",
+        "crest_name_en": "Gloucester",
+        "crest_name_zh": "古罗斯塔尔",
+        "holders": [
+          {
+            "character": "Ninae",
+            "character_id": "ninae",
+            "supplemental_character_name": null,
+            "character_identity_status": "canonical",
+            "identity_match_method": "exact_name_only"
+          }
+        ],
+        "character_ids": [
+          "ninae"
+        ],
+        "supplemental_character_names": [],
+        "unresolved_holder_names": [],
+        "owner_claim": "listed_holders_not_exclusive",
+        "effect_facts": {
+          "condition": "self_attacking",
+          "target": "self",
+          "stat_bonuses": {
+            "hit": 30
+          },
+          "trigger_percent": 10
+        },
+        "effect_status": "parsed",
+        "effect_zh": "自身发动攻击时，命中 +30。触发概率为 10%。",
+        "effect_text_sha256": "318fce75676e0859781fee3f2e67f17903197fe430a09e79732276235adc3f08",
+        "source_row_sha256": "56ddf3d0ef1cee65ecbf7a2f4127c9ac01baafd9d2e576b55d177e307e2f06f1",
+        "crest_semantics": "source_identity_only_not_other_game_lore",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      "index_assertions": [
+        {
+          "name": "Ninae",
+          "mark": "Diadem of Reflection",
+          "holders": "Ninae"
+        }
+      ],
+      "effect_comparison_status": "prior_index_has_no_structured_effect",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "bloodmark_abilities_used_in_build_calculation": false,
+  "level_ability_catalog": [
+    {
+      "id": "level_ability_catalog_spirits_guidance_2fe755dd0d_en_623691",
+      "name_en": "Spirits' Guidance+",
+      "name_zh": "精灵指引+",
+      "title_zh": "精灵指引+",
+      "summary_zh": "2 格内友军获得精灵之声。",
+      "ability": "Spirits' Guidance+",
+      "effect_facts": {
+        "grants_referenced_ability": true,
+        "target": "allies_in_radius",
+        "radius_spaces": 2,
+        "referenced_ability": {
+          "name_en": "Spirits' Voices",
+          "record_id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+          "collection": "personal_ability_catalog",
+          "identity_status": "exact_owner_and_name"
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "2 格内友军获得精灵之声。",
+      "effect_text_sha256": "cad1b3c0dfe8d60c120c6c7accbaa0f1f2e401b4ed2536e3e5e5753559d19bfe",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": true,
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 35,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ability_catalog_spirits_guidance_d9e236d775_en_623691",
+      "name_en": "Spirits' Guidance",
+      "name_zh": "精灵指引",
+      "title_zh": "精灵指引",
+      "summary_zh": "相邻友军获得精灵之声。",
+      "ability": "Spirits' Guidance",
+      "effect_facts": {
+        "grants_referenced_ability": true,
+        "target": "adjacent_allies",
+        "radius_spaces": null,
+        "referenced_ability": {
+          "name_en": "Spirits' Voices",
+          "record_id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+          "collection": "personal_ability_catalog",
+          "identity_status": "exact_owner_and_name"
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "相邻友军获得精灵之声。",
+      "effect_text_sha256": "70080415c83f9e4ef81b76b1c2dd990f6fb613dfa9c93fdf1eb6a02509630114",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "upgrade_marker": false,
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "required_level": 20,
+      "level_status": "source_listed",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "level_ability_variants": [
+    {
+      "ability": "Spirits' Guidance",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_ninae_spiritsguidance_20",
+          "character_id": "ninae",
+          "character": "Ninae",
+          "ability": "Spirits' Guidance",
+          "level": 20,
+          "effect": null,
+          "source_id": "en_623990",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+          "source_updated_text": "2026-09-26T06:07:44-04:00",
+          "retrieved_at": "2026-09-26T15:03:26+00:00",
+          "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 20,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623990",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+            "source_updated_text": "2026-09-26T06:07:44-04:00",
+            "retrieved_at": "2026-09-26T15:03:26+00:00",
+            "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_spirits_guidance_d9e236d775_en_623691",
+          "name_en": "Spirits' Guidance",
+          "name_zh": "精灵指引",
+          "title_zh": "精灵指引",
+          "summary_zh": "相邻友军获得精灵之声。",
+          "ability": "Spirits' Guidance",
+          "effect_facts": {
+            "grants_referenced_ability": true,
+            "target": "adjacent_allies",
+            "radius_spaces": null,
+            "referenced_ability": {
+              "name_en": "Spirits' Voices",
+              "record_id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+              "collection": "personal_ability_catalog",
+              "identity_status": "exact_owner_and_name"
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "相邻友军获得精灵之声。",
+          "effect_text_sha256": "70080415c83f9e4ef81b76b1c2dd990f6fb613dfa9c93fdf1eb6a02509630114",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": false,
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 20,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    },
+    {
+      "ability": "Spirits' Guidance+",
+      "assertions": [
+        {
+          "collection": "level_abilities",
+          "id": "level_ninae_spiritsguidanceplus_35",
+          "character_id": "ninae",
+          "character": "Ninae",
+          "ability": "Spirits' Guidance+",
+          "level": 35,
+          "effect": null,
+          "source_id": "en_623990",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+          "source_updated_text": "2026-09-26T06:07:44-04:00",
+          "retrieved_at": "2026-09-26T15:03:26+00:00",
+          "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+          "verification": "reference_fact_not_in_game_verified",
+          "required_level": 35,
+          "effect_facts": null,
+          "effect_status": "not_listed",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623990",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+            "source_updated_text": "2026-09-26T06:07:44-04:00",
+            "retrieved_at": "2026-09-26T15:03:26+00:00",
+            "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        },
+        {
+          "collection": "level_ability_catalog",
+          "id": "level_ability_catalog_spirits_guidance_2fe755dd0d_en_623691",
+          "name_en": "Spirits' Guidance+",
+          "name_zh": "精灵指引+",
+          "title_zh": "精灵指引+",
+          "summary_zh": "2 格内友军获得精灵之声。",
+          "ability": "Spirits' Guidance+",
+          "effect_facts": {
+            "grants_referenced_ability": true,
+            "target": "allies_in_radius",
+            "radius_spaces": 2,
+            "referenced_ability": {
+              "name_en": "Spirits' Voices",
+              "record_id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+              "collection": "personal_ability_catalog",
+              "identity_status": "exact_owner_and_name"
+            }
+          },
+          "effect_status": "parsed",
+          "effect_zh": "2 格内友军获得精灵之声。",
+          "effect_text_sha256": "cad1b3c0dfe8d60c120c6c7accbaa0f1f2e401b4ed2536e3e5e5753559d19bfe",
+          "unit_type_restriction": null,
+          "owner_claim": "listed_user_not_exclusive",
+          "upgrade_marker": true,
+          "character": "Ninae",
+          "character_id": "ninae",
+          "supplemental_character_name": null,
+          "character_identity_status": "canonical",
+          "identity_match_method": "exact_name_only",
+          "required_level": 35,
+          "level_status": "source_listed",
+          "source_id": "en_623691",
+          "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+          "source_updated_text": "2026-09-25T05:30:12-04:00",
+          "retrieved_at": "2026-09-27T06:37:50+00:00",
+          "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+          "verification": "reference_fact_not_in_game_verified",
+          "provenance": {
+            "dataset": "guide_facts",
+            "source_id": "en_623691",
+            "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+            "source_updated_text": "2026-09-25T05:30:12-04:00",
+            "retrieved_at": "2026-09-27T06:37:50+00:00",
+            "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+            "verification": "reference_fact_not_in_game_verified"
+          }
+        }
+      ],
+      "level_comparison_status": "same",
+      "effect_comparison_status": "not_compared_structurally"
+    }
+  ],
+  "level_abilities_used_in_build_calculation": false,
+  "personal_ability_catalog": [
+    {
+      "id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+      "name_en": "Spirits' Voices",
+      "name_zh": "精灵之声",
+      "title_zh": "精灵之声",
+      "summary_zh": "敌军使用魔法时，本次战斗命中与回避各 +10。",
+      "ability": "Spirits' Voices",
+      "effect_facts": {
+        "condition": "foe_uses_magic",
+        "timing": "during_combat",
+        "stat_bonuses": {
+          "hit": 10,
+          "avo": 10
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军使用魔法时，本次战斗命中与回避各 +10。",
+      "effect_text_sha256": "eb622f9234f680da5f91029b0d032db08e272bc3aedf50cb5a56a996253c4015",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "personal_ability_variants": [
+    {
+      "variant": "base",
+      "ability": "Spirits’ Voice",
+      "effect_zh": "敌人使用魔法时，战斗中命中与回避 +10。",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "ability": "Spirits' Voices",
+      "effect_zh": "战斗时，若敌人使用魔法，命中、回避+10",
+      "effect_facts": null,
+      "comparison_status": "prior_description_not_structured",
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_29.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "directory",
+      "id": "personal_ability_catalog_spirits_voices_74a75fe53a_en_623691",
+      "name_en": "Spirits' Voices",
+      "name_zh": "精灵之声",
+      "title_zh": "精灵之声",
+      "summary_zh": "敌军使用魔法时，本次战斗命中与回避各 +10。",
+      "ability": "Spirits' Voices",
+      "effect_facts": {
+        "condition": "foe_uses_magic",
+        "timing": "during_combat",
+        "stat_bonuses": {
+          "hit": 10,
+          "avo": 10
+        }
+      },
+      "effect_status": "parsed",
+      "effect_zh": "敌军使用魔法时，本次战斗命中与回避各 +10。",
+      "effect_text_sha256": "eb622f9234f680da5f91029b0d032db08e272bc3aedf50cb5a56a996253c4015",
+      "unit_type_restriction": null,
+      "owner_claim": "listed_user_not_exclusive",
+      "character": "Ninae",
+      "character_id": "ninae",
+      "supplemental_character_name": null,
+      "character_identity_status": "canonical",
+      "identity_match_method": "exact_name_only",
+      "source_id": "en_623691",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+      "source_updated_text": "2026-09-25T05:30:12-04:00",
+      "retrieved_at": "2026-09-27T06:37:50+00:00",
+      "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+      "verification": "reference_fact_not_in_game_verified",
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623691",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623691",
+        "source_updated_text": "2026-09-25T05:30:12-04:00",
+        "retrieved_at": "2026-09-27T06:37:50+00:00",
+        "content_sha256": "7263e2921daf36fbd386342a064b106b867883a2c15bd5d49d97ca108b6561c7",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "personal_ability_comparison_status": "not_compared_structurally",
+  "personal_abilities_used_in_build_calculation": false,
+  "proficiency_abilities": [],
+  "route_recruitment": [
+    {
+      "id": "recruit_ninae_cai_i_3",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "name_zh": "妮涅",
+      "route": "Cai",
+      "chapter": 3,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 6,
+      "special_requirement": "Give 1 Paradise Fish to Ninae.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Paradise Fish",
+          "quantity": 1
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_ninae_dietrich_i_4",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "name_zh": "妮涅",
+      "route": "Dietrich",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Give 1 Paradise Fish to Ninae.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Paradise Fish",
+          "quantity": 1
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_ninae_leda_i_4",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "name_zh": "妮涅",
+      "route": "Leda",
+      "chapter": 4,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 8,
+      "special_requirement": "Give 1 Paradise Fish to Ninae.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Paradise Fish",
+          "quantity": 1
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    },
+    {
+      "id": "recruit_ninae_theodora_i_5",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "name_zh": "妮涅",
+      "route": "Theodora",
+      "chapter": 5,
+      "part": "I",
+      "support_level": 3,
+      "renown_level": 6,
+      "special_requirement": "Give 1 Paradise Fish to Ninae.",
+      "automatic_join": null,
+      "availability": "recruitable",
+      "missing_thresholds_mean": "not_recorded_not_zero",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified",
+      "gold_cost": null,
+      "required_items": [
+        {
+          "name": "Paradise Fish",
+          "quantity": 1
+        }
+      ],
+      "required_story_chapter": null,
+      "chapter_conflict": null,
+      "required_paralogue": null,
+      "required_request": null,
+      "required_correct_answers": null,
+      "automatic_unlock": null,
+      "unlock_method": null,
+      "requires_separate_quest_or_event": null,
+      "condition_details_status": "structured_where_explicit_other_conditions_retained"
+    }
+  ],
+  "level_abilities": [
+    {
+      "id": "level_ninae_spiritsguidance_20",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "ability": "Spirits' Guidance",
+      "level": 20,
+      "effect": null,
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "level_ninae_spiritsguidanceplus_35",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "ability": "Spirits' Guidance+",
+      "level": 35,
+      "effect": null,
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "spell_unlocks": [
+    {
+      "id": "spell_ninae_b_white_physic",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "skill_level": "B",
+      "magic": "white",
+      "spell": "Physic",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ninae_c_black_blizzard",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "skill_level": "C",
+      "magic": "black",
+      "spell": "Blizzard",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ninae_c_white_nosferatu",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "skill_level": "C",
+      "magic": "white",
+      "spell": "Nosferatu",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ninae_d_black_fire",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "skill_level": "D",
+      "magic": "black",
+      "spell": "Fire",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    },
+    {
+      "id": "spell_ninae_d_white_heal",
+      "character_id": "ninae",
+      "character": "Ninae",
+      "skill_level": "D",
+      "magic": "white",
+      "spell": "Heal",
+      "source_id": "en_623990",
+      "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+      "source_updated_text": "2026-09-26T06:07:44-04:00",
+      "retrieved_at": "2026-09-26T15:03:26+00:00",
+      "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+      "verification": "reference_fact_not_in_game_verified"
+    }
+  ],
+  "growth_variants": [
+    {
+      "variant": "base",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 35,
+        "spd": 35,
+        "dex": 45,
+        "def": 35,
+        "res": 45,
+        "lck": 50,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "characters",
+        "source_url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+        "status": "WIP"
+      }
+    },
+    {
+      "variant": "profile",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 35,
+        "spd": 35,
+        "dex": 45,
+        "def": 35,
+        "res": 45,
+        "lck": 50,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "character_profiles",
+        "source_url": "https://www.gamersky.com/handbook/202609/2211429_29.shtml",
+        "status": "reference_snapshot"
+      }
+    },
+    {
+      "variant": "reference",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 35,
+        "spd": 35,
+        "dex": 45,
+        "def": 35,
+        "res": 45,
+        "lck": 50,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "overseas_database",
+        "review_status": "community_extraction_not_game_verified",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+        "source_commit": "29609cc76a0a79a86473ef1e0980771e94c97640"
+      }
+    },
+    {
+      "variant": "reference_update",
+      "growth": {
+        "hp": 45,
+        "str": 45,
+        "mag": 35,
+        "spd": 35,
+        "dex": 45,
+        "def": 35,
+        "res": 45,
+        "lck": 50,
+        "cha": 40
+      },
+      "provenance": {
+        "dataset": "guide_facts",
+        "source_id": "en_623990",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623990",
+        "source_updated_text": "2026-09-26T06:07:44-04:00",
+        "retrieved_at": "2026-09-26T15:03:26+00:00",
+        "content_sha256": "3852ee78444fd1f12bbcaefedd9a2e9fafa489a0319c0209fb7d76daf55ccba8",
+        "verification": "reference_fact_not_in_game_verified"
+      }
+    }
+  ],
+  "growth_conflicts": [],
+  "growth_differences": [],
+  "growth_scope_note": null,
+  "growth_review_status": "available_records_consistent_not_game_verified",
+  "recruitment": [
+    {
+      "route": "凯伊",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+    },
+    {
+      "route": "迪托利希",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+    },
+    {
+      "route": "赛奥朵拉",
+      "timing": "第一部第5章3月",
+      "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+    },
+    {
+      "route": "蕾达",
+      "timing": "第一部第4章3月",
+      "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+    }
+  ],
+  "recruitment_variants": {
+    "base": {
+      "Cai": "3S, 6R, 1x Paradise Fish",
+      "Dietrich": "3S, 8R, 1x Paradise Fish",
+      "Theodora": "3S, 6R, 1x Paradise Fish",
+      "Leda": "3S, 6R, 1x Paradise Fish"
+    },
+    "profile": [
+      {
+        "route": "凯伊",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "迪托利希",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      },
+      {
+        "route": "赛奥朵拉",
+        "timing": "第一部第5章3月",
+        "condition": "支援Lv3/名声Lv6/可交涉（难度高）"
+      },
+      {
+        "route": "蕾达",
+        "timing": "第一部第4章3月",
+        "condition": "支援Lv3/名声Lv8/可交涉（难度高）"
+      }
+    ]
+  },
+  "supports": [
+    {
+      "name": "Cai",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Diego",
+      "partner": "Ninae",
+      "rank": "A"
+    },
+    {
+      "name": "Eshmel",
+      "partner": "Ninae",
+      "rank": "A"
+    },
+    {
+      "name": "Lysander",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Cai",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Diego",
+      "rank": "A"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Eshmel",
+      "rank": "A"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Lysander",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Orchel",
+      "rank": "C"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Peppe",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Peter",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Simon",
+      "rank": "B"
+    },
+    {
+      "name": "Ninae",
+      "partner": "Sirocco",
+      "rank": "B"
+    },
+    {
+      "name": "Orchel",
+      "partner": "Ninae",
+      "rank": "C"
+    },
+    {
+      "name": "Peppe",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Peter",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Simon",
+      "partner": "Ninae",
+      "rank": "B"
+    },
+    {
+      "name": "Sirocco",
+      "partner": "Ninae",
+      "rank": "B"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Ninae",
+      "skill_level": "D",
+      "magic": "Black Magic",
+      "spell": "Fire"
+    },
+    {
+      "name": "Ninae",
+      "skill_level": "D",
+      "magic": "White Magic",
+      "spell": "Heal"
+    },
+    {
+      "name": "Ninae",
+      "skill_level": "C",
+      "magic": "Black Magic",
+      "spell": "Blizzard"
+    },
+    {
+      "name": "Ninae",
+      "skill_level": "C",
+      "magic": "White Magic",
+      "spell": "Nosferatu"
+    },
+    {
+      "name": "Ninae",
+      "skill_level": "B",
+      "magic": "White Magic",
+      "spell": "Physic"
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Ninae",
+      "gift": "Arrowhead Gem"
+    },
+    {
+      "name": "Ninae",
+      "gift": "Crimson Ghosh"
+    },
+    {
+      "name": "Ninae",
+      "gift": "Eastern Black Silk"
+    },
+    {
+      "name": "Ninae",
+      "gift": "Eastern Tea Leaves"
+    }
+  ],
+  "skill_preferences": [
+    {
+      "name": "Ninae",
+      "kind": "preferred",
+      "skill": "White Magic Skill"
+    },
+    {
+      "name": "Ninae",
+      "kind": "preferred",
+      "skill": "Spear Skill"
+    }
+  ],
+  "blaze_arts": [],
+  "bloodmarks": [
+    {
+      "name": "Ninae",
+      "mark": "Diadem of Reflection",
+      "holders": "Ninae"
+    }
+  ],
+  "character_notes": [],
+  "build_presets": [],
+  "coverage": {
+    "has_portrait": true,
+    "has_recruitment_profile": true,
+    "empty_relations_mean": "not_recorded_not_confirmed_absent",
+    "source_status": "community_extraction_not_game_verified"
+  },
+  "page_id": "ninae",
+  "display_name": "妮涅"
+}
