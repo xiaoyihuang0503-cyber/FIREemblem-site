@@ -144,6 +144,8 @@ function detail(collection,id){
     if(r.review_notes_zh.length)content+=section('数值核对',r.review_notes_zh.join('；'));
   }else if(collection==='weapon_profiles'){
     content+=section('类型',skillNames[r.weapon_type]);
+    const weaponRules=store.database.guide_facts.item_usage_rules.filter(v=>v.effect_facts?.item_name_en===r.name_en&&v.category==='weapon_acquisition'&&v.effect_status==='parsed');
+    content+='<section><h3>获得途径</h3>'+(weaponRules.length?weaponRules.map(v=>`<p>${esc(v.summary_zh)}</p><button type="button" class="secondary-btn" data-related-ability="${raw(v.id)}" data-related-collection="item_usage_rules">${esc(v.title_zh)} · 查看详情 →</button>`).join(''):'<p>逐件获得途径尚未收录。</p>')+'</section>';
     const variants=store.weaponVariants(r.name_en);
     const individual=variants.assertions.find(v=>Object.hasOwn(v,'hit'));
     if(!individual)content+=section('资料情况','目前只有目录数值；命中、必杀、回避、具体取得条件与适用职业待补。');
@@ -153,8 +155,6 @@ function detail(collection,id){
     if(Object.hasOwn(r,'hit'))content+=`<div class="knowledge-stats">${[['dex','命中',r.hit],['lck','必杀',r.crit],['spd','回避',r.avoid]].map(([color,label,value])=>`<div class="stat-${color}"><span>${esc(label)}</span><strong>${esc(value??'待补')}</strong></div>`).join('')}</div>`;
     if(Object.hasOwn(r,'price_gold'))content+=section('标价',r.price_gold==null?'待补':`${r.price_gold} 金币（不代表所有商贩售价）`)+section('熟练度要求',`${skillNames[r.required_skill]} ${r.required_skill_rank}`);
     for(const classId of r.class_ids??[])content+=`<button type="button" class="secondary-btn" data-related-class="${raw(classId)}">${esc(store.translate(store.classContext(classId).class.name_en))}职业 →</button>`;
-    const weaponRules=store.database.guide_facts.item_usage_rules.filter(v=>v.effect_facts?.item_name_en===r.name_en&&v.category==='weapon_acquisition');
-    if(weaponRules.length)content+='<section><h3>取得条件</h3>'+weaponRules.map(v=>`<button type="button" class="secondary-btn" data-related-ability="${raw(v.id)}" data-related-collection="item_usage_rules">${esc(v.title_zh)} →</button>`).join('')+'</section>';
     if(variants.assertions.length>1){
       content+=section('资料核对',variants.conflicting_fields.length?'数值存在冲突，各条资料分别保留。':'已保留独立数值记录；部分记录的字段尚未列全。');
       content+=variants.assertions.filter(v=>v.id!==r.id).map(v=>`<button type="button" class="secondary-btn" data-related-ability="${raw(v.id)}" data-related-collection="weapon_profiles">${esc(v.title_zh)}${Object.hasOwn(v,'hit')?' · 完整数值与职业要求':' · 目录数值'} →</button>`).join('');
@@ -192,20 +192,24 @@ function detail(collection,id){
     if(item.preference_variants.some(v=>v.preference_comparison_status==='conflicting'))content+=section('偏好记录差异','同一人物与礼物存在喜欢、非常喜欢两种强度记录；全部保留，未选择其中一项覆盖。');
     content+=`<button type="button" class="secondary-btn" data-related-ability="${raw(r.gift_profile_id)}" data-related-collection="gift_profiles">查看礼物档案 →</button>`;
   }else if(collection==='material_profiles'){
-    content+=section('类型',r.category_zh)+section('说明',r.effect_zh);
+    content+=section('类型',r.category_zh);
+    const materialRules=store.database.guide_facts.item_usage_rules.filter(v=>v.effect_facts?.item_name_en===r.name_en&&v.effect_status==='parsed');
+    const acquisitionRules=materialRules.filter(v=>v.category?.endsWith('_acquisition'));
+    content+='<section><h3>获得途径</h3>'+(acquisitionRules.length?acquisitionRules.map(v=>`<p>${esc(v.summary_zh)}</p><button type="button" class="secondary-btn" data-related-ability="${raw(v.id)}" data-related-collection="item_usage_rules">${esc(v.title_zh)} · 查看详情 →</button>`).join(''):'<p>逐件获得途径尚未收录。</p>')+'</section>';
+    content+=section('说明',r.effect_zh);
     const variants=store.materialVariants(r.name_en);
     content+=section('记录对照',({same:'已记录的用途与环境事实一致；具体数值仍待补。',missing_in_some_sources:'同名记录有资料缺项，保留各条记录；缺项不代表没有用途。',conflicting:'同名记录的已知事实存在差异，待核对。',single_source:'当前仅有一份已知事实记录。'})[variants.effect_comparison_status]);
     if(r.possible_alias_names.length)content+=section('名称待核对','可能与'+r.possible_alias_names.map(n=>store.translate(n)).join('、')+'为名称变体；保留独立条目，尚未合并。');
     if(r.effect_facts?.related_item_name)content+=section('关联物品',store.translate(r.effect_facts.related_item_name));
-    const materialRules=store.database.guide_facts.item_usage_rules.filter(v=>v.effect_facts?.item_name_en===r.name_en);
-    if(materialRules.length){
-      content+='<section><h3>取得与使用条件</h3></section>';
-      for(const rule of materialRules)content+=`<button type="button" class="secondary-btn" data-related-ability="${raw(rule.id)}" data-related-collection="item_usage_rules">${esc(rule.title_zh)} →</button>`;
+    const useRules=materialRules.filter(v=>!v.category?.endsWith('_acquisition'));
+    if(useRules.length){
+      content+='<section><h3>使用条件</h3></section>';
+      for(const rule of useRules)content+=`<button type="button" class="secondary-btn" data-related-ability="${raw(rule.id)}" data-related-collection="item_usage_rules">${esc(rule.title_zh)} →</button>`;
     }
     content+=section('待补资料',r.missing_fields_zh.join('、'));
     content+='<p class="knowledge-note">类别使用规则不代表每件材料都适用同一配方、恢复量或诱饵条件。</p>';
   }else if(collection==='item_profiles'){
-    content+=section('类型',r.category_zh)+section('效果',r.effect_zh||'效果待补');
+    content+=section('类型',r.category_zh)+section('获得途径','逐件获得途径尚未收录。')+section('效果',r.effect_zh||'效果待补');
     if(r.category!=='consumable')content+=section('重量',r.weight??'待补');
     if(r.effect_facts?.stat_bonuses&&!r.effect_facts.condition)content+=stats(r.effect_facts.stat_bonuses);
     if(r.missing_fields_zh.length)content+=section('待补资料',r.missing_fields_zh.join('、'));

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "sha256:8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76",
+  "snapshot_id": "sha256:38a408b94755493407a3ae5211b8538f4f212237f7922699a9acb2015295d372",
   "updated_at": "2026-09-28",
   "origin": {
     "site_source_commit": "01c88f5caa38d438d09edd7b5ccd507c5acf1421",
@@ -232,7 +232,7 @@
     {
       "id": "weapon_profiles",
       "label": "武器与法术数值",
-      "count": 115,
+      "count": 116,
       "coverage": "reference_partial"
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "material_profiles",
       "label": "矿石、食材与鱼类",
-      "count": 197,
+      "count": 201,
       "coverage": "reference_partial"
     },
     {
@@ -298,13 +298,13 @@
     {
       "id": "item_usage_rules",
       "label": "道具使用规则",
-      "count": 82,
+      "count": 88,
       "coverage": "reference_partial"
     },
     {
       "id": "ingestion_pages",
       "label": "入库进度",
-      "count": 809,
+      "count": 811,
       "coverage": "audit_only"
     },
     {
@@ -386,8 +386,8 @@
     },
     {
       "path": "data/guide_facts.json",
-      "bytes": 4367576,
-      "sha256": "eb71ec30d8115af6e08317521c5ce2980702fa096a980b9f0d44dd8bc7d15dc1"
+      "bytes": 4390552,
+      "sha256": "6ce1fda4042abaa9e9272bdf833ac3f2c4d561c6b089a48b0a20006e7bc52519"
     },
     {
       "path": "data/official_character_notes.json",
@@ -406,8 +406,8 @@
     },
     {
       "path": "data/source_inventory.json",
-      "bytes": 740587,
-      "sha256": "18e4a2ec328692d4d9b18c0f2bf55704b1f7cb4e7e15748e0d6ee75857c7e3c9"
+      "bytes": 754967,
+      "sha256": "a1f2555e828de2866d5a16461aca9151a42e6bfedbb7d554eb28e70fa99d4bc3"
     },
     {
       "path": "data/sources.json",
@@ -416,8 +416,8 @@
     },
     {
       "path": "data/translations.zh-CN.json",
-      "bytes": 77828,
-      "sha256": "e885933b6a45957f4cdfc555a30dee057ae0282239e9af18ef4848a3b352d32d"
+      "bytes": 78296,
+      "sha256": "215c7ec79adaca74303719c178c2be58d6e88176a277684ba30d6f17759ac6e5"
     },
     {
       "path": "dist/assets/portraits/alexandra.webp",
@@ -706,341 +706,341 @@
     },
     {
       "path": "dist/database.json",
-      "bytes": 5998899,
-      "sha256": "8a9141ae4a5a0b2f01381767fe81bf3260ed22d59097231cdef5607644868f76"
+      "bytes": 6038891,
+      "sha256": "38a408b94755493407a3ae5211b8538f4f212237f7922699a9acb2015295d372"
     },
     {
       "path": "dist/database.sqlite",
-      "bytes": 11608064,
-      "sha256": "117b21faba7f9a5cfa6d04abf1e398fc9a476b15340134d6387c5824b84bd368"
+      "bytes": 11665408,
+      "sha256": "888b228fe642589d4a1bfd11edf5efdd870a866dcf9d86e5ca7103b78767613f"
     },
     {
       "path": "dist/characters/eshmel.json",
       "bytes": 48555,
-      "sha256": "4004f02b2af5ff7e4cf574c995134fe594d41d26db6e9ee8df8b9c736205c360"
+      "sha256": "63c2f051760a8ba73a6f8c8550ab6ebbc215c19827276a9c269e4af054fcb6a5"
     },
     {
       "path": "dist/characters/cai.json",
       "bytes": 78088,
-      "sha256": "a6e158d3ed465645d98fed9511e5595e2cb8547da81d352b52f2ec872570dfea"
+      "sha256": "882a685308a297447bbf3b0a92090e95dc3765139c321a8cd2cc018bacbd0221"
     },
     {
       "path": "dist/characters/tialla.json",
       "bytes": 170485,
-      "sha256": "d61cd0ffab6dafe80afdd7a5686f56445af0bb6fd533cd609ca233e0a369e18d"
+      "sha256": "34f490cb966e9e9d7efcf98cbcce6d495497597398dc954d143de5450cc62b74"
     },
     {
       "path": "dist/characters/peter.json",
       "bytes": 140826,
-      "sha256": "a65701e229f9d93b11004946be6b6c41d106eff2337e8b39efda59b1849930ea"
+      "sha256": "e789de76a52bf015a08de16c822ab020414b9ff92e5d403134bd2cc999513ad4"
     },
     {
       "path": "dist/characters/ultand.json",
       "bytes": 83401,
-      "sha256": "30bf419e0554006ece90a1ae5404757bde63de7cbdcf035bdb3a0fdff63f1d78"
+      "sha256": "e870d1f94d196df83b6c74f9d0cfb00ef8ab9ec7ac0831dd62b367793d730253"
     },
     {
       "path": "dist/characters/bertrand.json",
       "bytes": 29080,
-      "sha256": "e7a514cae5795e6d6efba8b2e90d048c8fc74b89c511ac12e0ff4e9e069fde8a"
+      "sha256": "6029f61221a2935bb22e9c6a2f0ef824bac72de2b1cbd8c5b5ddd2d21c347800"
     },
     {
       "path": "dist/characters/gaitz.json",
       "bytes": 82833,
-      "sha256": "fbc338224e6a28f5afbfc0acfe627bd04da9b7ce8fee731e5b1f7aaa6e5b1fa4"
+      "sha256": "b07ed4d9b520b4c2a658bb44fd53696b50d0cf548f0ca74ee9f0e1580ac0377b"
     },
     {
       "path": "dist/characters/jester.json",
       "bytes": 72168,
-      "sha256": "24176b969d1443b115634e634750585c5c0a9c196cf934e814582ee43f13a377"
+      "sha256": "20933d61878e65e40b5047bfaace49310e96bea30a56cf5c137d624391078dbb"
     },
     {
       "path": "dist/characters/goliath.json",
       "bytes": 139805,
-      "sha256": "7f51a2fda6c14b8700e29299aa235ad2b07ea74bccdc2bb06bfd17b041d53496"
+      "sha256": "94ec804d127554cf280e766859709372b4db01fb2991128244d9c5dc4ca5793d"
     },
     {
       "path": "dist/characters/dante.json",
       "bytes": 84777,
-      "sha256": "b369d00556602cc4dfe74e9d2b88b9b7973f5540342d680c2ee3bf845fc1b2c9"
+      "sha256": "8b9f2d137d9581bb07eb8489949514c5b9b0cefe19740e01fee69c89099f0f94"
     },
     {
       "path": "dist/characters/dietrich.json",
       "bytes": 121383,
-      "sha256": "b7fc255aca6970414c1a07a3969405e19d033e34f85c35968f745f2e3762a850"
+      "sha256": "44646c8794297ebba1f45397d9aa3b2826dff3887e450a00c9e6f8c7103cfb1c"
     },
     {
       "path": "dist/characters/fabio.json",
       "bytes": 194984,
-      "sha256": "4488851a0a4ba209715b428d4a6d340b1da420100f389f52a2040ea8e3fcd130"
+      "sha256": "7c713dc70d5a410b98fd3449b079dd994839eb25ded24fd496b9ec9e573d66b0"
     },
     {
       "path": "dist/characters/esmeralda.json",
       "bytes": 207264,
-      "sha256": "d436f733712520234fcd8c88204db9efad1dcd52d7c026000acd3a77b929ccc6"
+      "sha256": "55e31573622c7b7e3e57a7ce1a61f8f5d8ef37c6dc101e89b01ee84c6b6122a5"
     },
     {
       "path": "dist/characters/mikaela.json",
       "bytes": 211854,
-      "sha256": "c3c0ccd97140c1464fb2880fa3b0fbf38489c228eb29a9b681b4a7d923fc0d2b"
+      "sha256": "469fb96b2c64bcb5193a46bdf773d124d681ae13bb9b21bd31897be69befa2fa"
     },
     {
       "path": "dist/characters/orchel.json",
       "bytes": 44961,
-      "sha256": "71e45b39eadd9b3127eb4b381be3846ca5f35c3b636a7536c2b1a1b299d95e4b"
+      "sha256": "b36324832b10d6861e1604cf2300f7c30bca9d67882c23de3d16c689123742b5"
     },
     {
       "path": "dist/characters/diego.json",
       "bytes": 71443,
-      "sha256": "82e495d3675a4a8af288d0e0664bfdc6d07dde75518a8c7cd390d32e6b1174c6"
+      "sha256": "cd5efba0ec0a4aba4202c2d97c30e063ffbea6b7d7d689c86324ea4b88f3d039"
     },
     {
       "path": "dist/characters/loretta.json",
       "bytes": 99499,
-      "sha256": "245572b00477f88ed8d140892f22bf1308427cfde5c7937666f0c8a3e6aecc2c"
+      "sha256": "2a2671559d84234c81952fb39f4bffaf716b00a0ca0b53719e1b972d328e9618"
     },
     {
       "path": "dist/characters/seteth.json",
       "bytes": 150637,
-      "sha256": "41861cf882dc3184d690d69c60a03caa769b6ec7c74c04b7b5548e1153b33365"
+      "sha256": "c206b412b032e9d28fe93c21e82fee922f40461e02f61ae63386d3892ca259ba"
     },
     {
       "path": "dist/characters/ninae.json",
       "bytes": 82705,
-      "sha256": "bc33e57e0e90fa05e95ae19a443cf4b6a4a45996057028fc812ebbac88a78c3c"
+      "sha256": "b7e0682f1fa31c1adc9ac300efd0b1c2f1769b598d99b192a3df78d43526070e"
     },
     {
       "path": "dist/characters/theodora.json",
       "bytes": 69040,
-      "sha256": "09c7b65951a009dcd81903248f3d2d117fd407edc0dd8dabca8b433087f494b8"
+      "sha256": "74a88f33e1ff6b0b0058b624a89f0d08de33ffe9854e4235f03e390790fc7e84"
     },
     {
       "path": "dist/characters/bonaventure.json",
       "bytes": 138849,
-      "sha256": "595573cb22f163e02a4305a0589336b994b857304c70c62a6f734e3805543cda"
+      "sha256": "c4489dd772633bf28eb9fb39fb07c6fbe7516dd6e99ddb1bc8ee57bb13d3b9b5"
     },
     {
       "path": "dist/characters/tobias.json",
       "bytes": 223700,
-      "sha256": "54e33748dc8e49606e1c8005752691103711d1fc80000ab1d9e41c27849f6e70"
+      "sha256": "06e1f0d154738f5afce9e29352fca5025e51b90ba256db23bda3006037e90057"
     },
     {
       "path": "dist/characters/lilian.json",
       "bytes": 125278,
-      "sha256": "ee6ccd792f7d2a3d5be9376e08c9c7edd36f805c5457be17b33b68dca21adf05"
+      "sha256": "494baae96916b59dba0be74fc60112f8db872dbfdd4608f40db6618d337c4734"
     },
     {
       "path": "dist/characters/lysander.json",
       "bytes": 69964,
-      "sha256": "03149ce345bfc5b2a9bd0aa4182f3e10369a2dcb28557190a8deafe12c1265c7"
+      "sha256": "e6b1065be7313fdcd4db11b00fbe52a8b23376bef74165771d7a996b38420f67"
     },
     {
       "path": "dist/characters/talimun.json",
       "bytes": 34959,
-      "sha256": "c75d9b78c92f11623bbaa49b2a6bb8b516189634ce0f9de81f4beedccc9da527"
+      "sha256": "08044b568236502185404dcb285975efc07a52eb9ed9038650d03175d8b9f40e"
     },
     {
       "path": "dist/characters/ursula.json",
       "bytes": 84994,
-      "sha256": "06854a513af1904d583c655be9e5a6de85f881a2758ece2af8e13358eaf9c8e2"
+      "sha256": "c3df55a4bc7dd4d5005f0ad7897b09646c556d637d51d5595c736d8fded2301d"
     },
     {
       "path": "dist/characters/ludia.json",
       "bytes": 184426,
-      "sha256": "3a7e9b84874eb9c9238f1fe3376e94f0d705e488c19613e982ec700d6d110e11"
+      "sha256": "b97e2630b0fcd90da249d36354ab98e8508212952361a3b32dca58e5e2bb49c7"
     },
     {
       "path": "dist/characters/simon.json",
       "bytes": 54547,
-      "sha256": "ab65d96eee4813154dfc3dfc1ecb210b095b9f14f936dd678763b12f2a50bb73"
+      "sha256": "a2cce12efed6d3e26078676c521979cf31987fdd18a7f25afe84ebb85e46aae8"
     },
     {
       "path": "dist/characters/fianna.json",
       "bytes": 107659,
-      "sha256": "a8fa38c9acddaef2bb9b5bbe48e9fc72203716beb0ced44ff70000db097775f7"
+      "sha256": "0a7a67f38640dc2fa4cc41075bc7c57dc02b7ddfd6fe5384462037ddeb3b782c"
     },
     {
       "path": "dist/characters/leda.json",
       "bytes": 186106,
-      "sha256": "3bcc6f23cfe36755f9000469819d63922ae5ae4f31296fba30e5a83032ab2b5a"
+      "sha256": "dc42eaa83681d5dbfd5b1a0c4c362a816d546c470f0b840d9577dfda56fcfc6d"
     },
     {
       "path": "dist/characters/buccar.json",
       "bytes": 125481,
-      "sha256": "86dd467d3b93ca0e3c4c2c10417af602f6c4219c21ec52cc0f30c83579b6647d"
+      "sha256": "10f318364f00d1f289284ef88549da6cb89ba3e11cae3aa83cd69d233d41af91"
     },
     {
       "path": "dist/characters/sirocco.json",
       "bytes": 131671,
-      "sha256": "9e4b2c5b4b22850e915a10f4c5ba6d06babecc4ba247effdc8c836b17129e663"
+      "sha256": "417f4e166f35799ca23c5c5467a64969e1e45860ab957653566669d69511bd41"
     },
     {
       "path": "dist/characters/olympia.json",
       "bytes": 104206,
-      "sha256": "0ac37dd5a62fed9c5f91017ee9d4e412930b2f84b339accb5fa68598e5cec3eb"
+      "sha256": "0de7b04e3b7c0939225173c3303a8bc268c9790fa3ab8585918ace088d9303f6"
     },
     {
       "path": "dist/characters/mu.json",
       "bytes": 102727,
-      "sha256": "d5e4d4289afcd544aeb04943ffcdb5b1db358e30f563d14829119ae0ea3a9135"
+      "sha256": "33555d5738060f36642285595b89353fb3954a985a1837753c366892636ec0df"
     },
     {
       "path": "dist/characters/anatolia.json",
       "bytes": 27621,
-      "sha256": "62929a6795b87bb664f71c63bf222230ec10b24adf5cfaa197aab5a76a092a3a"
+      "sha256": "590988d6d240ecdf6f6a2e4339093bd7bed7052af8e6dca1afcc4df21f6d841d"
     },
     {
       "path": "dist/characters/sha_lan.json",
       "bytes": 80644,
-      "sha256": "02b5d355e416f0287ab438039764dc10ecc140cac451c67bbbceead2e7866329"
+      "sha256": "32b02637931d5e896ea8dc2670e16ade7a04b0ac15c011f25928a3ab9332a559"
     },
     {
       "path": "dist/characters/nezha.json",
       "bytes": 81097,
-      "sha256": "35f84ea32452211887935a9078a467f809574e9c8aa1ba44278471fccbc014db"
+      "sha256": "a1acc56d7c090026f74849a87ccacc520a33f5045ec6ee70a0de58250f451f84"
     },
     {
       "path": "dist/characters/dadao.json",
       "bytes": 158499,
-      "sha256": "3dd7caf14c35b81d8f99291cacbf90c62ee177bbae1e184ae5a1ac6160286b28"
+      "sha256": "c7e0c83f7bc6e9b62f298ad89d20de336bdfffe66358cb9c4bcf5b642fe6e421"
     },
     {
       "path": "dist/characters/halvin.json",
       "bytes": 119455,
-      "sha256": "8d859903ddf15548d21ca150c68b03861760e573b939370bd207132827747102"
+      "sha256": "dc69587968ea63026621dfd8766d1c3fa246e144fbf2a63305df86b027512c6f"
     },
     {
       "path": "dist/characters/aurora_guest.json",
       "bytes": 4843,
-      "sha256": "0757fb830b86ca0a316096082a7d21ce654a066d304e97df1cc9521e0c4d373c"
+      "sha256": "28ae57b383db954e28be583dad918aad5af534d4d0bf05f7fe0fbab05202606c"
     },
     {
       "path": "dist/characters/guzran.json",
       "bytes": 177770,
-      "sha256": "477d7465412e6ebfc3670e96dd5c0c1ef2daca7eb504760b1896654f5c92e52d"
+      "sha256": "b53952a693cd5bcff15de0b97bb4f8e9a8dae65cbfacb38618d0c997c9ba02cf"
     },
     {
       "path": "dist/characters/yang_jie.json",
       "bytes": 236506,
-      "sha256": "e58717c19b67ba32165cee456b27359b105f91224fb3aae495aa448ede2fbf83"
+      "sha256": "0ff1c4d345624c3cd282a39ec0fd42f37d37d87fd9581594b68802793cf4c3dc"
     },
     {
       "path": "dist/characters/io.json",
       "bytes": 117475,
-      "sha256": "ab560c4c4d33e56a6bd75698f0946fc3df3c66d1fc457089599830444878d329"
+      "sha256": "ace8abeb4d5cbaee23a13e5876058ceae0f1e7b8ad3d0c8e4d13065beeb24382"
     },
     {
       "path": "dist/characters/peppe.json",
       "bytes": 144015,
-      "sha256": "2a557fb597a97d7b245d5e19da419aff8867314f06ece949d83d8c92015a4f34"
+      "sha256": "d57c3d782f60fc732a45935a78800c2c70db85857a3e7c0b36c84fc17ad16b85"
     },
     {
       "path": "dist/characters/noctula.json",
       "bytes": 79597,
-      "sha256": "06e067fd1c910dd07def98e7a80debff018105db4b0d291cde1decb4cb0ac0bc"
+      "sha256": "ceb984c5f1d7d45fe6de6c20d9169d380bcaa14ace356b9fc773c3747502a35d"
     },
     {
       "path": "dist/characters/sofia.json",
       "bytes": 173853,
-      "sha256": "77dc1ed293242d46c5f284bd2cb353a5335bde64407b2fde49db54447f9e9418"
+      "sha256": "e12054df7dcf6ca24475ebe7af8f03db13b2b867a8372cc458cac2ae6ce4830f"
     },
     {
       "path": "dist/characters/catania.json",
       "bytes": 132483,
-      "sha256": "c2787bb9510d17087ce719f400b1df6724f9fee67d2fab40ba282b8969216b52"
+      "sha256": "9ca85d9315cd9e079e47aa6fcf89cf9831a8db00b8f75fd66df02ed1c6c5a2ce"
     },
     {
       "path": "dist/characters/nydine.json",
       "bytes": 92468,
-      "sha256": "1bf6f98907c7531cc4037c9f6af21a07d36a2f5e581e24f5dd2eb52f4d5765f7"
+      "sha256": "6aa1cd340237c752e6acdce2add24b59b9236217da6a78a7d1e2166882ef23db"
     },
     {
       "path": "dist/characters/zarcone.json",
       "bytes": 85874,
-      "sha256": "fe943ca12ea844b9c8e7e70380c0f946310495b4387f3e9610e62b601f14cfdd"
+      "sha256": "653d87dd420b4266ca2f688717e3b191c47e81f239d16dcf32c564e484d3bd11"
     },
     {
       "path": "dist/characters/majide.json",
       "bytes": 129208,
-      "sha256": "180681ea3857d44cf7129134fc5d07b075dcc6ef2141377b98803f7895d33fb5"
+      "sha256": "5bf5ee34a8596f1911e45dee5ffbb358474c2f4cc854473337c0fdefeb46d18c"
     },
     {
       "path": "dist/characters/benditz.json",
       "bytes": 115415,
-      "sha256": "e108e044cd6c606cff38f68bf27de7c4681e382352b76ba2456fd46e6dc99234"
+      "sha256": "1571ed087a853c8e645e7e71297c4c7d7a5d9567debf40baaaba9444a7a2f1e8"
     },
     {
       "path": "dist/characters/inyoni.json",
       "bytes": 89376,
-      "sha256": "26a1c4568ae4227fd3ddeabfd76167eefc6b2f3f16fba9c4215800b9dd62c571"
+      "sha256": "17fb48c07ea839aa058dd9e13860587ea081131ecf8dc185adeeae3a660f104b"
     },
     {
       "path": "dist/characters/jasmine.json",
       "bytes": 147236,
-      "sha256": "ce8ee947487411808615ec8b4a8f622f7b9c8aefbbd61d7ec5148284ec5dfd9f"
+      "sha256": "be372322962de644ac490655e9eddced7e0faf1e964694f607979f3217d39d04"
     },
     {
       "path": "dist/characters/alexandra.json",
       "bytes": 159029,
-      "sha256": "1af9fff8b430183a27216769a2b498c3c7030395eb18a97e950ebb50eddde057"
+      "sha256": "fc06c8386f3ac1b86a4a618f7fc58c507a54357fbc91058008259d0b24dddbab"
     },
     {
       "path": "dist/characters/nuzzuo.json",
       "bytes": 127609,
-      "sha256": "2d74c0efc2d45f41b42e1c87f8ee9d394808466ea376082d599ddfc891123f54"
+      "sha256": "82850ba22ef99b405445cccb718b0b893986545defdbedff6267623b6b4d29d6"
     },
     {
       "path": "dist/characters/centurio.json",
       "bytes": 13806,
-      "sha256": "e803429558ab27bcfacfc84853db6c6ee5afe9bc2641503cde8e71670adf164e"
+      "sha256": "d83111d4b31f3e86e9b8809192b269bc4551f8a0c1bedea4c43942b80a2bc0bd"
     },
     {
       "path": "dist/characters/kiroc.json",
       "bytes": 142410,
-      "sha256": "0ab9e75211d87770ae7e37ae06e5a7fbbf3bf125182fad43018797614fda6980"
+      "sha256": "c5243c955b8d3e79398f21f84253556109d402133daff185864a2060a1569226"
     },
     {
       "path": "dist/characters/aswan.json",
       "bytes": 11935,
-      "sha256": "af6cd4fb85cc3b589fbcf29d8b3817d52d14faae73e0bafed32a5d1f0c32b75a"
+      "sha256": "4c72163b1ca1d66b809b01c588201e53fe5448317a566fed833cafb7eaab5c3d"
     },
     {
       "path": "dist/characters/creek.json",
       "bytes": 14003,
-      "sha256": "094617671e5e9f1e7b37f48f25070af2d5e4d70162acd24cfa5cdd7e40584ac3"
+      "sha256": "cbe212fdbeb5edfd531ec2c97a32508ceba79dcae04aa205e36808a229f77605"
     },
     {
       "path": "dist/characters/hong_hua.json",
       "bytes": 7319,
-      "sha256": "3152e3929ea7db7cfb5a03172621d45253920cf8a9761442843021dce6e2c42b"
+      "sha256": "da4cbbe81c604dcdfcf7af98cfb011107b31882dfd4ca1847bf4222e71f41b4c"
     },
     {
       "path": "dist/characters/nathan.json",
       "bytes": 7338,
-      "sha256": "3c50731ced9e5ad42e3fc1ce5d00ee753530536446aaffc6749d92fbb7cdaf15"
+      "sha256": "58be8486d8f90418ee6709fbd5bca53a87508b5283f1c94c1ae6d453db124b28"
     },
     {
       "path": "dist/characters/tahonia.json",
       "bytes": 7000,
-      "sha256": "2d10ba5590ef7a5f6c64b22dec2a7d8c25684abb9af7fabe8ee7530d7e3abd0d"
+      "sha256": "8528fc17d7dcbb778df6a2bb6d25f304c7f0b6f44031ceaea6e490b2267d9766"
     },
     {
       "path": "dist/characters/troy.json",
       "bytes": 7133,
-      "sha256": "f320f75a070ed0066929600db94e17c7c66d8cb40b8223cbf0884733eef9e43b"
+      "sha256": "57d5e8a192de4006da8e55492518cae8f4376c84615f7df30de6c72cfff669ba"
     }
   ],
   "ingestion": {
     "completion": "in_progress",
     "discovery_status": "article_links_scanning_not_frozen",
     "counts": {
-      "pending": 659,
-      "partial": 140,
+      "pending": 656,
+      "partial": 145,
       "reviewed": 0,
       "failed": 0,
       "excluded": 10
     },
-    "candidate_pages": 809,
+    "candidate_pages": 811,
     "fact_counts": {
       "character_profiles": 56,
       "recruitment_conditions": 184,
@@ -1054,7 +1054,7 @@
       "diadem_key_locations": 5,
       "divine_chambers": 8,
       "class_change_rules": 16,
-      "weapon_profiles": 115,
+      "weapon_profiles": 116,
       "weapon_type_rules": 6,
       "ability_catalog": 106,
       "item_profiles": 28,
@@ -1064,8 +1064,8 @@
       "level_ability_catalog": 106,
       "bloodmark_ability_catalog": 12,
       "other_item_profiles": 82,
-      "item_usage_rules": 82,
-      "material_profiles": 197,
+      "item_usage_rules": 88,
+      "material_profiles": 201,
       "gift_profiles": 107,
       "gift_preferences": 1368
     }
@@ -1453,6 +1453,6 @@
   "translation": {
     "locale": "zh-CN",
     "status": "working_translation",
-    "term_count": 1674
+    "term_count": 1680
   }
 }

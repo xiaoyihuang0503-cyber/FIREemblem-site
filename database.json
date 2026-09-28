@@ -33122,7 +33122,7 @@
         "verification": "reference_fact_not_in_game_verified"
       }
     ],
-    "updated_at": "2026-09-28T05:00:45+00:00",
+    "updated_at": "2026-09-28T07:36:36+00:00",
     "class_requirements": [
       {
         "id": "class_requirements_archer_en_620256",
@@ -52111,6 +52111,296 @@
         "source_updated_text": "2026-09-26T05:04:29-04:00",
         "retrieved_at": "2026-09-27T02:33:56+00:00",
         "content_sha256": "4085bfcbb10a07ac170c64c4991d2e10a44f58b1baf65cabcf90ecaca0d893dc",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "weapon_profiles_cleansing_blade_c2cafcd329_en_624713",
+        "name_en": "Cleansing Blade",
+        "name_zh": "净化之刃",
+        "title_zh": "净化之刃",
+        "summary_zh": "剑 · 威力 8 · 命中 90 · 要求 剑术 E",
+        "weapon_type": "swords",
+        "source_type_name": "Sword",
+        "might": 8,
+        "durability": 20,
+        "hit": 90,
+        "crit": 0,
+        "weight": 3,
+        "avoid": 0,
+        "curse": null,
+        "range_min": 1,
+        "range_max": 1,
+        "field_status": {
+          "might": "source_number",
+          "durability": "source_number",
+          "range": "source_number",
+          "hit": "source_number",
+          "crit": "source_number",
+          "weight": "source_number",
+          "avoid": "source_number",
+          "curse": "source_dash_unresolved",
+          "price_gold": "source_tba"
+        },
+        "price_gold": null,
+        "price_semantics": "listed_cost_not_all_vendor_prices",
+        "required_skill": "swords",
+        "required_skill_rank": "E",
+        "effective_against": [],
+        "effective_absence_semantics": "source_dash_unresolved_not_confirmed_absent",
+        "combat_art": null,
+        "combat_art_status": "source_dash_unresolved",
+        "durability_semantics": "source_column_not_assumed_spell_use_limit",
+        "class_ids": [
+          "gladiator",
+          "hunter",
+          "soldier",
+          "ornius_rider",
+          "diviner",
+          "myrmidon",
+          "brigand",
+          "rogue",
+          "armored_knight",
+          "light_cavalry",
+          "armored_ornius_rider",
+          "wing_soldier",
+          "shaman",
+          "warrior",
+          "shido",
+          "dancer",
+          "forest_knight",
+          "ranger",
+          "cataphract",
+          "bardinger",
+          "dragoon",
+          "caldarius",
+          "ovate",
+          "swordmaster",
+          "high_savant",
+          "battlemaster",
+          "bow_knight",
+          "shadow_seeker",
+          "orichaldia",
+          "great_knight",
+          "celestial_trooper",
+          "bau_lord",
+          "druid",
+          "the_blade",
+          "the_apsara",
+          "the_eternal",
+          "the_calamity",
+          "the_cavalier",
+          "the_avatar"
+        ],
+        "class_relations": [
+          {
+            "class_id": "gladiator",
+            "source_class_name": "Gladiator",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "hunter",
+            "source_class_name": "Hunter",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "soldier",
+            "source_class_name": "Soldier",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "ornius_rider",
+            "source_class_name": "Ornius Rider",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "diviner",
+            "source_class_name": "Diviner",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "myrmidon",
+            "source_class_name": "Myrmidon",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "brigand",
+            "source_class_name": "Brigand",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "rogue",
+            "source_class_name": "Rogue",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "armored_knight",
+            "source_class_name": "Armored Knight",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "light_cavalry",
+            "source_class_name": "Light Cavalry",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "armored_ornius_rider",
+            "source_class_name": "Armored Ornius Rider",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "wing_soldier",
+            "source_class_name": "Wing Soldier",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "shaman",
+            "source_class_name": "Shaman",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "warrior",
+            "source_class_name": "Warrior",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "shido",
+            "source_class_name": "Shido",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "dancer",
+            "source_class_name": "Dancer",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "forest_knight",
+            "source_class_name": "Forest Knight",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "ranger",
+            "source_class_name": "Ranger",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "cataphract",
+            "source_class_name": "Cataphract",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "bardinger",
+            "source_class_name": "Bardinger",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "dragoon",
+            "source_class_name": "Dragoon",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "caldarius",
+            "source_class_name": "Caladrius",
+            "identity_match": "existing_normalized_alias"
+          },
+          {
+            "class_id": "ovate",
+            "source_class_name": "Ovate",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "swordmaster",
+            "source_class_name": "Swordmaster",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "high_savant",
+            "source_class_name": "High Savant",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "battlemaster",
+            "source_class_name": "Battlemaster",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "bow_knight",
+            "source_class_name": "Bow Knight",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "shadow_seeker",
+            "source_class_name": "Shadow Seeker",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "orichaldia",
+            "source_class_name": "Orichaldia",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "great_knight",
+            "source_class_name": "Great Knight",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "celestial_trooper",
+            "source_class_name": "Celestial Trooper",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "bau_lord",
+            "source_class_name": "Bau Lord",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "druid",
+            "source_class_name": "Druid",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_blade",
+            "source_class_name": "The Blade",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_apsara",
+            "source_class_name": "The Apsara",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_eternal",
+            "source_class_name": "The Eternal",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_calamity",
+            "source_class_name": "The Calamity",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_cavalier",
+            "source_class_name": "The Cavalier",
+            "identity_match": "exact"
+          },
+          {
+            "class_id": "the_avatar",
+            "source_class_name": "The Avatar",
+            "identity_match": "exact"
+          }
+        ],
+        "class_compatibility_scope": "source_explicit_list_only_not_inferred_from_skill_rank",
+        "missing_fields_zh": [
+          "诅咒",
+          "价格",
+          "特效与战技（原资料未列明）"
+        ],
+        "source_row_sha256": "88ea2275cec66eda4896f9b14ee7f4d7a2117abaeccbd085e0111b11fbedf2b5",
+        "used_in_build_calculation": false,
+        "source_id": "en_624713",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624713",
+        "source_updated_text": "2026-09-25T07:25:24-04:00",
+        "retrieved_at": "2026-09-28T07:33:29+00:00",
+        "content_sha256": "8217d4e0bd8d2124983d9c729e4781535f14c372cdd551494724f8f9f885fa92",
         "verification": "reference_fact_not_in_game_verified"
       },
       {
@@ -71701,6 +71991,41 @@
         "verification": "reference_fact_not_in_game_verified"
       },
       {
+        "id": "item_usage_rules_cleansing_blade_leda_chapter_8_drop_d37c885f65_en_624713",
+        "name_en": "Cleansing Blade Leda Chapter 8 Drop",
+        "name_zh": "净化之刃·蕾达第8章掉落",
+        "title_zh": "净化之刃·蕾达第8章掉落",
+        "summary_zh": "蕾达路线第8章与伊尼奥尼的资格战中，塔利穆恩掉落净化之刃；其他路线是否可得未列出。",
+        "category": "weapon_acquisition",
+        "effect_facts": {
+          "item_name_en": "Cleansing Blade",
+          "method": "enemy_drop",
+          "route": "Leda",
+          "chapter": 8,
+          "battle_context": "qualifier_battle_against_Inyoni",
+          "enemy": "Talimun",
+          "quantity": 1,
+          "other_routes": null,
+          "drop_probability": null,
+          "drop_timing": null
+        },
+        "effect_status": "parsed",
+        "effect_text_sha256": "5c9dfcdd6bb8b1d159761b9665160be21e2b67eebb2eb522d4d33ef985d683ce",
+        "route": "Leda",
+        "character_relations": [],
+        "applies_to": "named_weapon_not_all_vendors",
+        "missing_fields_zh": [
+          "其他路线取得途径",
+          "具体掉落触发时点"
+        ],
+        "source_id": "en_624713",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624713",
+        "source_updated_text": "2026-09-25T07:25:24-04:00",
+        "retrieved_at": "2026-09-28T07:33:29+00:00",
+        "content_sha256": "8217d4e0bd8d2124983d9c729e4781535f14c372cdd551494724f8f9f885fa92",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
         "id": "item_usage_rules_crate_acquisition_rule_2542b45ad5_en_624946",
         "name_en": "Crate Acquisition Rule",
         "name_zh": "物品箱取得方式",
@@ -71723,6 +72048,41 @@
         "source_updated_text": "2026-09-25T07:24:54-04:00",
         "retrieved_at": "2026-09-27T07:40:00+00:00",
         "content_sha256": "f51aab843f84bc45fa41e2eb15500628da7276a1c48825d2d76e5135f143643e",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "item_usage_rules_enrietto_sunlit_garden_rare_search_fb72df93fe_en_624324",
+        "name_en": "Enrietto Sunlit Garden Rare Search",
+        "name_zh": "恩里埃托坚果·阳光花园搜索",
+        "title_zh": "恩里埃托坚果·阳光花园搜索",
+        "summary_zh": "在费罗尼亚驿站附近的阳光花园执行搜索，有机会取得恩里埃托坚果；为稀有结果，概率和数量未列出。",
+        "effect_facts": {
+          "item_name_en": "Enrietto",
+          "method": "Search",
+          "location": "Sunlit Garden",
+          "near": "Feronia Posthouse",
+          "availability": "rare_not_guaranteed",
+          "probability": null,
+          "quantity": null,
+          "route": null
+        },
+        "effect_status": "parsed",
+        "category": "ingredient_acquisition",
+        "route": null,
+        "character_relations": [],
+        "effect_text_sha256": "bb1d3725fe27053ce1563dd6b83193d2a56e886d5e707b1202df794f94ff4bb1",
+        "applies_to": "named_ingredient_only",
+        "missing_fields_zh": [
+          "出现概率",
+          "取得数量",
+          "精确坐标",
+          "路线条件"
+        ],
+        "source_id": "en_624324",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624324",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "cc9dcb13e13cb0af39d4e7d60a5faa706c00524be7ff9385118cc70cf77c0520",
         "verification": "reference_fact_not_in_game_verified"
       },
       {
@@ -72819,6 +73179,80 @@
         "verification": "reference_fact_not_in_game_verified"
       },
       {
+        "id": "item_usage_rules_hingosh_baina_oasis_market_purchase_a93370725e_en_625820",
+        "name_en": "Hingosh Baina Oasis Market Purchase",
+        "name_zh": "辛戈什·拜纳绿洲购买",
+        "title_zh": "辛戈什·拜纳绿洲购买",
+        "summary_zh": "尼赛德沙漠中部的拜纳绿洲市场商人出售辛戈什，标价1500金币；到达该处的探索过程与蕾达路线第一部第9章「大舞者的继承者」支线有关，未据此推断仅限该路线购买。",
+        "effect_facts": {
+          "item_name_en": "Hingosh",
+          "method": "purchase",
+          "location": "Baina Oasis Settlement",
+          "region": "Nysaides Desert",
+          "vendor": "Market Vendor",
+          "price_gold": 1500,
+          "price_semantics": "listed_shop_price",
+          "quest_context": "Great Dancer's Successor",
+          "route_context": "Leda",
+          "part_context": 1,
+          "chapter_context": 9,
+          "route_exclusivity": null,
+          "stock_quantity": null
+        },
+        "effect_status": "parsed",
+        "category": "ingredient_acquisition",
+        "route": null,
+        "character_relations": [],
+        "effect_text_sha256": "a50ebffa513305912f73ec3e8bf0917320db1cbee019b2e6f3ce766ac43995a6",
+        "applies_to": "named_ingredient_only",
+        "missing_fields_zh": [
+          "库存数量",
+          "路线排他性",
+          "精确坐标"
+        ],
+        "source_id": "en_625820",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625820",
+        "source_updated_text": "2026-09-26T00:50:28-04:00",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "bc03a629dcf84646ec3063c67afa3e3c4c1d71b57a55712fdf55052a721fa914",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "item_usage_rules_hingosh_ere_mountains_rare_search_4673c8240d_en_625820",
+        "name_en": "Hingosh Ere Mountains Rare Search",
+        "name_zh": "辛戈什·埃雷山脉搜索",
+        "title_zh": "辛戈什·埃雷山脉搜索",
+        "summary_zh": "在塔利亚地区的埃雷山脉搜索点有机会取得辛戈什；属于稀有搜索结果，概率、数量和路线条件未列出。",
+        "effect_facts": {
+          "item_name_en": "Hingosh",
+          "method": "Search",
+          "location": "Ere Mountains Search Node",
+          "region": "Thaleia",
+          "availability": "rare_not_guaranteed",
+          "probability": null,
+          "quantity": null,
+          "route": null
+        },
+        "effect_status": "parsed",
+        "category": "ingredient_acquisition",
+        "route": null,
+        "character_relations": [],
+        "effect_text_sha256": "b6a1caacad9016e0bc6552e740f68a1719b8f5087f6f90275a565b0bc2079de1",
+        "applies_to": "named_ingredient_only",
+        "missing_fields_zh": [
+          "出现概率",
+          "取得数量",
+          "路线条件",
+          "精确坐标"
+        ],
+        "source_id": "en_625820",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625820",
+        "source_updated_text": "2026-09-26T00:50:28-04:00",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "bc03a629dcf84646ec3063c67afa3e3c4c1d71b57a55712fdf55052a721fa914",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
         "id": "item_usage_rules_ingredient_cooking_rule_98b99fd3cb_en_621536",
         "name_en": "Ingredient Cooking Rule",
         "name_zh": "食材料理规则",
@@ -73149,6 +73583,42 @@
         "source_updated_text": "2026-09-25T07:25:38-04:00",
         "retrieved_at": "2026-09-27T15:01:40+00:00",
         "content_sha256": "cd461283793a7b0f8d88e8c85d84bf2e2c26eb1241dbb25b022e6c59e13e5234",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "item_usage_rules_jyoppa_aguino_market_purchase_d4f79dbb62_en_624348",
+        "name_en": "Jyoppa Aguino Market Purchase",
+        "name_zh": "乔帕果·阿吉诺市场购买",
+        "title_zh": "乔帕果·阿吉诺市场购买",
+        "summary_zh": "到阿吉诺聚落使用设施并进入市场，可用500金币购买乔帕果；库存数量与开放章节未列出。",
+        "effect_facts": {
+          "item_name_en": "Jyoppa",
+          "method": "purchase",
+          "location": "Aguino settlement",
+          "sub_location": "Aguino Market",
+          "access_action": "Use Facilities",
+          "price_gold": 500,
+          "price_semantics": "listed_shop_price",
+          "stock_quantity": null,
+          "availability_chapter": null,
+          "route": null
+        },
+        "effect_status": "parsed",
+        "category": "ingredient_acquisition",
+        "route": null,
+        "character_relations": [],
+        "effect_text_sha256": "47a90b09239264dcbc2b3bea33a212e9d4417b534a244f80fb453f51a6c8e464",
+        "applies_to": "named_ingredient_only",
+        "missing_fields_zh": [
+          "库存数量",
+          "开放章节",
+          "路线条件"
+        ],
+        "source_id": "en_624348",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624348",
+        "source_updated_text": "2026-09-26T00:49:37-04:00",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "09c300132c3bce9155939fa3172be53083372b1ff0a87e7636907382f7ec1bac",
         "verification": "reference_fact_not_in_game_verified"
       },
       {
@@ -74347,6 +74817,41 @@
         "source_updated_text": "2026-09-26T04:04:44-04:00",
         "retrieved_at": "2026-09-27T08:40:31+00:00",
         "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "item_usage_rules_yaanthemum_village_item_shop_purchase_8f3654bf37_en_624326",
+        "name_en": "Yaanthemum Village Item Shop Purchase",
+        "name_zh": "雅安菊·雅安村商店购买",
+        "title_zh": "雅安菊·雅安村商店购买",
+        "summary_zh": "雅安村道具店出售雅安菊，标价50金币；库存数量、开放章节和路线未列出。",
+        "effect_facts": {
+          "item_name_en": "Yaanthemum",
+          "method": "purchase",
+          "location": "Yaaman Village",
+          "vendor": "Item Shop",
+          "price_gold": 50,
+          "price_semantics": "listed_shop_price",
+          "stock_quantity": null,
+          "availability_chapter": null,
+          "route": null
+        },
+        "effect_status": "parsed",
+        "category": "ingredient_acquisition",
+        "route": null,
+        "character_relations": [],
+        "effect_text_sha256": "1281998e2da602a3906ceddea2eb87bbb44f5bbc864f385724a2f634e735bc97",
+        "applies_to": "named_ingredient_only",
+        "missing_fields_zh": [
+          "库存数量",
+          "开放章节",
+          "路线条件"
+        ],
+        "source_id": "en_624326",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624326",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "05885bb65b5ee62d4ce3daa06cc8abd69dbcbf9acaac20e27dddc75cdb8d7e20",
         "verification": "reference_fact_not_in_game_verified"
       }
     ],
@@ -75760,6 +76265,39 @@
         "verification": "reference_fact_not_in_game_verified"
       },
       {
+        "id": "material_profiles_enrietto_445ca3f11f_en_624324",
+        "name_en": "Enrietto",
+        "name_zh": "恩里埃托坚果",
+        "title_zh": "恩里埃托坚果",
+        "summary_zh": "稀有坚果，生长于多风丘陵。",
+        "category": "ingredient",
+        "category_zh": "食材",
+        "effect_status": "parsed",
+        "effect_facts": {
+          "kind": "nut",
+          "habitat": "windy_hills"
+        },
+        "effect_zh": "稀有坚果，生长于多风丘陵。",
+        "possible_alias_names": [],
+        "identity_review_status": "source_name_retained",
+        "quantity": null,
+        "price": null,
+        "acquisition_status": "specific_article_rules_available",
+        "missing_fields_zh": [
+          "逐项取得条件",
+          "具体数量",
+          "价格",
+          "精确位置或配方"
+        ],
+        "effect_text_sha256": "5974c9dd10d56b25b38a155d4a09b85963229be6456bb14bbbb873171428ff76",
+        "source_id": "en_624324",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624324",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "cc9dcb13e13cb0af39d4e7d60a5faa706c00524be7ff9385118cc70cf77c0520",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
         "id": "material_profiles_flying_lizard_meat_7316e9dcfa_en_621281",
         "name_en": "Flying-Lizard Meat",
         "name_zh": "飞蜥肉",
@@ -76388,6 +76926,40 @@
         "verification": "reference_fact_not_in_game_verified"
       },
       {
+        "id": "material_profiles_hingosh_edee1074e3_en_625820",
+        "name_en": "Hingosh",
+        "name_zh": "辛戈什",
+        "title_zh": "辛戈什",
+        "summary_zh": "用于修理舞者项链；具体数量和条件待补。",
+        "category": "ingredient",
+        "category_zh": "食材",
+        "effect_status": "parsed",
+        "effect_facts": {
+          "use": "repair_item",
+          "related_item_name": "Dancer's Necklace",
+          "related_item_id": null
+        },
+        "effect_zh": "用于修理舞者项链；具体数量和条件待补。",
+        "possible_alias_names": [],
+        "identity_review_status": "source_name_retained",
+        "quantity": null,
+        "price": null,
+        "acquisition_status": "specific_article_rules_available",
+        "missing_fields_zh": [
+          "逐项取得条件",
+          "具体数量",
+          "价格",
+          "精确位置或配方"
+        ],
+        "effect_text_sha256": "1574d85727e009c709b20b0c00baddd99aaedebdebd948bcf1ca023a676e494e",
+        "source_id": "en_625820",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625820",
+        "source_updated_text": "2026-09-26T00:50:28-04:00",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "bc03a629dcf84646ec3063c67afa3e3c4c1d71b57a55712fdf55052a721fa914",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
         "id": "material_profiles_jin_ba_jiao_8b5f93a288_en_621281",
         "name_en": "Jin Ba Jiao",
         "name_zh": "金芭蕉",
@@ -76519,6 +77091,39 @@
         "source_updated_text": "2026-09-26T04:04:44-04:00",
         "retrieved_at": "2026-09-27T08:40:31+00:00",
         "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "material_profiles_jyoppa_c7cac83c43_en_624348",
+        "name_en": "Jyoppa",
+        "name_zh": "乔帕果",
+        "title_zh": "乔帕果",
+        "summary_zh": "大型果实，可用蜂蜜保存。",
+        "category": "ingredient",
+        "category_zh": "食材",
+        "effect_status": "parsed",
+        "effect_facts": {
+          "kind": "fruit",
+          "preservation": "honey"
+        },
+        "effect_zh": "大型果实，可用蜂蜜保存。",
+        "possible_alias_names": [],
+        "identity_review_status": "source_name_retained",
+        "quantity": null,
+        "price": null,
+        "acquisition_status": "specific_article_rules_available",
+        "missing_fields_zh": [
+          "逐项取得条件",
+          "具体数量",
+          "价格",
+          "精确位置或配方"
+        ],
+        "effect_text_sha256": "22aca5303cae0926602b43a6d9aa606036f8e9bc16a3b98c5e251a5e96afadb2",
+        "source_id": "en_624348",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624348",
+        "source_updated_text": "2026-09-26T00:49:37-04:00",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "09c300132c3bce9155939fa3172be53083372b1ff0a87e7636907382f7ec1bac",
         "verification": "reference_fact_not_in_game_verified"
       },
       {
@@ -80606,6 +81211,39 @@
         "source_updated_text": "2026-09-26T04:04:44-04:00",
         "retrieved_at": "2026-09-27T08:40:31+00:00",
         "content_sha256": "c8a742d90cd31f606163e648ea035481b1dcacdc5d066e06a2c7c69dc85b5093",
+        "verification": "reference_fact_not_in_game_verified"
+      },
+      {
+        "id": "material_profiles_yaanthemum_6c11854da2_en_624326",
+        "name_en": "Yaanthemum",
+        "name_zh": "雅安菊",
+        "title_zh": "雅安菊",
+        "summary_zh": "雅安村特产花卉；具体取得点待补。",
+        "category": "ingredient",
+        "category_zh": "食材",
+        "effect_status": "parsed",
+        "effect_facts": {
+          "kind": "flower",
+          "region": "Yaaman Village"
+        },
+        "effect_zh": "雅安村特产花卉；具体取得点待补。",
+        "possible_alias_names": [],
+        "identity_review_status": "source_name_retained",
+        "quantity": null,
+        "price": null,
+        "acquisition_status": "specific_article_rules_available",
+        "missing_fields_zh": [
+          "逐项取得条件",
+          "具体数量",
+          "价格",
+          "精确位置或配方"
+        ],
+        "effect_text_sha256": "00c1d6ba1d9442da1dca59d3cec2a04c7a16ca06ae47f094139eea2c36d72a9c",
+        "source_id": "en_624326",
+        "source_url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624326",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "05885bb65b5ee62d4ce3daa06cc8abd69dbcbf9acaac20e27dddc75cdb8d7e20",
         "verification": "reference_fact_not_in_game_verified"
       },
       {
@@ -127822,6 +128460,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -127841,6 +128482,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -127857,7 +128499,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -128080,7 +128723,8 @@
           "en_624018",
           "en_624019",
           "en_624169",
-          "en_624375"
+          "en_624375",
+          "en_625820"
         ]
       },
       {
@@ -128216,6 +128860,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -128235,6 +128882,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -128251,7 +128899,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -128387,6 +129036,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -128406,6 +129058,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -128422,7 +129075,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -128493,9 +129147,12 @@
           "en_623690",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624348",
           "en_624732",
           "en_624842",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -128664,6 +129321,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -128683,6 +129343,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -128699,7 +129360,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -128856,6 +129518,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -128875,6 +129540,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -128891,7 +129557,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -129123,6 +129790,7 @@
           "en_620256",
           "en_621281",
           "en_623691",
+          "en_624713",
           "en_624938",
           "en_624946",
           "en_624949",
@@ -129273,6 +129941,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -129292,6 +129963,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -129308,7 +129980,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Classes",
         "retrieved_at": "2026-09-26T17:26:11+00:00",
@@ -129762,6 +130435,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -129781,6 +130457,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -129797,7 +130474,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -129907,6 +130585,7 @@
           "en_624445",
           "en_624449",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -129954,6 +130633,7 @@
           "en_624364",
           "en_624426",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -129999,6 +130679,7 @@
           "en_624364",
           "en_624388",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -130033,6 +130714,7 @@
           "en_624375",
           "en_624384",
           "en_624449",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -130085,6 +130767,7 @@
           "en_624357",
           "en_624360",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -130158,6 +130841,7 @@
           "en_624356",
           "en_624444",
           "en_624450",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -130232,6 +130916,7 @@
           "en_624388",
           "en_624445",
           "en_624450",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -130466,12 +131151,16 @@
           "en_623691",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Items",
         "classification_evidence": "actual_game_title_and_reviewed_catalog_tables",
@@ -130622,12 +131311,16 @@
           "en_623690",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Gifts",
         "actual_title": "List of All Gifts | Fire Emblem: Fortune's Weave｜Game8",
@@ -130714,12 +131407,16 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Ingredients",
         "actual_title": "List of All Ingredients | Fire Emblem: Fortune's Weave｜Game8",
@@ -130793,12 +131490,16 @@
           "en_621536",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Ores",
         "actual_title": "List of All Ores | Fire Emblem: Fortune's Weave｜Game8",
@@ -130863,12 +131564,16 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -131136,8 +131841,11 @@
           "en_618925",
           "en_623690",
           "en_624304",
+          "en_624324",
+          "en_624348",
           "en_624732",
-          "en_624842"
+          "en_624842",
+          "en_625820"
         ]
       },
       {
@@ -131239,6 +131947,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -131258,6 +131969,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -131274,7 +131986,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -131410,6 +132123,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -131429,6 +132145,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -131445,7 +132162,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "Gift Giving Guide",
         "actual_title": "Gift Giving Guide | Fire Emblem: Fortune's Weave｜Game8",
@@ -131727,6 +132445,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -131746,6 +132467,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -131762,7 +132484,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -133098,7 +133821,8 @@
           "en_624009",
           "en_624016",
           "en_624018",
-          "en_624019"
+          "en_624019",
+          "en_624713"
         ],
         "article_link_scan": {
           "scanned_at": "2026-09-26T15:04:00+00:00",
@@ -133726,10 +134450,14 @@
           "en_624054",
           "en_624254",
           "en_624317",
+          "en_624324",
+          "en_624326",
           "en_624359",
           "en_624375",
           "en_624388",
-          "en_625255"
+          "en_624713",
+          "en_625255",
+          "en_625820"
         ],
         "article_link_scan": {
           "scanned_at": "2026-09-26T15:04:00+00:00",
@@ -134649,7 +135377,8 @@
           "en_624009",
           "en_624016",
           "en_624018",
-          "en_624019"
+          "en_624019",
+          "en_624713"
         ],
         "article_link_scan": {
           "scanned_at": "2026-09-26T15:04:00+00:00",
@@ -136253,6 +136982,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -136272,6 +137004,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -136288,7 +137021,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -136443,6 +137177,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -136620,6 +137355,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -136698,6 +137434,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -136828,6 +137565,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_625198",
           "en_625310"
         ],
@@ -136998,6 +137736,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -137064,6 +137803,7 @@
           "en_624233",
           "en_624361",
           "en_624364",
+          "en_624713",
           "en_625198"
         ],
         "candidate_class_id": "wing_soldier",
@@ -137221,6 +137961,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -137305,6 +138046,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -137394,6 +138136,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -137482,6 +138225,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -137557,6 +138301,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -137797,6 +138542,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -137864,6 +138610,7 @@
           "en_624034",
           "en_624052",
           "en_624168",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198"
@@ -137947,6 +138694,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -138025,6 +138773,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -138084,6 +138833,7 @@
           "en_623691",
           "en_624034",
           "en_624049",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198"
@@ -138167,6 +138917,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -138255,6 +139006,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -138401,6 +139153,8 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -138414,6 +139168,7 @@
           "en_624426",
           "en_624444",
           "en_624450",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -138428,7 +139183,8 @@
           "en_625308",
           "en_625309",
           "en_625310",
-          "en_625311"
+          "en_625311",
+          "en_625820"
         ]
       },
       {
@@ -138697,7 +139453,8 @@
           "en_625308",
           "en_625309",
           "en_625310",
-          "en_625311"
+          "en_625311",
+          "en_625820"
         ],
         "article_title": "List of All Advanced Classes",
         "retrieved_at": "2026-09-26T17:26:12+00:00",
@@ -138954,9 +139711,11 @@
           "en_623976",
           "en_623996",
           "en_624030",
+          "en_624326",
           "en_624732",
           "en_624946",
-          "en_624948"
+          "en_624948",
+          "en_625820"
         ]
       },
       {
@@ -138989,7 +139748,8 @@
         "attempts": 0,
         "discovered_from": [
           "en_623691",
-          "en_623966"
+          "en_623966",
+          "en_624348"
         ]
       },
       {
@@ -139077,6 +139837,7 @@
           "en_624169",
           "en_624361",
           "en_624364",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198"
@@ -139228,6 +139989,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -139377,6 +140139,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -139396,6 +140161,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -139412,7 +140178,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -139597,7 +140364,11 @@
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
+          "en_624324",
+          "en_624326",
+          "en_624348",
+          "en_624732",
+          "en_625820"
         ]
       },
       {
@@ -139677,6 +140448,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -139759,6 +140531,7 @@
         "attempts": 0,
         "discovered_from": [
           "en_620255",
+          "en_624713",
           "en_625198"
         ]
       },
@@ -139835,8 +140608,12 @@
           "en_621536",
           "en_623977",
           "en_624168",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624364",
-          "en_624732"
+          "en_624732",
+          "en_625820"
         ],
         "article_title": "How to Get Sandworm Meat and Uses",
         "actual_title": "How to Get Sandworm Meat and Uses | Fire Emblem: Fortune's Weave｜Game8",
@@ -139925,7 +140702,11 @@
           "en_621536",
           "en_623997",
           "en_624304",
-          "en_624732"
+          "en_624324",
+          "en_624326",
+          "en_624348",
+          "en_624732",
+          "en_625820"
         ]
       },
       {
@@ -140018,19 +140799,60 @@
         "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624324",
         "locale": "en",
         "label": "Enrietto",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "items",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-27T02:43:11+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0,
+        "reviewed_sections": [
+          "Item description factual identity/effect review",
+          "Search Sunlit Garden for Enrietto: paragraph 0"
+        ],
+        "remaining_sections": [
+          "Exact coordinates, availability, quantities, route applicability and numerical effects require further review"
+        ],
+        "attempts": 1,
         "discovered_from": [
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
-        ]
+          "en_624326",
+          "en_624348",
+          "en_624732",
+          "en_625820"
+        ],
+        "article_title": "How to Get Enrietto and Uses",
+        "actual_title": "How to Get Enrietto and Uses | Fire Emblem: Fortune's Weave｜Game8",
+        "classification_evidence": "actual_game_title_exact_item_table_reviewed_paragraph_hashes",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "cc9dcb13e13cb0af39d4e7d60a5faa706c00524be7ff9385118cc70cf77c0520",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "source_work_in_progress": false,
+        "observed_section_rows": {
+          "Enrietto Info": 1
+        },
+        "fact_rows_parsed": {
+          "material_profiles": 1,
+          "item_usage_rules": 1
+        },
+        "field_semantics": {
+          "approximate_price": "not_exact_price",
+          "unscoped_recruitment": "does_not_override_route_specific_character_article",
+          "restoration": "dungeon_hp_or_magic_uses_vs_feast_hp_and_magic_uses",
+          "unknown": "null_not_zero_or_false"
+        },
+        "error": null,
+        "failure_streak": 0,
+        "next_retry_at": null,
+        "failure_stage": null,
+        "failed_snapshot": null,
+        "article_link_scan": {
+          "scanned_at": "2026-09-28T07:36:36+00:00",
+          "title": "How to Get Enrietto and Uses | Fire Emblem: Fortune's Weave｜Game8",
+          "retrieved_at": "2026-09-28T07:33:28+00:00",
+          "content_sha256": "cc9dcb13e13cb0af39d4e7d60a5faa706c00524be7ff9385118cc70cf77c0520",
+          "unique_game_article_links": 35,
+          "urls_sha256": "97d041535c268897bf1b2f41bb2e034c118b6592091022182b2b107f8f1f0169"
+        }
       },
       {
         "id": "en_624325",
@@ -140054,19 +140876,60 @@
         "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624326",
         "locale": "en",
         "label": "Yaanthemum",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "items",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-27T02:43:11+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0,
+        "reviewed_sections": [
+          "Buy from the Shop in Yaaman Village: paragraph 0",
+          "Item description factual identity/effect review"
+        ],
+        "remaining_sections": [
+          "Exact coordinates, availability, quantities, route applicability and numerical effects require further review"
+        ],
+        "attempts": 1,
         "discovered_from": [
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
-        ]
+          "en_624324",
+          "en_624348",
+          "en_624732",
+          "en_625820"
+        ],
+        "article_title": "How to Get Yaanthemum and Uses",
+        "actual_title": "How to Get Yaanthemum and Uses | Fire Emblem: Fortune's Weave｜Game8",
+        "classification_evidence": "actual_game_title_exact_item_table_reviewed_paragraph_hashes",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "05885bb65b5ee62d4ce3daa06cc8abd69dbcbf9acaac20e27dddc75cdb8d7e20",
+        "source_updated_text": "2026-09-26T00:49:06-04:00",
+        "source_work_in_progress": false,
+        "observed_section_rows": {
+          "Yaanthemum Info": 1
+        },
+        "fact_rows_parsed": {
+          "material_profiles": 1,
+          "item_usage_rules": 1
+        },
+        "field_semantics": {
+          "approximate_price": "not_exact_price",
+          "unscoped_recruitment": "does_not_override_route_specific_character_article",
+          "restoration": "dungeon_hp_or_magic_uses_vs_feast_hp_and_magic_uses",
+          "unknown": "null_not_zero_or_false"
+        },
+        "error": null,
+        "failure_streak": 0,
+        "next_retry_at": null,
+        "failure_stage": null,
+        "failed_snapshot": null,
+        "article_link_scan": {
+          "scanned_at": "2026-09-28T07:36:36+00:00",
+          "title": "How to Get Yaanthemum and Uses | Fire Emblem: Fortune's Weave｜Game8",
+          "retrieved_at": "2026-09-28T07:33:27+00:00",
+          "content_sha256": "05885bb65b5ee62d4ce3daa06cc8abd69dbcbf9acaac20e27dddc75cdb8d7e20",
+          "unique_game_article_links": 35,
+          "urls_sha256": "07ee41f2131079b983a98cae63298cfc34fe12ac3e83569a078d2a342484f1ae"
+        }
       },
       {
         "id": "en_624329",
@@ -140094,6 +140957,7 @@
           "en_624051",
           "en_624052",
           "en_624053",
+          "en_624326",
           "en_624444",
           "en_624948",
           "en_625255",
@@ -140227,19 +141091,60 @@
         "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624348",
         "locale": "en",
         "label": "Jyoppa",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "items",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-27T02:43:11+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0,
+        "reviewed_sections": [
+          "Buy Jyoppa in Aguino Market: paragraph 0",
+          "Item description factual identity/effect review"
+        ],
+        "remaining_sections": [
+          "Exact coordinates, availability, quantities, route applicability and numerical effects require further review"
+        ],
+        "attempts": 1,
         "discovered_from": [
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
-        ]
+          "en_624324",
+          "en_624326",
+          "en_624732",
+          "en_625820"
+        ],
+        "article_title": "How to Get Jyoppa and Uses",
+        "actual_title": "How to Get Jyoppa and Uses | Fire Emblem: Fortune's Weave｜Game8",
+        "classification_evidence": "actual_game_title_exact_item_table_reviewed_paragraph_hashes",
+        "retrieved_at": "2026-09-28T07:33:28+00:00",
+        "content_sha256": "09c300132c3bce9155939fa3172be53083372b1ff0a87e7636907382f7ec1bac",
+        "source_updated_text": "2026-09-26T00:49:37-04:00",
+        "source_work_in_progress": false,
+        "observed_section_rows": {
+          "Jyoppa Info": 1
+        },
+        "fact_rows_parsed": {
+          "material_profiles": 1,
+          "item_usage_rules": 1
+        },
+        "field_semantics": {
+          "approximate_price": "not_exact_price",
+          "unscoped_recruitment": "does_not_override_route_specific_character_article",
+          "restoration": "dungeon_hp_or_magic_uses_vs_feast_hp_and_magic_uses",
+          "unknown": "null_not_zero_or_false"
+        },
+        "error": null,
+        "failure_streak": 0,
+        "next_retry_at": null,
+        "failure_stage": null,
+        "failed_snapshot": null,
+        "article_link_scan": {
+          "scanned_at": "2026-09-28T07:36:36+00:00",
+          "title": "How to Get Jyoppa and Uses | Fire Emblem: Fortune's Weave｜Game8",
+          "retrieved_at": "2026-09-28T07:33:28+00:00",
+          "content_sha256": "09c300132c3bce9155939fa3172be53083372b1ff0a87e7636907382f7ec1bac",
+          "unique_game_article_links": 35,
+          "urls_sha256": "150ea09074d9382f7aabb63f093f986df271f37d9afb5036574b606d20a1218e"
+        }
       },
       {
         "id": "en_624349",
@@ -140522,6 +141427,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -140615,6 +141521,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -140695,6 +141602,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -140782,6 +141690,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -140849,6 +141758,7 @@
           "en_624171",
           "en_624233",
           "en_624364",
+          "en_624713",
           "en_625198"
         ],
         "candidate_class_id": "celestial_trooper",
@@ -141097,6 +142007,7 @@
           "en_624171",
           "en_624233",
           "en_624361",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198"
@@ -141242,6 +142153,9 @@
           "en_624275",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624355",
           "en_624356",
           "en_624357",
@@ -141261,6 +142175,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624732",
           "en_624842",
           "en_624938",
@@ -141277,7 +142192,8 @@
           "en_625309",
           "en_625310",
           "en_625311",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -141343,6 +142259,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -141495,6 +142412,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -141900,7 +142818,8 @@
           "en_624009",
           "en_624016",
           "en_624018",
-          "en_624019"
+          "en_624019",
+          "en_624713"
         ]
       },
       {
@@ -142233,6 +143152,7 @@
           "en_624384",
           "en_624388",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625255",
           "en_625301",
@@ -142282,7 +143202,8 @@
         "remaining_sections": [],
         "attempts": 0,
         "discovered_from": [
-          "en_623964"
+          "en_623964",
+          "en_624713"
         ]
       },
       {
@@ -142419,6 +143340,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_625198",
           "en_625310"
         ],
@@ -142495,6 +143417,7 @@
           "en_624445",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_625198",
           "en_625310"
         ],
@@ -142662,6 +143585,7 @@
           "en_624445",
           "en_624449",
           "en_624450",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -142739,7 +143663,10 @@
         "discovered_at": "2026-09-26T12:59:07+00:00",
         "reviewed_sections": [],
         "remaining_sections": [],
-        "attempts": 0
+        "attempts": 0,
+        "discovered_from": [
+          "en_625820"
+        ]
       },
       {
         "id": "en_624554",
@@ -142827,6 +143754,22 @@
         "discovered_from": [
           "en_618925",
           "en_623690"
+        ]
+      },
+      {
+        "id": "en_624677",
+        "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624677",
+        "locale": "en",
+        "label": "Petals of Encouragement",
+        "category": "unclassified",
+        "status": "pending",
+        "reason": null,
+        "discovered_at": "2026-09-28T07:36:36+00:00",
+        "reviewed_sections": [],
+        "remaining_sections": [],
+        "attempts": 0,
+        "discovered_from": [
+          "en_624326"
         ]
       },
       {
@@ -142946,18 +143889,59 @@
         "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624713",
         "locale": "en",
         "label": "How to Get Cleansing Blade and Stats",
-        "category": "mechanics",
-        "status": "pending",
+        "category": "items",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-26T15:57:29+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0,
+        "reviewed_sections": [
+          "Named weapon numeric/cost/skill tables",
+          "Explicit compatible class list",
+          "Checksum reviewed acquisition facts"
+        ],
+        "remaining_sections": [
+          "Precise vendor coordinates, route/chapter stock changes, curse/effect/combat-art semantics require review"
+        ],
+        "attempts": 1,
         "discovered_from": [
           "en_620255",
           "en_623964",
           "en_625198"
-        ]
+        ],
+        "article_title": "How to Get Cleansing Blade and Stats",
+        "actual_title": "How to Get Cleansing Blade and Stats | Fire Emblem: Fortune's Weave｜Game8",
+        "retrieved_at": "2026-09-28T07:33:29+00:00",
+        "content_sha256": "8217d4e0bd8d2124983d9c729e4781535f14c372cdd551494724f8f9f885fa92",
+        "classification_evidence": "exact_game_title_named_numeric_tables_and_existing_class_ids",
+        "source_updated_text": "2026-09-25T07:25:24-04:00",
+        "source_work_in_progress": false,
+        "observed_section_rows": {
+          "weapon_profiles": 1,
+          "compatible_classes": 39,
+          "acquisition_rules": 1
+        },
+        "fact_rows_parsed": {
+          "weapon_profiles": 1,
+          "item_usage_rules": 1
+        },
+        "field_semantics": {
+          "unknown": "null_not_zero",
+          "list_price": "not_all_vendors",
+          "class_list": "positive_assertions_only",
+          "missing_effect": "not_confirmed_absent"
+        },
+        "error": null,
+        "failure_streak": 0,
+        "next_retry_at": null,
+        "failure_stage": null,
+        "failed_snapshot": null,
+        "article_link_scan": {
+          "scanned_at": "2026-09-28T07:36:36+00:00",
+          "title": "How to Get Cleansing Blade and Stats | Fire Emblem: Fortune's Weave｜Game8",
+          "retrieved_at": "2026-09-28T07:33:29+00:00",
+          "content_sha256": "8217d4e0bd8d2124983d9c729e4781535f14c372cdd551494724f8f9f885fa92",
+          "unique_game_article_links": 69,
+          "urls_sha256": "1217975ce416a0ecfa8a6d750d550c10d0ae02571766c00a6981599ba6a93b3c"
+        }
       },
       {
         "id": "en_624718",
@@ -143066,6 +144050,22 @@
         "reviewed_sections": [],
         "remaining_sections": [],
         "attempts": 0
+      },
+      {
+        "id": "en_624738",
+        "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624738",
+        "locale": "en",
+        "label": "How to Get Giants' Meat and Uses",
+        "category": "unclassified",
+        "status": "pending",
+        "reason": null,
+        "discovered_at": "2026-09-28T07:36:36+00:00",
+        "reviewed_sections": [],
+        "remaining_sections": [],
+        "attempts": 0,
+        "discovered_from": [
+          "en_624713"
+        ]
       },
       {
         "id": "en_624743",
@@ -143419,12 +144419,16 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -143446,12 +144450,16 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -143488,11 +144496,15 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624947",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of Other Items",
         "actual_title": "List of Other Items | Fire Emblem: Fortune's Weave Page｜Game8",
@@ -143593,11 +144605,15 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624948",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ]
       },
       {
@@ -143634,11 +144650,15 @@
           "en_621537",
           "en_624304",
           "en_624317",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732",
           "en_624842",
           "en_624946",
           "en_624947",
-          "en_625320"
+          "en_625320",
+          "en_625820"
         ],
         "article_title": "List of All Fishes",
         "actual_title": "List of All Fishes | Fire Emblem: Fortune's Weave｜Game8",
@@ -143858,7 +144878,8 @@
         "attempts": 2,
         "discovered_from": [
           "en_620255",
-          "en_623996"
+          "en_623996",
+          "en_624713"
         ],
         "article_title": "How to Get Iron Sword and Stats",
         "actual_title": "How to Get Iron Sword and Stats | Fire Emblem: Fortune's Weave｜Game8",
@@ -144009,6 +145030,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625320"
         ],
@@ -144106,6 +145128,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625320"
         ],
@@ -144203,6 +145226,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -144383,6 +145407,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_625198",
           "en_625320"
         ],
@@ -144570,6 +145595,7 @@
           "en_624449",
           "en_624450",
           "en_624451",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -144669,6 +145695,7 @@
           "en_624388",
           "en_624426",
           "en_624444",
+          "en_624713",
           "en_624938",
           "en_624949",
           "en_625198",
@@ -145602,7 +146629,8 @@
         "remaining_sections": [],
         "attempts": 0,
         "discovered_from": [
-          "en_624375"
+          "en_624375",
+          "en_625820"
         ]
       },
       {
@@ -145869,19 +146897,61 @@
         "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625820",
         "locale": "en",
         "label": "Hingosh",
-        "category": "unclassified",
-        "status": "pending",
+        "category": "items",
+        "status": "partial",
         "reason": null,
         "discovered_at": "2026-09-27T02:43:11+00:00",
-        "reviewed_sections": [],
-        "remaining_sections": [],
-        "attempts": 0,
+        "reviewed_sections": [
+          "Found via Search: paragraph 0",
+          "Item description factual identity/effect review",
+          "Obtained from Baina Oasis Market: paragraph 0"
+        ],
+        "remaining_sections": [
+          "Exact coordinates, availability, quantities, route applicability and numerical effects require further review"
+        ],
+        "attempts": 1,
         "discovered_from": [
           "en_621281",
           "en_621536",
           "en_624304",
+          "en_624324",
+          "en_624326",
+          "en_624348",
           "en_624732"
-        ]
+        ],
+        "article_title": "How to Get Hingosh and Uses",
+        "actual_title": "How to Get Hingosh and Uses | Fire Emblem: Fortune's Weave｜Game8",
+        "classification_evidence": "actual_game_title_exact_item_table_reviewed_paragraph_hashes",
+        "retrieved_at": "2026-09-28T07:33:27+00:00",
+        "content_sha256": "bc03a629dcf84646ec3063c67afa3e3c4c1d71b57a55712fdf55052a721fa914",
+        "source_updated_text": "2026-09-26T00:50:28-04:00",
+        "source_work_in_progress": false,
+        "observed_section_rows": {
+          "Hingosh Info": 1
+        },
+        "fact_rows_parsed": {
+          "material_profiles": 1,
+          "item_usage_rules": 2
+        },
+        "field_semantics": {
+          "approximate_price": "not_exact_price",
+          "unscoped_recruitment": "does_not_override_route_specific_character_article",
+          "restoration": "dungeon_hp_or_magic_uses_vs_feast_hp_and_magic_uses",
+          "unknown": "null_not_zero_or_false"
+        },
+        "error": null,
+        "failure_streak": 0,
+        "next_retry_at": null,
+        "failure_stage": null,
+        "failed_snapshot": null,
+        "article_link_scan": {
+          "scanned_at": "2026-09-28T07:36:36+00:00",
+          "title": "How to Get Hingosh and Uses | Fire Emblem: Fortune's Weave｜Game8",
+          "retrieved_at": "2026-09-28T07:33:27+00:00",
+          "content_sha256": "bc03a629dcf84646ec3063c67afa3e3c4c1d71b57a55712fdf55052a721fa914",
+          "unique_game_article_links": 40,
+          "urls_sha256": "4b529673fe3eda5867ac7ce6c68968b07f34266490b9adb0e0f952a3a9ac9396"
+        }
       },
       {
         "id": "en_625828",
@@ -145899,7 +146969,11 @@
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
+          "en_624324",
+          "en_624326",
+          "en_624348",
+          "en_624732",
+          "en_625820"
         ]
       },
       {
@@ -148227,7 +149301,11 @@
           "en_621281",
           "en_621536",
           "en_624304",
-          "en_624732"
+          "en_624324",
+          "en_624326",
+          "en_624348",
+          "en_624732",
+          "en_625820"
         ]
       },
       {
@@ -152422,10 +153500,10 @@
         "content_sha256": "f9b2b3379502bdaecdd3e8f20dbd0a477810c5e7c055d6e82d2172909fe64375"
       }
     },
-    "updated_at": "2026-09-28T05:00:45+00:00",
+    "updated_at": "2026-09-28T07:36:36+00:00",
     "counts": {
-      "pending": 659,
-      "partial": 140,
+      "pending": 656,
+      "partial": 145,
       "reviewed": 0,
       "failed": 0,
       "excluded": 10
@@ -152433,12 +153511,12 @@
     "discovery_started_at": "2026-09-26T13:04:46+00:00",
     "discovery_status": "article_links_scanning_not_frozen",
     "discovery_progress": {
-      "article_pages_scanned": 122,
-      "candidate_pages": 809,
-      "last_batch_pages": 3,
-      "last_batch_new_urls": 0,
+      "article_pages_scanned": 127,
+      "candidate_pages": 811,
+      "last_batch_pages": 5,
+      "last_batch_new_urls": 2,
       "completion_requires": "scan_relevant_articles_and_review_identity_duplicates_before_freezing",
-      "classification_updated_at": "2026-09-27T15:06:43+00:00"
+      "classification_updated_at": "2026-09-28T07:36:36+00:00"
     }
   },
   "translations": {
@@ -154120,7 +155198,13 @@
       "Iron Sword World Map Purchase": "铁剑世界地图购买",
       "Iron Spear Purchase Location": "铁枪购买地点",
       "Iron Bow Purchase Location": "铁弓购买地点",
-      "Iron Bow Shop Availability": "铁弓货单更新条件"
+      "Iron Bow Shop Availability": "铁弓货单更新条件",
+      "Yaanthemum Village Item Shop Purchase": "雅安菊·雅安村商店购买",
+      "Hingosh Baina Oasis Market Purchase": "辛戈什·拜纳绿洲购买",
+      "Hingosh Ere Mountains Rare Search": "辛戈什·埃雷山脉搜索",
+      "Jyoppa Aguino Market Purchase": "乔帕果·阿吉诺市场购买",
+      "Enrietto Sunlit Garden Rare Search": "恩里埃托坚果·阳光花园搜索",
+      "Cleansing Blade Leda Chapter 8 Drop": "净化之刃·蕾达第8章掉落"
     }
   }
 }
